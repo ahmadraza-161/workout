@@ -1,0 +1,133 @@
+{
+  "contentVersion": 0,
+  "exercises": [
+    {
+      "id": "ex_torso_twist",
+      "slug": "torso-twist",
+      "nameKey": "exercise.torso_twist.name",
+      "type": "time",
+      "defaultSeconds": 60,
+      "defaultReps": null,
+      "oneSided": false,
+      "difficulty": 1,
+      "quietSafe": true,
+      "quietSwapId": null,
+      "equipment": "none",
+      "props": [],
+      "view": "front",
+      "focusAreaKeys": ["focus.abs", "focus.lower_back"],
+      "primaryMuscles": ["abs", "obliques"],
+      "secondaryMuscles": ["erector_spinae"],
+      "met": 2.8,
+      "instructionsKey": "exercise.torso_twist.instructions",
+      "mistakesKey": "exercise.torso_twist.mistakes",
+      "breathingKey": "exercise.torso_twist.breathing",
+      "easierId": null,
+      "harderId": null
+    },
+    {
+      "id": "ex_cross_touch_and_reach",
+      "slug": "cross-touch-and-reach",
+      "nameKey": "exercise.cross_touch_and_reach.name",
+      "type": "time",
+      "defaultSeconds": 60,
+      "defaultReps": null,
+      "oneSided": false,
+      "difficulty": 1,
+      "quietSafe": true,
+      "quietSwapId": null,
+      "equipment": "none",
+      "props": [],
+      "view": "front",
+      "focusAreaKeys": ["focus.abs"],
+      "primaryMuscles": ["obliques"],
+      "secondaryMuscles": ["abs", "hamstrings"],
+      "met": 3.8,
+      "instructionsKey": "exercise.cross_touch_and_reach.instructions",
+      "mistakesKey": "exercise.cross_touch_and_reach.mistakes",
+      "breathingKey": "exercise.cross_touch_and_reach.breathing",
+      "easierId": null,
+      "harderId": null
+    },
+    {
+      "id": "ex_crunch",
+      "slug": "crunch",
+      "nameKey": "exercise.crunch.name",
+      "type": "reps",
+      "defaultSeconds": null,
+      "defaultReps": 15,
+      "oneSided": false,
+      "difficulty": 1,
+      "quietSafe": true,
+      "quietSwapId": null,
+      "equipment": "none",
+      "props": [],
+      "view": "side",
+      "focusAreaKeys": ["focus.abs"],
+      "primaryMuscles": ["abs"],
+      "secondaryMuscles": ["obliques"],
+      "met": 3.8,
+      "instructionsKey": "exercise.crunch.instructions",
+      "mistakesKey": "exercise.crunch.mistakes",
+      "breathingKey": "exercise.crunch.breathing",
+      "easierId": null,
+      "harderId": null
+    }
+  ],
+  "workouts": [
+    {
+      "id": "wk_abs_beginner",
+      "titleKey": "workout.abs_beginner.title",
+      "introKey": "workout.abs_beginner.intro",
+      "bodyFocus": "abs",
+      "goal": "build_muscle",
+      "type": "strength",
+      "level": 1,
+      "estimatedMinutes": 4,
+      "quietSafe": true,
+      "gradient": "blue",
+      "items": [
+        { "exerciseId": "ex_torso_twist", "seconds": 60, "rest": 20 },
+        { "exerciseId": "ex_cross_touch_and_reach", "seconds": 60, "rest": 20 },
+        { "exerciseId": "ex_crunch", "reps": 15, "rest": 0 }
+      ]
+    }
+  ],
+  "challenges": [
+    {
+      "id": "ch_full_body_28",
+      "titleKey": "challenge.full_body_28.title",
+      "descKey": "challenge.full_body_28.desc",
+      "days": 28,
+      "level": 1,
+      "bodyFocus": "full_body",
+      "goal": "build_muscle",
+      "dailyMinutes": "7-22",
+      "gradient": "blue",
+      "schedule": [
+        { "day": 1, "workoutId": "wk_abs_beginner" },
+        { "day": 2, "rest": true }
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": "cat_core",
+      "titleKey": "category.core.title",
+      "descKey": "category.core.desc",
+      "icon": "core",
+      "workoutIds": ["wk_abs_beginner"]
+    }
+  ],
+  "collections": [
+    {
+      "id": "col_build_strength",
+      "titleKey": "collection.build_strength.title",
+      "goal": "build_muscle",
+      "workoutIds": ["wk_abs_beginner"]
+    }
+  ],
+  "achievements": [
+    { "id": "first_workout", "titleKey": "achievement.first_workout.title", "group": "getting_started" }
+  ]
+}

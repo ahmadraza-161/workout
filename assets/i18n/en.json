@@ -1,0 +1,37 @@
+{
+  "app": {
+    "name": "Home Workout"
+  },
+  "tabs": {
+    "training": "Training",
+    "discover": "Discover",
+    "report": "Report",
+    "settings": "Settings"
+  },
+  "placeholder": {
+    "comingSoon": "This screen is being built.",
+    "phase": "Arrives in phase %{phase}."
+  },
+  "settings": {
+    "appearance": "Appearance",
+    "theme": {
+      "system": "System",
+      "light": "Light",
+      "dark": "Dark"
+    }
+  },
+  "dev": {
+    "contentPack": "Content pack v%{version}: %{exercises} exercises, %{workouts} workouts, %{challenges} challenges"
+  },
+  "errors": {
+    "generic": {
+      "title": "Something went wrong",
+      "body": "Please try again. Your data is safe on this phone.",
+      "retry": "Try again"
+    },
+    "database": {
+      "title": "We couldn't open your data",
+      "body": "Please restart the app. If this keeps happening, export your data from Settings before reinstalling."
+    }
+  }
+}
