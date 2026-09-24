@@ -32,13 +32,13 @@ Home Workout is a free, fully offline Android app built with Expo and React Nati
 
 | Total Tasks | ✅ Completed | 🔄 In Progress | ⬜ Not Started | ⛔ Blocked |
 |:---:|:---:|:---:|:---:|:---:|
-| **164** | **38** (23%) | **6** (4%) | **120** (73%) | **0** (0%) |
+| **164** | **41** (25%) | **6** (4%) | **117** (71%) | **0** (0%) |
 
 | Phase | Tasks | Completed | Status |
 |---|:---:|:---:|---|
 | 0 – Planning & Documentation | 18 | 15 | 🔄 In Progress |
 | 1 – Foundation | 17 | 16 | 🔄 In Progress |
-| 2 – Asset Generators | 20 | 5 | 🔄 In Progress |
+| 2 – Asset Generators | 20 | 8 | 🔄 In Progress |
 | 3 – Content & Lists | 9 | 0 | ⬜ Not Started |
 | 4 – Workout Details & Exercise Guide | 8 | 0 | ⬜ Not Started |
 | 5 – Workout Player | 17 | 0 | ⬜ Not Started |
@@ -122,14 +122,14 @@ Generate every asset locally with TypeScript scripts in `tools/`. **Status: 🔄
 | 2.3 | Exercise copy for all 119 exercises | 🔴 High | ⬜ Not Started | 2–3 instructions, 3 mistakes, 3 breathing tips; original text; follows PRD §9 |
 | 2.4 | Workout generator: 60 workouts from the rules in PRD §8.2 + intros | 🔴 High | 🔄 In Progress | Exercise lists built and within ±1 min; intro copy comes with T2.3 |
 | 2.5 | Challenge generator: 12 schedules from PRD §8.3 + copy | 🔴 High | 🔄 In Progress | Schedules built; copy comes with T2.3 |
-| 2.6 | Categories (6 tiles) and Discover section config | 🟠 Medium | ⬜ Not Started | |
-| 2.7 | Achievements: 35 definitions with unlock conditions | 🟠 Medium | ⬜ Not Started | |
+| 2.6 | Categories (6 tiles) and Discover section config | 🟠 Medium | ✅ Completed | Tiles built from each workout's own tile column; 4 collections, all names resolved |
+| 2.7 | Achievements: 35 definitions with unlock conditions | 🟠 Medium | ✅ Completed | 35 rules written out by hand and paired against the catalog, not regex-parsed |
 | 2.8 | Content validator: IDs, references, counts, durations, banned words | 🔴 High | ✅ Completed | 13 tests prove it catches each class of error, not just that it passes |
 | 2.9 | Character rig: flat 2D humanoid, joint hierarchy, 2 palettes | 🔴 High | ✅ Completed | Two flat tones per part; `src/modules/demo/rig` (ADR-052) |
 | 2.10 | Base pose library: standing, plank, lying on back, lying on front, all fours, seated, side plank, kneeling, inverted, transitions | 🔴 High | ⬜ Not Started | [CONTENT_MAP](CONTENT_MAP.md) §5 |
 | 2.11 | Pose sets for all 119 exercises + Lottie exporter | 🔴 High | ⬜ Not Started | Interpolation, seamless loop, motion arcs, < 40 KB each |
 | 2.12 | Dev-only animation preview screen for all 119 animations | 🟠 Medium | 🔄 In Progress | `app/dev/rig` shows the 4 proof exercises; grows to 119 after the style gate |
-| 2.13 | Muscle map SVG, front and back, with named muscle groups | 🔴 High | ⬜ Not Started | |
+| 2.13 | Muscle map SVG, front and back, with named muscle groups | 🔴 High | ✅ Completed | All 19 groups placed; colours left to the theme |
 | 2.14 | Workout and challenge artwork data (silhouette + pattern) | 🟠 Medium | ⬜ Not Started | Rendered as vectors at runtime (ADR-024) |
 | 2.15 | UI Lottie: spinner, streak flame, achievement pop, goal ring, celebration | 🟢 Low | ⬜ Not Started | < 25 KB each |
 | 2.16 | Sounds: `beep_short`, `beep_long`, `complete`, `achievement` | 🟠 Medium | ✅ Completed | 22.05 kHz mono; 44.1 kHz and < 25 KB together cap a sound at 0.29 s |

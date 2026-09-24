@@ -11478,245 +11478,504 @@
       "id": "first_workout",
       "badge": "First Workout",
       "group": "Getting started (green)",
-      "condition": "Complete 1 workout (≥ 50%)"
+      "condition": "Complete 1 workout (≥ 50%)",
+      "metric": "workouts",
+      "threshold": 1
     },
     {
       "number": 2,
       "id": "workouts_3",
       "badge": "3 Workouts",
       "group": "Getting started (green)",
-      "condition": "Complete 3 workouts"
+      "condition": "Complete 3 workouts",
+      "metric": "workouts",
+      "threshold": 3
     },
     {
       "number": 3,
       "id": "first_week_done",
       "badge": "First Week Done",
       "group": "Getting started (green)",
-      "condition": "Work out on 3 different days within 7 days of the first workout"
+      "condition": "Work out on 3 different days within 7 days of the first workout",
+      "metric": "days_within_window",
+      "threshold": 3,
+      "scope": {
+        "windowDays": 7
+      }
     },
     {
       "number": 4,
       "id": "first_challenge",
       "badge": "First Challenge Started",
       "group": "Getting started (green)",
-      "condition": "Complete Day 1 of any challenge"
+      "condition": "Complete Day 1 of any challenge",
+      "metric": "challenge_days",
+      "threshold": 1
     },
     {
       "number": 5,
       "id": "streak_3",
       "badge": "3-Day Streak",
       "group": "Consistency (orange)",
-      "condition": "Streak reaches 3"
+      "condition": "Streak reaches 3",
+      "metric": "streak",
+      "threshold": 3
     },
     {
       "number": 6,
       "id": "streak_7",
       "badge": "7-Day Streak",
       "group": "Consistency (orange)",
-      "condition": "Streak reaches 7"
+      "condition": "Streak reaches 7",
+      "metric": "streak",
+      "threshold": 7
     },
     {
       "number": 7,
       "id": "streak_14",
       "badge": "14-Day Streak",
       "group": "Consistency (orange)",
-      "condition": "Streak reaches 14"
+      "condition": "Streak reaches 14",
+      "metric": "streak",
+      "threshold": 14
     },
     {
       "number": 8,
       "id": "streak_30",
       "badge": "30-Day Streak",
       "group": "Consistency (orange)",
-      "condition": "Streak reaches 30"
+      "condition": "Streak reaches 30",
+      "metric": "streak",
+      "threshold": 30
     },
     {
       "number": 9,
       "id": "streak_60",
       "badge": "60-Day Streak",
       "group": "Consistency (orange)",
-      "condition": "Streak reaches 60"
+      "condition": "Streak reaches 60",
+      "metric": "streak",
+      "threshold": 60
     },
     {
       "number": 10,
       "id": "days_100",
       "badge": "100 Days Total",
       "group": "Consistency (orange)",
-      "condition": "Workouts on 100 different days"
+      "condition": "Workouts on 100 different days",
+      "metric": "distinct_days",
+      "threshold": 100
     },
     {
       "number": 11,
       "id": "workouts_10",
       "badge": "10 Workouts",
       "group": "Volume (blue)",
-      "condition": "Complete 10 workouts"
+      "condition": "Complete 10 workouts",
+      "metric": "workouts",
+      "threshold": 10
     },
     {
       "number": 12,
       "id": "workouts_25",
       "badge": "25 Workouts",
       "group": "Volume (blue)",
-      "condition": "Complete 25 workouts"
+      "condition": "Complete 25 workouts",
+      "metric": "workouts",
+      "threshold": 25
     },
     {
       "number": 13,
       "id": "workouts_50",
       "badge": "50 Workouts",
       "group": "Volume (blue)",
-      "condition": "Complete 50 workouts"
+      "condition": "Complete 50 workouts",
+      "metric": "workouts",
+      "threshold": 50
     },
     {
       "number": 14,
       "id": "workouts_100",
       "badge": "100 Workouts",
       "group": "Volume (blue)",
-      "condition": "Complete 100 workouts"
+      "condition": "Complete 100 workouts",
+      "metric": "workouts",
+      "threshold": 100
     },
     {
       "number": 15,
       "id": "workouts_250",
       "badge": "250 Workouts",
       "group": "Volume (blue)",
-      "condition": "Complete 250 workouts"
+      "condition": "Complete 250 workouts",
+      "metric": "workouts",
+      "threshold": 250
     },
     {
       "number": 16,
       "id": "minutes_60",
       "badge": "60 Minutes Total",
       "group": "Time (cyan)",
-      "condition": "60 total workout minutes"
+      "condition": "60 total workout minutes",
+      "metric": "minutes",
+      "threshold": 60
     },
     {
       "number": 17,
       "id": "minutes_300",
       "badge": "300 Minutes",
       "group": "Time (cyan)",
-      "condition": "300 total minutes"
+      "condition": "300 total minutes",
+      "metric": "minutes",
+      "threshold": 300
     },
     {
       "number": 18,
       "id": "minutes_600",
       "badge": "600 Minutes",
       "group": "Time (cyan)",
-      "condition": "600 total minutes"
+      "condition": "600 total minutes",
+      "metric": "minutes",
+      "threshold": 600
     },
     {
       "number": 19,
       "id": "minutes_1200",
       "badge": "1,200 Minutes",
       "group": "Time (cyan)",
-      "condition": "1,200 total minutes"
+      "condition": "1,200 total minutes",
+      "metric": "minutes",
+      "threshold": 1200
     },
     {
       "number": 20,
       "id": "pushups_20",
       "badge": "20 Push-Ups in a Set",
       "group": "Strength (red)",
-      "condition": "≥ 20 reps in one set of any rep-based \"…Push-Up\" exercise (#30–37, #39, #41, #42)"
+      "condition": "≥ 20 reps in one set of any rep-based \"…Push-Up\" exercise (#30–37, #39, #41, #42)",
+      "metric": "best_reps",
+      "threshold": 20,
+      "scope": {
+        "exercises": [
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          39,
+          41,
+          42
+        ]
+      }
     },
     {
       "number": 21,
       "id": "squats_50",
       "badge": "50 Squats in a Set",
       "group": "Strength (red)",
-      "condition": "≥ 50 reps in one set of Bodyweight Squat (#64) or Sumo Squat (#65)"
+      "condition": "≥ 50 reps in one set of Bodyweight Squat (#64) or Sumo Squat (#65)",
+      "metric": "best_reps",
+      "threshold": 50,
+      "scope": {
+        "exercises": [
+          64,
+          65
+        ]
+      }
     },
     {
       "number": 22,
       "id": "plank_60",
       "badge": "60-Second Plank",
       "group": "Strength (red)",
-      "condition": "Hold Forearm Plank (#20) ≥ 60 s in one set"
+      "condition": "Hold Forearm Plank (#20) ≥ 60 s in one set",
+      "metric": "best_hold",
+      "threshold": 60,
+      "scope": {
+        "exercises": [
+          20
+        ]
+      }
     },
     {
       "number": 23,
       "id": "plank_120",
       "badge": "120-Second Plank",
       "group": "Strength (red)",
-      "condition": "Hold Forearm Plank (#20) ≥ 120 s in one set"
+      "condition": "Hold Forearm Plank (#20) ≥ 120 s in one set",
+      "metric": "best_hold",
+      "threshold": 120,
+      "scope": {
+        "exercises": [
+          20
+        ]
+      }
     },
     {
       "number": 24,
       "id": "wallsit_30",
       "badge": "30-Second Wall Sit",
       "group": "Strength (red)",
-      "condition": "Hold Wall Sit (#67) ≥ 30 s"
+      "condition": "Hold Wall Sit (#67) ≥ 30 s",
+      "metric": "best_hold",
+      "threshold": 30,
+      "scope": {
+        "exercises": [
+          67
+        ]
+      }
     },
     {
       "number": 25,
       "id": "wallsit_90",
       "badge": "90-Second Wall Sit",
       "group": "Strength (red)",
-      "condition": "Hold Wall Sit (#67) ≥ 90 s"
+      "condition": "Hold Wall Sit (#67) ≥ 90 s",
+      "metric": "best_hold",
+      "threshold": 90,
+      "scope": {
+        "exercises": [
+          67
+        ]
+      }
     },
     {
       "number": 26,
       "id": "tried_25",
       "badge": "Tried 25 Exercises",
       "group": "Exploration (violet)",
-      "condition": "25 different exercises done (not skipped)"
+      "condition": "25 different exercises done (not skipped)",
+      "metric": "distinct_exercises",
+      "threshold": 25
     },
     {
       "number": 27,
       "id": "tried_50",
       "badge": "Tried 50 Exercises",
       "group": "Exploration (violet)",
-      "condition": "50 different exercises done"
+      "condition": "50 different exercises done",
+      "metric": "distinct_exercises",
+      "threshold": 50
     },
     {
       "number": 28,
       "id": "every_focus",
       "badge": "Completed a Workout from Every Body Focus",
       "group": "Exploration (violet)",
-      "condition": "At least one completed workout for each of the 8 body focuses"
+      "condition": "At least one completed workout for each of the 8 body focuses",
+      "metric": "distinct_focuses",
+      "threshold": 8
     },
     {
       "number": 29,
       "id": "custom_built",
       "badge": "Built a Custom Workout",
       "group": "Exploration (violet)",
-      "condition": "Save 1 custom workout"
+      "condition": "Save 1 custom workout",
+      "metric": "custom_workouts_saved",
+      "threshold": 1
     },
     {
       "number": 30,
       "id": "challenge_14",
       "badge": "Completed a 14-Day Challenge",
       "group": "Challenges (purple)",
-      "condition": "Finish any challenge of 14 or 21 days  (the catalog has no badge for 21-day challenges)"
+      "condition": "Finish any challenge of 14 or 21 days  (the catalog has no badge for 21-day challenges)",
+      "metric": "challenges_by_length",
+      "threshold": 1,
+      "scope": {
+        "minDays": 14
+      }
     },
     {
       "number": 31,
       "id": "challenge_28",
       "badge": "Completed a 28/30-Day Challenge",
       "group": "Challenges (purple)",
-      "condition": "Finish any 28- or 30-day challenge"
+      "condition": "Finish any 28- or 30-day challenge",
+      "metric": "challenges_by_length",
+      "threshold": 1,
+      "scope": {
+        "minDays": 28
+      }
     },
     {
       "number": 32,
       "id": "goal_met",
       "badge": "Weekly Goal Met",
       "group": "Habits (indigo)",
-      "condition": "Reach the weekly goal once"
+      "condition": "Reach the weekly goal once",
+      "metric": "weekly_goals_in_a_row",
+      "threshold": 1
     },
     {
       "number": 33,
       "id": "goal_4_weeks",
       "badge": "Weekly Goal Met 4 Weeks Running",
       "group": "Habits (indigo)",
-      "condition": "Reach the weekly goal 4 weeks in a row"
+      "condition": "Reach the weekly goal 4 weeks in a row",
+      "metric": "weekly_goals_in_a_row",
+      "threshold": 4
     },
     {
       "number": 34,
       "id": "early_bird",
       "badge": "Early Bird",
       "group": "Habits (indigo)",
-      "condition": "Finish a workout before 08:00 local time"
+      "condition": "Finish a workout before 08:00 local time",
+      "metric": "session_before_hour",
+      "threshold": 8
     },
     {
       "number": 35,
       "id": "night_owl",
       "badge": "Night Owl",
       "group": "Habits (indigo)",
-      "condition": "Finish a workout after 21:00 local time"
+      "condition": "Finish a workout after 21:00 local time",
+      "metric": "session_after_hour",
+      "threshold": 21
+    }
+  ],
+  "categories": [
+    {
+      "id": "arm-shoulder",
+      "title": "Arm & Shoulder",
+      "workoutNumbers": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        36,
+        38,
+        58
+      ]
+    },
+    {
+      "id": "back-posture",
+      "title": "Back & Posture",
+      "workoutNumbers": [
+        13,
+        14,
+        15,
+        39,
+        50,
+        52,
+        55
+      ]
+    },
+    {
+      "id": "butt-leg",
+      "title": "Butt & Leg",
+      "workoutNumbers": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        37
+      ]
+    },
+    {
+      "id": "chest",
+      "title": "Chest",
+      "workoutNumbers": [
+        4,
+        5,
+        6,
+        36,
+        38
+      ]
+    },
+    {
+      "id": "core",
+      "title": "Core",
+      "workoutNumbers": [
+        1,
+        2,
+        3,
+        29,
+        35
+      ]
+    },
+    {
+      "id": "full-body",
+      "title": "Full Body",
+      "workoutNumbers": [
+        22,
+        23,
+        24,
+        26,
+        27,
+        28,
+        30,
+        31,
+        32,
+        33,
+        34,
+        40,
+        41,
+        44,
+        57,
+        59,
+        60
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "c1",
+      "title": "Build Strength at Home",
+      "goal": "build_muscle",
+      "workoutNumbers": [
+        36,
+        37,
+        38,
+        39,
+        40
+      ]
+    },
+    {
+      "id": "c2",
+      "title": "Burn More Calories",
+      "goal": "burn_fat",
+      "workoutNumbers": [
+        30,
+        31,
+        32,
+        33,
+        34,
+        35
+      ]
+    },
+    {
+      "id": "c3",
+      "title": "Stay Active Every Day",
+      "goal": "keep_fit",
+      "workoutNumbers": [
+        26,
+        41,
+        42,
+        43,
+        44
+      ]
+    },
+    {
+      "id": "c4",
+      "title": "Move Better",
+      "goal": "flexibility",
+      "workoutNumbers": [
+        47,
+        52,
+        53,
+        55,
+        56
+      ]
     }
   ],
   "references": {

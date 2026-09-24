@@ -11,6 +11,7 @@ import { readCatalog } from './markdown.ts';
 import { METRICS, MUSCLE_GROUPS } from './metrics.ts';
 import { resolveReferences } from './resolve.ts';
 import { generateChallenges } from './challenges.ts';
+import { achievementRules, categoriesFrom, collectionsFrom } from './placements.ts';
 import { generateWorkouts } from './workouts.ts';
 import { assertValid, EXPECTED } from './validate.ts';
 
@@ -29,6 +30,18 @@ const fromMap = (map: Map<number, number>) => Object.fromEntries([...map].map(([
 
 const workouts = generateWorkouts(catalog.workouts, catalog.exercises);
 const challenges = generateChallenges(catalog.challenges, catalog.workouts, catalog.exercises);
+const categories = categoriesFrom(catalog.workouts);
+const { collections, unmatched } = collectionsFrom(markdown, catalog.workouts);
+const badges = achievementRules(catalog.achievements);
+
+if (unmatched.length > 0) {
+  console.error(`Collections name workouts that do not exist: ${unmatched.join(", ")}`);
+  process.exit(1);
+}
+if (badges.missing.length > 0 || badges.extra.length > 0) {
+  console.error(`Achievement rules out of step with the catalog: missing ${badges.missing.join(", ") || "none"}, extra ${badges.extra.join(", ") || "none"}`);
+  process.exit(1);
+}
 
 const data = {
   generatedFrom: 'DOC/CONTENT_MAP.md',
@@ -42,7 +55,12 @@ const data = {
     ...challenge,
     ...challenges.find((generated) => generated.number === challenge.number)!,
   })),
-  achievements: catalog.achievements,
+  achievements: catalog.achievements.map((achievement) => ({
+    ...achievement,
+    ...badges.rules.find((rule) => rule.id === achievement.id)!,
+  })),
+  categories,
+  collections,
   references: {
     easier: fromMap(resolved.easier),
     harder: fromMap(resolved.harder),
@@ -90,6 +108,7 @@ console.log(
 );
 const trainingDays = challenges.reduce((sum, challenge) => sum + challenge.trainingDays, 0);
 console.log(`Challenges: ${challenges.length} scheduled, ${trainingDays} training days total`);
+console.log(`Placements: ${categories.length} tiles, ${collections.length} collections, ${badges.rules.length} badge rules`);
 console.log(`Wrote ${path}`);
 
 // The catalog names 19 easier/harder variations that do not exist, and adding
