@@ -1,6 +1,6 @@
 import { Pressable, StyleSheet, View } from 'react-native';
 
-import { radius, sizes, useTheme } from '../theme';
+import { elevation, radius, sizes, useTheme } from '../theme';
 import { Text } from './Text';
 
 // DESIGN §4.2: "primary" = selected segment filled with the brand colour;
@@ -41,7 +41,13 @@ export function SegmentedControl<T extends string>({
             accessibilityRole="tab"
             accessibilityState={{ selected }}
             onPress={() => onChange(option.value)}
-            style={[styles.segment, selected && { backgroundColor: selectedBg }]}
+            style={[
+              styles.segment,
+              selected && { backgroundColor: selectedBg },
+              // The neutral selected pill is the one place the reference lifts
+              // a control off its track (DESIGN §11.5).
+              selected && appearance === 'neutral' && { elevation: elevation.sm },
+            ]}
           >
             <Text
               variant={selected ? 'bodyStrong' : 'body'}

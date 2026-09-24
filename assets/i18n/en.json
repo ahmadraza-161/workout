@@ -33,5 +33,29 @@
       "title": "We couldn't open your data",
       "body": "Please restart the app. If this keeps happening, export your data from Settings before reinstalling."
     }
+  },
+  "a11y": {
+    "difficulty": "Difficulty %{level} of 3",
+    "close": "Close",
+    "back": "Back",
+    "search": "Search",
+    "decrease": "Decrease",
+    "increase": "Increase",
+    "selectDate": "Select date",
+    "selectTime": "Select time"
+  },
+  "level": {
+    "beginner": "Beginner",
+    "intermediate": "Intermediate",
+    "advanced": "Advanced"
+  },
+  "common": {
+    "more": "More",
+    "viewAll": "View all",
+    "done": "Done",
+    "cancel": "Cancel",
+    "save": "Save",
+    "retry": "Try again",
+    "skip": "Skip"
   }
 }

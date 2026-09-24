@@ -26,6 +26,8 @@ export interface ThemeColors {
     bubble: string;
     picker: string;
     stage: string;
+    focusChip: string;
+    categoryHero: string;
   };
   text: {
     primary: string;
@@ -48,6 +50,10 @@ export interface ThemeColors {
     closeIcon: string;
     restAction: string;
     restPill: string;
+    switchTrack: string;
+    sliderTrack: string;
+    thumbs: string;
+    thumbsIcon: string;
   };
   level: { beginner: string; intermediate: string; advanced: string };
   semantic: {
@@ -83,6 +89,8 @@ export const lightColors: ThemeColors = {
     bubble: '#F0F0F0',
     picker: '#F3F4F6',
     stage: '#FAFAFA',
+    focusChip: '#F3F4F9',
+    categoryHero: '#252B39',
   },
   text: {
     primary: '#000000',
@@ -105,6 +113,11 @@ export const lightColors: ThemeColors = {
     closeIcon: '#3F3F3F',
     restAction: '#3370FF',
     restPill: '#266CFF',
+    switchTrack: '#B3C8FF',
+    sliderTrack: '#E5E5E5',
+    // AA-adjusted: the reference's white-on-grey thumbs fail contrast (DESIGN §4.1).
+    thumbs: '#E9E9E9',
+    thumbsIcon: '#5A5A5A',
   },
   level: { beginner: '#004BFF', intermediate: '#BE5901', advanced: '#DB3931' },
   semantic: {
@@ -132,6 +145,8 @@ export const darkColors: ThemeColors = {
     bubble: '#20242D',
     picker: '#20242D',
     stage: '#151820',
+    focusChip: '#20242D',
+    categoryHero: '#1A1D25',
   },
   text: {
     primary: '#F2F4F7',
@@ -153,6 +168,10 @@ export const darkColors: ThemeColors = {
     secondaryTinted: '#262B35',
     close: '#2A2F3A',
     closeIcon: '#E6E8EC',
+    switchTrack: '#2B4A8F',
+    sliderTrack: '#2A2F3A',
+    thumbs: '#262B35',
+    thumbsIcon: '#A0A6B1',
   },
   level: { beginner: '#6E9BFF', intermediate: '#FF9A4D', advanced: '#FF6B64' },
   semantic: {
