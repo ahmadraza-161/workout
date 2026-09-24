@@ -257,7 +257,7 @@ Build the main screen with all 13 sections. **Status: ⬜ Not Started**
 
 ## Phase 8: Discover Tab
 
-**Status: ⬜ Not Started**
+Build the browse surface: banners, curated sections, body-focus tiles and category pages. **Status: ⬜ Not Started**
 
 | # | Task | Priority | Status | Notes |
 |---|---|---|---|---|
@@ -276,7 +276,7 @@ Build the main screen with all 13 sections. **Status: ⬜ Not Started**
 
 ## Phase 9: Report Tab
 
-**Status: ⬜ Not Started**
+Show progress: activity totals, history, streaks, weight and BMI. **Status: ⬜ Not Started**
 
 | # | Task | Priority | Status | Notes |
 |---|---|---|---|---|
@@ -298,7 +298,7 @@ Build the main screen with all 13 sections. **Status: ⬜ Not Started**
 
 ## Phase 10: Challenges
 
-**Status: ⬜ Not Started**
+Multi-day plans with a day-by-day grid and progression that survives restarts. **Status: ⬜ Not Started**
 
 | # | Task | Priority | Status | Notes |
 |---|---|---|---|---|
@@ -315,7 +315,7 @@ Build the main screen with all 13 sections. **Status: ⬜ Not Started**
 
 ## Phase 11: Builder, Achievements, Reminders, Backup
 
-**Status: ⬜ Not Started**
+The remaining features: custom workouts, badges, local reminders and data portability. **Status: ⬜ Not Started**
 
 | # | Task | Priority | Status | Notes |
 |---|---|---|---|---|
@@ -336,7 +336,7 @@ Build the main screen with all 13 sections. **Status: ⬜ Not Started**
 
 ## Phase 12: Polish & Launch
 
-**Status: ⬜ Not Started**
+Accessibility, performance, the release build and the path to production on Google Play. **Status: ⬜ Not Started**
 
 | # | Task | Priority | Status | Notes |
 |---|---|---|---|---|

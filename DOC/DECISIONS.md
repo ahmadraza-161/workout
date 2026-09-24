@@ -77,6 +77,7 @@ This document records every important product and technical decision: what was d
 | ADR-048 | MET values from the Compendium of Physical Activities | ✅ Accepted | Sep 23, 2026 |
 | ADR-049 | Levels for workouts that have none in the catalog | ✅ Accepted | Sep 23, 2026 |
 | ADR-050 | Baselines for single-exercise challenges | ✅ Accepted | Sep 23, 2026 |
+| ADR-051 | Where Training and Discover section components live | ✅ Accepted | Sep 24, 2026 |
 
 **Mapping from PRD v1.1 IDs:** D1 → ADR-005 · D2 → ADR-006 · D3 → ADR-008 · D4 → ADR-010 · D5 → ADR-011 · D6 → ADR-007 · D7 → ADR-003 + ADR-009 · D8 → ADR-012 · D9 → ADR-013 · D10 → ADR-014 · D11 → ADR-015 · D12 → ADR-016 + ADR-017 + ADR-018 · D13 → ADR-019 · D14 → ADR-020.
 
@@ -405,6 +406,15 @@ These came out of checking every reference screenshot, spec section and catalog 
   - Squat: 10 reps × 3 sets.
   - About +10% per training day, rounded up.
 - **Consequences:** The last training day reaches about 2.6× the baseline and still fits the catalog's daily time.
+
+### ADR-051 – Where Training and Discover section components live ✅
+
+- **Context:** [ARCHITECTURE](ARCHITECTURE.md) §4 defines 11 modules, but the Training tab (13 sections) and the Discover tab (8 sections) had no owning module. The rule "routes compose module components, no business logic" left 21 tasks with nowhere to put their components.
+- **Decision:** Split by what the component knows, not by which screen shows it.
+  - **Generic, data-free components live in `core/ui`.** Anything that takes props and renders — rows, chips, banners, media cards, gradient cards, section headers, carousels, week strips, meta cells. The reference screenshots show the same visual vocabulary reused across all four tabs, so these belong to the shared layer, not to any feature.
+  - **Data-bound section components live in the module that owns the data.** Weekly Goal → `report`, challenge carousel → `challenges`, Body Focus and list sections → `content`, Custom Workout card → `builder`. Each is a thin wrapper that reads its module's data and composes `core/ui` pieces.
+  - Routes in `app/` only arrange these sections in order. No data access and no layout logic beyond ordering.
+- **Consequences:** No twelfth module. The Training and Discover screens import from several modules, which is allowed because each import is a public `index.ts`. The reuse audit of the reference found one `Row` serving 8 placements, one `Banner` serving 5, one `MediaCard` serving 4 and one `WeekStrip` serving both the Training weekly goal and the Report history — so the shared layer carries most of the weight and the feature wrappers stay small.
 
 ---
 

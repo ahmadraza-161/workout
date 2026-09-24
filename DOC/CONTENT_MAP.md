@@ -2,7 +2,7 @@
 
 ### Home Workout – Production Map for Every Exercise, Workout, Challenge and Badge
 
-This document turns the [content catalog](../WORKOUT_APP_CONTENT.md) into a production checklist so that **nothing is missed**. The catalog stays the source of truth for names, counts, types, levels and quiet flags. This map adds what the generators need: base pose, view, props, one-sided flags, variations, quiet swaps, placements and badge rules. Exercise and workout names are copied from the catalog by a script, so they match it exactly.
+This document **is** the content catalog and its production checklist, so that **nothing is missed**. It is the source of truth for names, counts, types, levels and quiet flags, and it adds what the generators need: base pose, view, props, one-sided flags, variations, quiet swaps, placements and badge rules. The generators read this document, so exercise and workout names always match it exactly.
 
 | Field | Details |
 |---|---|
@@ -282,6 +282,16 @@ The character rig (tasks T2.9–T2.11) must support these, otherwise some exerci
 | Side | Profile view; best for floor work, squats, lunges and push-ups | 79 |
 | Front | Facing the camera; best for lateral and rotational moves | 33 |
 | Top | Front-view figure lying on the floor, seen from above; for lying moves that go sideways | 7 |
+
+**Head shape per view.** The character has no facial features in any view ([DESIGN](DESIGN.md) §2.7), so the head is a silhouette plus hair and the rig must draw the right one:
+
+| View | Head |
+|---|---|
+| Side | Oval in profile; hair covers the crown and the back of the skull; a small jaw step marks the chin so the facing direction is readable |
+| Front | Rounded oval; hair across the crown and both temples, symmetrical |
+| Top | Plain oval seen from above, filled with the hair tone only — no skin showing. This also applies to **standing poses that bend forward**, where the crown faces the camera |
+
+The Top head is needed by the 7 "Top" view exercises **and** by every forward-bend pose in Side and Front views, so the rig must be able to swap the head shape independently of the body view.
 
 **Props** (flat, neutral grey `#C9CCD1`, drawn behind the character)
 

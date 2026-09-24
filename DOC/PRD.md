@@ -9,7 +9,7 @@
 | **Author** | Product Team |
 | **Status** | Draft – most open questions resolved |
 | **Target Launch** | MVP (v1.0) on Google Play (Android) |
-| **Related documents** | [ARCHITECTURE](ARCHITECTURE.md) · [DESIGN](DESIGN.md) · [CONTENT_MAP](CONTENT_MAP.md) · [COVERAGE](COVERAGE.md) · [RULES](RULES.md) · [TASKS](TASKS.md) · [TEST_PLAN](TEST_PLAN.md) · [SECURITY](SECURITY.md) · [DECISIONS](DECISIONS.md) · [MEMORY](MEMORY.md) · [Content catalog](../WORKOUT_APP_CONTENT.md) · [Original spec v3](../WORKOUT_APP_SPEC_V3.md) |
+| **Related documents** | [ARCHITECTURE](ARCHITECTURE.md) · [DESIGN](DESIGN.md) · [CONTENT_MAP](CONTENT_MAP.md) · [COVERAGE](COVERAGE.md) · [RULES](RULES.md) · [TASKS](TASKS.md) · [TEST_PLAN](TEST_PLAN.md) · [SECURITY](SECURITY.md) · [DECISIONS](DECISIONS.md) · [MEMORY](MEMORY.md) |
 
 > **Note:** "Home Workout" is a placeholder name (see §15). The documents in `DOC/` are the source of truth. Where they differ from the original spec v3, `DOC/` wins, and every decision is recorded in [DECISIONS.md](DECISIONS.md).
 
@@ -107,7 +107,7 @@ Many people want to exercise at home but give up early because:
 
 ### 8.1 Catalog (v1)
 
-The [content catalog](../WORKOUT_APP_CONTENT.md) is the source of truth. The app ships **exactly** what it lists: no padding to round numbers and no trimming.
+The [content catalog in CONTENT_MAP](CONTENT_MAP.md) is the source of truth. The app ships **exactly** what it lists: no padding to round numbers and no trimming.
 
 | Content | Amount | Details |
 |---|---|---|

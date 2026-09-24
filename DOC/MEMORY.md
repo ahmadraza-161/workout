@@ -32,8 +32,7 @@
 1. [DECISIONS.md](DECISIONS.md) – accepted decisions override everything else.
 2. [PRD.md](PRD.md) – what we build and why.
 3. [ARCHITECTURE.md](ARCHITECTURE.md), [DESIGN.md](DESIGN.md), [RULES.md](RULES.md), [SECURITY.md](SECURITY.md), [TEST_PLAN.md](TEST_PLAN.md).
-4. [WORKOUT_APP_CONTENT.md](../WORKOUT_APP_CONTENT.md) – the content catalog (source of truth for content).
-5. [WORKOUT_APP_SPEC_V3.md](../WORKOUT_APP_SPEC_V3.md) – the original research spec. Useful background, but superseded wherever the documents above differ.
+4. [CONTENT_MAP.md](CONTENT_MAP.md) – the content catalog and production sheet: every exercise, workout, challenge and badge with its poses, views, props, variations and placements.
 
 ---
 

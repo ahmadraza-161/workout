@@ -196,6 +196,13 @@ Tests sit next to the code they test (`*.test.ts` / `*.test.tsx`), as proposed i
 | `reminders` | Local notifications | Schedule, cancel, reboot-safe, permission primer | core, profile |
 | `backup` | User data portability | Export JSON, validated transactional import, reset | core (all repositories through their public APIs) |
 
+**Tab screen sections (ADR-051).** The Training and Discover tabs have no module of their own. Their sections split in two:
+
+- **Generic visuals live in `core/ui`** — `Row`, `Chip`, `Banner`, `MediaCard`, `GradientCard`, `Section`, `HScroll`, `WeekStrip`, `MetaCell` and the rest. They take props and know nothing about features. The reference reuses the same vocabulary across every tab, so one `Row` serves 8 placements, one `Banner` serves 5 and `WeekStrip` serves both the Training weekly goal and the Report history.
+- **Data-bound sections live in the module that owns the data** — Weekly Goal in `report`, challenge carousel in `challenges`, Body Focus and list sections in `content`, Custom Workout card in `builder`. Each is a thin wrapper that reads its own data and composes `core/ui` pieces.
+
+Routes in `app/` only arrange the sections in order.
+
 **Cross-module orchestration** happens in use-case functions, never by stores calling each other. Example: `completeWorkout()` in `player` saves the session, then calls `report.updateStreakAndGoal()`, `report.updatePersonalBests()` and `achievements.evaluate()` through their public APIs.
 
 ---
@@ -241,7 +248,7 @@ Tests sit next to the code they test (`*.test.ts` / `*.test.tsx`), as proposed i
 
 ### 6.2 Content pack
 
-- Produced by `tools/content` from the [content catalog](../WORKOUT_APP_CONTENT.md) and the rules in [PRD §8](PRD.md#8-content).
+- Produced by `tools/content` from the [content catalog in CONTENT_MAP](CONTENT_MAP.md) and the rules in [PRD §8](PRD.md#8-content).
 - **Validated at build time.** IDs are unique, every reference resolves, counts match the catalog (119 / 60 / 12 / 6 + 5 / 35), workout durations match the catalog within ±1 minute, and size budgets pass.
 - Carries a `contentVersion`. It is loaded once and indexed in memory by id, body focus, level, goal and type (ADR-023, proposed).
 - All text is referenced by i18n keys; English copy lives in `assets/i18n/en.json`.

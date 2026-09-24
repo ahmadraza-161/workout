@@ -159,16 +159,46 @@ The category label under the value uses text colours (never the light segment co
 
 ### 2.7 Character Palette (generated exercise animations)
 
-| Part | Variant A | Variant B |
-|---|---|---|
-| Top | `#3A9AD9` | `#E8698A` |
-| Shorts / leggings | `#1F2530` | `#2B2F3A` |
-| Skin | `#F0B49C` | `#E3A98C` |
-| Hair | `#5C5C5C` | `#3B2A25` |
-| Shoes | `#5E6166` | `#5E6166` |
-| Floor shadow | `#DBDBDB` | `#DBDBDB` |
+Every part has **two flat tones**: a base and a shade. The shade is a second flat polygon on the far side of the part (the arm behind the body, the underside of a thigh, the neck below the jaw). This is what makes a flat figure read as three-dimensional; a single fill per part looks like a cardboard cut-out. Measured from the reference: skin base `#FAC3B0` with shade `#EAB099`, and shorts base `#151E27` with shade `#132B37` — on dark clothing the second tone is a *lighter*, bluer highlight rather than a darker shade.
 
-Flat fills only: no gradients, no outlines. Variant A is used for "Male" and "Prefer not to say", Variant B for "Female". Users can switch variants in Settings.
+| Part | Variant A base | Variant A shade | Variant B base | Variant B shade |
+|---|---|---|---|---|
+| Top | `#3A9AD9` | `#2F82B8` | `#E8698A` | `#C9516F` |
+| Shorts / leggings | `#1F2530` | `#2A3140` | `#2B2F3A` | `#373C4A` |
+| Skin | `#F0B49C` | `#DFA285` | `#E3A98C` | `#D29576` |
+| Hair | `#5C5C5C` | `#4A4A4A` | `#3B2A25` | `#2E211D` |
+| Shoes | `#5E6166` | `#4E5155` | `#5E6166` | `#4E5155` |
+| Floor shadow | `#DBDBDB` | — | `#DBDBDB` | — |
+
+**Status:** ⏳ the shade tones are proposed and await the owner's confirmation. The base tones are accepted.
+
+**Rules**
+
+- **Flat fills only:** no gradients and no outlines. Two flat tones per part is not a gradient.
+- **The character has no facial features** — no eyes, nose or mouth. Only a head shape and hair. Confirmed across all 25 reference screenshots. Generators must never add a face.
+- Variant A is used for "Male" and "Prefer not to say", Variant B for "Female". Users can switch variants in Settings.
+
+**Motion arc**
+
+A translucent curved arrow drawn **behind** the character, wrapping the joint or body part that moves. It shows the direction of travel in a still frame, which a looping animation alone cannot.
+
+| Property | Value |
+|---|---|
+| `motionArc.stroke` | `#7FC4E8` at 55% opacity |
+| Stroke width | 10 on the 600 × 600 canvas |
+| Caps | Round |
+| Arrowhead | Solid triangle, 26 long × 22 wide, same colour at full arc opacity, at the leading end |
+| Placement | Behind the character, centred on the moving joint; sweep matches the pose delta |
+| When to draw | Rotations, swings and reaches where the direction is ambiguous from the key poses alone. Never on holds, planks or symmetrical up-down moves. |
+
+**Stage geometry** (measured from the reference, 1080 × 2400 screen):
+
+| Element | Value |
+|---|---|
+| Stage height | 42% of screen, background `surface.stage` |
+| Character height | 29% of screen, horizontally centred |
+| Floor ellipse | `#DBDBDB`, under the feet at the bottom of the stage |
+| Canvas | 600 × 600, 30 fps |
 
 ---
 
@@ -386,7 +416,7 @@ Only `lucide-react-native` icons (§4.7). No raster icons, and never icons copie
 
 | Asset | Style |
 |---|---|
-| Exercise animations | Flat 2D character (§2.7), 600 × 600 canvas, 30 fps, 2–4 key poses, seamless loop, curved motion arrow for rotations |
+| Exercise animations | Flat 2D character (§2.7): two flat tones per part, no face, 600 × 600 canvas, 30 fps, 2–4 key poses, seamless loop, motion arc for rotations (spec in §2.7) |
 | Thumbnails | First key pose of the same character on `surface.stage` |
 | Workout and challenge artwork | Body-focus gradient (§2.5) + large character silhouette + simple geometric pattern |
 | Coach avatar | Friendly flat character bust in a circle |
