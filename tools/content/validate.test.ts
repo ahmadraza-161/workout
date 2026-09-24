@@ -1,4 +1,5 @@
 import type { Catalog, CatalogExercise } from './catalog.ts';
+import { METRICS } from './metrics.ts';
 import type { Resolved } from './resolve.ts';
 import { validate } from './validate.ts';
 
@@ -10,7 +11,9 @@ function exercise(overrides: Partial<CatalogExercise> & { number: number }): Cat
   return {
     name: `Exercise ${overrides.number}`,
     slug: `exercise-${overrides.number}`,
-    type: 'time',
+    // Take the type from the real metrics so the fixture stays consistent with
+    // them; otherwise every case would trip the "reps but no rep count" check.
+    type: METRICS[overrides.number]?.reps === undefined ? 'time' : 'reps',
     level: 1,
     quietSafe: true,
     basePose: 'standing',
@@ -143,6 +146,41 @@ describe('validate', () => {
     const data = catalog();
     data.achievements[0]!.id = 'First Workout';
     expect(validate(data, noRefs()).join(' ')).toContain('not a snake_case id');
+  });
+
+  it('catches an exercise with no metrics, which is how a missed row shows up', () => {
+    const data = catalog();
+    data.exercises.push(exercise({ number: 120 }));
+    expect(validate(data, noRefs()).join(' ')).toContain('#120 Exercise 120 has none');
+  });
+
+  it('catches a timed exercise whose metrics give reps instead of seconds', () => {
+    const data = catalog();
+    // #20 Forearm Plank is a hold, so its metrics carry seconds.
+    data.exercises[19] = exercise({ number: 20, type: 'reps' });
+    expect(validate(data, noRefs()).join(' ')).toContain('is reps but has no rep count');
+  });
+
+  it('catches a muscle listed as both primary and secondary', () => {
+    const data = catalog();
+    const original = METRICS[1]!;
+    METRICS[1] = { ...original, primary: ['abs'], secondary: ['abs'] };
+    try {
+      expect(validate(data, noRefs()).join(' ')).toContain('both primary and secondary');
+    } finally {
+      METRICS[1] = original;
+    }
+  });
+
+  it('catches an implausible MET, which would skew every kcal estimate', () => {
+    const data = catalog();
+    const original = METRICS[1]!;
+    METRICS[1] = { ...original, met: 45 };
+    try {
+      expect(validate(data, noRefs()).join(' ')).toContain('implausible MET');
+    } finally {
+      METRICS[1] = original;
+    }
   });
 
   it('reports every problem at once rather than stopping at the first', () => {

@@ -14,7 +14,17 @@
       "oneSided": false,
       "variations": "",
       "quietSwap": "",
-      "equipment": "none"
+      "equipment": "none",
+      "primary": [
+        "quads",
+        "hip_flexors"
+      ],
+      "secondary": [
+        "calves",
+        "abs"
+      ],
+      "met": 3.5,
+      "seconds": 40
     },
     {
       "number": 2,
@@ -29,7 +39,16 @@
       "oneSided": false,
       "variations": "",
       "quietSwap": "",
-      "equipment": "none"
+      "equipment": "none",
+      "primary": [
+        "deltoids"
+      ],
+      "secondary": [
+        "traps",
+        "rear_deltoids"
+      ],
+      "met": 2.8,
+      "seconds": 30
     },
     {
       "number": 3,
@@ -44,7 +63,16 @@
       "oneSided": false,
       "variations": "",
       "quietSwap": "",
-      "equipment": "none"
+      "equipment": "none",
+      "primary": [
+        "traps"
+      ],
+      "secondary": [
+        "deltoids",
+        "neck"
+      ],
+      "met": 2.5,
+      "seconds": 30
     },
     {
       "number": 4,
@@ -59,7 +87,16 @@
       "oneSided": false,
       "variations": "",
       "quietSwap": "",
-      "equipment": "none"
+      "equipment": "none",
+      "primary": [
+        "hip_flexors"
+      ],
+      "secondary": [
+        "obliques",
+        "glutes"
+      ],
+      "met": 2.8,
+      "seconds": 30
     },
     {
       "number": 5,
@@ -76,7 +113,16 @@
       "oneSided": true,
       "variations": "",
       "quietSwap": "",
-      "equipment": "none"
+      "equipment": "none",
+      "primary": [
+        "hip_flexors"
+      ],
+      "secondary": [
+        "hamstrings",
+        "glutes"
+      ],
+      "met": 3,
+      "seconds": 30
     },
     {
       "number": 6,
@@ -93,7 +139,16 @@
       "oneSided": true,
       "variations": "",
       "quietSwap": "",
-      "equipment": "none"
+      "equipment": "none",
+      "primary": [
+        "adductors"
+      ],
+      "secondary": [
+        "glutes",
+        "hip_flexors"
+      ],
+      "met": 3,
+      "seconds": 30
     },
     {
       "number": 7,
@@ -108,7 +163,16 @@
       "oneSided": false,
       "variations": "",
       "quietSwap": "",
-      "equipment": "none"
+      "equipment": "none",
+      "primary": [
+        "obliques"
+      ],
+      "secondary": [
+        "abs",
+        "erector_spinae"
+      ],
+      "met": 2.8,
+      "seconds": 40
     },
     {
       "number": 8,
@@ -123,7 +187,15 @@
       "oneSided": false,
       "variations": "",
       "quietSwap": "",
-      "equipment": "none"
+      "equipment": "none",
+      "primary": [
+        "neck"
+      ],
+      "secondary": [
+        "traps"
+      ],
+      "met": 2.3,
+      "seconds": 25
     },
     {
       "number": 9,
@@ -138,7 +210,16 @@
       "oneSided": false,
       "variations": "",
       "quietSwap": "",
-      "equipment": "none"
+      "equipment": "none",
+      "primary": [
+        "erector_spinae"
+      ],
+      "secondary": [
+        "abs",
+        "traps"
+      ],
+      "met": 2.5,
+      "seconds": 40
     },
     {
       "number": 10,
@@ -153,7 +234,16 @@
       "oneSided": false,
       "variations": "",
       "quietSwap": "",
-      "equipment": "none"
+      "equipment": "none",
+      "primary": [
+        "abs"
+      ],
+      "secondary": [
+        "hamstrings",
+        "deltoids"
+      ],
+      "met": 4,
+      "reps": 8
     },
     {
       "number": 11,
@@ -168,7 +258,15 @@
       "oneSided": false,
       "variations": "— → Sit-Up",
       "quietSwap": "",
-      "equipment": "none"
+      "equipment": "none",
+      "primary": [
+        "abs"
+      ],
+      "secondary": [
+        "hip_flexors"
+      ],
+      "met": 3.8,
+      "reps": 15
     },
     {
       "number": 12,
@@ -183,7 +281,15 @@
       "oneSided": false,
       "variations": "Crunch → Leg Raise",
       "quietSwap": "",
-      "equipment": "none"
+      "equipment": "none",
+      "primary": [
+        "abs"
+      ],
+      "secondary": [
+        "hip_flexors"
+      ],
+      "met": 4,
+      "reps": 12
     },
     {
       "number": 13,
@@ -198,7 +304,16 @@
       "oneSided": false,
       "variations": "Crunch → V-Up",
       "quietSwap": "",
-      "equipment": "none"
+      "equipment": "none",
+      "primary": [
+        "obliques",
+        "abs"
+      ],
+      "secondary": [
+        "hip_flexors"
+      ],
+      "met": 5,
+      "reps": 16
     },
     {
       "number": 14,
@@ -213,7 +328,15 @@
       "oneSided": false,
       "variations": "Crunch → V-Up",
       "quietSwap": "",
-      "equipment": "none"
+      "equipment": "none",
+      "primary": [
+        "abs"
+      ],
+      "secondary": [
+        "hip_flexors"
+      ],
+      "met": 5,
+      "reps": 12
     },
     {
       "number": 15,
@@ -228,7 +351,16 @@
       "oneSided": false,
       "variations": "Reverse Crunch → — ⚠️",
       "quietSwap": "",
-      "equipment": "none"
+      "equipment": "none",
+      "primary": [
+        "abs",
+        "hip_flexors"
+      ],
+      "secondary": [
+        "quads"
+      ],
+      "met": 4,
+      "reps": 12
     },
     {
       "number": 16,
@@ -243,7 +375,16 @@
       "oneSided": false,
       "variations": "Heel Touch → Scissor Kick",
       "quietSwap": "",
-      "equipment": "none"
+      "equipment": "none",
+      "primary": [
+        "abs",
+        "hip_flexors"
+      ],
+      "secondary": [
+        "quads"
+      ],
+      "met": 4,
+      "seconds": 30
     },
     {
       "number": 17,
@@ -258,7 +399,16 @@
       "oneSided": false,
       "variations": "Flutter Kick → Leg Raise",
       "quietSwap": "",
-      "equipment": "none"
+      "equipment": "none",
+      "primary": [
+        "abs",
+        "hip_flexors"
+      ],
+      "secondary": [
+        "adductors"
+      ],
+      "met": 4,
+      "seconds": 30
     },
     {
       "number": 18,
@@ -273,7 +423,15 @@
       "oneSided": false,
       "variations": "— → Russian Twist",
       "quietSwap": "",
-      "equipment": "none"
+      "equipment": "none",
+      "primary": [
+        "obliques"
+      ],
+      "secondary": [
+        "abs"
+      ],
+      "met": 3.5,
+      "reps": 20
     },
     {
       "number": 19,
@@ -288,7 +446,16 @@
       "oneSided": false,
       "variations": "Heel Touch → — ⚠️",
       "quietSwap": "",
-      "equipment": "none"
+      "equipment": "none",
+      "primary": [
+        "obliques"
+      ],
+      "secondary": [
+        "abs",
+        "hip_flexors"
+      ],
+      "met": 4,
+      "reps": 20
     },
     {
       "number": 20,
@@ -303,7 +470,16 @@
       "oneSided": false,
       "variations": "— ⚠️ → Plank Shoulder Tap",
       "quietSwap": "",
-      "equipment": "none"
+      "equipment": "none",
+      "primary": [
+        "abs"
+      ],
+      "secondary": [
+        "deltoids",
+        "erector_spinae"
+      ],
+      "met": 3.3,
+      "seconds": 30
     },
     {
       "number": 21,
@@ -318,7 +494,16 @@
       "oneSided": true,
       "variations": "— ⚠️ → — ⚠️",
       "quietSwap": "",
-      "equipment": "none"
+      "equipment": "none",
+      "primary": [
+        "obliques"
+      ],
+      "secondary": [
+        "abs",
+        "deltoids"
+      ],
+      "met": 3.3,
+      "seconds": 25
     },
     {
       "number": 22,
@@ -333,7 +518,16 @@
       "oneSided": false,
       "variations": "Forearm Plank → Plank Up-Down",
       "quietSwap": "",
-      "equipment": "none"
+      "equipment": "none",
+      "primary": [
+        "abs"
+      ],
+      "secondary": [
+        "deltoids",
+        "obliques"
+      ],
+      "met": 4,
+      "reps": 16
     },
     {
       "number": 23,
@@ -348,7 +542,15 @@
       "oneSided": false,
       "variations": "— → Hollow Hold",
       "quietSwap": "",
-      "equipment": "none"
+      "equipment": "none",
+      "primary": [
+        "abs"
+      ],
+      "secondary": [
+        "hip_flexors"
+      ],
+      "met": 3.5,
+      "reps": 12
     },
     {
       "number": 24,
@@ -363,7 +565,15 @@
       "oneSided": false,
       "variations": "Dead Bug → —",
       "quietSwap": "",
-      "equipment": "none"
+      "equipment": "none",
+      "primary": [
+        "abs"
+      ],
+      "secondary": [
+        "hip_flexors"
+      ],
+      "met": 4,
+      "seconds": 25
     },
     {
       "number": 25,
@@ -378,7 +588,17 @@
       "oneSided": false,
       "variations": "— ⚠️ → — ⚠️",
       "quietSwap": "",
-      "equipment": "none"
+      "equipment": "none",
+      "primary": [
+        "abs"
+      ],
+      "secondary": [
+        "hip_flexors",
+        "deltoids",
+        "quads"
+      ],
+      "met": 8,
+      "seconds": 30
     },
     {
       "number": 26,
@@ -393,7 +613,16 @@
       "oneSided": false,
       "variations": "Sit-Up → —",
       "quietSwap": "",
-      "equipment": "none"
+      "equipment": "none",
+      "primary": [
+        "abs"
+      ],
+      "secondary": [
+        "hip_flexors",
+        "quads"
+      ],
+      "met": 5,
+      "reps": 12
     },
     {
       "number": 27,
@@ -408,7 +637,15 @@
       "oneSided": false,
       "variations": "Crunch → V-Up",
       "quietSwap": "",
-      "equipment": "none"
+      "equipment": "none",
+      "primary": [
+        "abs"
+      ],
+      "secondary": [
+        "hamstrings"
+      ],
+      "met": 4,
+      "reps": 15
     },
     {
       "number": 28,
@@ -423,7 +660,16 @@
       "oneSided": false,
       "variations": "— → Standing Oblique Crunch",
       "quietSwap": "",
-      "equipment": "none"
+      "equipment": "none",
+      "primary": [
+        "obliques"
+      ],
+      "secondary": [
+        "abs",
+        "hamstrings"
+      ],
+      "met": 3.5,
+      "seconds": 40
     },
     {
       "number": 29,
@@ -438,7 +684,15 @@
       "oneSided": false,
       "variations": "Cross Touch and Reach → Russian Twist",
       "quietSwap": "",
-      "equipment": "none"
+      "equipment": "none",
+      "primary": [
+        "obliques"
+      ],
+      "secondary": [
+        "abs"
+      ],
+      "met": 3.5,
+      "reps": 16
     },
     {
       "number": 30,
@@ -455,7 +709,16 @@
       "oneSided": false,
       "variations": "— → Incline Push-Up",
       "quietSwap": "",
-      "equipment": "household"
+      "equipment": "household",
+      "primary": [
+        "chest"
+      ],
+      "secondary": [
+        "triceps",
+        "deltoids"
+      ],
+      "met": 3.5,
+      "reps": 12
     },
     {
       "number": 31,
@@ -472,7 +735,16 @@
       "oneSided": false,
       "variations": "Wall Push-Up → Knee Push-Up",
       "quietSwap": "",
-      "equipment": "household"
+      "equipment": "household",
+      "primary": [
+        "chest"
+      ],
+      "secondary": [
+        "triceps",
+        "deltoids"
+      ],
+      "met": 4,
+      "reps": 12
     },
     {
       "number": 32,
@@ -487,7 +759,16 @@
       "oneSided": false,
       "variations": "Incline Push-Up → Standard Push-Up",
       "quietSwap": "",
-      "equipment": "none"
+      "equipment": "none",
+      "primary": [
+        "chest"
+      ],
+      "secondary": [
+        "triceps",
+        "deltoids"
+      ],
+      "met": 5,
+      "reps": 12
     },
     {
       "number": 33,
@@ -502,7 +783,17 @@
       "oneSided": false,
       "variations": "Knee Push-Up → Wide Push-Up",
       "quietSwap": "",
-      "equipment": "none"
+      "equipment": "none",
+      "primary": [
+        "chest"
+      ],
+      "secondary": [
+        "triceps",
+        "deltoids",
+        "abs"
+      ],
+      "met": 8,
+      "reps": 12
     },
     {
       "number": 34,
@@ -517,7 +808,16 @@
       "oneSided": false,
       "variations": "Standard Push-Up → Decline Push-Up",
       "quietSwap": "",
-      "equipment": "none"
+      "equipment": "none",
+      "primary": [
+        "chest"
+      ],
+      "secondary": [
+        "deltoids",
+        "triceps"
+      ],
+      "met": 8,
+      "reps": 12
     },
     {
       "number": 35,
@@ -532,7 +832,16 @@
       "oneSided": false,
       "variations": "Standard Push-Up → Archer Push-Up",
       "quietSwap": "",
-      "equipment": "none"
+      "equipment": "none",
+      "primary": [
+        "triceps"
+      ],
+      "secondary": [
+        "chest",
+        "deltoids"
+      ],
+      "met": 8,
+      "reps": 10
     },
     {
       "number": 36,
@@ -549,7 +858,16 @@
       "oneSided": false,
       "variations": "Standard Push-Up → Archer Push-Up",
       "quietSwap": "",
-      "equipment": "household"
+      "equipment": "household",
+      "primary": [
+        "chest",
+        "deltoids"
+      ],
+      "secondary": [
+        "triceps"
+      ],
+      "met": 8,
+      "reps": 10
     },
     {
       "number": 37,
@@ -564,7 +882,17 @@
       "oneSided": false,
       "variations": "Diamond Push-Up → —",
       "quietSwap": "",
-      "equipment": "none"
+      "equipment": "none",
+      "primary": [
+        "chest"
+      ],
+      "secondary": [
+        "triceps",
+        "deltoids",
+        "abs"
+      ],
+      "met": 8,
+      "reps": 8
     },
     {
       "number": 38,
@@ -579,7 +907,16 @@
       "oneSided": false,
       "variations": "— ⚠️ → —",
       "quietSwap": "",
-      "equipment": "none"
+      "equipment": "none",
+      "primary": [
+        "chest"
+      ],
+      "secondary": [
+        "triceps",
+        "abs"
+      ],
+      "met": 4,
+      "seconds": 25
     },
     {
       "number": 39,
@@ -594,7 +931,17 @@
       "oneSided": false,
       "variations": "— ⚠️ → —",
       "quietSwap": "",
-      "equipment": "none"
+      "equipment": "none",
+      "primary": [
+        "chest"
+      ],
+      "secondary": [
+        "triceps",
+        "abs",
+        "deltoids"
+      ],
+      "met": 8,
+      "reps": 10
     },
     {
       "number": 40,
@@ -609,7 +956,15 @@
       "oneSided": false,
       "variations": "— → —",
       "quietSwap": "",
-      "equipment": "none"
+      "equipment": "none",
+      "primary": [
+        "chest"
+      ],
+      "secondary": [
+        "deltoids"
+      ],
+      "met": 3.3,
+      "seconds": 25
     },
     {
       "number": 41,
@@ -624,7 +979,17 @@
       "oneSided": false,
       "variations": "Standard Push-Up → —",
       "quietSwap": "",
-      "equipment": "none"
+      "equipment": "none",
+      "primary": [
+        "chest"
+      ],
+      "secondary": [
+        "abs",
+        "deltoids",
+        "triceps"
+      ],
+      "met": 8,
+      "reps": 10
     },
     {
       "number": 42,
@@ -639,7 +1004,16 @@
       "oneSided": false,
       "variations": "",
       "quietSwap": "",
-      "equipment": "none"
+      "equipment": "none",
+      "primary": [
+        "deltoids"
+      ],
+      "secondary": [
+        "triceps",
+        "traps"
+      ],
+      "met": 8,
+      "reps": 10
     },
     {
       "number": 43,
@@ -656,7 +1030,16 @@
       "oneSided": false,
       "variations": "",
       "quietSwap": "",
-      "equipment": "household"
+      "equipment": "household",
+      "primary": [
+        "rear_deltoids",
+        "traps"
+      ],
+      "secondary": [
+        "upper_back"
+      ],
+      "met": 3,
+      "reps": 12
     },
     {
       "number": 44,
@@ -673,7 +1056,16 @@
       "oneSided": false,
       "variations": "",
       "quietSwap": "",
-      "equipment": "household"
+      "equipment": "household",
+      "primary": [
+        "triceps"
+      ],
+      "secondary": [
+        "deltoids",
+        "chest"
+      ],
+      "met": 5,
+      "reps": 12
     },
     {
       "number": 45,
@@ -688,7 +1080,15 @@
       "oneSided": false,
       "variations": "",
       "quietSwap": "",
-      "equipment": "none"
+      "equipment": "none",
+      "primary": [
+        "triceps"
+      ],
+      "secondary": [
+        "deltoids"
+      ],
+      "met": 4,
+      "reps": 12
     },
     {
       "number": 46,
@@ -705,7 +1105,16 @@
       "oneSided": false,
       "variations": "",
       "quietSwap": "",
-      "equipment": "optional_weight"
+      "equipment": "optional_weight",
+      "primary": [
+        "deltoids"
+      ],
+      "secondary": [
+        "traps",
+        "forearms"
+      ],
+      "met": 3.5,
+      "reps": 12
     },
     {
       "number": 47,
@@ -722,7 +1131,16 @@
       "oneSided": false,
       "variations": "",
       "quietSwap": "",
-      "equipment": "optional_weight"
+      "equipment": "optional_weight",
+      "primary": [
+        "deltoids"
+      ],
+      "secondary": [
+        "traps",
+        "forearms"
+      ],
+      "met": 3.5,
+      "reps": 12
     },
     {
       "number": 48,
@@ -737,7 +1155,16 @@
       "oneSided": false,
       "variations": "",
       "quietSwap": "",
-      "equipment": "none"
+      "equipment": "none",
+      "primary": [
+        "deltoids"
+      ],
+      "secondary": [
+        "triceps",
+        "traps"
+      ],
+      "met": 3.5,
+      "seconds": 25
     },
     {
       "number": 49,
@@ -752,7 +1179,17 @@
       "oneSided": false,
       "variations": "",
       "quietSwap": "",
-      "equipment": "none"
+      "equipment": "none",
+      "primary": [
+        "abs"
+      ],
+      "secondary": [
+        "triceps",
+        "deltoids",
+        "chest"
+      ],
+      "met": 8,
+      "reps": 12
     },
     {
       "number": 50,
@@ -767,7 +1204,16 @@
       "oneSided": false,
       "variations": "",
       "quietSwap": "",
-      "equipment": "none"
+      "equipment": "none",
+      "primary": [
+        "abs"
+      ],
+      "secondary": [
+        "deltoids",
+        "quads"
+      ],
+      "met": 4,
+      "seconds": 25
     },
     {
       "number": 51,
@@ -784,7 +1230,17 @@
       "oneSided": false,
       "variations": "",
       "quietSwap": "",
-      "equipment": "household"
+      "equipment": "household",
+      "primary": [
+        "deltoids"
+      ],
+      "secondary": [
+        "triceps",
+        "traps",
+        "abs"
+      ],
+      "met": 5,
+      "seconds": 20
     },
     {
       "number": 52,
@@ -799,7 +1255,16 @@
       "oneSided": false,
       "variations": "",
       "quietSwap": "",
-      "equipment": "none"
+      "equipment": "none",
+      "primary": [
+        "deltoids"
+      ],
+      "secondary": [
+        "chest",
+        "obliques"
+      ],
+      "met": 4,
+      "seconds": 40
     },
     {
       "number": 53,
@@ -814,7 +1279,15 @@
       "oneSided": false,
       "variations": "",
       "quietSwap": "",
-      "equipment": "none"
+      "equipment": "none",
+      "primary": [
+        "deltoids"
+      ],
+      "secondary": [
+        "traps"
+      ],
+      "met": 3,
+      "seconds": 30
     },
     {
       "number": 54,
@@ -829,7 +1302,16 @@
       "oneSided": false,
       "variations": "",
       "quietSwap": "",
-      "equipment": "none"
+      "equipment": "none",
+      "primary": [
+        "erector_spinae"
+      ],
+      "secondary": [
+        "glutes",
+        "rear_deltoids"
+      ],
+      "met": 3.3,
+      "seconds": 25
     },
     {
       "number": 55,
@@ -844,7 +1326,16 @@
       "oneSided": false,
       "variations": "",
       "quietSwap": "",
-      "equipment": "none"
+      "equipment": "none",
+      "primary": [
+        "erector_spinae"
+      ],
+      "secondary": [
+        "glutes",
+        "hamstrings"
+      ],
+      "met": 3.8,
+      "reps": 12
     },
     {
       "number": 56,
@@ -859,7 +1350,16 @@
       "oneSided": false,
       "variations": "",
       "quietSwap": "",
-      "equipment": "none"
+      "equipment": "none",
+      "primary": [
+        "rear_deltoids",
+        "upper_back"
+      ],
+      "secondary": [
+        "traps"
+      ],
+      "met": 3.5,
+      "reps": 12
     },
     {
       "number": 57,
@@ -874,7 +1374,16 @@
       "oneSided": false,
       "variations": "",
       "quietSwap": "",
-      "equipment": "none"
+      "equipment": "none",
+      "primary": [
+        "traps",
+        "rear_deltoids"
+      ],
+      "secondary": [
+        "upper_back"
+      ],
+      "met": 3.5,
+      "reps": 12
     },
     {
       "number": 58,
@@ -889,7 +1398,16 @@
       "oneSided": false,
       "variations": "",
       "quietSwap": "",
-      "equipment": "none"
+      "equipment": "none",
+      "primary": [
+        "rear_deltoids"
+      ],
+      "secondary": [
+        "upper_back",
+        "traps"
+      ],
+      "met": 3.5,
+      "reps": 12
     },
     {
       "number": 59,
@@ -904,7 +1422,16 @@
       "oneSided": false,
       "variations": "",
       "quietSwap": "",
-      "equipment": "none"
+      "equipment": "none",
+      "primary": [
+        "upper_back",
+        "rear_deltoids"
+      ],
+      "secondary": [
+        "traps"
+      ],
+      "met": 3.5,
+      "reps": 12
     },
     {
       "number": 60,
@@ -919,7 +1446,16 @@
       "oneSided": false,
       "variations": "",
       "quietSwap": "",
-      "equipment": "none"
+      "equipment": "none",
+      "primary": [
+        "erector_spinae"
+      ],
+      "secondary": [
+        "glutes",
+        "rear_deltoids"
+      ],
+      "met": 4,
+      "seconds": 30
     },
     {
       "number": 61,
@@ -934,7 +1470,16 @@
       "oneSided": false,
       "variations": "",
       "quietSwap": "",
-      "equipment": "none"
+      "equipment": "none",
+      "primary": [
+        "erector_spinae",
+        "abs"
+      ],
+      "secondary": [
+        "glutes"
+      ],
+      "met": 3.5,
+      "reps": 12
     },
     {
       "number": 62,
@@ -949,7 +1494,17 @@
       "oneSided": false,
       "variations": "",
       "quietSwap": "",
-      "equipment": "none"
+      "equipment": "none",
+      "primary": [
+        "lats",
+        "upper_back"
+      ],
+      "secondary": [
+        "biceps",
+        "forearms"
+      ],
+      "met": 3.5,
+      "seconds": 25
     },
     {
       "number": 63,
@@ -964,7 +1519,16 @@
       "oneSided": false,
       "variations": "",
       "quietSwap": "",
-      "equipment": "none"
+      "equipment": "none",
+      "primary": [
+        "erector_spinae"
+      ],
+      "secondary": [
+        "glutes",
+        "hamstrings"
+      ],
+      "met": 3.8,
+      "reps": 12
     },
     {
       "number": 64,
@@ -979,7 +1543,17 @@
       "oneSided": false,
       "variations": "— ⚠️ → Sumo Squat",
       "quietSwap": "",
-      "equipment": "none"
+      "equipment": "none",
+      "primary": [
+        "quads",
+        "glutes"
+      ],
+      "secondary": [
+        "hamstrings",
+        "calves"
+      ],
+      "met": 5,
+      "reps": 15
     },
     {
       "number": 65,
@@ -994,7 +1568,16 @@
       "oneSided": false,
       "variations": "Bodyweight Squat → Squat Pulse",
       "quietSwap": "",
-      "equipment": "none"
+      "equipment": "none",
+      "primary": [
+        "adductors",
+        "quads"
+      ],
+      "secondary": [
+        "glutes"
+      ],
+      "met": 5,
+      "reps": 15
     },
     {
       "number": 66,
@@ -1009,7 +1592,16 @@
       "oneSided": false,
       "variations": "Bodyweight Squat → Squat Jump",
       "quietSwap": "",
-      "equipment": "none"
+      "equipment": "none",
+      "primary": [
+        "quads"
+      ],
+      "secondary": [
+        "glutes",
+        "adductors"
+      ],
+      "met": 5,
+      "seconds": 30
     },
     {
       "number": 67,
@@ -1026,7 +1618,16 @@
       "oneSided": false,
       "variations": "— ⚠️ → — ⚠️",
       "quietSwap": "",
-      "equipment": "household"
+      "equipment": "household",
+      "primary": [
+        "quads"
+      ],
+      "secondary": [
+        "glutes",
+        "calves"
+      ],
+      "met": 4,
+      "seconds": 30
     },
     {
       "number": 68,
@@ -1041,7 +1642,16 @@
       "oneSided": false,
       "variations": "— ⚠️ → — ⚠️",
       "quietSwap": "",
-      "equipment": "none"
+      "equipment": "none",
+      "primary": [
+        "quads",
+        "glutes"
+      ],
+      "secondary": [
+        "hamstrings"
+      ],
+      "met": 5,
+      "reps": 12
     },
     {
       "number": 69,
@@ -1056,7 +1666,16 @@
       "oneSided": false,
       "variations": "— ⚠️ → Forward Lunge",
       "quietSwap": "",
-      "equipment": "none"
+      "equipment": "none",
+      "primary": [
+        "glutes",
+        "quads"
+      ],
+      "secondary": [
+        "hamstrings"
+      ],
+      "met": 5,
+      "reps": 12
     },
     {
       "number": 70,
@@ -1071,7 +1690,16 @@
       "oneSided": false,
       "variations": "— → Curtsy Lunge",
       "quietSwap": "",
-      "equipment": "none"
+      "equipment": "none",
+      "primary": [
+        "adductors",
+        "quads"
+      ],
+      "secondary": [
+        "glutes"
+      ],
+      "met": 5,
+      "reps": 12
     },
     {
       "number": 71,
@@ -1086,7 +1714,16 @@
       "oneSided": false,
       "variations": "Reverse Lunge → —",
       "quietSwap": "",
-      "equipment": "none"
+      "equipment": "none",
+      "primary": [
+        "glutes"
+      ],
+      "secondary": [
+        "quads",
+        "adductors"
+      ],
+      "met": 5,
+      "reps": 12
     },
     {
       "number": 72,
@@ -1101,7 +1738,16 @@
       "oneSided": true,
       "variations": "Reverse Lunge → — ⚠️",
       "quietSwap": "",
-      "equipment": "none"
+      "equipment": "none",
+      "primary": [
+        "quads",
+        "glutes"
+      ],
+      "secondary": [
+        "hamstrings"
+      ],
+      "met": 5,
+      "reps": 10
     },
     {
       "number": 73,
@@ -1116,7 +1762,16 @@
       "oneSided": false,
       "variations": "— → Single-Leg Glute Bridge",
       "quietSwap": "",
-      "equipment": "none"
+      "equipment": "none",
+      "primary": [
+        "glutes"
+      ],
+      "secondary": [
+        "hamstrings",
+        "erector_spinae"
+      ],
+      "met": 3.8,
+      "reps": 15
     },
     {
       "number": 74,
@@ -1131,7 +1786,16 @@
       "oneSided": true,
       "variations": "Glute Bridge → Floor Hip Thrust",
       "quietSwap": "",
-      "equipment": "none"
+      "equipment": "none",
+      "primary": [
+        "glutes"
+      ],
+      "secondary": [
+        "hamstrings",
+        "abs"
+      ],
+      "met": 4,
+      "reps": 10
     },
     {
       "number": 75,
@@ -1146,7 +1810,15 @@
       "oneSided": false,
       "variations": "Glute Bridge → —",
       "quietSwap": "",
-      "equipment": "none"
+      "equipment": "none",
+      "primary": [
+        "glutes"
+      ],
+      "secondary": [
+        "hamstrings"
+      ],
+      "met": 4,
+      "reps": 15
     },
     {
       "number": 76,
@@ -1161,7 +1833,16 @@
       "oneSided": true,
       "variations": "— → Fire Hydrant",
       "quietSwap": "",
-      "equipment": "none"
+      "equipment": "none",
+      "primary": [
+        "glutes"
+      ],
+      "secondary": [
+        "hamstrings",
+        "erector_spinae"
+      ],
+      "met": 3.5,
+      "reps": 12
     },
     {
       "number": 77,
@@ -1176,7 +1857,16 @@
       "oneSided": true,
       "variations": "Donkey Kick → —",
       "quietSwap": "",
-      "equipment": "none"
+      "equipment": "none",
+      "primary": [
+        "glutes"
+      ],
+      "secondary": [
+        "hip_flexors",
+        "obliques"
+      ],
+      "met": 3.5,
+      "reps": 12
     },
     {
       "number": 78,
@@ -1191,7 +1881,15 @@
       "oneSided": false,
       "variations": "— → Single-Leg Calf Raise",
       "quietSwap": "",
-      "equipment": "none"
+      "equipment": "none",
+      "primary": [
+        "calves"
+      ],
+      "secondary": [
+        "quads"
+      ],
+      "met": 3.5,
+      "reps": 20
     },
     {
       "number": 79,
@@ -1208,7 +1906,15 @@
       "oneSided": true,
       "variations": "Calf Raise → —",
       "quietSwap": "",
-      "equipment": "none"
+      "equipment": "none",
+      "primary": [
+        "calves"
+      ],
+      "secondary": [
+        "quads"
+      ],
+      "met": 3.8,
+      "reps": 12
     },
     {
       "number": 80,
@@ -1223,7 +1929,16 @@
       "oneSided": false,
       "variations": "— → — ⚠️",
       "quietSwap": "",
-      "equipment": "none"
+      "equipment": "none",
+      "primary": [
+        "hamstrings",
+        "erector_spinae"
+      ],
+      "secondary": [
+        "glutes"
+      ],
+      "met": 4,
+      "reps": 12
     },
     {
       "number": 81,
@@ -1240,7 +1955,17 @@
       "oneSided": true,
       "variations": "— ⚠️ → — ⚠️",
       "quietSwap": "",
-      "equipment": "household"
+      "equipment": "household",
+      "primary": [
+        "quads",
+        "glutes"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings"
+      ],
+      "met": 5,
+      "reps": 12
     },
     {
       "number": 82,
@@ -1255,7 +1980,17 @@
       "oneSided": false,
       "variations": "",
       "quietSwap": "",
-      "equipment": "none"
+      "equipment": "none",
+      "primary": [
+        "quads",
+        "abs"
+      ],
+      "secondary": [
+        "chest",
+        "deltoids"
+      ],
+      "met": 8,
+      "reps": 10
     },
     {
       "number": 83,
@@ -1270,7 +2005,18 @@
       "oneSided": false,
       "variations": "",
       "quietSwap": "→ Half Burpee (no jump) (#82)",
-      "equipment": "none"
+      "equipment": "none",
+      "primary": [
+        "quads",
+        "chest"
+      ],
+      "secondary": [
+        "abs",
+        "deltoids",
+        "calves"
+      ],
+      "met": 8,
+      "reps": 10
     },
     {
       "number": 84,
@@ -1285,7 +2031,17 @@
       "oneSided": false,
       "variations": "",
       "quietSwap": "",
-      "equipment": "none"
+      "equipment": "none",
+      "primary": [
+        "abs",
+        "quads"
+      ],
+      "secondary": [
+        "deltoids",
+        "chest"
+      ],
+      "met": 8,
+      "reps": 12
     },
     {
       "number": 85,
@@ -1300,7 +2056,17 @@
       "oneSided": false,
       "variations": "",
       "quietSwap": "",
-      "equipment": "none"
+      "equipment": "none",
+      "primary": [
+        "abs",
+        "deltoids"
+      ],
+      "secondary": [
+        "quads",
+        "triceps"
+      ],
+      "met": 5,
+      "seconds": 30
     },
     {
       "number": 86,
@@ -1315,7 +2081,17 @@
       "oneSided": false,
       "variations": "",
       "quietSwap": "",
-      "equipment": "none"
+      "equipment": "none",
+      "primary": [
+        "triceps",
+        "glutes"
+      ],
+      "secondary": [
+        "abs",
+        "hamstrings"
+      ],
+      "met": 5,
+      "seconds": 30
     },
     {
       "number": 87,
@@ -1330,7 +2106,16 @@
       "oneSided": false,
       "variations": "",
       "quietSwap": "",
-      "equipment": "none"
+      "equipment": "none",
+      "primary": [
+        "quads",
+        "deltoids"
+      ],
+      "secondary": [
+        "glutes"
+      ],
+      "met": 5,
+      "reps": 12
     },
     {
       "number": 88,
@@ -1345,7 +2130,17 @@
       "oneSided": false,
       "variations": "",
       "quietSwap": "",
-      "equipment": "none"
+      "equipment": "none",
+      "primary": [
+        "abs",
+        "quads"
+      ],
+      "secondary": [
+        "glutes",
+        "deltoids"
+      ],
+      "met": 5,
+      "reps": 8
     },
     {
       "number": 89,
@@ -1360,7 +2155,16 @@
       "oneSided": false,
       "variations": "",
       "quietSwap": "→ Mountain Climber (#25)",
-      "equipment": "none"
+      "equipment": "none",
+      "primary": [
+        "abs"
+      ],
+      "secondary": [
+        "adductors",
+        "deltoids"
+      ],
+      "met": 8,
+      "reps": 16
     },
     {
       "number": 90,
@@ -1375,7 +2179,16 @@
       "oneSided": false,
       "variations": "",
       "quietSwap": "",
-      "equipment": "none"
+      "equipment": "none",
+      "primary": [
+        "abs"
+      ],
+      "secondary": [
+        "deltoids",
+        "hamstrings"
+      ],
+      "met": 5,
+      "reps": 10
     },
     {
       "number": 91,
@@ -1390,7 +2203,17 @@
       "oneSided": false,
       "variations": "",
       "quietSwap": "→ Sumo Squat (#65)",
-      "equipment": "none"
+      "equipment": "none",
+      "primary": [
+        "quads",
+        "glutes"
+      ],
+      "secondary": [
+        "calves",
+        "adductors"
+      ],
+      "met": 8,
+      "reps": 12
     },
     {
       "number": 92,
@@ -1405,7 +2228,17 @@
       "oneSided": false,
       "variations": "",
       "quietSwap": "→ Step Jack (#93)",
-      "equipment": "none"
+      "equipment": "none",
+      "primary": [
+        "calves",
+        "deltoids"
+      ],
+      "secondary": [
+        "adductors",
+        "quads"
+      ],
+      "met": 8,
+      "seconds": 40
     },
     {
       "number": 93,
@@ -1420,7 +2253,17 @@
       "oneSided": false,
       "variations": "",
       "quietSwap": "",
-      "equipment": "none"
+      "equipment": "none",
+      "primary": [
+        "calves",
+        "deltoids"
+      ],
+      "secondary": [
+        "adductors",
+        "quads"
+      ],
+      "met": 4.5,
+      "seconds": 40
     },
     {
       "number": 94,
@@ -1435,7 +2278,17 @@
       "oneSided": false,
       "variations": "",
       "quietSwap": "→ Marching High Knees (#95)",
-      "equipment": "none"
+      "equipment": "none",
+      "primary": [
+        "hip_flexors",
+        "quads"
+      ],
+      "secondary": [
+        "calves",
+        "abs"
+      ],
+      "met": 8,
+      "seconds": 30
     },
     {
       "number": 95,
@@ -1450,7 +2303,17 @@
       "oneSided": false,
       "variations": "",
       "quietSwap": "",
-      "equipment": "none"
+      "equipment": "none",
+      "primary": [
+        "hip_flexors",
+        "quads"
+      ],
+      "secondary": [
+        "calves",
+        "abs"
+      ],
+      "met": 4,
+      "seconds": 40
     },
     {
       "number": 96,
@@ -1465,7 +2328,16 @@
       "oneSided": false,
       "variations": "",
       "quietSwap": "→ Heel Digs (#97)",
-      "equipment": "none"
+      "equipment": "none",
+      "primary": [
+        "hamstrings"
+      ],
+      "secondary": [
+        "calves",
+        "quads"
+      ],
+      "met": 8,
+      "seconds": 30
     },
     {
       "number": 97,
@@ -1480,7 +2352,15 @@
       "oneSided": false,
       "variations": "",
       "quietSwap": "",
-      "equipment": "none"
+      "equipment": "none",
+      "primary": [
+        "hamstrings"
+      ],
+      "secondary": [
+        "calves"
+      ],
+      "met": 3.5,
+      "seconds": 40
     },
     {
       "number": 98,
@@ -1495,7 +2375,17 @@
       "oneSided": false,
       "variations": "",
       "quietSwap": "→ Lateral Step (#99)",
-      "equipment": "none"
+      "equipment": "none",
+      "primary": [
+        "glutes",
+        "quads"
+      ],
+      "secondary": [
+        "adductors",
+        "calves"
+      ],
+      "met": 8,
+      "seconds": 30
     },
     {
       "number": 99,
@@ -1510,7 +2400,16 @@
       "oneSided": false,
       "variations": "",
       "quietSwap": "",
-      "equipment": "none"
+      "equipment": "none",
+      "primary": [
+        "adductors",
+        "glutes"
+      ],
+      "secondary": [
+        "quads"
+      ],
+      "met": 4,
+      "seconds": 40
     },
     {
       "number": 100,
@@ -1525,7 +2424,17 @@
       "oneSided": false,
       "variations": "",
       "quietSwap": "→ Squat Pulse (#66)",
-      "equipment": "none"
+      "equipment": "none",
+      "primary": [
+        "quads",
+        "glutes"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings"
+      ],
+      "met": 8,
+      "reps": 12
     },
     {
       "number": 101,
@@ -1540,7 +2449,16 @@
       "oneSided": false,
       "variations": "",
       "quietSwap": "→ Marching High Knees (#95)",
-      "equipment": "none"
+      "equipment": "none",
+      "primary": [
+        "calves",
+        "quads"
+      ],
+      "secondary": [
+        "hip_flexors"
+      ],
+      "met": 8,
+      "seconds": 25
     },
     {
       "number": 102,
@@ -1555,7 +2473,17 @@
       "oneSided": false,
       "variations": "",
       "quietSwap": "",
-      "equipment": "none"
+      "equipment": "none",
+      "primary": [
+        "deltoids",
+        "obliques"
+      ],
+      "secondary": [
+        "chest",
+        "abs"
+      ],
+      "met": 5,
+      "seconds": 40
     },
     {
       "number": 103,
@@ -1570,7 +2498,16 @@
       "oneSided": false,
       "variations": "",
       "quietSwap": "",
-      "equipment": "none"
+      "equipment": "none",
+      "primary": [
+        "obliques",
+        "abs"
+      ],
+      "secondary": [
+        "hip_flexors"
+      ],
+      "met": 4,
+      "seconds": 40
     },
     {
       "number": 104,
@@ -1585,7 +2522,16 @@
       "oneSided": false,
       "variations": "",
       "quietSwap": "",
-      "equipment": "none"
+      "equipment": "none",
+      "primary": [
+        "erector_spinae"
+      ],
+      "secondary": [
+        "lats",
+        "glutes"
+      ],
+      "met": 2.3,
+      "seconds": 30
     },
     {
       "number": 105,
@@ -1600,7 +2546,16 @@
       "oneSided": false,
       "variations": "",
       "quietSwap": "",
-      "equipment": "none"
+      "equipment": "none",
+      "primary": [
+        "abs"
+      ],
+      "secondary": [
+        "erector_spinae",
+        "chest"
+      ],
+      "met": 2.3,
+      "seconds": 25
     },
     {
       "number": 106,
@@ -1615,7 +2570,17 @@
       "oneSided": false,
       "variations": "",
       "quietSwap": "",
-      "equipment": "none"
+      "equipment": "none",
+      "primary": [
+        "hamstrings",
+        "calves"
+      ],
+      "secondary": [
+        "deltoids",
+        "lats"
+      ],
+      "met": 2.8,
+      "seconds": 30
     },
     {
       "number": 107,
@@ -1630,7 +2595,16 @@
       "oneSided": false,
       "variations": "",
       "quietSwap": "",
-      "equipment": "none"
+      "equipment": "none",
+      "primary": [
+        "hamstrings"
+      ],
+      "secondary": [
+        "erector_spinae",
+        "calves"
+      ],
+      "met": 2.3,
+      "seconds": 30
     },
     {
       "number": 108,
@@ -1645,7 +2619,16 @@
       "oneSided": false,
       "variations": "",
       "quietSwap": "",
-      "equipment": "none"
+      "equipment": "none",
+      "primary": [
+        "hamstrings"
+      ],
+      "secondary": [
+        "erector_spinae",
+        "calves"
+      ],
+      "met": 2.3,
+      "seconds": 30
     },
     {
       "number": 109,
@@ -1660,7 +2643,15 @@
       "oneSided": true,
       "variations": "",
       "quietSwap": "",
-      "equipment": "none"
+      "equipment": "none",
+      "primary": [
+        "hamstrings"
+      ],
+      "secondary": [
+        "calves"
+      ],
+      "met": 2.3,
+      "seconds": 25
     },
     {
       "number": 110,
@@ -1677,7 +2668,15 @@
       "oneSided": true,
       "variations": "",
       "quietSwap": "",
-      "equipment": "none"
+      "equipment": "none",
+      "primary": [
+        "quads"
+      ],
+      "secondary": [
+        "hip_flexors"
+      ],
+      "met": 2.3,
+      "seconds": 25
     },
     {
       "number": 111,
@@ -1692,7 +2691,16 @@
       "oneSided": true,
       "variations": "",
       "quietSwap": "",
-      "equipment": "none"
+      "equipment": "none",
+      "primary": [
+        "hip_flexors"
+      ],
+      "secondary": [
+        "quads",
+        "glutes"
+      ],
+      "met": 2.3,
+      "seconds": 25
     },
     {
       "number": 112,
@@ -1707,7 +2715,15 @@
       "oneSided": true,
       "variations": "",
       "quietSwap": "",
-      "equipment": "none"
+      "equipment": "none",
+      "primary": [
+        "glutes"
+      ],
+      "secondary": [
+        "hip_flexors"
+      ],
+      "met": 2.3,
+      "seconds": 25
     },
     {
       "number": 113,
@@ -1722,7 +2738,15 @@
       "oneSided": false,
       "variations": "",
       "quietSwap": "",
-      "equipment": "none"
+      "equipment": "none",
+      "primary": [
+        "adductors"
+      ],
+      "secondary": [
+        "glutes"
+      ],
+      "met": 2.3,
+      "seconds": 30
     },
     {
       "number": 114,
@@ -1739,7 +2763,16 @@
       "oneSided": false,
       "variations": "",
       "quietSwap": "",
-      "equipment": "household"
+      "equipment": "household",
+      "primary": [
+        "chest"
+      ],
+      "secondary": [
+        "deltoids",
+        "biceps"
+      ],
+      "met": 2.3,
+      "seconds": 25
     },
     {
       "number": 115,
@@ -1754,7 +2787,16 @@
       "oneSided": true,
       "variations": "",
       "quietSwap": "",
-      "equipment": "none"
+      "equipment": "none",
+      "primary": [
+        "triceps"
+      ],
+      "secondary": [
+        "traps",
+        "lats"
+      ],
+      "met": 2.3,
+      "seconds": 20
     },
     {
       "number": 116,
@@ -1769,7 +2811,15 @@
       "oneSided": true,
       "variations": "",
       "quietSwap": "",
-      "equipment": "none"
+      "equipment": "none",
+      "primary": [
+        "neck"
+      ],
+      "secondary": [
+        "traps"
+      ],
+      "met": 2.3,
+      "seconds": 20
     },
     {
       "number": 117,
@@ -1784,7 +2834,16 @@
       "oneSided": true,
       "variations": "",
       "quietSwap": "",
-      "equipment": "none"
+      "equipment": "none",
+      "primary": [
+        "erector_spinae",
+        "obliques"
+      ],
+      "secondary": [
+        "upper_back"
+      ],
+      "met": 2.5,
+      "reps": 10
     },
     {
       "number": 118,
@@ -1799,7 +2858,16 @@
       "oneSided": false,
       "variations": "",
       "quietSwap": "",
-      "equipment": "none"
+      "equipment": "none",
+      "primary": [
+        "glutes"
+      ],
+      "secondary": [
+        "erector_spinae",
+        "hamstrings"
+      ],
+      "met": 2.3,
+      "seconds": 25
     },
     {
       "number": 119,
@@ -1814,7 +2882,16 @@
       "oneSided": true,
       "variations": "",
       "quietSwap": "",
-      "equipment": "none"
+      "equipment": "none",
+      "primary": [
+        "obliques"
+      ],
+      "secondary": [
+        "erector_spinae",
+        "glutes"
+      ],
+      "met": 2.3,
+      "seconds": 25
     }
   ],
   "workouts": [

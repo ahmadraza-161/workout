@@ -8,6 +8,7 @@ import { join } from 'node:path';
 
 import { loadCatalog } from './catalog.ts';
 import { readCatalog } from './markdown.ts';
+import { METRICS, MUSCLE_GROUPS } from './metrics.ts';
 import { resolveReferences } from './resolve.ts';
 import { assertValid, EXPECTED } from './validate.ts';
 
@@ -26,7 +27,8 @@ const fromMap = (map: Map<number, number>) => Object.fromEntries([...map].map(([
 
 const data = {
   generatedFrom: 'DOC/CONTENT_MAP.md',
-  exercises: catalog.exercises,
+  // Catalog rows joined with the hand-authored metrics (T2.2).
+  exercises: catalog.exercises.map((exercise) => ({ ...exercise, ...METRICS[exercise.number]! })),
   workouts: catalog.workouts,
   challenges: catalog.challenges,
   achievements: catalog.achievements,
@@ -50,6 +52,20 @@ console.log(
   `References: ${resolved.easier.size} easier, ${resolved.harder.size} harder, ` +
     `${resolved.quietSwap.size} quiet swaps`,
 );
+
+// The muscle map needs a named group for every muscle the content mentions,
+// so the generator reports which ones the catalog actually loads (T2.13).
+const asPrimary = new Set<string>();
+const atAll = new Set<string>();
+for (const metrics of Object.values(METRICS)) {
+  for (const muscle of metrics.primary) {
+    asPrimary.add(muscle);
+    atAll.add(muscle);
+  }
+  for (const muscle of metrics.secondary) atAll.add(muscle);
+}
+const neverPrimary = MUSCLE_GROUPS.filter((muscle) => !asPrimary.has(muscle));
+console.log(`Muscles: ${atAll.size}/${MUSCLE_GROUPS.length} used, never primary: ${neverPrimary.join(', ') || 'none'}`);
 console.log(`Wrote ${path}`);
 
 // The catalog names 19 easier/harder variations that do not exist, and adding

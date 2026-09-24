@@ -5,6 +5,7 @@
 // after the cause.
 
 import type { Catalog } from './catalog.ts';
+import { METRICS, MUSCLE_GROUPS, type MuscleGroup } from './metrics.ts';
 import type { Resolved } from './resolve.ts';
 
 /** Counts the catalog promises and the app ships exactly (PRD §8.1). */
@@ -133,6 +134,52 @@ export function validate(catalog: Catalog, resolved: Resolved): string[] {
   for (const challenge of catalog.challenges) {
     if (![14, 21, 28, 30].includes(challenge.days)) {
       fail(`challenges: "${challenge.name}" runs ${challenge.days} days, which is not 14, 21, 28 or 30`);
+    }
+  }
+
+  // Per-exercise metrics (T2.2). These are authored by hand against the
+  // catalog's numbering, so the easiest mistake is simply missing a row.
+  const validMuscles = new Set<string>(MUSCLE_GROUPS);
+  for (const exercise of catalog.exercises) {
+    const metrics = METRICS[exercise.number];
+    if (!metrics) {
+      fail(`metrics: #${exercise.number} ${exercise.name} has none`);
+      continue;
+    }
+
+    const where = `metrics: #${exercise.number} ${exercise.name}`;
+    if (metrics.primary.length === 0) fail(`${where} has no primary muscle`);
+
+    for (const muscle of [...metrics.primary, ...metrics.secondary]) {
+      if (!validMuscles.has(muscle)) fail(`${where} uses unknown muscle "${muscle}"`);
+    }
+
+    // A muscle listed as both primary and secondary would be drawn twice on
+    // the map, in two different strengths.
+    const secondary = new Set<MuscleGroup>(metrics.secondary);
+    for (const muscle of metrics.primary) {
+      if (secondary.has(muscle)) fail(`${where} lists "${muscle}" as both primary and secondary`);
+    }
+
+    // The Compendium's bands run from gentle stretching to vigorous work.
+    // Anything outside this range is a typo, and kcal estimates scale on it.
+    if (!(metrics.met >= 2 && metrics.met <= 10)) {
+      fail(`${where} has an implausible MET of ${metrics.met}`);
+    }
+
+    // Timed work needs a duration; rep work needs a count. Getting this wrong
+    // would leave the player with nothing to count down.
+    const timed = exercise.type === 'time' || exercise.type === 'hold';
+    if (timed && !metrics.seconds) fail(`${where} is ${exercise.type} but has no seconds`);
+    if (!timed && !metrics.reps) fail(`${where} is reps but has no rep count`);
+    if (timed && metrics.reps) fail(`${where} is ${exercise.type} but also sets reps`);
+    if (!timed && metrics.seconds) fail(`${where} is reps but also sets seconds`);
+
+    if (metrics.seconds !== undefined && (metrics.seconds < 10 || metrics.seconds > 120)) {
+      fail(`${where} has an implausible default of ${metrics.seconds}s`);
+    }
+    if (metrics.reps !== undefined && (metrics.reps < 4 || metrics.reps > 40)) {
+      fail(`${where} has an implausible default of ${metrics.reps} reps`);
     }
   }
 

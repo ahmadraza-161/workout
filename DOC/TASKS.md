@@ -32,13 +32,13 @@ Home Workout is a free, fully offline Android app built with Expo and React Nati
 
 | Total Tasks | ✅ Completed | 🔄 In Progress | ⬜ Not Started | ⛔ Blocked |
 |:---:|:---:|:---:|:---:|:---:|
-| **164** | **36** (22%) | **5** (3%) | **123** (75%) | **0** (0%) |
+| **164** | **37** (23%) | **4** (2%) | **123** (75%) | **0** (0%) |
 
 | Phase | Tasks | Completed | Status |
 |---|:---:|:---:|---|
 | 0 – Planning & Documentation | 18 | 15 | 🔄 In Progress |
 | 1 – Foundation | 17 | 16 | 🔄 In Progress |
-| 2 – Asset Generators | 20 | 3 | 🔄 In Progress |
+| 2 – Asset Generators | 20 | 4 | 🔄 In Progress |
 | 3 – Content & Lists | 9 | 0 | ⬜ Not Started |
 | 4 – Workout Details & Exercise Guide | 8 | 0 | ⬜ Not Started |
 | 5 – Workout Player | 17 | 0 | ⬜ Not Started |
@@ -118,7 +118,7 @@ Generate every asset locally with TypeScript scripts in `tools/`. **Status: 🔄
 | # | Task | Priority | Status | Notes |
 |---|---|---|---|---|
 | 2.1 | Generator toolchain: `tools/` + `npm run assets` | 🔴 High | ✅ Completed | Reads DOC/CONTENT_MAP.md directly, so the catalog has one copy (ADR-054) |
-| 2.2 | Exercise metadata for all 119 exercises | 🔴 High | 🔄 In Progress | Parsed from the catalog: type, level, quiet, view, props, one-sided, equipment, swaps. Muscles and MET still to author |
+| 2.2 | Exercise metadata for all 119 exercises | 🔴 High | ✅ Completed | Catalog fields parsed; muscles, MET and defaults authored in `tools/content/metrics.ts` |
 | 2.3 | Exercise copy for all 119 exercises | 🔴 High | ⬜ Not Started | 2–3 instructions, 3 mistakes, 3 breathing tips; original text; follows PRD §9 |
 | 2.4 | Workout generator: 60 workouts from the rules in PRD §8.2 + intros | 🔴 High | ⬜ Not Started | Duration must match the catalog ±1 min |
 | 2.5 | Challenge generator: 12 schedules from PRD §8.3 + copy | 🔴 High | ⬜ Not Started | 21/30-day mapping (ADR-039) |
