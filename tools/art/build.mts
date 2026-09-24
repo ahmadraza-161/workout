@@ -5,7 +5,7 @@
 import { mkdirSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 
-import { coverage, toSvg, type MapView } from './muscle-map.ts';
+import { APPROXIMATED, coverage, musclePaths, toSvg, type MapView } from './muscle-map.ts';
 
 const OUT_DIR = join(import.meta.dirname, '..', '..', 'assets', 'svg', 'muscle-map');
 mkdirSync(OUT_DIR, { recursive: true });
@@ -13,11 +13,17 @@ mkdirSync(OUT_DIR, { recursive: true });
 for (const view of ['front', 'back'] as MapView[]) {
   const svg = toSvg(view);
   writeFileSync(join(OUT_DIR, `${view}.svg`), `${svg}\n`, 'utf8');
-  console.log(`  ${view.padEnd(6)} ${String(svg.length).padStart(5)} bytes`);
+  console.log(`  ${view.padEnd(6)} ${String(svg.length).padStart(6)} bytes, ${musclePaths(view).length} muscles`);
 }
 
+const placed = coverage().filter((entry) => entry.views.length > 0);
 const missing = coverage().filter((entry) => entry.views.length === 0);
-console.log(`Muscle map: 2 views, ${coverage().length - missing.length}/${coverage().length} muscles placed`);
+
+console.log(
+  `Muscle map: ${placed.length}/${coverage().length} muscles placed, ` +
+    `${APPROXIMATED.length} approximated (${APPROXIMATED.join(', ')})`,
+);
+
 if (missing.length > 0) {
   console.error(`Not on any view: ${missing.map((entry) => entry.muscle).join(', ')}`);
   process.exit(1);

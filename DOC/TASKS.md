@@ -129,7 +129,7 @@ Generate every asset locally with TypeScript scripts in `tools/`. **Status: 🔄
 | 2.10 | Base pose library: standing, plank, lying on back, lying on front, all fours, seated, side plank, kneeling, inverted, transitions | 🔴 High | ⬜ Not Started | [CONTENT_MAP](CONTENT_MAP.md) §5 |
 | 2.11 | Pose sets for all 119 exercises + Lottie exporter | 🔴 High | ⬜ Not Started | Interpolation, seamless loop, motion arcs, < 40 KB each |
 | 2.12 | Dev-only animation preview screen for all 119 animations | 🟠 Medium | 🔄 In Progress | `app/dev/rig` shows the 4 proof exercises; grows to 119 after the style gate |
-| 2.13 | Muscle map SVG, front and back, with named muscle groups | 🔴 High | ✅ Completed | All 19 groups placed; colours left to the theme |
+| 2.13 | Muscle map SVG, front and back, with named muscle groups | 🔴 High | ✅ Completed | All 19 groups; vendored MIT anatomy paths (ADR-055), colours left to the theme |
 | 2.14 | Workout and challenge artwork data (silhouette + pattern) | 🟠 Medium | ⬜ Not Started | Rendered as vectors at runtime (ADR-024) |
 | 2.15 | UI Lottie: spinner, streak flame, achievement pop, goal ring, celebration | 🟢 Low | ⬜ Not Started | < 25 KB each |
 | 2.16 | Sounds: `beep_short`, `beep_long`, `complete`, `achievement` | 🟠 Medium | ✅ Completed | 22.05 kHz mono; 44.1 kHz and < 25 KB together cap a sound at 0.29 s |

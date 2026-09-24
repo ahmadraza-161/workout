@@ -81,6 +81,7 @@ This document records every important product and technical decision: what was d
 | ADR-052 | The rig lives in `src`, shared by the app and the generators | ✅ Accepted | Sep 24, 2026 |
 | ADR-053 | Lottie export as parented layers with rotation keyframes | ✅ Accepted | Sep 24, 2026 |
 | ADR-054 | Generators read CONTENT_MAP.md as the catalog | ✅ Accepted | Sep 24, 2026 |
+| ADR-055 | Muscle map uses vendored MIT path data | ✅ Accepted | Sep 24, 2026 |
 
 **Mapping from PRD v1.1 IDs:** D1 → ADR-005 · D2 → ADR-006 · D3 → ADR-008 · D4 → ADR-010 · D5 → ADR-011 · D6 → ADR-007 · D7 → ADR-003 + ADR-009 · D8 → ADR-012 · D9 → ADR-013 · D10 → ADR-014 · D11 → ADR-015 · D12 → ADR-016 + ADR-017 + ADR-018 · D13 → ADR-019 · D14 → ADR-020.
 
@@ -436,6 +437,12 @@ These came out of checking every reference screenshot, spec section and catalog 
 - **Context:** The catalog's 119 exercises, 60 workouts, 12 challenges and 35 badges live in `DOC/CONTENT_MAP.md` as markdown tables. The generators could either parse that document or keep a transcribed copy in TypeScript.
 - **Decision:** Parse the document. `tools/content` reads the tables, joins them, validates them and emits `assets/data/catalog.generated.json`.
 - **Consequences:** One copy of the catalog, edited by humans in the place the docs already point at, with no transcription step to drift. The cost is a markdown parser and a hard dependency on the table shapes, which the validator's count and reference checks catch immediately if a heading or column is renamed. Pure logic lives in `.ts` files so it is typechecked and unit-tested; only the entry script is `.mts`, for `import.meta`.
+
+### ADR-055 – Muscle map uses vendored MIT path data ✅
+
+- **Context:** The exercise guide has to light up individual muscles. A first attempt drew the map from scratch; it covered all 19 groups but did not look like a body. Searching for an open-licensed replacement turned up plenty of anatomy illustrations, but the public-domain ones draw the whole figure as between one and eleven compound paths, so no muscle can be coloured on its own. The images that do look right are commercial products and cannot be used.
+- **Decision:** Vendor the per-muscle SVG path data from [react-native-body-highlighter](https://github.com/HichamELBSI/react-native-body-highlighter) (MIT, © 2022 ELABBASSI Hicham) into `tools/art/vendor`, and keep our own generator on top of it. Only the data is taken, not the component or the package.
+- **Consequences:** All 19 groups get real anatomical shapes that highlight independently, front and back. Two are approximations the source does not separate — `lats` shares the upper-back shape and `hip_flexors` the adductors — recorded in [LICENSES.md](LICENSES.md) so the guide is not read as more precise than its artwork. The data is committed rather than installed, so the app stays offline and gains no dependency. Colours remain theme tokens, so dark mode and per-exercise highlighting still work without regenerating anything.
 
 ---
 
