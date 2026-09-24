@@ -10,6 +10,7 @@ import { loadCatalog } from './catalog.ts';
 import { readCatalog } from './markdown.ts';
 import { METRICS, MUSCLE_GROUPS } from './metrics.ts';
 import { resolveReferences } from './resolve.ts';
+import { generateChallenges } from './challenges.ts';
 import { generateWorkouts } from './workouts.ts';
 import { assertValid, EXPECTED } from './validate.ts';
 
@@ -27,6 +28,7 @@ assertValid(catalog, resolved);
 const fromMap = (map: Map<number, number>) => Object.fromEntries([...map].map(([k, v]) => [String(k), v]));
 
 const workouts = generateWorkouts(catalog.workouts, catalog.exercises);
+const challenges = generateChallenges(catalog.challenges, catalog.workouts, catalog.exercises);
 
 const data = {
   generatedFrom: 'DOC/CONTENT_MAP.md',
@@ -36,7 +38,10 @@ const data = {
     ...workout,
     ...workouts.find((generated) => generated.number === workout.number)!,
   })),
-  challenges: catalog.challenges,
+  challenges: catalog.challenges.map((challenge) => ({
+    ...challenge,
+    ...challenges.find((generated) => generated.number === challenge.number)!,
+  })),
   achievements: catalog.achievements,
   references: {
     easier: fromMap(resolved.easier),
@@ -83,6 +88,8 @@ console.log(
   `Workouts: ${workouts.length} built, worst duration gap ${worstGap}s, ` +
     `${flexed} needed a block size outside PRD 8.2`,
 );
+const trainingDays = challenges.reduce((sum, challenge) => sum + challenge.trainingDays, 0);
+console.log(`Challenges: ${challenges.length} scheduled, ${trainingDays} training days total`);
 console.log(`Wrote ${path}`);
 
 // The catalog names 19 easier/harder variations that do not exist, and adding

@@ -9946,7 +9946,140 @@
       "number": 1,
       "name": "Full Body Challenge",
       "slug": "full-body-challenge",
-      "days": 28,
+      "days": [
+        {
+          "day": 1,
+          "rest": false,
+          "workoutNumber": 22
+        },
+        {
+          "day": 2,
+          "rest": false,
+          "workoutNumber": 25
+        },
+        {
+          "day": 3,
+          "rest": true
+        },
+        {
+          "day": 4,
+          "rest": false,
+          "workoutNumber": 26
+        },
+        {
+          "day": 5,
+          "rest": false,
+          "workoutNumber": 30
+        },
+        {
+          "day": 6,
+          "rest": false,
+          "workoutNumber": 41
+        },
+        {
+          "day": 7,
+          "rest": true
+        },
+        {
+          "day": 8,
+          "rest": false,
+          "workoutNumber": 42
+        },
+        {
+          "day": 9,
+          "rest": false,
+          "workoutNumber": 43
+        },
+        {
+          "day": 10,
+          "rest": true
+        },
+        {
+          "day": 11,
+          "rest": false,
+          "workoutNumber": 45
+        },
+        {
+          "day": 12,
+          "rest": false,
+          "workoutNumber": 46
+        },
+        {
+          "day": 13,
+          "rest": false,
+          "workoutNumber": 47
+        },
+        {
+          "day": 14,
+          "rest": true
+        },
+        {
+          "day": 15,
+          "rest": false,
+          "workoutNumber": 28
+        },
+        {
+          "day": 16,
+          "rest": false,
+          "workoutNumber": 31
+        },
+        {
+          "day": 17,
+          "rest": true
+        },
+        {
+          "day": 18,
+          "rest": false,
+          "workoutNumber": 33
+        },
+        {
+          "day": 19,
+          "rest": false,
+          "workoutNumber": 34
+        },
+        {
+          "day": 20,
+          "rest": false,
+          "workoutNumber": 44
+        },
+        {
+          "day": 21,
+          "rest": true
+        },
+        {
+          "day": 22,
+          "rest": false,
+          "workoutNumber": 31
+        },
+        {
+          "day": 23,
+          "rest": false,
+          "workoutNumber": 32
+        },
+        {
+          "day": 24,
+          "rest": true
+        },
+        {
+          "day": 25,
+          "rest": false,
+          "workoutNumber": 33
+        },
+        {
+          "day": 26,
+          "rest": false,
+          "workoutNumber": 34
+        },
+        {
+          "day": 27,
+          "rest": false,
+          "workoutNumber": 40
+        },
+        {
+          "day": 28,
+          "rest": true
+        }
+      ],
       "focus": "full body",
       "dailyTime": "7–22 min",
       "gradient": "blue",
@@ -9955,13 +10088,157 @@
       "filterChips": [
         "Build Muscle",
         "Full Body"
-      ]
+      ],
+      "trainingDays": 20
     },
     {
       "number": 2,
       "name": "Lose Weight Challenge",
       "slug": "lose-weight-challenge",
-      "days": 30,
+      "days": [
+        {
+          "day": 1,
+          "rest": false,
+          "workoutNumber": 22
+        },
+        {
+          "day": 2,
+          "rest": false,
+          "workoutNumber": 25
+        },
+        {
+          "day": 3,
+          "rest": true
+        },
+        {
+          "day": 4,
+          "rest": false,
+          "workoutNumber": 26
+        },
+        {
+          "day": 5,
+          "rest": false,
+          "workoutNumber": 30
+        },
+        {
+          "day": 6,
+          "rest": false,
+          "workoutNumber": 41
+        },
+        {
+          "day": 7,
+          "rest": true
+        },
+        {
+          "day": 8,
+          "rest": false,
+          "workoutNumber": 42
+        },
+        {
+          "day": 9,
+          "rest": false,
+          "workoutNumber": 43
+        },
+        {
+          "day": 10,
+          "rest": true
+        },
+        {
+          "day": 11,
+          "rest": false,
+          "workoutNumber": 45
+        },
+        {
+          "day": 12,
+          "rest": false,
+          "workoutNumber": 46
+        },
+        {
+          "day": 13,
+          "rest": false,
+          "workoutNumber": 47
+        },
+        {
+          "day": 14,
+          "rest": true
+        },
+        {
+          "day": 15,
+          "rest": false,
+          "workoutNumber": 28
+        },
+        {
+          "day": 16,
+          "rest": false,
+          "workoutNumber": 31
+        },
+        {
+          "day": 17,
+          "rest": true
+        },
+        {
+          "day": 18,
+          "rest": false,
+          "workoutNumber": 33
+        },
+        {
+          "day": 19,
+          "rest": false,
+          "workoutNumber": 34
+        },
+        {
+          "day": 20,
+          "rest": false,
+          "workoutNumber": 44
+        },
+        {
+          "day": 21,
+          "rest": true
+        },
+        {
+          "day": 22,
+          "rest": false,
+          "workoutNumber": 31
+        },
+        {
+          "day": 23,
+          "rest": false,
+          "workoutNumber": 32
+        },
+        {
+          "day": 24,
+          "rest": true
+        },
+        {
+          "day": 25,
+          "rest": false,
+          "workoutNumber": 33
+        },
+        {
+          "day": 26,
+          "rest": false,
+          "workoutNumber": 34
+        },
+        {
+          "day": 27,
+          "rest": false,
+          "workoutNumber": 40
+        },
+        {
+          "day": 28,
+          "rest": true
+        },
+        {
+          "day": 29,
+          "rest": false,
+          "workoutNumber": 44
+        },
+        {
+          "day": 30,
+          "rest": false,
+          "workoutNumber": 57
+        }
+      ],
       "focus": "burn fat",
       "dailyTime": "10–25 min",
       "gradient": "orange",
@@ -9970,13 +10247,147 @@
       "filterChips": [
         "Burn Fat",
         "Full Body"
-      ]
+      ],
+      "trainingDays": 22
     },
     {
       "number": 3,
       "name": "Lower Body Challenge",
       "slug": "lower-body-challenge",
-      "days": 28,
+      "days": [
+        {
+          "day": 1,
+          "rest": false,
+          "workoutNumber": 16
+        },
+        {
+          "day": 2,
+          "rest": false,
+          "workoutNumber": 19
+        },
+        {
+          "day": 3,
+          "rest": true
+        },
+        {
+          "day": 4,
+          "rest": false,
+          "workoutNumber": 49
+        },
+        {
+          "day": 5,
+          "rest": false,
+          "workoutNumber": 53
+        },
+        {
+          "day": 6,
+          "rest": false,
+          "workoutNumber": 56
+        },
+        {
+          "day": 7,
+          "rest": true
+        },
+        {
+          "day": 8,
+          "rest": false,
+          "workoutNumber": 16
+        },
+        {
+          "day": 9,
+          "rest": false,
+          "workoutNumber": 19
+        },
+        {
+          "day": 10,
+          "rest": true
+        },
+        {
+          "day": 11,
+          "rest": false,
+          "workoutNumber": 49
+        },
+        {
+          "day": 12,
+          "rest": false,
+          "workoutNumber": 53
+        },
+        {
+          "day": 13,
+          "rest": false,
+          "workoutNumber": 56
+        },
+        {
+          "day": 14,
+          "rest": true
+        },
+        {
+          "day": 15,
+          "rest": false,
+          "workoutNumber": 20
+        },
+        {
+          "day": 16,
+          "rest": false,
+          "workoutNumber": 37
+        },
+        {
+          "day": 17,
+          "rest": true
+        },
+        {
+          "day": 18,
+          "rest": false,
+          "workoutNumber": 17
+        },
+        {
+          "day": 19,
+          "rest": false,
+          "workoutNumber": 20
+        },
+        {
+          "day": 20,
+          "rest": false,
+          "workoutNumber": 37
+        },
+        {
+          "day": 21,
+          "rest": true
+        },
+        {
+          "day": 22,
+          "rest": false,
+          "workoutNumber": 17
+        },
+        {
+          "day": 23,
+          "rest": false,
+          "workoutNumber": 18
+        },
+        {
+          "day": 24,
+          "rest": true
+        },
+        {
+          "day": 25,
+          "rest": false,
+          "workoutNumber": 20
+        },
+        {
+          "day": 26,
+          "rest": false,
+          "workoutNumber": 21
+        },
+        {
+          "day": 27,
+          "rest": false,
+          "workoutNumber": 37
+        },
+        {
+          "day": 28,
+          "rest": true
+        }
+      ],
       "focus": "legs & glutes",
       "dailyTime": "8–20 min",
       "gradient": "cyan",
@@ -9984,13 +10395,157 @@
       "goal": "build_muscle",
       "filterChips": [
         "Build Muscle"
-      ]
+      ],
+      "trainingDays": 20
     },
     {
       "number": 4,
       "name": "Core & Six Pack Challenge",
       "slug": "core-six-pack-challenge",
-      "days": 30,
+      "days": [
+        {
+          "day": 1,
+          "rest": false,
+          "workoutNumber": 1
+        },
+        {
+          "day": 2,
+          "rest": false,
+          "workoutNumber": 29
+        },
+        {
+          "day": 3,
+          "rest": true
+        },
+        {
+          "day": 4,
+          "rest": false,
+          "workoutNumber": 1
+        },
+        {
+          "day": 5,
+          "rest": false,
+          "workoutNumber": 29
+        },
+        {
+          "day": 6,
+          "rest": false,
+          "workoutNumber": 1
+        },
+        {
+          "day": 7,
+          "rest": true
+        },
+        {
+          "day": 8,
+          "rest": false,
+          "workoutNumber": 29
+        },
+        {
+          "day": 9,
+          "rest": false,
+          "workoutNumber": 1
+        },
+        {
+          "day": 10,
+          "rest": true
+        },
+        {
+          "day": 11,
+          "rest": false,
+          "workoutNumber": 29
+        },
+        {
+          "day": 12,
+          "rest": false,
+          "workoutNumber": 1
+        },
+        {
+          "day": 13,
+          "rest": false,
+          "workoutNumber": 29
+        },
+        {
+          "day": 14,
+          "rest": true
+        },
+        {
+          "day": 15,
+          "rest": false,
+          "workoutNumber": 2
+        },
+        {
+          "day": 16,
+          "rest": false,
+          "workoutNumber": 35
+        },
+        {
+          "day": 17,
+          "rest": true
+        },
+        {
+          "day": 18,
+          "rest": false,
+          "workoutNumber": 2
+        },
+        {
+          "day": 19,
+          "rest": false,
+          "workoutNumber": 35
+        },
+        {
+          "day": 20,
+          "rest": false,
+          "workoutNumber": 2
+        },
+        {
+          "day": 21,
+          "rest": true
+        },
+        {
+          "day": 22,
+          "rest": false,
+          "workoutNumber": 2
+        },
+        {
+          "day": 23,
+          "rest": false,
+          "workoutNumber": 3
+        },
+        {
+          "day": 24,
+          "rest": true
+        },
+        {
+          "day": 25,
+          "rest": false,
+          "workoutNumber": 35
+        },
+        {
+          "day": 26,
+          "rest": false,
+          "workoutNumber": 2
+        },
+        {
+          "day": 27,
+          "rest": false,
+          "workoutNumber": 3
+        },
+        {
+          "day": 28,
+          "rest": true
+        },
+        {
+          "day": 29,
+          "rest": false,
+          "workoutNumber": 35
+        },
+        {
+          "day": 30,
+          "rest": false,
+          "workoutNumber": 2
+        }
+      ],
       "focus": "abs",
       "dailyTime": "7–20 min",
       "gradient": "purple",
@@ -9998,13 +10553,147 @@
       "goal": "build_muscle",
       "filterChips": [
         "Build Muscle"
-      ]
+      ],
+      "trainingDays": 22
     },
     {
       "number": 5,
       "name": "Calisthenics Plan",
       "slug": "calisthenics-plan",
-      "days": 28,
+      "days": [
+        {
+          "day": 1,
+          "rest": false,
+          "workoutNumber": 1
+        },
+        {
+          "day": 2,
+          "rest": false,
+          "workoutNumber": 4
+        },
+        {
+          "day": 3,
+          "rest": true
+        },
+        {
+          "day": 4,
+          "rest": false,
+          "workoutNumber": 7
+        },
+        {
+          "day": 5,
+          "rest": false,
+          "workoutNumber": 10
+        },
+        {
+          "day": 6,
+          "rest": false,
+          "workoutNumber": 13
+        },
+        {
+          "day": 7,
+          "rest": true
+        },
+        {
+          "day": 8,
+          "rest": false,
+          "workoutNumber": 16
+        },
+        {
+          "day": 9,
+          "rest": false,
+          "workoutNumber": 19
+        },
+        {
+          "day": 10,
+          "rest": true
+        },
+        {
+          "day": 11,
+          "rest": false,
+          "workoutNumber": 22
+        },
+        {
+          "day": 12,
+          "rest": false,
+          "workoutNumber": 26
+        },
+        {
+          "day": 13,
+          "rest": false,
+          "workoutNumber": 29
+        },
+        {
+          "day": 14,
+          "rest": true
+        },
+        {
+          "day": 15,
+          "rest": false,
+          "workoutNumber": 31
+        },
+        {
+          "day": 16,
+          "rest": false,
+          "workoutNumber": 33
+        },
+        {
+          "day": 17,
+          "rest": true
+        },
+        {
+          "day": 18,
+          "rest": false,
+          "workoutNumber": 34
+        },
+        {
+          "day": 19,
+          "rest": false,
+          "workoutNumber": 35
+        },
+        {
+          "day": 20,
+          "rest": false,
+          "workoutNumber": 36
+        },
+        {
+          "day": 21,
+          "rest": true
+        },
+        {
+          "day": 22,
+          "rest": false,
+          "workoutNumber": 24
+        },
+        {
+          "day": 23,
+          "rest": false,
+          "workoutNumber": 27
+        },
+        {
+          "day": 24,
+          "rest": true
+        },
+        {
+          "day": 25,
+          "rest": false,
+          "workoutNumber": 28
+        },
+        {
+          "day": 26,
+          "rest": false,
+          "workoutNumber": 31
+        },
+        {
+          "day": 27,
+          "rest": false,
+          "workoutNumber": 32
+        },
+        {
+          "day": 28,
+          "rest": true
+        }
+      ],
       "focus": "strength",
       "dailyTime": "12–25 min",
       "gradient": "violet",
@@ -10013,13 +10702,147 @@
       "filterChips": [
         "Build Muscle",
         "Full Body"
-      ]
+      ],
+      "trainingDays": 20
     },
     {
       "number": 6,
       "name": "Upper Body Challenge",
       "slug": "upper-body-challenge",
-      "days": 28,
+      "days": [
+        {
+          "day": 1,
+          "rest": false,
+          "workoutNumber": 4
+        },
+        {
+          "day": 2,
+          "rest": false,
+          "workoutNumber": 7
+        },
+        {
+          "day": 3,
+          "rest": true
+        },
+        {
+          "day": 4,
+          "rest": false,
+          "workoutNumber": 10
+        },
+        {
+          "day": 5,
+          "rest": false,
+          "workoutNumber": 48
+        },
+        {
+          "day": 6,
+          "rest": false,
+          "workoutNumber": 51
+        },
+        {
+          "day": 7,
+          "rest": true
+        },
+        {
+          "day": 8,
+          "rest": false,
+          "workoutNumber": 4
+        },
+        {
+          "day": 9,
+          "rest": false,
+          "workoutNumber": 7
+        },
+        {
+          "day": 10,
+          "rest": true
+        },
+        {
+          "day": 11,
+          "rest": false,
+          "workoutNumber": 10
+        },
+        {
+          "day": 12,
+          "rest": false,
+          "workoutNumber": 48
+        },
+        {
+          "day": 13,
+          "rest": false,
+          "workoutNumber": 51
+        },
+        {
+          "day": 14,
+          "rest": true
+        },
+        {
+          "day": 15,
+          "rest": false,
+          "workoutNumber": 38
+        },
+        {
+          "day": 16,
+          "rest": false,
+          "workoutNumber": 58
+        },
+        {
+          "day": 17,
+          "rest": true
+        },
+        {
+          "day": 18,
+          "rest": false,
+          "workoutNumber": 5
+        },
+        {
+          "day": 19,
+          "rest": false,
+          "workoutNumber": 8
+        },
+        {
+          "day": 20,
+          "rest": false,
+          "workoutNumber": 11
+        },
+        {
+          "day": 21,
+          "rest": true
+        },
+        {
+          "day": 22,
+          "rest": false,
+          "workoutNumber": 36
+        },
+        {
+          "day": 23,
+          "rest": false,
+          "workoutNumber": 38
+        },
+        {
+          "day": 24,
+          "rest": true
+        },
+        {
+          "day": 25,
+          "rest": false,
+          "workoutNumber": 58
+        },
+        {
+          "day": 26,
+          "rest": false,
+          "workoutNumber": 5
+        },
+        {
+          "day": 27,
+          "rest": false,
+          "workoutNumber": 6
+        },
+        {
+          "day": 28,
+          "rest": true
+        }
+      ],
       "focus": "chest, arms, shoulders",
       "dailyTime": "10–22 min",
       "gradient": "slate",
@@ -10027,13 +10850,81 @@
       "goal": "build_muscle",
       "filterChips": [
         "Build Muscle"
-      ]
+      ],
+      "trainingDays": 20
     },
     {
       "number": 7,
       "name": "Beginner Start Challenge",
       "slug": "beginner-start-challenge",
-      "days": 14,
+      "days": [
+        {
+          "day": 1,
+          "rest": false,
+          "workoutNumber": 22
+        },
+        {
+          "day": 2,
+          "rest": false,
+          "workoutNumber": 25
+        },
+        {
+          "day": 3,
+          "rest": true
+        },
+        {
+          "day": 4,
+          "rest": false,
+          "workoutNumber": 26
+        },
+        {
+          "day": 5,
+          "rest": false,
+          "workoutNumber": 30
+        },
+        {
+          "day": 6,
+          "rest": false,
+          "workoutNumber": 41
+        },
+        {
+          "day": 7,
+          "rest": true
+        },
+        {
+          "day": 8,
+          "rest": false,
+          "workoutNumber": 34
+        },
+        {
+          "day": 9,
+          "rest": false,
+          "workoutNumber": 44
+        },
+        {
+          "day": 10,
+          "rest": true
+        },
+        {
+          "day": 11,
+          "rest": false,
+          "workoutNumber": 34
+        },
+        {
+          "day": 12,
+          "rest": false,
+          "workoutNumber": 40
+        },
+        {
+          "day": 13,
+          "rest": false,
+          "workoutNumber": 44
+        },
+        {
+          "day": 14,
+          "rest": true
+        }
+      ],
       "focus": "full body, easy",
       "dailyTime": "5–12 min",
       "gradient": "green",
@@ -10041,13 +10932,101 @@
       "goal": "keep_fit",
       "filterChips": [
         "Full Body"
-      ]
+      ],
+      "trainingDays": 10
     },
     {
       "number": 8,
       "name": "Plank Challenge",
       "slug": "plank-challenge",
-      "days": 14,
+      "days": [
+        {
+          "day": 1,
+          "rest": false,
+          "exerciseNumber": 20,
+          "sets": 3,
+          "seconds": 20
+        },
+        {
+          "day": 2,
+          "rest": false,
+          "exerciseNumber": 20,
+          "sets": 3,
+          "seconds": 22
+        },
+        {
+          "day": 3,
+          "rest": true
+        },
+        {
+          "day": 4,
+          "rest": false,
+          "exerciseNumber": 20,
+          "sets": 3,
+          "seconds": 25
+        },
+        {
+          "day": 5,
+          "rest": false,
+          "exerciseNumber": 20,
+          "sets": 3,
+          "seconds": 27
+        },
+        {
+          "day": 6,
+          "rest": false,
+          "exerciseNumber": 20,
+          "sets": 3,
+          "seconds": 30
+        },
+        {
+          "day": 7,
+          "rest": true
+        },
+        {
+          "day": 8,
+          "rest": false,
+          "exerciseNumber": 20,
+          "sets": 3,
+          "seconds": 33
+        },
+        {
+          "day": 9,
+          "rest": false,
+          "exerciseNumber": 20,
+          "sets": 3,
+          "seconds": 36
+        },
+        {
+          "day": 10,
+          "rest": true
+        },
+        {
+          "day": 11,
+          "rest": false,
+          "exerciseNumber": 20,
+          "sets": 3,
+          "seconds": 39
+        },
+        {
+          "day": 12,
+          "rest": false,
+          "exerciseNumber": 20,
+          "sets": 3,
+          "seconds": 43
+        },
+        {
+          "day": 13,
+          "rest": false,
+          "exerciseNumber": 20,
+          "sets": 3,
+          "seconds": 48
+        },
+        {
+          "day": 14,
+          "rest": true
+        }
+      ],
       "focus": "core hold",
       "dailyTime": "3–8 min",
       "gradient": "teal",
@@ -10055,13 +11034,101 @@
       "goal": "build_muscle",
       "filterChips": [
         "Build Muscle"
-      ]
+      ],
+      "trainingDays": 10
     },
     {
       "number": 9,
       "name": "Push-Up Challenge",
       "slug": "push-up-challenge",
-      "days": 14,
+      "days": [
+        {
+          "day": 1,
+          "rest": false,
+          "exerciseNumber": 32,
+          "sets": 3,
+          "reps": 5
+        },
+        {
+          "day": 2,
+          "rest": false,
+          "exerciseNumber": 32,
+          "sets": 3,
+          "reps": 6
+        },
+        {
+          "day": 3,
+          "rest": true
+        },
+        {
+          "day": 4,
+          "rest": false,
+          "exerciseNumber": 32,
+          "sets": 3,
+          "reps": 7
+        },
+        {
+          "day": 5,
+          "rest": false,
+          "exerciseNumber": 32,
+          "sets": 3,
+          "reps": 7
+        },
+        {
+          "day": 6,
+          "rest": false,
+          "exerciseNumber": 32,
+          "sets": 3,
+          "reps": 8
+        },
+        {
+          "day": 7,
+          "rest": true
+        },
+        {
+          "day": 8,
+          "rest": false,
+          "exerciseNumber": 33,
+          "sets": 3,
+          "reps": 9
+        },
+        {
+          "day": 9,
+          "rest": false,
+          "exerciseNumber": 33,
+          "sets": 3,
+          "reps": 9
+        },
+        {
+          "day": 10,
+          "rest": true
+        },
+        {
+          "day": 11,
+          "rest": false,
+          "exerciseNumber": 33,
+          "sets": 3,
+          "reps": 10
+        },
+        {
+          "day": 12,
+          "rest": false,
+          "exerciseNumber": 33,
+          "sets": 3,
+          "reps": 11
+        },
+        {
+          "day": 13,
+          "rest": false,
+          "exerciseNumber": 33,
+          "sets": 3,
+          "reps": 12
+        },
+        {
+          "day": 14,
+          "rest": true
+        }
+      ],
       "focus": "chest & triceps",
       "dailyTime": "5–12 min",
       "gradient": "red",
@@ -10069,13 +11136,101 @@
       "goal": "build_muscle",
       "filterChips": [
         "Build Muscle"
-      ]
+      ],
+      "trainingDays": 10
     },
     {
       "number": 10,
       "name": "Squat Challenge",
       "slug": "squat-challenge",
-      "days": 14,
+      "days": [
+        {
+          "day": 1,
+          "rest": false,
+          "exerciseNumber": 64,
+          "sets": 3,
+          "reps": 10
+        },
+        {
+          "day": 2,
+          "rest": false,
+          "exerciseNumber": 64,
+          "sets": 3,
+          "reps": 11
+        },
+        {
+          "day": 3,
+          "rest": true
+        },
+        {
+          "day": 4,
+          "rest": false,
+          "exerciseNumber": 64,
+          "sets": 3,
+          "reps": 13
+        },
+        {
+          "day": 5,
+          "rest": false,
+          "exerciseNumber": 64,
+          "sets": 3,
+          "reps": 14
+        },
+        {
+          "day": 6,
+          "rest": false,
+          "exerciseNumber": 64,
+          "sets": 3,
+          "reps": 15
+        },
+        {
+          "day": 7,
+          "rest": true
+        },
+        {
+          "day": 8,
+          "rest": false,
+          "exerciseNumber": 64,
+          "sets": 3,
+          "reps": 17
+        },
+        {
+          "day": 9,
+          "rest": false,
+          "exerciseNumber": 64,
+          "sets": 3,
+          "reps": 18
+        },
+        {
+          "day": 10,
+          "rest": true
+        },
+        {
+          "day": 11,
+          "rest": false,
+          "exerciseNumber": 64,
+          "sets": 3,
+          "reps": 20
+        },
+        {
+          "day": 12,
+          "rest": false,
+          "exerciseNumber": 64,
+          "sets": 3,
+          "reps": 22
+        },
+        {
+          "day": 13,
+          "rest": false,
+          "exerciseNumber": 64,
+          "sets": 3,
+          "reps": 24
+        },
+        {
+          "day": 14,
+          "rest": true
+        }
+      ],
       "focus": "legs & glutes",
       "dailyTime": "5–12 min",
       "gradient": "amber",
@@ -10083,13 +11238,114 @@
       "goal": "build_muscle",
       "filterChips": [
         "Build Muscle"
-      ]
+      ],
+      "trainingDays": 10
     },
     {
       "number": 11,
       "name": "Flexibility & Mobility Challenge",
       "slug": "flexibility-mobility-challenge",
-      "days": 21,
+      "days": [
+        {
+          "day": 1,
+          "rest": false,
+          "workoutNumber": 47
+        },
+        {
+          "day": 2,
+          "rest": false,
+          "workoutNumber": 48
+        },
+        {
+          "day": 3,
+          "rest": true
+        },
+        {
+          "day": 4,
+          "rest": false,
+          "workoutNumber": 49
+        },
+        {
+          "day": 5,
+          "rest": false,
+          "workoutNumber": 50
+        },
+        {
+          "day": 6,
+          "rest": false,
+          "workoutNumber": 51
+        },
+        {
+          "day": 7,
+          "rest": true
+        },
+        {
+          "day": 8,
+          "rest": false,
+          "workoutNumber": 52
+        },
+        {
+          "day": 9,
+          "rest": false,
+          "workoutNumber": 53
+        },
+        {
+          "day": 10,
+          "rest": true
+        },
+        {
+          "day": 11,
+          "rest": false,
+          "workoutNumber": 55
+        },
+        {
+          "day": 12,
+          "rest": false,
+          "workoutNumber": 56
+        },
+        {
+          "day": 13,
+          "rest": false,
+          "workoutNumber": 47
+        },
+        {
+          "day": 14,
+          "rest": true
+        },
+        {
+          "day": 15,
+          "rest": false,
+          "workoutNumber": 48
+        },
+        {
+          "day": 16,
+          "rest": false,
+          "workoutNumber": 49
+        },
+        {
+          "day": 17,
+          "rest": true
+        },
+        {
+          "day": 18,
+          "rest": false,
+          "workoutNumber": 50
+        },
+        {
+          "day": 19,
+          "rest": false,
+          "workoutNumber": 51
+        },
+        {
+          "day": 20,
+          "rest": false,
+          "workoutNumber": 52
+        },
+        {
+          "day": 21,
+          "rest": true
+        }
+      ],
       "focus": "stretch",
       "dailyTime": "10–15 min",
       "gradient": "mint",
@@ -10097,13 +11353,114 @@
       "goal": "flexibility",
       "filterChips": [
         "Flexibility"
-      ]
+      ],
+      "trainingDays": 15
     },
     {
       "number": 12,
       "name": "Posture & Stand Tall Challenge",
       "slug": "posture-stand-tall-challenge",
-      "days": 21,
+      "days": [
+        {
+          "day": 1,
+          "rest": false,
+          "workoutNumber": 1
+        },
+        {
+          "day": 2,
+          "rest": false,
+          "workoutNumber": 10
+        },
+        {
+          "day": 3,
+          "rest": true
+        },
+        {
+          "day": 4,
+          "rest": false,
+          "workoutNumber": 13
+        },
+        {
+          "day": 5,
+          "rest": false,
+          "workoutNumber": 29
+        },
+        {
+          "day": 6,
+          "rest": false,
+          "workoutNumber": 48
+        },
+        {
+          "day": 7,
+          "rest": true
+        },
+        {
+          "day": 8,
+          "rest": false,
+          "workoutNumber": 50
+        },
+        {
+          "day": 9,
+          "rest": false,
+          "workoutNumber": 51
+        },
+        {
+          "day": 10,
+          "rest": true
+        },
+        {
+          "day": 11,
+          "rest": false,
+          "workoutNumber": 52
+        },
+        {
+          "day": 12,
+          "rest": false,
+          "workoutNumber": 55
+        },
+        {
+          "day": 13,
+          "rest": false,
+          "workoutNumber": 1
+        },
+        {
+          "day": 14,
+          "rest": true
+        },
+        {
+          "day": 15,
+          "rest": false,
+          "workoutNumber": 2
+        },
+        {
+          "day": 16,
+          "rest": false,
+          "workoutNumber": 11
+        },
+        {
+          "day": 17,
+          "rest": true
+        },
+        {
+          "day": 18,
+          "rest": false,
+          "workoutNumber": 14
+        },
+        {
+          "day": 19,
+          "rest": false,
+          "workoutNumber": 35
+        },
+        {
+          "day": 20,
+          "rest": false,
+          "workoutNumber": 39
+        },
+        {
+          "day": 21,
+          "rest": true
+        }
+      ],
       "focus": "posture, spine, core",
       "dailyTime": "8–15 min",
       "gradient": "indigo",
@@ -10111,7 +11468,8 @@
       "goal": "flexibility",
       "filterChips": [
         "Flexibility"
-      ]
+      ],
+      "trainingDays": 15
     }
   ],
   "achievements": [
