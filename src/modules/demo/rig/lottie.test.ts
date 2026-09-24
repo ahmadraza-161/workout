@@ -167,6 +167,46 @@ describe('exportLottie', () => {
     }
   });
 
+  it('gives limbs a rounded cap at each end, matching the SVG renderer', () => {
+    const animation = exportOf(BASE_POSES.standing);
+    const arm = animation.layers.find((layer) => layer.nm === 'lowerArmNear')!;
+    const path = (arm.shapes[0] as { it: { ty: string; ks?: { k: { v: number[][] } } }[] }).it[0]!;
+
+    // Four corners plus an apex at each cap. A flat-ended limb would have
+    // four, and every bent elbow would show a notch.
+    expect(path.ty).toBe('sh');
+    expect(path.ks!.k.v).toHaveLength(6);
+  });
+
+  it('squares off the join where the pelvis meets the spine', () => {
+    const animation = exportOf(BASE_POSES.standing);
+    const hip = animation.layers.find((layer) => layer.nm === 'hip')!;
+    const path = (hip.shapes[0] as { it: { ks?: { k: { v: number[][] } } }[] }).it[0]!;
+    // One flat end, so one apex instead of two.
+    expect(path.ks!.k.v).toHaveLength(5);
+  });
+
+  it('draws the head as ellipses rather than a limb capsule', () => {
+    const animation = exportOf(BASE_POSES.standing);
+    const head = animation.layers.find((layer) => layer.nm === 'head')!;
+    const groups = head.shapes as { nm: string; it: { ty: string }[] }[];
+
+    expect(groups.map((entry) => entry.nm)).toEqual(['head', 'hair']);
+    for (const entry of groups) expect(entry.it[0]!.ty).toBe('el');
+  });
+
+  it('shows only hair in the top view, since the crown faces the camera', () => {
+    const animation = exportLottie({
+      name: 'top',
+      poses: [BASE_POSES.standing],
+      durationSeconds: 1,
+      palette: PALETTES.a,
+      view: 'top',
+    });
+    const head = animation.layers.find((layer) => layer.nm === 'head')!;
+    expect(head.shapes).toHaveLength(1);
+  });
+
   it('names every layer after its bone, which is the contract for replacing the art later', () => {
     const animation = exportOf(BASE_POSES.standing);
     for (const layer of animation.layers) {

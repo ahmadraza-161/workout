@@ -51,8 +51,10 @@ export interface Bone {
   widthStart: number;
   widthEnd: number;
   depth: Depth;
-  /** Rounded cap at the far end, for hands, feet and the head. */
-  round?: boolean;
+  /** Square off the joint end; limbs round both ends so bends stay smooth. */
+  flatStart?: boolean;
+  /** Square off the far end. */
+  flatEnd?: boolean;
 }
 
 // Proportions: about 7.5 heads tall, 494 units from crown to sole, which
@@ -60,29 +62,29 @@ export interface Bone {
 // fills roughly 70% of its stage, and this matches that.
 export const BONES: readonly Bone[] = [
   // Pelvis, running up from the root to the waist. This block is the shorts.
-  { name: 'hip', parent: null, length: 44, restAngle: 180, widthStart: 74, widthEnd: 72, depth: 'near' },
-  { name: 'torso', parent: 'hip', length: 140, restAngle: 0, widthStart: 72, widthEnd: 96, depth: 'near' },
+  { name: 'hip', parent: null, length: 44, restAngle: 180, widthStart: 74, widthEnd: 72, depth: 'near', flatEnd: true },
+  { name: 'torso', parent: 'hip', length: 140, restAngle: 0, widthStart: 72, widthEnd: 96, depth: 'near', flatStart: true },
   // The neck sits in the shadow under the jaw, so it always takes the shade tone.
-  { name: 'neck', parent: 'torso', length: 16, restAngle: 0, widthStart: 34, widthEnd: 32, depth: 'far' },
-  { name: 'head', parent: 'neck', length: 62, restAngle: 0, widthStart: 48, widthEnd: 48, depth: 'near', round: true },
+  { name: 'neck', parent: 'torso', length: 16, restAngle: 0, widthStart: 34, widthEnd: 32, depth: 'far', flatStart: true },
+  { name: 'head', parent: 'neck', length: 62, restAngle: 0, widthStart: 48, widthEnd: 48, depth: 'near' },
 
   // Arms reverse the spine's direction so they hang down in the rest pose.
   { name: 'upperArmFar', parent: 'torso', length: 84, restAngle: 180, widthStart: 24, widthEnd: 21, depth: 'far' },
   { name: 'lowerArmFar', parent: 'upperArmFar', length: 76, restAngle: 0, widthStart: 21, widthEnd: 16, depth: 'far' },
-  { name: 'handFar', parent: 'lowerArmFar', length: 30, restAngle: 0, widthStart: 18, widthEnd: 16, depth: 'far', round: true },
+  { name: 'handFar', parent: 'lowerArmFar', length: 30, restAngle: 0, widthStart: 18, widthEnd: 16, depth: 'far' },
 
   { name: 'upperArmNear', parent: 'torso', length: 84, restAngle: 180, widthStart: 24, widthEnd: 21, depth: 'near' },
   { name: 'lowerArmNear', parent: 'upperArmNear', length: 76, restAngle: 0, widthStart: 21, widthEnd: 16, depth: 'near' },
-  { name: 'handNear', parent: 'lowerArmNear', length: 30, restAngle: 0, widthStart: 18, widthEnd: 16, depth: 'near', round: true },
+  { name: 'handNear', parent: 'lowerArmNear', length: 30, restAngle: 0, widthStart: 18, widthEnd: 16, depth: 'near' },
 
   // Legs likewise reverse the pelvis so they hang down.
   { name: 'thighFar', parent: 'hip', length: 112, restAngle: 180, widthStart: 42, widthEnd: 34, depth: 'far' },
   { name: 'shinFar', parent: 'thighFar', length: 108, restAngle: 0, widthStart: 34, widthEnd: 23, depth: 'far' },
-  { name: 'footFar', parent: 'shinFar', length: 38, restAngle: 90, widthStart: 22, widthEnd: 20, depth: 'far', round: true },
+  { name: 'footFar', parent: 'shinFar', length: 40, restAngle: 90, widthStart: 24, widthEnd: 27, depth: 'far' },
 
   { name: 'thighNear', parent: 'hip', length: 112, restAngle: 180, widthStart: 42, widthEnd: 34, depth: 'near' },
   { name: 'shinNear', parent: 'thighNear', length: 108, restAngle: 0, widthStart: 34, widthEnd: 23, depth: 'near' },
-  { name: 'footNear', parent: 'shinNear', length: 38, restAngle: 90, widthStart: 22, widthEnd: 20, depth: 'near', round: true },
+  { name: 'footNear', parent: 'shinNear', length: 40, restAngle: 90, widthStart: 24, widthEnd: 27, depth: 'near' },
 ];
 
 export const BONE_BY_NAME: Record<JointName, Bone> = Object.fromEntries(

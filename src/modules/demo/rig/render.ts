@@ -98,7 +98,15 @@ export interface Shape {
   strokeWidth?: number;
 }
 
-/** A tapered capsule between two points, optionally rounded at the far end. */
+/**
+ * A tapered limb with a semicircular cap at each end.
+ *
+ * Both caps matter. A bone with flat ends meets its parent at an angle and
+ * leaves a wedge-shaped notch at every bent elbow and knee, which is what
+ * makes a jointed figure read as planks bolted together rather than a body.
+ * Rounding both ends means the parent's end cap and the child's start cap
+ * overlap into a single smooth joint, whatever the angle.
+ */
 function capsule(bone: Bone, solvedBone: SolvedBone): string {
   const { start, end, angle } = solvedBone;
   const half = (angle + 90) * RAD;
@@ -113,20 +121,28 @@ function capsule(bone: Bone, solvedBone: SolvedBone): string {
   const d = { x: start.x - nx * s, y: start.y - ny * s };
 
   const round = (n: number) => Math.round(n * 10) / 10;
-  const cap = bone.round
-    ? `A ${round(e)} ${round(e)} 0 0 1 ${round(c.x)} ${round(c.y)}`
-    : `L ${round(c.x)} ${round(c.y)}`;
+  const arc = (r: number, to: { x: number; y: number }) =>
+    `A ${round(r)} ${round(r)} 0 0 1 ${round(to.x)} ${round(to.y)}`;
+  const line = (to: { x: number; y: number }) => `L ${round(to.x)} ${round(to.y)}`;
 
   return [
     `M ${round(a.x)} ${round(a.y)}`,
-    `L ${round(b.x)} ${round(b.y)}`,
-    cap,
-    `L ${round(d.x)} ${round(d.y)}`,
+    line(b),
+    bone.flatEnd ? line(c) : arc(e, c),
+    line(d),
+    bone.flatStart ? line(a) : arc(s, a),
     'Z',
   ].join(' ');
 }
 
-/** An ellipse as a path, so every shape is the same kind of node. */
+/**
+ * An ellipse as a path, so every shape is the same kind of node.
+ *
+ * `angle` rotates the ellipse clockwise on screen. Unrotated, `rx` is the
+ * horizontal semi-axis and `ry` the vertical one. The rig measures 0 as down
+ * and 90 as right, so a caller aligning an ellipse with a bone passes the
+ * negated bone angle.
+ */
 function ellipse(centre: Point, rx: number, ry: number, angle = 0): string {
   const round = (n: number) => Math.round(n * 10) / 10;
   const radians = angle * RAD;
@@ -159,30 +175,30 @@ function headShapes(solved: Solved, headView: HeadView, palette: CharacterPalett
   const rx = bone.widthStart / 2;
   const ry = bone.length / 2;
   const tilt = head.angle;
+  // The head bone runs from the jaw to the crown, so `tilt` already points at
+  // the crown. Screen rotation is the negated rig angle.
+  const rotation = -tilt;
 
   if (headView === 'top') {
     // Crown to camera: one flat oval in the hair tone, no face, no skin.
-    return [{ id: 'head', d: ellipse(centre, ry, rx, tilt + 90), fill: palette.hair.base }];
+    return [{ id: 'head', d: ellipse(centre, rx, rx * 1.08, rotation), fill: palette.hair.base }];
   }
 
   const skin: Shape = {
     id: 'head',
-    d: ellipse(centre, rx, ry, tilt + 90),
+    d: ellipse(centre, rx, ry, rotation),
     fill: fillFor('head', 'near', palette),
   };
 
-  // Hair sits over the crown. In profile it also covers the back of the skull,
-  // which is what makes the facing direction readable.
-  const crownOffset = headView === 'side' ? -6 : 0;
-  const hairCentre = step(centre, tilt + 180, ry * 0.32);
+  // Hair sits over the crown, which is the direction the head bone points.
+  // In profile it also swings back over the skull, which is what makes the
+  // facing direction readable without any facial features.
+  let hairCentre = step(centre, tilt, ry * 0.3);
+  if (headView === 'side') hairCentre = step(hairCentre, tilt - 90, rx * 0.28);
+
   const hair: Shape = {
     id: 'hair',
-    d: ellipse(
-      { x: hairCentre.x + crownOffset, y: hairCentre.y },
-      rx * 1.02,
-      ry * 0.62,
-      tilt + 90,
-    ),
+    d: ellipse(hairCentre, rx * 1.04, ry * 0.66, rotation),
     fill: palette.hair.base,
   };
 
@@ -209,7 +225,7 @@ export function renderPose(pose: Pose, options: RenderOptions): Shape[] {
     const middle = (near.x + far.x) / 2;
     shapes.push({
       id: 'floorShadow',
-      d: ellipse({ x: middle, y: lowest + 4 }, 62, 12),
+      d: ellipse({ x: middle, y: lowest + 4 }, 58, 11),
       fill: palette.floorShadow,
     });
   }

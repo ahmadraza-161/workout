@@ -95,6 +95,23 @@ const html = `<!doctype html>
 <body>
   <h1>Rig style proof</h1>
   <section>
+    <h2>Detail <small>large renders, where joints and caps are judged</small></h2>
+    <div class="row">
+      <figure><figcaption>standing</figcaption>${svg(
+        renderPose(BASE_POSES.standing, { palette: PALETTES.a, view: 'front' }),
+        320,
+      )}</figure>
+      <figure><figcaption>squat, bent</figcaption>${svg(
+        renderPose(PROOF_EXERCISES[2]!.poses[1]!, { palette: PALETTES.a, view: 'side' }),
+        320,
+      )}</figure>
+      <figure><figcaption>push-up, bent</figcaption>${svg(
+        renderPose(PROOF_EXERCISES[1]!.poses[1]!, { palette: PALETTES.a, view: 'side', floorShadow: false }),
+        320,
+      )}</figure>
+    </div>
+  </section>
+  <section>
     <h2>Base poses <small>every exercise starts from one of these</small></h2>
     <div class="row">
     ${basePoses}
