@@ -32,13 +32,13 @@ Home Workout is a free, fully offline Android app built with Expo and React Nati
 
 | Total Tasks | ✅ Completed | 🔄 In Progress | ⬜ Not Started | ⛔ Blocked |
 |:---:|:---:|:---:|:---:|:---:|
-| **164** | **34** (21%) | **4** (2%) | **126** (77%) | **0** (0%) |
+| **164** | **36** (22%) | **5** (3%) | **123** (75%) | **0** (0%) |
 
 | Phase | Tasks | Completed | Status |
 |---|:---:|:---:|---|
 | 0 – Planning & Documentation | 18 | 15 | 🔄 In Progress |
 | 1 – Foundation | 17 | 16 | 🔄 In Progress |
-| 2 – Asset Generators | 20 | 1 | 🔄 In Progress |
+| 2 – Asset Generators | 20 | 3 | 🔄 In Progress |
 | 3 – Content & Lists | 9 | 0 | ⬜ Not Started |
 | 4 – Workout Details & Exercise Guide | 8 | 0 | ⬜ Not Started |
 | 5 – Workout Player | 17 | 0 | ⬜ Not Started |
@@ -117,14 +117,14 @@ Generate every asset locally with TypeScript scripts in `tools/`. **Status: 🔄
 
 | # | Task | Priority | Status | Notes |
 |---|---|---|---|---|
-| 2.1 | Generator toolchain: `tools/` + `npm run assets` | 🔴 High | ⬜ Not Started | Uses Node's built-in TypeScript support, so no extra package (ADR-022) |
-| 2.2 | Exercise metadata for all 119 exercises | 🔴 High | ⬜ Not Started | Type, level, quiet, focus, muscles, MET, one-sided, easier/harder links |
+| 2.1 | Generator toolchain: `tools/` + `npm run assets` | 🔴 High | ✅ Completed | Reads DOC/CONTENT_MAP.md directly, so the catalog has one copy (ADR-054) |
+| 2.2 | Exercise metadata for all 119 exercises | 🔴 High | 🔄 In Progress | Parsed from the catalog: type, level, quiet, view, props, one-sided, equipment, swaps. Muscles and MET still to author |
 | 2.3 | Exercise copy for all 119 exercises | 🔴 High | ⬜ Not Started | 2–3 instructions, 3 mistakes, 3 breathing tips; original text; follows PRD §9 |
 | 2.4 | Workout generator: 60 workouts from the rules in PRD §8.2 + intros | 🔴 High | ⬜ Not Started | Duration must match the catalog ±1 min |
 | 2.5 | Challenge generator: 12 schedules from PRD §8.3 + copy | 🔴 High | ⬜ Not Started | 21/30-day mapping (ADR-039) |
 | 2.6 | Categories (6 tiles) and Discover section config | 🟠 Medium | ⬜ Not Started | |
 | 2.7 | Achievements: 35 definitions with unlock conditions | 🟠 Medium | ⬜ Not Started | |
-| 2.8 | Content validator: IDs, references, counts, durations, banned words | 🔴 High | ⬜ Not Started | Fails the build on any error |
+| 2.8 | Content validator: IDs, references, counts, durations, banned words | 🔴 High | ✅ Completed | 13 tests prove it catches each class of error, not just that it passes |
 | 2.9 | Character rig: flat 2D humanoid, joint hierarchy, 2 palettes | 🔴 High | ✅ Completed | Two flat tones per part; `src/modules/demo/rig` (ADR-052) |
 | 2.10 | Base pose library: standing, plank, lying on back, lying on front, all fours, seated, side plank, kneeling, inverted, transitions | 🔴 High | ⬜ Not Started | [CONTENT_MAP](CONTENT_MAP.md) §5 |
 | 2.11 | Pose sets for all 119 exercises + Lottie exporter | 🔴 High | ⬜ Not Started | Interpolation, seamless loop, motion arcs, < 40 KB each |

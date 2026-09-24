@@ -11,7 +11,8 @@
     "test": "jest",
     "check": "npm run typecheck && npm run lint && npm test",
     "db:generate": "drizzle-kit generate && node tools/db/bundle-migrations.mts",
-    "fonts": "node tools/fonts/fetch-poppins.mts"
+    "fonts": "node tools/fonts/fetch-poppins.mts",
+    "assets": "node tools/content/build.mts && node tools/rig/build-proof.mts"
   },
   "dependencies": {
     "@gorhom/bottom-sheet": "^5.2.14",

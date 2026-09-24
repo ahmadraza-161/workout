@@ -9,7 +9,7 @@ module.exports = {
     // build, so point tests at that instead of transforming 1,600 icon files.
     '^lucide-react-native$': '<rootDir>/node_modules/lucide-react-native/dist/cjs/lucide-react-native.js',
   },
-  testPathIgnorePatterns: ['/node_modules/', '/tools/', '/drizzle/'],
+  testPathIgnorePatterns: ['/node_modules/', '/drizzle/'],
   // jest-expo's default list does not cover lucide-react-native, which ships
   // untranspiled ESM. Without this, any component that imports an icon fails
   // to parse under Jest.

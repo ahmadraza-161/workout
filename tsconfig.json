@@ -15,7 +15,8 @@
       ]
     },
     "types": [
-      "jest"
+      "jest",
+      "node"
     ]
   },
   "include": [
@@ -26,7 +27,6 @@
   ],
   "exclude": [
     "node_modules",
-    "tools",
     "drizzle"
   ]
 }
