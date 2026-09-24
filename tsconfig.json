@@ -4,6 +4,11 @@
     "strict": true,
     "noUncheckedIndexedAccess": true,
     "noImplicitOverride": true,
+    // The rig in src/modules/demo/rig is imported both by the app, through
+    // Metro, and by the build-time generators in tools/, through Node's own
+    // ESM loader, which requires explicit file extensions. Metro and tsc both
+    // accept them; Node does not work without them (ADR-052).
+    "allowImportingTsExtensions": true,
     "paths": {
       "@/*": [
         "./src/*"

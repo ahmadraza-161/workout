@@ -78,6 +78,8 @@ This document records every important product and technical decision: what was d
 | ADR-049 | Levels for workouts that have none in the catalog | ✅ Accepted | Sep 23, 2026 |
 | ADR-050 | Baselines for single-exercise challenges | ✅ Accepted | Sep 23, 2026 |
 | ADR-051 | Where Training and Discover section components live | ✅ Accepted | Sep 24, 2026 |
+| ADR-052 | The rig lives in `src`, shared by the app and the generators | ✅ Accepted | Sep 24, 2026 |
+| ADR-053 | Lottie export as parented layers with rotation keyframes | ✅ Accepted | Sep 24, 2026 |
 
 **Mapping from PRD v1.1 IDs:** D1 → ADR-005 · D2 → ADR-006 · D3 → ADR-008 · D4 → ADR-010 · D5 → ADR-011 · D6 → ADR-007 · D7 → ADR-003 + ADR-009 · D8 → ADR-012 · D9 → ADR-013 · D10 → ADR-014 · D11 → ADR-015 · D12 → ADR-016 + ADR-017 + ADR-018 · D13 → ADR-019 · D14 → ADR-020.
 
@@ -415,6 +417,18 @@ These came out of checking every reference screenshot, spec section and catalog 
   - **Data-bound section components live in the module that owns the data.** Weekly Goal → `report`, challenge carousel → `challenges`, Body Focus and list sections → `content`, Custom Workout card → `builder`. Each is a thin wrapper that reads its module's data and composes `core/ui` pieces.
   - Routes in `app/` only arrange these sections in order. No data access and no layout logic beyond ordering.
 - **Consequences:** No twelfth module. The Training and Discover screens import from several modules, which is allowed because each import is a public `index.ts`. The reuse audit of the reference found one `Row` serving 8 placements, one `Banner` serving 5, one `MediaCard` serving 4 and one `WeekStrip` serving both the Training weekly goal and the Report history — so the shared layer carries most of the weight and the feature wrappers stay small.
+
+### ADR-052 – The rig lives in `src`, shared by the app and the generators ✅
+
+- **Context:** ADR-024 draws thumbnails from the rig at runtime, and T2.11 exports the same rig to Lottie at build time. Two copies of the pose maths would drift, and a thumbnail that disagreed with its animation is exactly the kind of bug nobody notices until release.
+- **Decision:** The rig model, solver, SVG renderer and Lottie exporter live in `src/modules/demo/rig`. `tools/rig` holds only the scripts that write files. Internal rig imports carry explicit `.ts` extensions, because Node's ESM loader requires them and `tools/` runs under plain Node; `allowImportingTsExtensions` is enabled so `tsc` accepts them, and Metro already did.
+- **Consequences:** One definition, two consumers. The exporter is typechecked and unit-tested alongside the rig instead of sitting outside the test suite. The `.ts` extensions are unusual to read but are confined to the rig.
+
+### ADR-053 – Lottie export as parented layers with rotation keyframes ✅
+
+- **Context:** An exercise animation could be exported either by keyframing each body part's path per frame, or by exporting the bone hierarchy and keyframing only rotations.
+- **Decision:** Export one shape layer per bone, drawn once in local space, parented to its parent bone, with only rotation (and the root's position) keyframed.
+- **Consequences:** Measured on the four proof exercises: **11–14 KB each, at most 33% of the 40 KB budget**, so 119 exercises fit comfortably. Limbs sweep through true arcs instead of shrinking toward the chord, which path interpolation would cause. Bones that do not move cost a single static value, which is most of the saving. Layer names are the bone names, so professional art can replace a file while keeping the same rig contract.
 
 ---
 

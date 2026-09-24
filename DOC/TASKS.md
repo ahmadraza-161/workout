@@ -8,7 +8,7 @@ This document lists every task needed to build and launch Home Workout. Tasks ar
 |---|---|
 | **Version** | 1.1 |
 | **Last updated** | September 23, 2026 |
-| **Current phase** | Phase 1 – Foundation (only T1.17, the phone test, is left) |
+| **Current phase** | Phase 2 – Character rig, awaiting the owner's style approval |
 | **Related** | [PRD](PRD.md) · [ARCHITECTURE](ARCHITECTURE.md) · [DESIGN](DESIGN.md) · [TEST_PLAN](TEST_PLAN.md) · [DECISIONS](DECISIONS.md) |
 
 ---
@@ -32,13 +32,13 @@ Home Workout is a free, fully offline Android app built with Expo and React Nati
 
 | Total Tasks | ✅ Completed | 🔄 In Progress | ⬜ Not Started | ⛔ Blocked |
 |:---:|:---:|:---:|:---:|:---:|
-| **164** | **31** (19%) | **1** (1%) | **132** (80%) | **0** (0%) |
+| **164** | **34** (21%) | **4** (2%) | **126** (77%) | **0** (0%) |
 
 | Phase | Tasks | Completed | Status |
 |---|:---:|:---:|---|
 | 0 – Planning & Documentation | 18 | 15 | 🔄 In Progress |
 | 1 – Foundation | 17 | 16 | 🔄 In Progress |
-| 2 – Asset Generators | 20 | 0 | ⬜ Not Started |
+| 2 – Asset Generators | 20 | 1 | 🔄 In Progress |
 | 3 – Content & Lists | 9 | 0 | ⬜ Not Started |
 | 4 – Workout Details & Exercise Guide | 8 | 0 | ⬜ Not Started |
 | 5 – Workout Player | 17 | 0 | ⬜ Not Started |
@@ -113,7 +113,7 @@ Set up the project, theme, translations, database and navigation. **Status: 🔄
 
 ## Phase 2: Asset Generators
 
-Generate every asset locally with TypeScript scripts in `tools/`. **Status: ⬜ Not Started**
+Generate every asset locally with TypeScript scripts in `tools/`. **Status: 🔄 In Progress**
 
 | # | Task | Priority | Status | Notes |
 |---|---|---|---|---|
@@ -125,17 +125,17 @@ Generate every asset locally with TypeScript scripts in `tools/`. **Status: ⬜ 
 | 2.6 | Categories (6 tiles) and Discover section config | 🟠 Medium | ⬜ Not Started | |
 | 2.7 | Achievements: 35 definitions with unlock conditions | 🟠 Medium | ⬜ Not Started | |
 | 2.8 | Content validator: IDs, references, counts, durations, banned words | 🔴 High | ⬜ Not Started | Fails the build on any error |
-| 2.9 | Character rig: flat 2D humanoid, joint hierarchy, 2 palettes | 🔴 High | ⬜ Not Started | [DESIGN](DESIGN.md) §2.7 |
+| 2.9 | Character rig: flat 2D humanoid, joint hierarchy, 2 palettes | 🔴 High | ✅ Completed | Two flat tones per part; `src/modules/demo/rig` (ADR-052) |
 | 2.10 | Base pose library: standing, plank, lying on back, lying on front, all fours, seated, side plank, kneeling, inverted, transitions | 🔴 High | ⬜ Not Started | [CONTENT_MAP](CONTENT_MAP.md) §5 |
 | 2.11 | Pose sets for all 119 exercises + Lottie exporter | 🔴 High | ⬜ Not Started | Interpolation, seamless loop, motion arcs, < 40 KB each |
-| 2.12 | Dev-only animation preview screen for all 119 animations | 🟠 Medium | ⬜ Not Started | For quality review |
+| 2.12 | Dev-only animation preview screen for all 119 animations | 🟠 Medium | 🔄 In Progress | `app/dev/rig` shows the 4 proof exercises; grows to 119 after the style gate |
 | 2.13 | Muscle map SVG, front and back, with named muscle groups | 🔴 High | ⬜ Not Started | |
 | 2.14 | Workout and challenge artwork data (silhouette + pattern) | 🟠 Medium | ⬜ Not Started | Rendered as vectors at runtime (ADR-024) |
 | 2.15 | UI Lottie: spinner, streak flame, achievement pop, goal ring, celebration | 🟢 Low | ⬜ Not Started | < 25 KB each |
 | 2.16 | Sounds: `beep_short`, `beep_long`, `complete`, `achievement` | 🟠 Medium | ⬜ Not Started | WAV 44.1 kHz mono, < 25 KB |
 | 2.17 | Branding: app icon, adaptive icon, splash, notification icon, 6 empty-state illustrations | 🟠 Medium | ⬜ Not Started | PNG rendering approach pending (ADR-038) |
 | 2.18 | `build-assets`: run everything, print the size report, fail on budget; write `DOC/ASSETS.md` | 🔴 High | ⬜ Not Started | |
-| 2.19 | Rig views (Side / Front / Top) and props (wall, chair, doorway, water bottles, floor line) | 🔴 High | ⬜ Not Started | Needed by 15 exercises (ADR-042) |
+| 2.19 | Rig views (Side / Front / Top) and props (wall, chair, doorway, water bottles, floor line) | 🔴 High | 🔄 In Progress | Side and Front verified; Top and the chair, doorway and bottle props still to check |
 | 2.20 | Content data: resolved variations, quiet swaps, equipment values, muscle groups, collections, placements, badge rules | 🔴 High | ⬜ Not Started | From [CONTENT_MAP](CONTENT_MAP.md) (ADR-040 to ADR-050) |
 
 **Done when:** every asset is generated, validated and within budget, and ASSETS.md explains how to replace each one.
