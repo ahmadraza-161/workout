@@ -103,7 +103,7 @@ Set up the project, theme, translations, database and navigation. **Status: 🔄
 | 1.12 | Content pack types, loader and in-memory indexes (with a small sample pack) | 🔴 High | ✅ Completed | The full pack arrives in Phase 2 |
 | 1.13 | Root layout: providers, error boundary, bootstrap route | 🔴 High | ✅ Completed | |
 | 1.14 | Bottom tabs (Training, Discover, Report, Settings) with placeholder screens | 🔴 High | ✅ Completed | |
-| 1.15 | Core UI primitives v1: Text, Screen, Button, Card, Icon, Sheet | 🔴 High | ✅ Completed | Plus GradientBackground, SegmentedControl, ErrorBoundary, TabPlaceholder |
+| 1.15 | Core UI primitives v1: Text, Screen, Button, Card, Icon, Sheet | 🔴 High | ✅ Completed | Grown into the full 40-component shared library (ADR-051); reviewed in `app/dev/components` |
 | 1.16 | Set up Jest + React Native Testing Library with first tests | 🔴 High | ✅ Completed | 37 tests passing |
 | 1.17 | Run the app on a real Android phone with Expo Go | 🔴 High | ⬜ Not Started | Needs the owner's phone: install Expo Go, run `npx expo start`, scan the QR code |
 
@@ -153,7 +153,7 @@ Make the content browsable and searchable. **Status: ⬜ Not Started**
 | 3.3 | Map quick filters and every "More >" to list types | 🟠 Medium | ⬜ Not Started | |
 | 3.4 | Search screen: recent searches, results grouped by Workouts / Exercises / Challenges | 🟠 Medium | ⬜ Not Started | |
 | 3.5 | Favourites: table, toggle, favourites list | 🟠 Medium | ⬜ Not Started | Heart on workout details; list under Settings → My favourites |
-| 3.6 | Loading, empty and error states for lists | 🟠 Medium | ⬜ Not Started | |
+| 3.6 | Loading, empty and error states for lists | 🟠 Medium | ✅ Completed | `LoadingState`, `EmptyState`, `ErrorState` in `core/ui` |
 | 3.7 | Unit tests: filters, search, related | 🔴 High | ⬜ Not Started | |
 | 3.8 | Goal lists: challenges first as "N-day plan" rows, then workouts | 🟠 Medium | ⬜ Not Started | Reference `…131652…` |
 | 3.9 | "Recent" list opened by the Discover history icon | 🟢 Low | ⬜ Not Started | Completed workouts, newest first |
@@ -224,7 +224,7 @@ Get a new user to their first workout in under 60 seconds. **Status: ⬜ Not Sta
 | 6.7 | Ready step: plan summary → Start first workout | 🔴 High | ⬜ Not Started | |
 | 6.8 | Profile repository and store | 🔴 High | ⬜ Not Started | |
 | 6.9 | Settings tab (core): profile, weekly goal, units, theme, sound and timers, quiet mode, disclaimer, privacy, about | 🔴 High | ⬜ Not Started | Reminders and backup rows are added in Phase 11 |
-| 6.10 | Date picker (calendar sheet) and time picker (hour/minute wheels) | 🔴 High | ⬜ Not Started | Used by schedule, reminders, weight log and All records |
+| 6.10 | Date picker (calendar sheet) and time picker (hour/minute wheels) | 🔴 High | ✅ Completed | Built on `date-fns`, no extra package |
 
 **Done when:** a new user reaches a running workout in under 60 seconds.
 

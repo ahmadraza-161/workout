@@ -7,9 +7,9 @@
 | Field | Details |
 |---|---|
 | **Last updated** | September 24, 2026 |
-| **Current phase** | Phase 1 – Foundation: code done and verified; only the real-phone test (T1.17) is left |
-| **Next step** | Owner runs the app in Expo Go (T1.17), then Phase 2 – Asset Generators |
-| **Code written** | Yes, from Sep 24, 2026: Expo SDK 57 project, theme, KV, i18n, database, content loader, tabs, UI primitives, 37 tests |
+| **Current phase** | Foundation and the shared component library are done. Next is the character rig. |
+| **Next step** | Owner reviews `app/dev/components` and runs the app in Expo Go (T1.17), then the character rig (T2.9) with a style-approval gate before all 119 animations |
+| **Code written** | Yes, from Sep 24, 2026: Expo SDK 57 project, theme, KV, i18n, database, content loader, tabs, 40-component UI library, 57 tests |
 
 ---
 
@@ -52,10 +52,10 @@
 
 | Area | Status |
 |---|---|
-| ✅ Done | All planning docs, completeness audit, every decision approved (Sep 24, 2026), Phase 1 code (T1.1–T1.16) |
+| ✅ Done | All planning docs, completeness audit, every decision approved, Phase 1 code (T1.1–T1.16), the 40-component shared UI library with its dev gallery, T3.6 and T6.10 |
 | 🔄 In progress | T1.17 – run the app on the owner's phone with Expo Go |
-| ⏭️ Next | Phase 2 – Asset Generators. Still open for the owner: final app name (T0.14), Play account type (T0.15) |
-| ⛔ Blocked | Nothing |
+| ⏭️ Next | Character rig (T2.9): build it, render 3–5 poses, then **stop for the owner to approve the style** before generating all 119 |
+| ⛔ Blocked | Nothing. Awaiting the owner: final app name (T0.14), Play account type (T0.15), and confirmation of the proposed character shade tones (DESIGN §2.7) |
 
 ---
 
@@ -107,6 +107,10 @@
 - **The placeholder name equals the reference app's name.** It must change before release.
 - **The catalog has gaps:** 19 easier/harder links point to exercises that don't exist, only 4 of 9 jumping moves had quiet twins, and 16 workouts have no level. They are resolved in CONTENT_MAP (ADR-040, 041, 049).
 - **15 exercises need props** (wall, chair, doorway, bottles). The rig must support them (ADR-042).
+- **The reference colours in DESIGN are verified.** They were re-measured from the screenshots pixel by pixel on Sep 24, 2026 and match. Do not measure them again or "correct" them.
+- **`jest-expo` cannot parse `lucide-react-native`.** It resolves the package's `react-native` export condition, which is untranspiled ESM. `jest.config.js` maps it to the CommonJS build. Expect the same for any other ESM-only package.
+- **RN 0.86 removed `StyleSheet.absoluteFillObject`.** Spell the inset out, or use `StyleSheet.absoluteFill` as a style value.
+- **`accessibilityRole` alone does not make a View focusable on Android.** Add `accessible` too, or TalkBack skips it.
 
 ---
 
@@ -136,6 +140,7 @@
 | Sep 23, 2026 | Analysed 25 reference screenshots and the research spec/catalog. Researched animation sources (ExerciseDB accepted, then replaced by generated Lottie). Decided: offline, no Python, no admin panel, YouTube in v2. Wrote PRD v1.1 with the owner's answers. Measured the reference colours and checked contrast. Checked the environment (Node 26.8.2, JDK 25, no Android SDK) and latest package versions (Expo SDK 57). Wrote ARCHITECTURE, DESIGN, RULES, TASKS (152 tasks), TEST_PLAN, SECURITY, DECISIONS (39 records) and this file. No code written. |
 | Sep 24, 2026 | Owner approved every decision (ADR-022 to ADR-050). Phase 1 built: Expo 57.0.24 / RN 0.86.3 / TypeScript 6; typecheck, lint, 37 tests, Android export and expo-doctor (21/21) all pass. Notes: TS 6 needs `types: ["jest"]`; RNTL v14 render/fireEvent are async; npm 11 blocks install scripts (esbuild, unrs-resolver approved); react-dom pinned to 19.2.3 as a dev dependency to satisfy peers. Not committed yet. |
 | Sep 23, 2026 | Completeness audit of all 25 screenshots, spec v3, the catalog, modules and screens. Added COVERAGE.md and CONTENT_MAP.md (generated from the catalog: 119 exercises, 60 workouts, 12 challenges, 35 badges). Closed 21 gaps; added ADR-040 to ADR-050 and 12 tasks (164 total). |
+| Sep 24, 2026 | Re-audited all 25 screenshots and verified the measured colour tokens by sampling pixels with `jimp`: DESIGN's values are correct, so do not re-measure them. Found four gaps and applied them — the character is two-tone per part, has no face, needs a motion-arc spec and a top-of-head shape. First git commits (nothing had been committed). ADR-051 settled where Training and Discover sections live. Built the 40-component shared library with a dev gallery at `app/dev/components`. 57 tests. |
 
 ---
 
