@@ -16,6 +16,7 @@ function exercise(overrides: Partial<CatalogExercise> & { number: number }): Cat
     type: METRICS[overrides.number]?.reps === undefined ? 'time' : 'reps',
     level: 1,
     quietSafe: true,
+    category: 'Core & Abs',
     basePose: 'standing',
     view: 'front',
     props: [],

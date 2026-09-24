@@ -8,6 +8,7 @@
       "type": "time",
       "level": 1,
       "quietSafe": true,
+      "category": "Warm-Up",
       "basePose": "standing",
       "view": "front",
       "props": [],
@@ -33,6 +34,7 @@
       "type": "time",
       "level": 1,
       "quietSafe": true,
+      "category": "Warm-Up",
       "basePose": "standing",
       "view": "front",
       "props": [],
@@ -57,6 +59,7 @@
       "type": "time",
       "level": 1,
       "quietSafe": true,
+      "category": "Warm-Up",
       "basePose": "standing",
       "view": "side",
       "props": [],
@@ -81,6 +84,7 @@
       "type": "time",
       "level": 1,
       "quietSafe": true,
+      "category": "Warm-Up",
       "basePose": "standing",
       "view": "front",
       "props": [],
@@ -105,6 +109,7 @@
       "type": "time",
       "level": 1,
       "quietSafe": true,
+      "category": "Warm-Up",
       "basePose": "standing",
       "view": "side",
       "props": [
@@ -131,6 +136,7 @@
       "type": "time",
       "level": 1,
       "quietSafe": true,
+      "category": "Warm-Up",
       "basePose": "standing",
       "view": "front",
       "props": [
@@ -157,6 +163,7 @@
       "type": "time",
       "level": 1,
       "quietSafe": true,
+      "category": "Warm-Up",
       "basePose": "standing",
       "view": "front",
       "props": [],
@@ -181,6 +188,7 @@
       "type": "time",
       "level": 1,
       "quietSafe": true,
+      "category": "Warm-Up",
       "basePose": "standing",
       "view": "front",
       "props": [],
@@ -204,6 +212,7 @@
       "type": "time",
       "level": 1,
       "quietSafe": true,
+      "category": "Warm-Up",
       "basePose": "all fours",
       "view": "side",
       "props": [],
@@ -228,6 +237,7 @@
       "type": "reps",
       "level": 2,
       "quietSafe": true,
+      "category": "Warm-Up",
       "basePose": "standing → plank",
       "view": "side",
       "props": [],
@@ -252,6 +262,7 @@
       "type": "reps",
       "level": 1,
       "quietSafe": true,
+      "category": "Core & Abs",
       "basePose": "lying on back",
       "view": "side",
       "props": [],
@@ -275,6 +286,7 @@
       "type": "reps",
       "level": 2,
       "quietSafe": true,
+      "category": "Core & Abs",
       "basePose": "lying on back",
       "view": "side",
       "props": [],
@@ -298,6 +310,7 @@
       "type": "reps",
       "level": 2,
       "quietSafe": true,
+      "category": "Core & Abs",
       "basePose": "lying on back",
       "view": "side",
       "props": [],
@@ -322,6 +335,7 @@
       "type": "reps",
       "level": 2,
       "quietSafe": true,
+      "category": "Core & Abs",
       "basePose": "lying on back",
       "view": "side",
       "props": [],
@@ -345,6 +359,7 @@
       "type": "reps",
       "level": 2,
       "quietSafe": true,
+      "category": "Core & Abs",
       "basePose": "lying on back",
       "view": "side",
       "props": [],
@@ -369,6 +384,7 @@
       "type": "time",
       "level": 2,
       "quietSafe": true,
+      "category": "Core & Abs",
       "basePose": "lying on back",
       "view": "side",
       "props": [],
@@ -393,6 +409,7 @@
       "type": "time",
       "level": 2,
       "quietSafe": true,
+      "category": "Core & Abs",
       "basePose": "lying on back",
       "view": "top",
       "props": [],
@@ -417,6 +434,7 @@
       "type": "reps",
       "level": 1,
       "quietSafe": true,
+      "category": "Core & Abs",
       "basePose": "lying on back",
       "view": "top",
       "props": [],
@@ -440,6 +458,7 @@
       "type": "reps",
       "level": 2,
       "quietSafe": true,
+      "category": "Core & Abs",
       "basePose": "seated",
       "view": "front",
       "props": [],
@@ -464,6 +483,7 @@
       "type": "hold",
       "level": 1,
       "quietSafe": true,
+      "category": "Core & Abs",
       "basePose": "plank",
       "view": "side",
       "props": [],
@@ -488,6 +508,7 @@
       "type": "hold",
       "level": 2,
       "quietSafe": true,
+      "category": "Core & Abs",
       "basePose": "side plank",
       "view": "front",
       "props": [],
@@ -512,6 +533,7 @@
       "type": "reps",
       "level": 2,
       "quietSafe": true,
+      "category": "Core & Abs",
       "basePose": "plank",
       "view": "side",
       "props": [],
@@ -536,6 +558,7 @@
       "type": "reps",
       "level": 1,
       "quietSafe": true,
+      "category": "Core & Abs",
       "basePose": "lying on back",
       "view": "side",
       "props": [],
@@ -559,6 +582,7 @@
       "type": "hold",
       "level": 3,
       "quietSafe": true,
+      "category": "Core & Abs",
       "basePose": "lying on back",
       "view": "side",
       "props": [],
@@ -582,6 +606,7 @@
       "type": "time",
       "level": 2,
       "quietSafe": true,
+      "category": "Core & Abs",
       "basePose": "plank",
       "view": "side",
       "props": [],
@@ -607,6 +632,7 @@
       "type": "reps",
       "level": 3,
       "quietSafe": true,
+      "category": "Core & Abs",
       "basePose": "lying on back",
       "view": "side",
       "props": [],
@@ -631,6 +657,7 @@
       "type": "reps",
       "level": 2,
       "quietSafe": true,
+      "category": "Core & Abs",
       "basePose": "lying on back",
       "view": "side",
       "props": [],
@@ -654,6 +681,7 @@
       "type": "time",
       "level": 1,
       "quietSafe": true,
+      "category": "Core & Abs",
       "basePose": "standing",
       "view": "front",
       "props": [],
@@ -678,6 +706,7 @@
       "type": "reps",
       "level": 1,
       "quietSafe": true,
+      "category": "Core & Abs",
       "basePose": "standing",
       "view": "front",
       "props": [],
@@ -701,6 +730,7 @@
       "type": "reps",
       "level": 1,
       "quietSafe": true,
+      "category": "Chest & Push",
       "basePose": "standing",
       "view": "side",
       "props": [
@@ -727,6 +757,7 @@
       "type": "reps",
       "level": 1,
       "quietSafe": true,
+      "category": "Chest & Push",
       "basePose": "plank",
       "view": "side",
       "props": [
@@ -753,6 +784,7 @@
       "type": "reps",
       "level": 1,
       "quietSafe": true,
+      "category": "Chest & Push",
       "basePose": "plank",
       "view": "side",
       "props": [],
@@ -777,6 +809,7 @@
       "type": "reps",
       "level": 2,
       "quietSafe": true,
+      "category": "Chest & Push",
       "basePose": "plank",
       "view": "side",
       "props": [],
@@ -802,6 +835,7 @@
       "type": "reps",
       "level": 2,
       "quietSafe": true,
+      "category": "Chest & Push",
       "basePose": "plank",
       "view": "side",
       "props": [],
@@ -826,6 +860,7 @@
       "type": "reps",
       "level": 3,
       "quietSafe": true,
+      "category": "Chest & Push",
       "basePose": "plank",
       "view": "side",
       "props": [],
@@ -850,6 +885,7 @@
       "type": "reps",
       "level": 3,
       "quietSafe": true,
+      "category": "Chest & Push",
       "basePose": "plank",
       "view": "side",
       "props": [
@@ -876,6 +912,7 @@
       "type": "reps",
       "level": 3,
       "quietSafe": true,
+      "category": "Chest & Push",
       "basePose": "plank",
       "view": "front",
       "props": [],
@@ -901,6 +938,7 @@
       "type": "hold",
       "level": 2,
       "quietSafe": true,
+      "category": "Chest & Push",
       "basePose": "plank",
       "view": "side",
       "props": [],
@@ -925,6 +963,7 @@
       "type": "reps",
       "level": 3,
       "quietSafe": true,
+      "category": "Chest & Push",
       "basePose": "plank",
       "view": "side",
       "props": [],
@@ -950,6 +989,7 @@
       "type": "hold",
       "level": 1,
       "quietSafe": true,
+      "category": "Chest & Push",
       "basePose": "standing",
       "view": "front",
       "props": [],
@@ -973,6 +1013,7 @@
       "type": "reps",
       "level": 3,
       "quietSafe": true,
+      "category": "Chest & Push",
       "basePose": "plank",
       "view": "side",
       "props": [],
@@ -998,6 +1039,7 @@
       "type": "reps",
       "level": 3,
       "quietSafe": true,
+      "category": "Shoulders & Arms",
       "basePose": "inverted",
       "view": "side",
       "props": [],
@@ -1022,6 +1064,7 @@
       "type": "reps",
       "level": 1,
       "quietSafe": true,
+      "category": "Shoulders & Arms",
       "basePose": "standing",
       "view": "front",
       "props": [
@@ -1048,6 +1091,7 @@
       "type": "reps",
       "level": 2,
       "quietSafe": true,
+      "category": "Shoulders & Arms",
       "basePose": "seated",
       "view": "side",
       "props": [
@@ -1074,6 +1118,7 @@
       "type": "reps",
       "level": 2,
       "quietSafe": true,
+      "category": "Shoulders & Arms",
       "basePose": "plank",
       "view": "side",
       "props": [],
@@ -1097,6 +1142,7 @@
       "type": "reps",
       "level": 1,
       "quietSafe": true,
+      "category": "Shoulders & Arms",
       "basePose": "standing",
       "view": "side",
       "props": [
@@ -1123,6 +1169,7 @@
       "type": "reps",
       "level": 1,
       "quietSafe": true,
+      "category": "Shoulders & Arms",
       "basePose": "standing",
       "view": "front",
       "props": [
@@ -1149,6 +1196,7 @@
       "type": "hold",
       "level": 2,
       "quietSafe": true,
+      "category": "Shoulders & Arms",
       "basePose": "standing",
       "view": "front",
       "props": [],
@@ -1173,6 +1221,7 @@
       "type": "reps",
       "level": 3,
       "quietSafe": true,
+      "category": "Shoulders & Arms",
       "basePose": "plank",
       "view": "side",
       "props": [],
@@ -1198,6 +1247,7 @@
       "type": "hold",
       "level": 2,
       "quietSafe": true,
+      "category": "Shoulders & Arms",
       "basePose": "all fours",
       "view": "side",
       "props": [],
@@ -1222,6 +1272,7 @@
       "type": "hold",
       "level": 3,
       "quietSafe": true,
+      "category": "Shoulders & Arms",
       "basePose": "inverted",
       "view": "side",
       "props": [
@@ -1249,6 +1300,7 @@
       "type": "time",
       "level": 1,
       "quietSafe": true,
+      "category": "Shoulders & Arms",
       "basePose": "standing",
       "view": "front",
       "props": [],
@@ -1273,6 +1325,7 @@
       "type": "time",
       "level": 1,
       "quietSafe": true,
+      "category": "Shoulders & Arms",
       "basePose": "standing",
       "view": "front",
       "props": [],
@@ -1296,6 +1349,7 @@
       "type": "hold",
       "level": 1,
       "quietSafe": true,
+      "category": "Back & Pull",
       "basePose": "lying on front",
       "view": "side",
       "props": [],
@@ -1320,6 +1374,7 @@
       "type": "reps",
       "level": 2,
       "quietSafe": true,
+      "category": "Back & Pull",
       "basePose": "lying on front",
       "view": "side",
       "props": [],
@@ -1344,6 +1399,7 @@
       "type": "reps",
       "level": 2,
       "quietSafe": true,
+      "category": "Back & Pull",
       "basePose": "lying on front",
       "view": "top",
       "props": [],
@@ -1368,6 +1424,7 @@
       "type": "reps",
       "level": 2,
       "quietSafe": true,
+      "category": "Back & Pull",
       "basePose": "lying on front",
       "view": "top",
       "props": [],
@@ -1392,6 +1449,7 @@
       "type": "reps",
       "level": 2,
       "quietSafe": true,
+      "category": "Back & Pull",
       "basePose": "lying on front",
       "view": "top",
       "props": [],
@@ -1416,6 +1474,7 @@
       "type": "reps",
       "level": 2,
       "quietSafe": true,
+      "category": "Back & Pull",
       "basePose": "lying on front",
       "view": "top",
       "props": [],
@@ -1440,6 +1499,7 @@
       "type": "time",
       "level": 2,
       "quietSafe": true,
+      "category": "Back & Pull",
       "basePose": "lying on front",
       "view": "side",
       "props": [],
@@ -1464,6 +1524,7 @@
       "type": "reps",
       "level": 1,
       "quietSafe": true,
+      "category": "Back & Pull",
       "basePose": "all fours",
       "view": "side",
       "props": [],
@@ -1488,6 +1549,7 @@
       "type": "hold",
       "level": 2,
       "quietSafe": true,
+      "category": "Back & Pull",
       "basePose": "lying on back",
       "view": "side",
       "props": [],
@@ -1513,6 +1575,7 @@
       "type": "reps",
       "level": 2,
       "quietSafe": true,
+      "category": "Back & Pull",
       "basePose": "lying on front",
       "view": "side",
       "props": [],
@@ -1537,6 +1600,7 @@
       "type": "reps",
       "level": 1,
       "quietSafe": true,
+      "category": "Legs & Glutes",
       "basePose": "standing",
       "view": "side",
       "props": [],
@@ -1562,6 +1626,7 @@
       "type": "reps",
       "level": 1,
       "quietSafe": true,
+      "category": "Legs & Glutes",
       "basePose": "standing",
       "view": "front",
       "props": [],
@@ -1586,6 +1651,7 @@
       "type": "time",
       "level": 2,
       "quietSafe": true,
+      "category": "Legs & Glutes",
       "basePose": "standing",
       "view": "side",
       "props": [],
@@ -1610,6 +1676,7 @@
       "type": "hold",
       "level": 2,
       "quietSafe": true,
+      "category": "Legs & Glutes",
       "basePose": "standing",
       "view": "side",
       "props": [
@@ -1636,6 +1703,7 @@
       "type": "reps",
       "level": 2,
       "quietSafe": true,
+      "category": "Legs & Glutes",
       "basePose": "standing",
       "view": "side",
       "props": [],
@@ -1660,6 +1728,7 @@
       "type": "reps",
       "level": 1,
       "quietSafe": true,
+      "category": "Legs & Glutes",
       "basePose": "standing",
       "view": "side",
       "props": [],
@@ -1684,6 +1753,7 @@
       "type": "reps",
       "level": 2,
       "quietSafe": true,
+      "category": "Legs & Glutes",
       "basePose": "standing",
       "view": "front",
       "props": [],
@@ -1708,6 +1778,7 @@
       "type": "reps",
       "level": 2,
       "quietSafe": true,
+      "category": "Legs & Glutes",
       "basePose": "standing",
       "view": "front",
       "props": [],
@@ -1732,6 +1803,7 @@
       "type": "reps",
       "level": 2,
       "quietSafe": true,
+      "category": "Legs & Glutes",
       "basePose": "standing",
       "view": "side",
       "props": [],
@@ -1756,6 +1828,7 @@
       "type": "reps",
       "level": 1,
       "quietSafe": true,
+      "category": "Legs & Glutes",
       "basePose": "lying on back",
       "view": "side",
       "props": [],
@@ -1780,6 +1853,7 @@
       "type": "reps",
       "level": 2,
       "quietSafe": true,
+      "category": "Legs & Glutes",
       "basePose": "lying on back",
       "view": "side",
       "props": [],
@@ -1804,6 +1878,7 @@
       "type": "reps",
       "level": 2,
       "quietSafe": true,
+      "category": "Legs & Glutes",
       "basePose": "lying on back",
       "view": "side",
       "props": [],
@@ -1827,6 +1902,7 @@
       "type": "reps",
       "level": 1,
       "quietSafe": true,
+      "category": "Legs & Glutes",
       "basePose": "all fours",
       "view": "side",
       "props": [],
@@ -1851,6 +1927,7 @@
       "type": "reps",
       "level": 1,
       "quietSafe": true,
+      "category": "Legs & Glutes",
       "basePose": "all fours",
       "view": "front",
       "props": [],
@@ -1875,6 +1952,7 @@
       "type": "reps",
       "level": 1,
       "quietSafe": true,
+      "category": "Legs & Glutes",
       "basePose": "standing",
       "view": "side",
       "props": [],
@@ -1898,6 +1976,7 @@
       "type": "reps",
       "level": 2,
       "quietSafe": true,
+      "category": "Legs & Glutes",
       "basePose": "standing",
       "view": "side",
       "props": [
@@ -1923,6 +2002,7 @@
       "type": "reps",
       "level": 2,
       "quietSafe": true,
+      "category": "Legs & Glutes",
       "basePose": "standing",
       "view": "side",
       "props": [],
@@ -1947,6 +2027,7 @@
       "type": "reps",
       "level": 2,
       "quietSafe": true,
+      "category": "Legs & Glutes",
       "basePose": "standing",
       "view": "side",
       "props": [
@@ -1974,6 +2055,7 @@
       "type": "reps",
       "level": 2,
       "quietSafe": true,
+      "category": "Full Body",
       "basePose": "standing → plank",
       "view": "side",
       "props": [],
@@ -1999,6 +2081,7 @@
       "type": "reps",
       "level": 3,
       "quietSafe": false,
+      "category": "Full Body",
       "basePose": "standing → plank",
       "view": "side",
       "props": [],
@@ -2025,6 +2108,7 @@
       "type": "reps",
       "level": 2,
       "quietSafe": true,
+      "category": "Full Body",
       "basePose": "standing → plank",
       "view": "side",
       "props": [],
@@ -2050,6 +2134,7 @@
       "type": "time",
       "level": 2,
       "quietSafe": true,
+      "category": "Full Body",
       "basePose": "all fours",
       "view": "side",
       "props": [],
@@ -2075,6 +2160,7 @@
       "type": "time",
       "level": 2,
       "quietSafe": true,
+      "category": "Full Body",
       "basePose": "seated",
       "view": "side",
       "props": [],
@@ -2100,6 +2186,7 @@
       "type": "reps",
       "level": 1,
       "quietSafe": true,
+      "category": "Full Body",
       "basePose": "standing",
       "view": "side",
       "props": [],
@@ -2124,6 +2211,7 @@
       "type": "reps",
       "level": 2,
       "quietSafe": true,
+      "category": "Full Body",
       "basePose": "lying → standing",
       "view": "side",
       "props": [],
@@ -2149,6 +2237,7 @@
       "type": "reps",
       "level": 2,
       "quietSafe": false,
+      "category": "Full Body",
       "basePose": "plank",
       "view": "front",
       "props": [],
@@ -2173,6 +2262,7 @@
       "type": "reps",
       "level": 2,
       "quietSafe": true,
+      "category": "Full Body",
       "basePose": "standing → plank",
       "view": "side",
       "props": [],
@@ -2197,6 +2287,7 @@
       "type": "reps",
       "level": 3,
       "quietSafe": false,
+      "category": "Full Body",
       "basePose": "standing",
       "view": "side",
       "props": [],
@@ -2222,6 +2313,7 @@
       "type": "time",
       "level": 1,
       "quietSafe": false,
+      "category": "Cardio & Conditioning",
       "basePose": "standing",
       "view": "front",
       "props": [],
@@ -2247,6 +2339,7 @@
       "type": "time",
       "level": 1,
       "quietSafe": true,
+      "category": "Cardio & Conditioning",
       "basePose": "standing",
       "view": "front",
       "props": [],
@@ -2272,6 +2365,7 @@
       "type": "time",
       "level": 2,
       "quietSafe": false,
+      "category": "Cardio & Conditioning",
       "basePose": "standing",
       "view": "side",
       "props": [],
@@ -2297,6 +2391,7 @@
       "type": "time",
       "level": 1,
       "quietSafe": true,
+      "category": "Cardio & Conditioning",
       "basePose": "standing",
       "view": "side",
       "props": [],
@@ -2322,6 +2417,7 @@
       "type": "time",
       "level": 2,
       "quietSafe": false,
+      "category": "Cardio & Conditioning",
       "basePose": "standing",
       "view": "side",
       "props": [],
@@ -2346,6 +2442,7 @@
       "type": "time",
       "level": 1,
       "quietSafe": true,
+      "category": "Cardio & Conditioning",
       "basePose": "standing",
       "view": "front",
       "props": [],
@@ -2369,6 +2466,7 @@
       "type": "time",
       "level": 2,
       "quietSafe": false,
+      "category": "Cardio & Conditioning",
       "basePose": "standing",
       "view": "front",
       "props": [],
@@ -2394,6 +2492,7 @@
       "type": "time",
       "level": 1,
       "quietSafe": true,
+      "category": "Cardio & Conditioning",
       "basePose": "standing",
       "view": "front",
       "props": [],
@@ -2418,6 +2517,7 @@
       "type": "reps",
       "level": 3,
       "quietSafe": false,
+      "category": "Cardio & Conditioning",
       "basePose": "standing",
       "view": "side",
       "props": [],
@@ -2443,6 +2543,7 @@
       "type": "time",
       "level": 2,
       "quietSafe": false,
+      "category": "Cardio & Conditioning",
       "basePose": "standing",
       "view": "front",
       "props": [],
@@ -2467,6 +2568,7 @@
       "type": "time",
       "level": 1,
       "quietSafe": true,
+      "category": "Cardio & Conditioning",
       "basePose": "standing",
       "view": "front",
       "props": [],
@@ -2492,6 +2594,7 @@
       "type": "time",
       "level": 1,
       "quietSafe": true,
+      "category": "Cardio & Conditioning",
       "basePose": "standing",
       "view": "front",
       "props": [],
@@ -2516,6 +2619,7 @@
       "type": "hold",
       "level": 1,
       "quietSafe": true,
+      "category": "Stretch & Cool-Down",
       "basePose": "kneeling",
       "view": "side",
       "props": [],
@@ -2540,6 +2644,7 @@
       "type": "hold",
       "level": 1,
       "quietSafe": true,
+      "category": "Stretch & Cool-Down",
       "basePose": "lying on front",
       "view": "side",
       "props": [],
@@ -2564,6 +2669,7 @@
       "type": "hold",
       "level": 2,
       "quietSafe": true,
+      "category": "Stretch & Cool-Down",
       "basePose": "inverted",
       "view": "side",
       "props": [],
@@ -2589,6 +2695,7 @@
       "type": "hold",
       "level": 1,
       "quietSafe": true,
+      "category": "Stretch & Cool-Down",
       "basePose": "seated",
       "view": "side",
       "props": [],
@@ -2613,6 +2720,7 @@
       "type": "hold",
       "level": 1,
       "quietSafe": true,
+      "category": "Stretch & Cool-Down",
       "basePose": "standing",
       "view": "side",
       "props": [],
@@ -2637,6 +2745,7 @@
       "type": "hold",
       "level": 1,
       "quietSafe": true,
+      "category": "Stretch & Cool-Down",
       "basePose": "lying on back",
       "view": "side",
       "props": [],
@@ -2660,6 +2769,7 @@
       "type": "hold",
       "level": 1,
       "quietSafe": true,
+      "category": "Stretch & Cool-Down",
       "basePose": "standing",
       "view": "side",
       "props": [
@@ -2685,6 +2795,7 @@
       "type": "hold",
       "level": 1,
       "quietSafe": true,
+      "category": "Stretch & Cool-Down",
       "basePose": "kneeling",
       "view": "side",
       "props": [],
@@ -2709,6 +2820,7 @@
       "type": "hold",
       "level": 1,
       "quietSafe": true,
+      "category": "Stretch & Cool-Down",
       "basePose": "lying on back",
       "view": "side",
       "props": [],
@@ -2732,6 +2844,7 @@
       "type": "hold",
       "level": 1,
       "quietSafe": true,
+      "category": "Stretch & Cool-Down",
       "basePose": "seated",
       "view": "front",
       "props": [],
@@ -2755,6 +2868,7 @@
       "type": "hold",
       "level": 1,
       "quietSafe": true,
+      "category": "Stretch & Cool-Down",
       "basePose": "standing",
       "view": "side",
       "props": [
@@ -2781,6 +2895,7 @@
       "type": "hold",
       "level": 1,
       "quietSafe": true,
+      "category": "Stretch & Cool-Down",
       "basePose": "standing",
       "view": "front",
       "props": [],
@@ -2805,6 +2920,7 @@
       "type": "hold",
       "level": 1,
       "quietSafe": true,
+      "category": "Stretch & Cool-Down",
       "basePose": "standing",
       "view": "front",
       "props": [],
@@ -2828,6 +2944,7 @@
       "type": "reps",
       "level": 1,
       "quietSafe": true,
+      "category": "Stretch & Cool-Down",
       "basePose": "all fours",
       "view": "side",
       "props": [],
@@ -2852,6 +2969,7 @@
       "type": "hold",
       "level": 1,
       "quietSafe": true,
+      "category": "Stretch & Cool-Down",
       "basePose": "lying on back",
       "view": "side",
       "props": [],
@@ -2876,6 +2994,7 @@
       "type": "hold",
       "level": 1,
       "quietSafe": true,
+      "category": "Stretch & Cool-Down",
       "basePose": "lying on back",
       "view": "top",
       "props": [],
@@ -2909,7 +3028,79 @@
       "tiles": [
         "Core"
       ],
-      "placements": "Body Focus rows (Training)"
+      "placements": "Body Focus rows (Training)",
+      "items": [
+        {
+          "exerciseNumber": 3,
+          "seconds": 25,
+          "rest": 25
+        },
+        {
+          "exerciseNumber": 1,
+          "seconds": 25,
+          "rest": 25
+        },
+        {
+          "exerciseNumber": 16,
+          "seconds": 35,
+          "rest": 25
+        },
+        {
+          "exerciseNumber": 20,
+          "seconds": 35,
+          "rest": 25
+        },
+        {
+          "exerciseNumber": 11,
+          "reps": 12,
+          "rest": 25
+        },
+        {
+          "exerciseNumber": 27,
+          "reps": 12,
+          "rest": 25
+        },
+        {
+          "exerciseNumber": 13,
+          "reps": 12,
+          "rest": 25
+        },
+        {
+          "exerciseNumber": 23,
+          "reps": 12,
+          "rest": 25
+        },
+        {
+          "exerciseNumber": 22,
+          "reps": 12,
+          "rest": 25
+        },
+        {
+          "exerciseNumber": 21,
+          "seconds": 35,
+          "rest": 25,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 21,
+          "seconds": 35,
+          "rest": 25,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 108,
+          "seconds": 25,
+          "rest": 25
+        },
+        {
+          "exerciseNumber": 106,
+          "seconds": 25,
+          "rest": 25
+        }
+      ],
+      "totalSeconds": 720,
+      "mainCount": 8,
+      "blockSizeFlexed": false
     },
     {
       "number": 2,
@@ -2925,7 +3116,99 @@
       "tiles": [
         "Core"
       ],
-      "placements": "Body Focus rows (Training)"
+      "placements": "Body Focus rows (Training)",
+      "items": [
+        {
+          "exerciseNumber": 3,
+          "seconds": 30,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 10,
+          "reps": 10,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 18,
+          "reps": 17,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 27,
+          "reps": 17,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 14,
+          "reps": 17,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 28,
+          "seconds": 50,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 26,
+          "reps": 17,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 25,
+          "seconds": 50,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 12,
+          "reps": 17,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 22,
+          "reps": 17,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 19,
+          "reps": 17,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 17,
+          "seconds": 50,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 29,
+          "reps": 17,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 23,
+          "reps": 17,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 109,
+          "seconds": 30,
+          "rest": 20,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 109,
+          "seconds": 30,
+          "rest": 20,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 104,
+          "seconds": 30,
+          "rest": 20
+        }
+      ],
+      "totalSeconds": 1079,
+      "mainCount": 12,
+      "blockSizeFlexed": false
     },
     {
       "number": 3,
@@ -2941,7 +3224,145 @@
       "tiles": [
         "Core"
       ],
-      "placements": "Body Focus rows (Training)"
+      "placements": "Body Focus rows (Training)",
+      "items": [
+        {
+          "exerciseNumber": 3,
+          "seconds": 35,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 8,
+          "seconds": 35,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 5,
+          "seconds": 35,
+          "rest": 15,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 5,
+          "seconds": 35,
+          "rest": 15,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 17,
+          "seconds": 52,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 13,
+          "reps": 17,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 19,
+          "reps": 17,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 12,
+          "reps": 17,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 24,
+          "seconds": 52,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 27,
+          "reps": 17,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 21,
+          "seconds": 52,
+          "rest": 15,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 21,
+          "seconds": 52,
+          "rest": 15,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 25,
+          "seconds": 52,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 14,
+          "reps": 17,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 16,
+          "seconds": 52,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 26,
+          "reps": 17,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 22,
+          "reps": 17,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 15,
+          "reps": 17,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 14,
+          "reps": 17,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 17,
+          "seconds": 52,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 110,
+          "seconds": 35,
+          "rest": 15,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 110,
+          "seconds": 35,
+          "rest": 15,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 118,
+          "seconds": 35,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 117,
+          "reps": 12,
+          "rest": 15,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 117,
+          "reps": 12,
+          "rest": 15,
+          "side": "right"
+        }
+      ],
+      "totalSeconds": 1500,
+      "mainCount": 15,
+      "blockSizeFlexed": false
     },
     {
       "number": 4,
@@ -2957,7 +3378,73 @@
       "tiles": [
         "Chest"
       ],
-      "placements": "Body Focus rows (Training)"
+      "placements": "Body Focus rows (Training)",
+      "items": [
+        {
+          "exerciseNumber": 3,
+          "seconds": 30,
+          "rest": 27
+        },
+        {
+          "exerciseNumber": 6,
+          "seconds": 30,
+          "rest": 27,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 6,
+          "seconds": 30,
+          "rest": 27,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 33,
+          "reps": 10,
+          "rest": 27
+        },
+        {
+          "exerciseNumber": 32,
+          "reps": 10,
+          "rest": 27
+        },
+        {
+          "exerciseNumber": 38,
+          "seconds": 30,
+          "rest": 27
+        },
+        {
+          "exerciseNumber": 30,
+          "reps": 10,
+          "rest": 27
+        },
+        {
+          "exerciseNumber": 111,
+          "seconds": 30,
+          "rest": 27,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 111,
+          "seconds": 30,
+          "rest": 27,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 117,
+          "reps": 10,
+          "rest": 27,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 117,
+          "reps": 10,
+          "rest": 27,
+          "side": "right"
+        }
+      ],
+      "totalSeconds": 600,
+      "mainCount": 4,
+      "blockSizeFlexed": true
     },
     {
       "number": 5,
@@ -2973,7 +3460,98 @@
       "tiles": [
         "Chest"
       ],
-      "placements": "Body Focus rows (Training)"
+      "placements": "Body Focus rows (Training)",
+      "items": [
+        {
+          "exerciseNumber": 3,
+          "seconds": 35,
+          "rest": 19
+        },
+        {
+          "exerciseNumber": 5,
+          "seconds": 35,
+          "rest": 19,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 5,
+          "seconds": 35,
+          "rest": 19,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 36,
+          "reps": 16,
+          "rest": 19
+        },
+        {
+          "exerciseNumber": 38,
+          "seconds": 47,
+          "rest": 19
+        },
+        {
+          "exerciseNumber": 40,
+          "seconds": 47,
+          "rest": 19
+        },
+        {
+          "exerciseNumber": 32,
+          "reps": 16,
+          "rest": 19
+        },
+        {
+          "exerciseNumber": 30,
+          "reps": 16,
+          "rest": 19
+        },
+        {
+          "exerciseNumber": 33,
+          "reps": 16,
+          "rest": 19
+        },
+        {
+          "exerciseNumber": 34,
+          "reps": 16,
+          "rest": 19
+        },
+        {
+          "exerciseNumber": 39,
+          "reps": 16,
+          "rest": 19
+        },
+        {
+          "exerciseNumber": 31,
+          "reps": 16,
+          "rest": 19
+        },
+        {
+          "exerciseNumber": 111,
+          "seconds": 35,
+          "rest": 19,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 111,
+          "seconds": 35,
+          "rest": 19,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 115,
+          "seconds": 35,
+          "rest": 19,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 115,
+          "seconds": 35,
+          "rest": 19,
+          "side": "right"
+        }
+      ],
+      "totalSeconds": 960,
+      "mainCount": 9,
+      "blockSizeFlexed": false
     },
     {
       "number": 6,
@@ -2989,7 +3567,129 @@
       "tiles": [
         "Chest"
       ],
-      "placements": "Body Focus rows (Training)"
+      "placements": "Body Focus rows (Training)",
+      "items": [
+        {
+          "exerciseNumber": 4,
+          "seconds": 30,
+          "rest": 14
+        },
+        {
+          "exerciseNumber": 2,
+          "seconds": 30,
+          "rest": 14
+        },
+        {
+          "exerciseNumber": 3,
+          "seconds": 30,
+          "rest": 14
+        },
+        {
+          "exerciseNumber": 38,
+          "seconds": 59,
+          "rest": 14
+        },
+        {
+          "exerciseNumber": 41,
+          "reps": 16,
+          "rest": 14
+        },
+        {
+          "exerciseNumber": 33,
+          "reps": 18,
+          "rest": 14
+        },
+        {
+          "exerciseNumber": 36,
+          "reps": 16,
+          "rest": 14
+        },
+        {
+          "exerciseNumber": 39,
+          "reps": 16,
+          "rest": 14
+        },
+        {
+          "exerciseNumber": 35,
+          "reps": 16,
+          "rest": 14
+        },
+        {
+          "exerciseNumber": 37,
+          "reps": 14,
+          "rest": 14
+        },
+        {
+          "exerciseNumber": 34,
+          "reps": 18,
+          "rest": 14
+        },
+        {
+          "exerciseNumber": 37,
+          "reps": 14,
+          "rest": 14
+        },
+        {
+          "exerciseNumber": 34,
+          "reps": 18,
+          "rest": 14
+        },
+        {
+          "exerciseNumber": 33,
+          "reps": 18,
+          "rest": 14
+        },
+        {
+          "exerciseNumber": 41,
+          "reps": 16,
+          "rest": 14
+        },
+        {
+          "exerciseNumber": 35,
+          "reps": 16,
+          "rest": 14
+        },
+        {
+          "exerciseNumber": 38,
+          "seconds": 59,
+          "rest": 14
+        },
+        {
+          "exerciseNumber": 39,
+          "reps": 16,
+          "rest": 14
+        },
+        {
+          "exerciseNumber": 36,
+          "reps": 16,
+          "rest": 14
+        },
+        {
+          "exerciseNumber": 112,
+          "seconds": 30,
+          "rest": 14,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 112,
+          "seconds": 30,
+          "rest": 14,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 113,
+          "seconds": 30,
+          "rest": 14
+        },
+        {
+          "exerciseNumber": 104,
+          "seconds": 30,
+          "rest": 14
+        }
+      ],
+      "totalSeconds": 1320,
+      "mainCount": 16,
+      "blockSizeFlexed": false
     },
     {
       "number": 7,
@@ -3005,7 +3705,79 @@
       "tiles": [
         "Arm & Shoulder"
       ],
-      "placements": "Body Focus rows (Training)"
+      "placements": "Body Focus rows (Training)",
+      "items": [
+        {
+          "exerciseNumber": 4,
+          "seconds": 25,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 10,
+          "reps": 8,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 45,
+          "reps": 10,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 44,
+          "reps": 10,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 44,
+          "reps": 10,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 45,
+          "reps": 10,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 45,
+          "reps": 10,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 44,
+          "reps": 10,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 44,
+          "reps": 10,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 45,
+          "reps": 10,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 113,
+          "seconds": 25,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 110,
+          "seconds": 25,
+          "rest": 20,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 110,
+          "seconds": 25,
+          "rest": 20,
+          "side": "right"
+        }
+      ],
+      "totalSeconds": 604,
+      "mainCount": 8,
+      "blockSizeFlexed": false
     },
     {
       "number": 8,
@@ -3021,7 +3793,94 @@
       "tiles": [
         "Arm & Shoulder"
       ],
-      "placements": "Body Focus rows (Training)"
+      "placements": "Body Focus rows (Training)",
+      "items": [
+        {
+          "exerciseNumber": 4,
+          "seconds": 30,
+          "rest": 17
+        },
+        {
+          "exerciseNumber": 8,
+          "seconds": 30,
+          "rest": 17
+        },
+        {
+          "exerciseNumber": 45,
+          "reps": 15,
+          "rest": 17
+        },
+        {
+          "exerciseNumber": 44,
+          "reps": 15,
+          "rest": 17
+        },
+        {
+          "exerciseNumber": 44,
+          "reps": 15,
+          "rest": 17
+        },
+        {
+          "exerciseNumber": 45,
+          "reps": 15,
+          "rest": 17
+        },
+        {
+          "exerciseNumber": 44,
+          "reps": 15,
+          "rest": 17
+        },
+        {
+          "exerciseNumber": 45,
+          "reps": 15,
+          "rest": 17
+        },
+        {
+          "exerciseNumber": 44,
+          "reps": 15,
+          "rest": 17
+        },
+        {
+          "exerciseNumber": 45,
+          "reps": 15,
+          "rest": 17
+        },
+        {
+          "exerciseNumber": 45,
+          "reps": 15,
+          "rest": 17
+        },
+        {
+          "exerciseNumber": 44,
+          "reps": 15,
+          "rest": 17
+        },
+        {
+          "exerciseNumber": 44,
+          "reps": 15,
+          "rest": 17
+        },
+        {
+          "exerciseNumber": 114,
+          "seconds": 30,
+          "rest": 17
+        },
+        {
+          "exerciseNumber": 109,
+          "seconds": 30,
+          "rest": 17,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 109,
+          "seconds": 30,
+          "rest": 17,
+          "side": "right"
+        }
+      ],
+      "totalSeconds": 900,
+      "mainCount": 11,
+      "blockSizeFlexed": false
     },
     {
       "number": 9,
@@ -3037,7 +3896,114 @@
       "tiles": [
         "Arm & Shoulder"
       ],
-      "placements": "Body Focus rows (Training)"
+      "placements": "Body Focus rows (Training)",
+      "items": [
+        {
+          "exerciseNumber": 4,
+          "seconds": 30,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 7,
+          "seconds": 30,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 45,
+          "reps": 17,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 44,
+          "reps": 17,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 45,
+          "reps": 17,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 44,
+          "reps": 17,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 44,
+          "reps": 17,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 45,
+          "reps": 17,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 45,
+          "reps": 17,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 44,
+          "reps": 17,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 44,
+          "reps": 17,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 45,
+          "reps": 17,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 44,
+          "reps": 17,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 45,
+          "reps": 17,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 44,
+          "reps": 17,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 45,
+          "reps": 17,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 44,
+          "reps": 17,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 115,
+          "seconds": 30,
+          "rest": 15,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 115,
+          "seconds": 30,
+          "rest": 15,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 107,
+          "seconds": 30,
+          "rest": 15
+        }
+      ],
+      "totalSeconds": 1200,
+      "mainCount": 15,
+      "blockSizeFlexed": true
     },
     {
       "number": 10,
@@ -3053,7 +4019,86 @@
       "tiles": [
         "Arm & Shoulder"
       ],
-      "placements": "Body Focus rows (Training)"
+      "placements": "Body Focus rows (Training)",
+      "items": [
+        {
+          "exerciseNumber": 4,
+          "seconds": 20,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 5,
+          "seconds": 20,
+          "rest": 20,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 5,
+          "seconds": 20,
+          "rest": 20,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 53,
+          "seconds": 30,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 46,
+          "reps": 10,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 52,
+          "seconds": 30,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 48,
+          "seconds": 30,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 47,
+          "reps": 10,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 53,
+          "seconds": 30,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 46,
+          "reps": 10,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 52,
+          "seconds": 30,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 115,
+          "seconds": 20,
+          "rest": 20,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 115,
+          "seconds": 20,
+          "rest": 20,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 105,
+          "seconds": 20,
+          "rest": 20
+        }
+      ],
+      "totalSeconds": 620,
+      "mainCount": 8,
+      "blockSizeFlexed": false
     },
     {
       "number": 11,
@@ -3069,7 +4114,91 @@
       "tiles": [
         "Arm & Shoulder"
       ],
-      "placements": "Body Focus rows (Training)"
+      "placements": "Body Focus rows (Training)",
+      "items": [
+        {
+          "exerciseNumber": 4,
+          "seconds": 35,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 2,
+          "seconds": 35,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 53,
+          "seconds": 46,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 47,
+          "reps": 15,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 42,
+          "reps": 15,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 46,
+          "reps": 15,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 51,
+          "seconds": 46,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 52,
+          "seconds": 46,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 48,
+          "seconds": 46,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 52,
+          "seconds": 46,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 46,
+          "reps": 15,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 116,
+          "seconds": 35,
+          "rest": 20,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 116,
+          "seconds": 35,
+          "rest": 20,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 119,
+          "seconds": 35,
+          "rest": 20,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 119,
+          "seconds": 35,
+          "rest": 20,
+          "side": "right"
+        }
+      ],
+      "totalSeconds": 900,
+      "mainCount": 9,
+      "blockSizeFlexed": false
     },
     {
       "number": 12,
@@ -3085,7 +4214,116 @@
       "tiles": [
         "Arm & Shoulder"
       ],
-      "placements": "Body Focus rows (Training)"
+      "placements": "Body Focus rows (Training)",
+      "items": [
+        {
+          "exerciseNumber": 4,
+          "seconds": 30,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 1,
+          "seconds": 30,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 42,
+          "reps": 16,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 51,
+          "seconds": 55,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 48,
+          "seconds": 55,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 42,
+          "reps": 16,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 48,
+          "seconds": 55,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 51,
+          "seconds": 55,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 51,
+          "seconds": 55,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 48,
+          "seconds": 55,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 42,
+          "reps": 16,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 51,
+          "seconds": 55,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 42,
+          "reps": 16,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 48,
+          "seconds": 55,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 51,
+          "seconds": 55,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 42,
+          "reps": 16,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 117,
+          "reps": 10,
+          "rest": 15,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 117,
+          "reps": 10,
+          "rest": 15,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 116,
+          "seconds": 30,
+          "rest": 15,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 116,
+          "seconds": 30,
+          "rest": 15,
+          "side": "right"
+        }
+      ],
+      "totalSeconds": 1200,
+      "mainCount": 14,
+      "blockSizeFlexed": true
     },
     {
       "number": 13,
@@ -3101,7 +4339,84 @@
       "tiles": [
         "Back & Posture"
       ],
-      "placements": "Body Focus rows (Training)"
+      "placements": "Body Focus rows (Training)",
+      "items": [
+        {
+          "exerciseNumber": 4,
+          "seconds": 25,
+          "rest": 25
+        },
+        {
+          "exerciseNumber": 9,
+          "seconds": 25,
+          "rest": 25
+        },
+        {
+          "exerciseNumber": 55,
+          "reps": 10,
+          "rest": 25
+        },
+        {
+          "exerciseNumber": 63,
+          "reps": 10,
+          "rest": 25
+        },
+        {
+          "exerciseNumber": 58,
+          "reps": 10,
+          "rest": 25
+        },
+        {
+          "exerciseNumber": 57,
+          "reps": 10,
+          "rest": 25
+        },
+        {
+          "exerciseNumber": 54,
+          "seconds": 30,
+          "rest": 25
+        },
+        {
+          "exerciseNumber": 59,
+          "reps": 10,
+          "rest": 25
+        },
+        {
+          "exerciseNumber": 60,
+          "seconds": 30,
+          "rest": 25
+        },
+        {
+          "exerciseNumber": 62,
+          "seconds": 30,
+          "rest": 25
+        },
+        {
+          "exerciseNumber": 56,
+          "reps": 10,
+          "rest": 25
+        },
+        {
+          "exerciseNumber": 118,
+          "seconds": 25,
+          "rest": 25
+        },
+        {
+          "exerciseNumber": 115,
+          "seconds": 25,
+          "rest": 25,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 115,
+          "seconds": 25,
+          "rest": 25,
+          "side": "right"
+        }
+      ],
+      "totalSeconds": 720,
+      "mainCount": 9,
+      "blockSizeFlexed": false
     },
     {
       "number": 14,
@@ -3117,7 +4432,106 @@
       "tiles": [
         "Back & Posture"
       ],
-      "placements": "Body Focus rows (Training)"
+      "placements": "Body Focus rows (Training)",
+      "items": [
+        {
+          "exerciseNumber": 5,
+          "seconds": 35,
+          "rest": 18,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 5,
+          "seconds": 35,
+          "rest": 18,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 7,
+          "seconds": 35,
+          "rest": 18
+        },
+        {
+          "exerciseNumber": 56,
+          "reps": 14,
+          "rest": 18
+        },
+        {
+          "exerciseNumber": 57,
+          "reps": 14,
+          "rest": 18
+        },
+        {
+          "exerciseNumber": 61,
+          "reps": 14,
+          "rest": 18
+        },
+        {
+          "exerciseNumber": 59,
+          "reps": 14,
+          "rest": 18
+        },
+        {
+          "exerciseNumber": 62,
+          "seconds": 42,
+          "rest": 18
+        },
+        {
+          "exerciseNumber": 55,
+          "reps": 14,
+          "rest": 18
+        },
+        {
+          "exerciseNumber": 60,
+          "seconds": 42,
+          "rest": 18
+        },
+        {
+          "exerciseNumber": 63,
+          "reps": 14,
+          "rest": 18
+        },
+        {
+          "exerciseNumber": 58,
+          "reps": 14,
+          "rest": 18
+        },
+        {
+          "exerciseNumber": 54,
+          "seconds": 42,
+          "rest": 18
+        },
+        {
+          "exerciseNumber": 59,
+          "reps": 14,
+          "rest": 18
+        },
+        {
+          "exerciseNumber": 55,
+          "reps": 14,
+          "rest": 18
+        },
+        {
+          "exerciseNumber": 119,
+          "seconds": 35,
+          "rest": 18,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 119,
+          "seconds": 35,
+          "rest": 18,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 113,
+          "seconds": 35,
+          "rest": 18
+        }
+      ],
+      "totalSeconds": 1020,
+      "mainCount": 12,
+      "blockSizeFlexed": false
     },
     {
       "number": 15,
@@ -3133,7 +4547,145 @@
       "tiles": [
         "Back & Posture"
       ],
-      "placements": "Body Focus rows (Training)"
+      "placements": "Body Focus rows (Training)",
+      "items": [
+        {
+          "exerciseNumber": 5,
+          "seconds": 25,
+          "rest": 11,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 5,
+          "seconds": 25,
+          "rest": 11,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 6,
+          "seconds": 25,
+          "rest": 11,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 6,
+          "seconds": 25,
+          "rest": 11,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 2,
+          "seconds": 25,
+          "rest": 11
+        },
+        {
+          "exerciseNumber": 57,
+          "reps": 18,
+          "rest": 11
+        },
+        {
+          "exerciseNumber": 59,
+          "reps": 18,
+          "rest": 11
+        },
+        {
+          "exerciseNumber": 63,
+          "reps": 18,
+          "rest": 11
+        },
+        {
+          "exerciseNumber": 60,
+          "seconds": 53,
+          "rest": 11
+        },
+        {
+          "exerciseNumber": 58,
+          "reps": 18,
+          "rest": 11
+        },
+        {
+          "exerciseNumber": 56,
+          "reps": 18,
+          "rest": 11
+        },
+        {
+          "exerciseNumber": 55,
+          "reps": 18,
+          "rest": 11
+        },
+        {
+          "exerciseNumber": 62,
+          "seconds": 53,
+          "rest": 11
+        },
+        {
+          "exerciseNumber": 56,
+          "reps": 18,
+          "rest": 11
+        },
+        {
+          "exerciseNumber": 60,
+          "seconds": 53,
+          "rest": 11
+        },
+        {
+          "exerciseNumber": 59,
+          "reps": 18,
+          "rest": 11
+        },
+        {
+          "exerciseNumber": 55,
+          "reps": 18,
+          "rest": 11
+        },
+        {
+          "exerciseNumber": 57,
+          "reps": 18,
+          "rest": 11
+        },
+        {
+          "exerciseNumber": 62,
+          "seconds": 53,
+          "rest": 11
+        },
+        {
+          "exerciseNumber": 63,
+          "reps": 18,
+          "rest": 11
+        },
+        {
+          "exerciseNumber": 119,
+          "seconds": 25,
+          "rest": 11,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 119,
+          "seconds": 25,
+          "rest": 11,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 111,
+          "seconds": 25,
+          "rest": 11,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 111,
+          "seconds": 25,
+          "rest": 11,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 107,
+          "seconds": 25,
+          "rest": 11
+        }
+      ],
+      "totalSeconds": 1320,
+      "mainCount": 15,
+      "blockSizeFlexed": false
     },
     {
       "number": 16,
@@ -3149,7 +4701,107 @@
       "tiles": [
         "Butt & Leg"
       ],
-      "placements": "Body Focus rows (Training)"
+      "placements": "Body Focus rows (Training)",
+      "items": [
+        {
+          "exerciseNumber": 5,
+          "seconds": 20,
+          "rest": 20,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 5,
+          "seconds": 20,
+          "rest": 20,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 3,
+          "seconds": 20,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 68,
+          "reps": 10,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 79,
+          "reps": 10,
+          "rest": 20,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 79,
+          "reps": 10,
+          "rest": 20,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 64,
+          "reps": 10,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 80,
+          "reps": 10,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 67,
+          "seconds": 30,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 72,
+          "reps": 10,
+          "rest": 20,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 72,
+          "reps": 10,
+          "rest": 20,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 69,
+          "reps": 10,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 81,
+          "reps": 10,
+          "rest": 20,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 81,
+          "reps": 10,
+          "rest": 20,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 104,
+          "seconds": 20,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 110,
+          "seconds": 20,
+          "rest": 20,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 110,
+          "seconds": 20,
+          "rest": 20,
+          "side": "right"
+        }
+      ],
+      "totalSeconds": 770,
+      "mainCount": 8,
+      "blockSizeFlexed": false
     },
     {
       "number": 17,
@@ -3165,7 +4817,110 @@
       "tiles": [
         "Butt & Leg"
       ],
-      "placements": "Body Focus rows (Training)"
+      "placements": "Body Focus rows (Training)",
+      "items": [
+        {
+          "exerciseNumber": 5,
+          "seconds": 30,
+          "rest": 19,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 5,
+          "seconds": 30,
+          "rest": 19,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 1,
+          "seconds": 30,
+          "rest": 19
+        },
+        {
+          "exerciseNumber": 68,
+          "reps": 16,
+          "rest": 19
+        },
+        {
+          "exerciseNumber": 65,
+          "reps": 16,
+          "rest": 19
+        },
+        {
+          "exerciseNumber": 69,
+          "reps": 16,
+          "rest": 19
+        },
+        {
+          "exerciseNumber": 81,
+          "reps": 16,
+          "rest": 19,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 81,
+          "reps": 16,
+          "rest": 19,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 64,
+          "reps": 16,
+          "rest": 19
+        },
+        {
+          "exerciseNumber": 78,
+          "reps": 16,
+          "rest": 19
+        },
+        {
+          "exerciseNumber": 80,
+          "reps": 16,
+          "rest": 19
+        },
+        {
+          "exerciseNumber": 79,
+          "reps": 16,
+          "rest": 19,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 79,
+          "reps": 16,
+          "rest": 19,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 67,
+          "seconds": 49,
+          "rest": 19
+        },
+        {
+          "exerciseNumber": 70,
+          "reps": 16,
+          "rest": 19
+        },
+        {
+          "exerciseNumber": 105,
+          "seconds": 30,
+          "rest": 19
+        },
+        {
+          "exerciseNumber": 109,
+          "seconds": 30,
+          "rest": 19,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 109,
+          "seconds": 30,
+          "rest": 19,
+          "side": "right"
+        }
+      ],
+      "totalSeconds": 1080,
+      "mainCount": 10,
+      "blockSizeFlexed": false
     },
     {
       "number": 18,
@@ -3181,7 +4936,149 @@
       "tiles": [
         "Butt & Leg"
       ],
-      "placements": "Body Focus rows (Training)"
+      "placements": "Body Focus rows (Training)",
+      "items": [
+        {
+          "exerciseNumber": 5,
+          "seconds": 30,
+          "rest": 14,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 5,
+          "seconds": 30,
+          "rest": 14,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 10,
+          "reps": 10,
+          "rest": 14
+        },
+        {
+          "exerciseNumber": 9,
+          "seconds": 30,
+          "rest": 14
+        },
+        {
+          "exerciseNumber": 70,
+          "reps": 18,
+          "rest": 14
+        },
+        {
+          "exerciseNumber": 68,
+          "reps": 18,
+          "rest": 14
+        },
+        {
+          "exerciseNumber": 79,
+          "reps": 18,
+          "rest": 14,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 79,
+          "reps": 18,
+          "rest": 14,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 66,
+          "seconds": 60,
+          "rest": 14
+        },
+        {
+          "exerciseNumber": 81,
+          "reps": 18,
+          "rest": 14,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 81,
+          "reps": 18,
+          "rest": 14,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 80,
+          "reps": 18,
+          "rest": 14
+        },
+        {
+          "exerciseNumber": 67,
+          "seconds": 60,
+          "rest": 14
+        },
+        {
+          "exerciseNumber": 72,
+          "reps": 16,
+          "rest": 14,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 72,
+          "reps": 16,
+          "rest": 14,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 80,
+          "reps": 18,
+          "rest": 14
+        },
+        {
+          "exerciseNumber": 68,
+          "reps": 18,
+          "rest": 14
+        },
+        {
+          "exerciseNumber": 79,
+          "reps": 18,
+          "rest": 14,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 79,
+          "reps": 18,
+          "rest": 14,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 67,
+          "seconds": 60,
+          "rest": 14
+        },
+        {
+          "exerciseNumber": 70,
+          "reps": 18,
+          "rest": 14
+        },
+        {
+          "exerciseNumber": 106,
+          "seconds": 30,
+          "rest": 14
+        },
+        {
+          "exerciseNumber": 111,
+          "seconds": 30,
+          "rest": 14,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 111,
+          "seconds": 30,
+          "rest": 14,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 107,
+          "seconds": 30,
+          "rest": 14
+        }
+      ],
+      "totalSeconds": 1500,
+      "mainCount": 13,
+      "blockSizeFlexed": false
     },
     {
       "number": 19,
@@ -3197,7 +5094,97 @@
       "tiles": [
         "Butt & Leg"
       ],
-      "placements": "Body Focus rows (Training)"
+      "placements": "Body Focus rows (Training)",
+      "items": [
+        {
+          "exerciseNumber": 5,
+          "seconds": 25,
+          "rest": 21,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 5,
+          "seconds": 25,
+          "rest": 21,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 8,
+          "seconds": 25,
+          "rest": 21
+        },
+        {
+          "exerciseNumber": 74,
+          "reps": 10,
+          "rest": 21,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 74,
+          "reps": 10,
+          "rest": 21,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 75,
+          "reps": 10,
+          "rest": 21
+        },
+        {
+          "exerciseNumber": 76,
+          "reps": 10,
+          "rest": 21,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 76,
+          "reps": 10,
+          "rest": 21,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 68,
+          "reps": 10,
+          "rest": 21
+        },
+        {
+          "exerciseNumber": 72,
+          "reps": 10,
+          "rest": 21,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 72,
+          "reps": 10,
+          "rest": 21,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 81,
+          "reps": 10,
+          "rest": 21,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 81,
+          "reps": 10,
+          "rest": 21,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 107,
+          "seconds": 25,
+          "rest": 21
+        },
+        {
+          "exerciseNumber": 104,
+          "seconds": 25,
+          "rest": 21
+        }
+      ],
+      "totalSeconds": 719,
+      "mainCount": 6,
+      "blockSizeFlexed": true
     },
     {
       "number": 20,
@@ -3213,7 +5200,119 @@
       "tiles": [
         "Butt & Leg"
       ],
-      "placements": "Body Focus rows (Training)"
+      "placements": "Body Focus rows (Training)",
+      "items": [
+        {
+          "exerciseNumber": 5,
+          "seconds": 35,
+          "rest": 18,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 5,
+          "seconds": 35,
+          "rest": 18,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 6,
+          "seconds": 35,
+          "rest": 18,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 6,
+          "seconds": 35,
+          "rest": 18,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 74,
+          "reps": 14,
+          "rest": 18,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 74,
+          "reps": 14,
+          "rest": 18,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 81,
+          "reps": 14,
+          "rest": 18,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 81,
+          "reps": 14,
+          "rest": 18,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 77,
+          "reps": 14,
+          "rest": 18,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 77,
+          "reps": 14,
+          "rest": 18,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 69,
+          "reps": 14,
+          "rest": 18
+        },
+        {
+          "exerciseNumber": 71,
+          "reps": 14,
+          "rest": 18
+        },
+        {
+          "exerciseNumber": 64,
+          "reps": 14,
+          "rest": 18
+        },
+        {
+          "exerciseNumber": 76,
+          "reps": 14,
+          "rest": 18,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 76,
+          "reps": 14,
+          "rest": 18,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 75,
+          "reps": 14,
+          "rest": 18
+        },
+        {
+          "exerciseNumber": 73,
+          "reps": 14,
+          "rest": 18
+        },
+        {
+          "exerciseNumber": 108,
+          "seconds": 35,
+          "rest": 18
+        },
+        {
+          "exerciseNumber": 118,
+          "seconds": 35,
+          "rest": 18
+        }
+      ],
+      "totalSeconds": 1080,
+      "mainCount": 9,
+      "blockSizeFlexed": false
     },
     {
       "number": 21,
@@ -3229,7 +5328,165 @@
       "tiles": [
         "Butt & Leg"
       ],
-      "placements": "Body Focus rows (Training)"
+      "placements": "Body Focus rows (Training)",
+      "items": [
+        {
+          "exerciseNumber": 5,
+          "seconds": 20,
+          "rest": 14,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 5,
+          "seconds": 20,
+          "rest": 14,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 3,
+          "seconds": 20,
+          "rest": 14
+        },
+        {
+          "exerciseNumber": 7,
+          "seconds": 20,
+          "rest": 14
+        },
+        {
+          "exerciseNumber": 75,
+          "reps": 17,
+          "rest": 14
+        },
+        {
+          "exerciseNumber": 71,
+          "reps": 17,
+          "rest": 14
+        },
+        {
+          "exerciseNumber": 68,
+          "reps": 17,
+          "rest": 14
+        },
+        {
+          "exerciseNumber": 74,
+          "reps": 16,
+          "rest": 14,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 74,
+          "reps": 16,
+          "rest": 14,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 72,
+          "reps": 16,
+          "rest": 14,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 72,
+          "reps": 16,
+          "rest": 14,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 81,
+          "reps": 17,
+          "rest": 14,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 81,
+          "reps": 17,
+          "rest": 14,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 72,
+          "reps": 16,
+          "rest": 14,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 72,
+          "reps": 16,
+          "rest": 14,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 81,
+          "reps": 17,
+          "rest": 14,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 81,
+          "reps": 17,
+          "rest": 14,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 71,
+          "reps": 17,
+          "rest": 14
+        },
+        {
+          "exerciseNumber": 68,
+          "reps": 17,
+          "rest": 14
+        },
+        {
+          "exerciseNumber": 75,
+          "reps": 17,
+          "rest": 14
+        },
+        {
+          "exerciseNumber": 74,
+          "reps": 16,
+          "rest": 14,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 74,
+          "reps": 16,
+          "rest": 14,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 108,
+          "seconds": 20,
+          "rest": 14
+        },
+        {
+          "exerciseNumber": 117,
+          "reps": 7,
+          "rest": 14,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 117,
+          "reps": 7,
+          "rest": 14,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 111,
+          "seconds": 20,
+          "rest": 14,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 111,
+          "seconds": 20,
+          "rest": 14,
+          "side": "right"
+        }
+      ],
+      "totalSeconds": 1440,
+      "mainCount": 12,
+      "blockSizeFlexed": false
     },
     {
       "number": 22,
@@ -3245,7 +5502,93 @@
       "tiles": [
         "Full Body"
       ],
-      "placements": "Body Focus rows (Training)"
+      "placements": "Body Focus rows (Training)",
+      "items": [
+        {
+          "exerciseNumber": 6,
+          "seconds": 30,
+          "rest": 30,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 6,
+          "seconds": 30,
+          "rest": 30,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 2,
+          "seconds": 30,
+          "rest": 30
+        },
+        {
+          "exerciseNumber": 98,
+          "seconds": 34,
+          "rest": 30
+        },
+        {
+          "exerciseNumber": 93,
+          "seconds": 34,
+          "rest": 30
+        },
+        {
+          "exerciseNumber": 88,
+          "reps": 11,
+          "rest": 30
+        },
+        {
+          "exerciseNumber": 95,
+          "seconds": 34,
+          "rest": 30
+        },
+        {
+          "exerciseNumber": 101,
+          "seconds": 34,
+          "rest": 30
+        },
+        {
+          "exerciseNumber": 87,
+          "reps": 11,
+          "rest": 30
+        },
+        {
+          "exerciseNumber": 97,
+          "seconds": 34,
+          "rest": 30
+        },
+        {
+          "exerciseNumber": 103,
+          "seconds": 34,
+          "rest": 30
+        },
+        {
+          "exerciseNumber": 109,
+          "seconds": 30,
+          "rest": 30,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 109,
+          "seconds": 30,
+          "rest": 30,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 115,
+          "seconds": 30,
+          "rest": 30,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 115,
+          "seconds": 30,
+          "rest": 30,
+          "side": "right"
+        }
+      ],
+      "totalSeconds": 900,
+      "mainCount": 8,
+      "blockSizeFlexed": false
     },
     {
       "number": 23,
@@ -3261,7 +5604,128 @@
       "tiles": [
         "Full Body"
       ],
-      "placements": "Body Focus rows (Training)"
+      "placements": "Body Focus rows (Training)",
+      "items": [
+        {
+          "exerciseNumber": 6,
+          "seconds": 35,
+          "rest": 18,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 6,
+          "seconds": 35,
+          "rest": 18,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 10,
+          "reps": 12,
+          "rest": 18
+        },
+        {
+          "exerciseNumber": 1,
+          "seconds": 35,
+          "rest": 18
+        },
+        {
+          "exerciseNumber": 100,
+          "reps": 16,
+          "rest": 18
+        },
+        {
+          "exerciseNumber": 98,
+          "seconds": 48,
+          "rest": 18
+        },
+        {
+          "exerciseNumber": 92,
+          "seconds": 48,
+          "rest": 18
+        },
+        {
+          "exerciseNumber": 96,
+          "seconds": 48,
+          "rest": 18
+        },
+        {
+          "exerciseNumber": 91,
+          "reps": 16,
+          "rest": 18
+        },
+        {
+          "exerciseNumber": 89,
+          "reps": 16,
+          "rest": 18
+        },
+        {
+          "exerciseNumber": 84,
+          "reps": 16,
+          "rest": 18
+        },
+        {
+          "exerciseNumber": 103,
+          "seconds": 48,
+          "rest": 18
+        },
+        {
+          "exerciseNumber": 87,
+          "reps": 16,
+          "rest": 18
+        },
+        {
+          "exerciseNumber": 83,
+          "reps": 16,
+          "rest": 18
+        },
+        {
+          "exerciseNumber": 82,
+          "reps": 16,
+          "rest": 18
+        },
+        {
+          "exerciseNumber": 93,
+          "seconds": 48,
+          "rest": 18
+        },
+        {
+          "exerciseNumber": 86,
+          "seconds": 48,
+          "rest": 18
+        },
+        {
+          "exerciseNumber": 110,
+          "seconds": 35,
+          "rest": 18,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 110,
+          "seconds": 35,
+          "rest": 18,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 113,
+          "seconds": 35,
+          "rest": 18
+        },
+        {
+          "exerciseNumber": 117,
+          "reps": 12,
+          "rest": 18,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 117,
+          "reps": 12,
+          "rest": 18,
+          "side": "right"
+        }
+      ],
+      "totalSeconds": 1320,
+      "mainCount": 13,
+      "blockSizeFlexed": false
     },
     {
       "number": 24,
@@ -3277,7 +5741,178 @@
       "tiles": [
         "Full Body"
       ],
-      "placements": "Body Focus rows (Training)"
+      "placements": "Body Focus rows (Training)",
+      "items": [
+        {
+          "exerciseNumber": 6,
+          "seconds": 20,
+          "rest": 13,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 6,
+          "seconds": 20,
+          "rest": 13,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 8,
+          "seconds": 20,
+          "rest": 13
+        },
+        {
+          "exerciseNumber": 2,
+          "seconds": 20,
+          "rest": 13
+        },
+        {
+          "exerciseNumber": 100,
+          "reps": 18,
+          "rest": 13
+        },
+        {
+          "exerciseNumber": 82,
+          "reps": 16,
+          "rest": 13
+        },
+        {
+          "exerciseNumber": 94,
+          "seconds": 58,
+          "rest": 13
+        },
+        {
+          "exerciseNumber": 98,
+          "seconds": 58,
+          "rest": 13
+        },
+        {
+          "exerciseNumber": 85,
+          "seconds": 58,
+          "rest": 13
+        },
+        {
+          "exerciseNumber": 90,
+          "reps": 16,
+          "rest": 13
+        },
+        {
+          "exerciseNumber": 89,
+          "reps": 19,
+          "rest": 13
+        },
+        {
+          "exerciseNumber": 83,
+          "reps": 16,
+          "rest": 13
+        },
+        {
+          "exerciseNumber": 101,
+          "seconds": 58,
+          "rest": 13
+        },
+        {
+          "exerciseNumber": 84,
+          "reps": 18,
+          "rest": 13
+        },
+        {
+          "exerciseNumber": 86,
+          "seconds": 58,
+          "rest": 13
+        },
+        {
+          "exerciseNumber": 91,
+          "reps": 18,
+          "rest": 13
+        },
+        {
+          "exerciseNumber": 96,
+          "seconds": 58,
+          "rest": 13
+        },
+        {
+          "exerciseNumber": 88,
+          "reps": 14,
+          "rest": 13
+        },
+        {
+          "exerciseNumber": 100,
+          "reps": 18,
+          "rest": 13
+        },
+        {
+          "exerciseNumber": 94,
+          "seconds": 58,
+          "rest": 13
+        },
+        {
+          "exerciseNumber": 90,
+          "reps": 16,
+          "rest": 13
+        },
+        {
+          "exerciseNumber": 84,
+          "reps": 18,
+          "rest": 13
+        },
+        {
+          "exerciseNumber": 83,
+          "reps": 16,
+          "rest": 13
+        },
+        {
+          "exerciseNumber": 91,
+          "reps": 18,
+          "rest": 13
+        },
+        {
+          "exerciseNumber": 98,
+          "seconds": 58,
+          "rest": 13
+        },
+        {
+          "exerciseNumber": 88,
+          "reps": 14,
+          "rest": 13
+        },
+        {
+          "exerciseNumber": 82,
+          "reps": 16,
+          "rest": 13
+        },
+        {
+          "exerciseNumber": 111,
+          "seconds": 20,
+          "rest": 13,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 111,
+          "seconds": 20,
+          "rest": 13,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 110,
+          "seconds": 20,
+          "rest": 13,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 110,
+          "seconds": 20,
+          "rest": 13,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 113,
+          "seconds": 20,
+          "rest": 13
+        }
+      ],
+      "totalSeconds": 1800,
+      "mainCount": 23,
+      "blockSizeFlexed": true
     },
     {
       "number": 25,
@@ -3291,7 +5926,32 @@
       "type": "warmup",
       "quiet": "Yes",
       "tiles": [],
-      "placements": "Fast workout · Warm-Up filter"
+      "placements": "Fast workout · Warm-Up filter",
+      "items": [
+        {
+          "exerciseNumber": 10,
+          "reps": 13,
+          "rest": 29
+        },
+        {
+          "exerciseNumber": 4,
+          "seconds": 38,
+          "rest": 29
+        },
+        {
+          "exerciseNumber": 9,
+          "seconds": 38,
+          "rest": 29
+        },
+        {
+          "exerciseNumber": 8,
+          "seconds": 38,
+          "rest": 29
+        }
+      ],
+      "totalSeconds": 240,
+      "mainCount": 4,
+      "blockSizeFlexed": false
     },
     {
       "number": 26,
@@ -3307,7 +5967,56 @@
       "tiles": [
         "Full Body"
       ],
-      "placements": "Fast workout · Collection C3"
+      "placements": "Fast workout · Collection C3",
+      "items": [
+        {
+          "exerciseNumber": 6,
+          "seconds": 25,
+          "rest": 11,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 6,
+          "seconds": 25,
+          "rest": 11,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 82,
+          "reps": 10,
+          "rest": 11
+        },
+        {
+          "exerciseNumber": 96,
+          "seconds": 31,
+          "rest": 11
+        },
+        {
+          "exerciseNumber": 86,
+          "seconds": 31,
+          "rest": 11
+        },
+        {
+          "exerciseNumber": 85,
+          "seconds": 31,
+          "rest": 11
+        },
+        {
+          "exerciseNumber": 112,
+          "seconds": 25,
+          "rest": 11,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 112,
+          "seconds": 25,
+          "rest": 11,
+          "side": "right"
+        }
+      ],
+      "totalSeconds": 300,
+      "mainCount": 4,
+      "blockSizeFlexed": false
     },
     {
       "number": 27,
@@ -3323,7 +6032,49 @@
       "tiles": [
         "Full Body"
       ],
-      "placements": "Fast workout"
+      "placements": "Fast workout",
+      "items": [
+        {
+          "exerciseNumber": 6,
+          "seconds": 30,
+          "rest": 15,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 6,
+          "seconds": 30,
+          "rest": 15,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 84,
+          "reps": 15,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 102,
+          "seconds": 45,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 89,
+          "reps": 15,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 87,
+          "reps": 15,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 113,
+          "seconds": 30,
+          "rest": 15
+        }
+      ],
+      "totalSeconds": 360,
+      "mainCount": 4,
+      "blockSizeFlexed": false
     },
     {
       "number": 28,
@@ -3339,7 +6090,54 @@
       "tiles": [
         "Full Body"
       ],
-      "placements": "Fast workout"
+      "placements": "Fast workout",
+      "items": [
+        {
+          "exerciseNumber": 6,
+          "seconds": 35,
+          "rest": 15,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 6,
+          "seconds": 35,
+          "rest": 15,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 87,
+          "reps": 14,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 89,
+          "reps": 14,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 95,
+          "seconds": 42,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 85,
+          "seconds": 42,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 91,
+          "reps": 14,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 114,
+          "seconds": 35,
+          "rest": 15
+        }
+      ],
+      "totalSeconds": 420,
+      "mainCount": 5,
+      "blockSizeFlexed": false
     },
     {
       "number": 29,
@@ -3355,7 +6153,73 @@
       "tiles": [
         "Core"
       ],
-      "placements": "Fast workout"
+      "placements": "Fast workout",
+      "items": [
+        {
+          "exerciseNumber": 6,
+          "seconds": 30,
+          "rest": 27,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 6,
+          "seconds": 30,
+          "rest": 27,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 9,
+          "seconds": 30,
+          "rest": 27
+        },
+        {
+          "exerciseNumber": 15,
+          "reps": 10,
+          "rest": 27
+        },
+        {
+          "exerciseNumber": 19,
+          "reps": 10,
+          "rest": 27
+        },
+        {
+          "exerciseNumber": 25,
+          "seconds": 30,
+          "rest": 27
+        },
+        {
+          "exerciseNumber": 20,
+          "seconds": 30,
+          "rest": 27
+        },
+        {
+          "exerciseNumber": 115,
+          "seconds": 30,
+          "rest": 27,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 115,
+          "seconds": 30,
+          "rest": 27,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 117,
+          "reps": 10,
+          "rest": 27,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 117,
+          "reps": 10,
+          "rest": 27,
+          "side": "right"
+        }
+      ],
+      "totalSeconds": 600,
+      "mainCount": 4,
+      "blockSizeFlexed": true
     },
     {
       "number": 30,
@@ -3371,7 +6235,108 @@
       "tiles": [
         "Full Body"
       ],
-      "placements": "Collection C2"
+      "placements": "Collection C2",
+      "items": [
+        {
+          "exerciseNumber": 6,
+          "seconds": 30,
+          "rest": 15,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 6,
+          "seconds": 30,
+          "rest": 15,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 7,
+          "seconds": 30,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 88,
+          "reps": 13,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 102,
+          "seconds": 40,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 98,
+          "seconds": 40,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 103,
+          "seconds": 40,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 95,
+          "seconds": 40,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 93,
+          "seconds": 40,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 84,
+          "reps": 13,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 97,
+          "seconds": 40,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 87,
+          "reps": 13,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 99,
+          "seconds": 40,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 89,
+          "reps": 13,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 116,
+          "seconds": 30,
+          "rest": 15,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 116,
+          "seconds": 30,
+          "rest": 15,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 115,
+          "seconds": 30,
+          "rest": 15,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 115,
+          "seconds": 30,
+          "rest": 15,
+          "side": "right"
+        }
+      ],
+      "totalSeconds": 901,
+      "mainCount": 11,
+      "blockSizeFlexed": false
     },
     {
       "number": 31,
@@ -3387,7 +6352,138 @@
       "tiles": [
         "Full Body"
       ],
-      "placements": "Collection C2"
+      "placements": "Collection C2",
+      "items": [
+        {
+          "exerciseNumber": 7,
+          "seconds": 35,
+          "rest": 12
+        },
+        {
+          "exerciseNumber": 5,
+          "seconds": 35,
+          "rest": 12,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 5,
+          "seconds": 35,
+          "rest": 12,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 9,
+          "seconds": 35,
+          "rest": 12
+        },
+        {
+          "exerciseNumber": 83,
+          "reps": 16,
+          "rest": 12
+        },
+        {
+          "exerciseNumber": 86,
+          "seconds": 49,
+          "rest": 12
+        },
+        {
+          "exerciseNumber": 94,
+          "seconds": 49,
+          "rest": 12
+        },
+        {
+          "exerciseNumber": 90,
+          "reps": 16,
+          "rest": 12
+        },
+        {
+          "exerciseNumber": 87,
+          "reps": 16,
+          "rest": 12
+        },
+        {
+          "exerciseNumber": 99,
+          "seconds": 49,
+          "rest": 12
+        },
+        {
+          "exerciseNumber": 84,
+          "reps": 16,
+          "rest": 12
+        },
+        {
+          "exerciseNumber": 92,
+          "seconds": 49,
+          "rest": 12
+        },
+        {
+          "exerciseNumber": 95,
+          "seconds": 49,
+          "rest": 12
+        },
+        {
+          "exerciseNumber": 93,
+          "seconds": 49,
+          "rest": 12
+        },
+        {
+          "exerciseNumber": 98,
+          "seconds": 49,
+          "rest": 12
+        },
+        {
+          "exerciseNumber": 97,
+          "seconds": 49,
+          "rest": 12
+        },
+        {
+          "exerciseNumber": 100,
+          "reps": 16,
+          "rest": 12
+        },
+        {
+          "exerciseNumber": 89,
+          "reps": 16,
+          "rest": 12
+        },
+        {
+          "exerciseNumber": 101,
+          "seconds": 49,
+          "rest": 12
+        },
+        {
+          "exerciseNumber": 116,
+          "seconds": 35,
+          "rest": 12,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 116,
+          "seconds": 35,
+          "rest": 12,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 113,
+          "seconds": 35,
+          "rest": 12
+        },
+        {
+          "exerciseNumber": 109,
+          "seconds": 35,
+          "rest": 12,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 109,
+          "seconds": 35,
+          "rest": 12,
+          "side": "right"
+        }
+      ],
+      "totalSeconds": 1320,
+      "mainCount": 15,
+      "blockSizeFlexed": false
     },
     {
       "number": 32,
@@ -3403,7 +6499,146 @@
       "tiles": [
         "Full Body"
       ],
-      "placements": "Collection C2"
+      "placements": "Collection C2",
+      "items": [
+        {
+          "exerciseNumber": 7,
+          "seconds": 35,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 3,
+          "seconds": 35,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 1,
+          "seconds": 35,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 89,
+          "reps": 20,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 101,
+          "seconds": 60,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 90,
+          "reps": 16,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 91,
+          "reps": 18,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 85,
+          "seconds": 60,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 94,
+          "seconds": 60,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 85,
+          "seconds": 60,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 100,
+          "reps": 18,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 96,
+          "seconds": 60,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 88,
+          "reps": 14,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 86,
+          "seconds": 60,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 84,
+          "reps": 18,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 96,
+          "seconds": 60,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 82,
+          "reps": 16,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 83,
+          "reps": 16,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 98,
+          "seconds": 60,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 98,
+          "seconds": 60,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 84,
+          "reps": 18,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 117,
+          "reps": 12,
+          "rest": 15,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 117,
+          "reps": 12,
+          "rest": 15,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 111,
+          "seconds": 35,
+          "rest": 15,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 111,
+          "seconds": 35,
+          "rest": 15,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 105,
+          "seconds": 35,
+          "rest": 15
+        }
+      ],
+      "totalSeconds": 1659,
+      "mainCount": 18,
+      "blockSizeFlexed": false
     },
     {
       "number": 33,
@@ -3419,7 +6654,124 @@
       "tiles": [
         "Full Body"
       ],
-      "placements": "Collection C2"
+      "placements": "Collection C2",
+      "items": [
+        {
+          "exerciseNumber": 7,
+          "seconds": 35,
+          "rest": 13
+        },
+        {
+          "exerciseNumber": 1,
+          "seconds": 35,
+          "rest": 13
+        },
+        {
+          "exerciseNumber": 90,
+          "reps": 15,
+          "rest": 13
+        },
+        {
+          "exerciseNumber": 95,
+          "seconds": 44,
+          "rest": 13
+        },
+        {
+          "exerciseNumber": 103,
+          "seconds": 44,
+          "rest": 13
+        },
+        {
+          "exerciseNumber": 87,
+          "reps": 15,
+          "rest": 13
+        },
+        {
+          "exerciseNumber": 90,
+          "reps": 15,
+          "rest": 13
+        },
+        {
+          "exerciseNumber": 93,
+          "seconds": 44,
+          "rest": 13
+        },
+        {
+          "exerciseNumber": 82,
+          "reps": 15,
+          "rest": 13
+        },
+        {
+          "exerciseNumber": 99,
+          "seconds": 44,
+          "rest": 13
+        },
+        {
+          "exerciseNumber": 84,
+          "reps": 15,
+          "rest": 13
+        },
+        {
+          "exerciseNumber": 97,
+          "seconds": 44,
+          "rest": 13
+        },
+        {
+          "exerciseNumber": 85,
+          "seconds": 44,
+          "rest": 13
+        },
+        {
+          "exerciseNumber": 86,
+          "seconds": 44,
+          "rest": 13
+        },
+        {
+          "exerciseNumber": 88,
+          "reps": 14,
+          "rest": 13
+        },
+        {
+          "exerciseNumber": 102,
+          "seconds": 44,
+          "rest": 13
+        },
+        {
+          "exerciseNumber": 82,
+          "reps": 15,
+          "rest": 13
+        },
+        {
+          "exerciseNumber": 97,
+          "seconds": 44,
+          "rest": 13
+        },
+        {
+          "exerciseNumber": 103,
+          "seconds": 44,
+          "rest": 13
+        },
+        {
+          "exerciseNumber": 118,
+          "seconds": 35,
+          "rest": 13
+        },
+        {
+          "exerciseNumber": 109,
+          "seconds": 35,
+          "rest": 13,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 109,
+          "seconds": 35,
+          "rest": 13,
+          "side": "right"
+        }
+      ],
+      "totalSeconds": 1200,
+      "mainCount": 17,
+      "blockSizeFlexed": true
     },
     {
       "number": 34,
@@ -3435,7 +6787,148 @@
       "tiles": [
         "Full Body"
       ],
-      "placements": "Collection C2"
+      "placements": "Collection C2",
+      "items": [
+        {
+          "exerciseNumber": 7,
+          "seconds": 35,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 9,
+          "seconds": 35,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 5,
+          "seconds": 35,
+          "rest": 15,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 5,
+          "seconds": 35,
+          "rest": 15,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 101,
+          "seconds": 48,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 85,
+          "seconds": 48,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 94,
+          "seconds": 48,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 90,
+          "reps": 16,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 98,
+          "seconds": 48,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 103,
+          "seconds": 48,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 95,
+          "seconds": 48,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 97,
+          "seconds": 48,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 88,
+          "reps": 14,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 99,
+          "seconds": 48,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 84,
+          "reps": 16,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 92,
+          "seconds": 48,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 82,
+          "reps": 16,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 96,
+          "seconds": 48,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 83,
+          "reps": 16,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 102,
+          "seconds": 48,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 100,
+          "reps": 16,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 119,
+          "seconds": 35,
+          "rest": 15,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 119,
+          "seconds": 35,
+          "rest": 15,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 108,
+          "seconds": 35,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 112,
+          "seconds": 35,
+          "rest": 15,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 112,
+          "seconds": 35,
+          "rest": 15,
+          "side": "right"
+        }
+      ],
+      "totalSeconds": 1500,
+      "mainCount": 17,
+      "blockSizeFlexed": false
     },
     {
       "number": 35,
@@ -3451,7 +6944,104 @@
       "tiles": [
         "Core"
       ],
-      "placements": "Collection C2"
+      "placements": "Collection C2",
+      "items": [
+        {
+          "exerciseNumber": 7,
+          "seconds": 30,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 8,
+          "seconds": 30,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 16,
+          "seconds": 50,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 19,
+          "reps": 17,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 20,
+          "seconds": 50,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 93,
+          "seconds": 50,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 103,
+          "seconds": 50,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 100,
+          "reps": 17,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 26,
+          "reps": 17,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 95,
+          "seconds": 50,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 27,
+          "reps": 17,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 92,
+          "seconds": 50,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 15,
+          "reps": 17,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 96,
+          "seconds": 50,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 21,
+          "seconds": 50,
+          "rest": 15,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 21,
+          "seconds": 50,
+          "rest": 15,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 104,
+          "seconds": 30,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 107,
+          "seconds": 30,
+          "rest": 15
+        }
+      ],
+      "totalSeconds": 1080,
+      "mainCount": 13,
+      "blockSizeFlexed": true
     },
     {
       "number": 36,
@@ -3468,7 +7058,109 @@
         "Chest",
         "Arm & Shoulder"
       ],
-      "placements": "Collection C1"
+      "placements": "Collection C1",
+      "items": [
+        {
+          "exerciseNumber": 7,
+          "seconds": 30,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 5,
+          "seconds": 30,
+          "rest": 20,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 5,
+          "seconds": 30,
+          "rest": 20,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 38,
+          "seconds": 50,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 35,
+          "reps": 16,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 31,
+          "reps": 17,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 34,
+          "reps": 17,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 33,
+          "reps": 17,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 30,
+          "reps": 17,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 32,
+          "reps": 17,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 36,
+          "reps": 16,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 37,
+          "reps": 14,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 39,
+          "reps": 16,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 41,
+          "reps": 16,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 40,
+          "seconds": 50,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 31,
+          "reps": 17,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 40,
+          "seconds": 50,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 105,
+          "seconds": 30,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 104,
+          "seconds": 30,
+          "rest": 20
+        }
+      ],
+      "totalSeconds": 1200,
+      "mainCount": 14,
+      "blockSizeFlexed": true
     },
     {
       "number": 37,
@@ -3484,7 +7176,128 @@
       "tiles": [
         "Butt & Leg"
       ],
-      "placements": "Collection C1"
+      "placements": "Collection C1",
+      "items": [
+        {
+          "exerciseNumber": 7,
+          "seconds": 30,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 3,
+          "seconds": 30,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 2,
+          "seconds": 30,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 79,
+          "reps": 15,
+          "rest": 20,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 79,
+          "reps": 15,
+          "rest": 20,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 78,
+          "reps": 15,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 67,
+          "seconds": 45,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 70,
+          "reps": 15,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 81,
+          "reps": 15,
+          "rest": 20,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 81,
+          "reps": 15,
+          "rest": 20,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 65,
+          "reps": 15,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 68,
+          "reps": 15,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 66,
+          "seconds": 45,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 72,
+          "reps": 15,
+          "rest": 20,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 72,
+          "reps": 15,
+          "rest": 20,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 64,
+          "reps": 15,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 80,
+          "reps": 15,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 69,
+          "reps": 15,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 80,
+          "reps": 15,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 105,
+          "seconds": 30,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 118,
+          "seconds": 30,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 113,
+          "seconds": 30,
+          "rest": 20
+        }
+      ],
+      "totalSeconds": 1320,
+      "mainCount": 13,
+      "blockSizeFlexed": false
     },
     {
       "number": 38,
@@ -3501,7 +7314,99 @@
         "Chest",
         "Arm & Shoulder"
       ],
-      "placements": "Collection C1"
+      "placements": "Collection C1",
+      "items": [
+        {
+          "exerciseNumber": 7,
+          "seconds": 35,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 2,
+          "seconds": 35,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 40,
+          "seconds": 50,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 30,
+          "reps": 17,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 37,
+          "reps": 14,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 38,
+          "seconds": 50,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 36,
+          "reps": 16,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 32,
+          "reps": 17,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 41,
+          "reps": 16,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 33,
+          "reps": 17,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 31,
+          "reps": 17,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 34,
+          "reps": 17,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 39,
+          "reps": 16,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 35,
+          "reps": 16,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 106,
+          "seconds": 35,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 117,
+          "reps": 12,
+          "rest": 20,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 117,
+          "reps": 12,
+          "rest": 20,
+          "side": "right"
+        }
+      ],
+      "totalSeconds": 1086,
+      "mainCount": 12,
+      "blockSizeFlexed": false
     },
     {
       "number": 39,
@@ -3517,7 +7422,99 @@
       "tiles": [
         "Back & Posture"
       ],
-      "placements": "Collection C1"
+      "placements": "Collection C1",
+      "items": [
+        {
+          "exerciseNumber": 8,
+          "seconds": 30,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 10,
+          "reps": 10,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 63,
+          "reps": 17,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 56,
+          "reps": 17,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 61,
+          "reps": 17,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 60,
+          "seconds": 50,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 57,
+          "reps": 17,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 55,
+          "reps": 17,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 58,
+          "reps": 17,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 54,
+          "seconds": 50,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 62,
+          "seconds": 50,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 59,
+          "reps": 17,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 62,
+          "seconds": 50,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 61,
+          "reps": 17,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 107,
+          "seconds": 30,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 115,
+          "seconds": 30,
+          "rest": 20,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 115,
+          "seconds": 30,
+          "rest": 20,
+          "side": "right"
+        }
+      ],
+      "totalSeconds": 1078,
+      "mainCount": 12,
+      "blockSizeFlexed": false
     },
     {
       "number": 40,
@@ -3533,7 +7530,154 @@
       "tiles": [
         "Full Body"
       ],
-      "placements": "Collection C1"
+      "placements": "Collection C1",
+      "items": [
+        {
+          "exerciseNumber": 8,
+          "seconds": 25,
+          "rest": 13
+        },
+        {
+          "exerciseNumber": 7,
+          "seconds": 25,
+          "rest": 13
+        },
+        {
+          "exerciseNumber": 9,
+          "seconds": 25,
+          "rest": 13
+        },
+        {
+          "exerciseNumber": 101,
+          "seconds": 59,
+          "rest": 13
+        },
+        {
+          "exerciseNumber": 90,
+          "reps": 16,
+          "rest": 13
+        },
+        {
+          "exerciseNumber": 82,
+          "reps": 16,
+          "rest": 13
+        },
+        {
+          "exerciseNumber": 100,
+          "reps": 18,
+          "rest": 13
+        },
+        {
+          "exerciseNumber": 85,
+          "seconds": 59,
+          "rest": 13
+        },
+        {
+          "exerciseNumber": 89,
+          "reps": 20,
+          "rest": 13
+        },
+        {
+          "exerciseNumber": 94,
+          "seconds": 59,
+          "rest": 13
+        },
+        {
+          "exerciseNumber": 84,
+          "reps": 18,
+          "rest": 13
+        },
+        {
+          "exerciseNumber": 83,
+          "reps": 16,
+          "rest": 13
+        },
+        {
+          "exerciseNumber": 98,
+          "seconds": 59,
+          "rest": 13
+        },
+        {
+          "exerciseNumber": 96,
+          "seconds": 59,
+          "rest": 13
+        },
+        {
+          "exerciseNumber": 91,
+          "reps": 18,
+          "rest": 13
+        },
+        {
+          "exerciseNumber": 86,
+          "seconds": 59,
+          "rest": 13
+        },
+        {
+          "exerciseNumber": 88,
+          "reps": 14,
+          "rest": 13
+        },
+        {
+          "exerciseNumber": 96,
+          "seconds": 59,
+          "rest": 13
+        },
+        {
+          "exerciseNumber": 98,
+          "seconds": 59,
+          "rest": 13
+        },
+        {
+          "exerciseNumber": 100,
+          "reps": 18,
+          "rest": 13
+        },
+        {
+          "exerciseNumber": 83,
+          "reps": 16,
+          "rest": 13
+        },
+        {
+          "exerciseNumber": 101,
+          "seconds": 59,
+          "rest": 13
+        },
+        {
+          "exerciseNumber": 85,
+          "seconds": 59,
+          "rest": 13
+        },
+        {
+          "exerciseNumber": 84,
+          "reps": 18,
+          "rest": 13
+        },
+        {
+          "exerciseNumber": 108,
+          "seconds": 25,
+          "rest": 13
+        },
+        {
+          "exerciseNumber": 113,
+          "seconds": 25,
+          "rest": 13
+        },
+        {
+          "exerciseNumber": 115,
+          "seconds": 25,
+          "rest": 13,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 115,
+          "seconds": 25,
+          "rest": 13,
+          "side": "right"
+        }
+      ],
+      "totalSeconds": 1680,
+      "mainCount": 21,
+      "blockSizeFlexed": true
     },
     {
       "number": 41,
@@ -3549,7 +7693,93 @@
       "tiles": [
         "Full Body"
       ],
-      "placements": "Collection C3"
+      "placements": "Collection C3",
+      "items": [
+        {
+          "exerciseNumber": 8,
+          "seconds": 20,
+          "rest": 14
+        },
+        {
+          "exerciseNumber": 6,
+          "seconds": 20,
+          "rest": 14,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 6,
+          "seconds": 20,
+          "rest": 14,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 82,
+          "reps": 11,
+          "rest": 14
+        },
+        {
+          "exerciseNumber": 102,
+          "seconds": 33,
+          "rest": 14
+        },
+        {
+          "exerciseNumber": 84,
+          "reps": 11,
+          "rest": 14
+        },
+        {
+          "exerciseNumber": 86,
+          "seconds": 33,
+          "rest": 14
+        },
+        {
+          "exerciseNumber": 85,
+          "seconds": 33,
+          "rest": 14
+        },
+        {
+          "exerciseNumber": 95,
+          "seconds": 33,
+          "rest": 14
+        },
+        {
+          "exerciseNumber": 103,
+          "seconds": 33,
+          "rest": 14
+        },
+        {
+          "exerciseNumber": 88,
+          "reps": 11,
+          "rest": 14
+        },
+        {
+          "exerciseNumber": 109,
+          "seconds": 20,
+          "rest": 14,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 109,
+          "seconds": 20,
+          "rest": 14,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 111,
+          "seconds": 20,
+          "rest": 14,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 111,
+          "seconds": 20,
+          "rest": 14,
+          "side": "right"
+        }
+      ],
+      "totalSeconds": 600,
+      "mainCount": 8,
+      "blockSizeFlexed": false
     },
     {
       "number": 42,
@@ -3563,7 +7793,61 @@
       "type": "warmup",
       "quiet": "Yes",
       "tiles": [],
-      "placements": "Collection C3 · Warm-Up filter"
+      "placements": "Collection C3 · Warm-Up filter",
+      "items": [
+        {
+          "exerciseNumber": 4,
+          "seconds": 32,
+          "rest": 24
+        },
+        {
+          "exerciseNumber": 2,
+          "seconds": 32,
+          "rest": 24
+        },
+        {
+          "exerciseNumber": 3,
+          "seconds": 32,
+          "rest": 24
+        },
+        {
+          "exerciseNumber": 6,
+          "seconds": 32,
+          "rest": 24,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 6,
+          "seconds": 32,
+          "rest": 24,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 9,
+          "seconds": 32,
+          "rest": 24
+        },
+        {
+          "exerciseNumber": 8,
+          "seconds": 32,
+          "rest": 24
+        },
+        {
+          "exerciseNumber": 5,
+          "seconds": 32,
+          "rest": 24,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 5,
+          "seconds": 32,
+          "rest": 24,
+          "side": "right"
+        }
+      ],
+      "totalSeconds": 480,
+      "mainCount": 7,
+      "blockSizeFlexed": false
     },
     {
       "number": 43,
@@ -3577,7 +7861,102 @@
       "type": "cooldown",
       "quiet": "Yes",
       "tiles": [],
-      "placements": "Collection C3"
+      "placements": "Collection C3",
+      "items": [
+        {
+          "exerciseNumber": 107,
+          "seconds": 45,
+          "rest": 0
+        },
+        {
+          "exerciseNumber": 112,
+          "seconds": 45,
+          "rest": 0,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 112,
+          "seconds": 45,
+          "rest": 0,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 109,
+          "seconds": 45,
+          "rest": 0,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 109,
+          "seconds": 45,
+          "rest": 0,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 111,
+          "seconds": 45,
+          "rest": 0,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 111,
+          "seconds": 45,
+          "rest": 0,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 114,
+          "seconds": 45,
+          "rest": 0
+        },
+        {
+          "exerciseNumber": 118,
+          "seconds": 45,
+          "rest": 0
+        },
+        {
+          "exerciseNumber": 116,
+          "seconds": 45,
+          "rest": 0,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 116,
+          "seconds": 45,
+          "rest": 0,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 106,
+          "seconds": 45,
+          "rest": 0
+        },
+        {
+          "exerciseNumber": 113,
+          "seconds": 45,
+          "rest": 0
+        },
+        {
+          "exerciseNumber": 115,
+          "seconds": 45,
+          "rest": 0,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 115,
+          "seconds": 45,
+          "rest": 0,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 104,
+          "seconds": 45,
+          "rest": 0
+        }
+      ],
+      "totalSeconds": 720,
+      "mainCount": 11,
+      "blockSizeFlexed": false
     },
     {
       "number": 44,
@@ -3593,7 +7972,119 @@
       "tiles": [
         "Full Body"
       ],
-      "placements": "Collection C3"
+      "placements": "Collection C3",
+      "items": [
+        {
+          "exerciseNumber": 8,
+          "seconds": 30,
+          "rest": 14
+        },
+        {
+          "exerciseNumber": 10,
+          "reps": 10,
+          "rest": 14
+        },
+        {
+          "exerciseNumber": 98,
+          "seconds": 49,
+          "rest": 14
+        },
+        {
+          "exerciseNumber": 85,
+          "seconds": 49,
+          "rest": 14
+        },
+        {
+          "exerciseNumber": 100,
+          "reps": 16,
+          "rest": 14
+        },
+        {
+          "exerciseNumber": 90,
+          "reps": 16,
+          "rest": 14
+        },
+        {
+          "exerciseNumber": 87,
+          "reps": 16,
+          "rest": 14
+        },
+        {
+          "exerciseNumber": 103,
+          "seconds": 49,
+          "rest": 14
+        },
+        {
+          "exerciseNumber": 91,
+          "reps": 16,
+          "rest": 14
+        },
+        {
+          "exerciseNumber": 89,
+          "reps": 16,
+          "rest": 14
+        },
+        {
+          "exerciseNumber": 94,
+          "seconds": 49,
+          "rest": 14
+        },
+        {
+          "exerciseNumber": 92,
+          "seconds": 49,
+          "rest": 14
+        },
+        {
+          "exerciseNumber": 88,
+          "reps": 14,
+          "rest": 14
+        },
+        {
+          "exerciseNumber": 86,
+          "seconds": 49,
+          "rest": 14
+        },
+        {
+          "exerciseNumber": 82,
+          "reps": 16,
+          "rest": 14
+        },
+        {
+          "exerciseNumber": 99,
+          "seconds": 49,
+          "rest": 14
+        },
+        {
+          "exerciseNumber": 84,
+          "reps": 16,
+          "rest": 14
+        },
+        {
+          "exerciseNumber": 102,
+          "seconds": 49,
+          "rest": 14
+        },
+        {
+          "exerciseNumber": 111,
+          "seconds": 30,
+          "rest": 14,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 111,
+          "seconds": 30,
+          "rest": 14,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 105,
+          "seconds": 30,
+          "rest": 14
+        }
+      ],
+      "totalSeconds": 1200,
+      "mainCount": 16,
+      "blockSizeFlexed": true
     },
     {
       "number": 45,
@@ -3607,7 +8098,37 @@
       "type": "warmup",
       "quiet": "Yes",
       "tiles": [],
-      "placements": "Stretch & Warm Up · Discover Stretch · Warm-Up filter"
+      "placements": "Stretch & Warm Up · Discover Stretch · Warm-Up filter",
+      "items": [
+        {
+          "exerciseNumber": 4,
+          "seconds": 36,
+          "rest": 30
+        },
+        {
+          "exerciseNumber": 2,
+          "seconds": 36,
+          "rest": 30
+        },
+        {
+          "exerciseNumber": 1,
+          "seconds": 36,
+          "rest": 30
+        },
+        {
+          "exerciseNumber": 8,
+          "seconds": 36,
+          "rest": 30
+        },
+        {
+          "exerciseNumber": 10,
+          "reps": 12,
+          "rest": 30
+        }
+      ],
+      "totalSeconds": 300,
+      "mainCount": 5,
+      "blockSizeFlexed": false
     },
     {
       "number": 46,
@@ -3621,7 +8142,66 @@
       "type": "warmup",
       "quiet": "Yes",
       "tiles": [],
-      "placements": "Stretch & Warm Up · Discover Stretch · Warm-Up filter"
+      "placements": "Stretch & Warm Up · Discover Stretch · Warm-Up filter",
+      "items": [
+        {
+          "exerciseNumber": 5,
+          "seconds": 35,
+          "rest": 21,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 5,
+          "seconds": 35,
+          "rest": 21,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 3,
+          "seconds": 35,
+          "rest": 21
+        },
+        {
+          "exerciseNumber": 2,
+          "seconds": 35,
+          "rest": 21
+        },
+        {
+          "exerciseNumber": 9,
+          "seconds": 35,
+          "rest": 21
+        },
+        {
+          "exerciseNumber": 8,
+          "seconds": 35,
+          "rest": 21
+        },
+        {
+          "exerciseNumber": 4,
+          "seconds": 35,
+          "rest": 21
+        },
+        {
+          "exerciseNumber": 10,
+          "reps": 12,
+          "rest": 21
+        },
+        {
+          "exerciseNumber": 6,
+          "seconds": 35,
+          "rest": 21,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 6,
+          "seconds": 35,
+          "rest": 21,
+          "side": "right"
+        }
+      ],
+      "totalSeconds": 540,
+      "mainCount": 8,
+      "blockSizeFlexed": false
     },
     {
       "number": 47,
@@ -3635,7 +8215,95 @@
       "type": "stretch",
       "quiet": "Yes",
       "tiles": [],
-      "placements": "Stretch & Warm Up · Discover Stretch · Collection C4"
+      "placements": "Stretch & Warm Up · Discover Stretch · Collection C4",
+      "items": [
+        {
+          "exerciseNumber": 109,
+          "seconds": 44,
+          "rest": 0,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 109,
+          "seconds": 44,
+          "rest": 0,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 111,
+          "seconds": 44,
+          "rest": 0,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 111,
+          "seconds": 44,
+          "rest": 0,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 107,
+          "seconds": 44,
+          "rest": 0
+        },
+        {
+          "exerciseNumber": 113,
+          "seconds": 44,
+          "rest": 0
+        },
+        {
+          "exerciseNumber": 106,
+          "seconds": 44,
+          "rest": 0
+        },
+        {
+          "exerciseNumber": 118,
+          "seconds": 44,
+          "rest": 0
+        },
+        {
+          "exerciseNumber": 110,
+          "seconds": 44,
+          "rest": 0,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 110,
+          "seconds": 44,
+          "rest": 0,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 108,
+          "seconds": 44,
+          "rest": 0
+        },
+        {
+          "exerciseNumber": 116,
+          "seconds": 44,
+          "rest": 0,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 116,
+          "seconds": 44,
+          "rest": 0,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 114,
+          "seconds": 44,
+          "rest": 0
+        },
+        {
+          "exerciseNumber": 105,
+          "seconds": 44,
+          "rest": 0
+        }
+      ],
+      "totalSeconds": 660,
+      "mainCount": 11,
+      "blockSizeFlexed": false
     },
     {
       "number": 48,
@@ -3649,7 +8317,124 @@
       "type": "stretch",
       "quiet": "Yes",
       "tiles": [],
-      "placements": "Stretch & Warm Up · Discover Stretch"
+      "placements": "Stretch & Warm Up · Discover Stretch",
+      "items": [
+        {
+          "exerciseNumber": 107,
+          "seconds": 39,
+          "rest": 0
+        },
+        {
+          "exerciseNumber": 112,
+          "seconds": 39,
+          "rest": 0,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 112,
+          "seconds": 39,
+          "rest": 0,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 108,
+          "seconds": 39,
+          "rest": 0
+        },
+        {
+          "exerciseNumber": 118,
+          "seconds": 39,
+          "rest": 0
+        },
+        {
+          "exerciseNumber": 106,
+          "seconds": 39,
+          "rest": 0
+        },
+        {
+          "exerciseNumber": 113,
+          "seconds": 39,
+          "rest": 0
+        },
+        {
+          "exerciseNumber": 104,
+          "seconds": 39,
+          "rest": 0
+        },
+        {
+          "exerciseNumber": 110,
+          "seconds": 39,
+          "rest": 0,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 110,
+          "seconds": 39,
+          "rest": 0,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 115,
+          "seconds": 39,
+          "rest": 0,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 115,
+          "seconds": 39,
+          "rest": 0,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 111,
+          "seconds": 39,
+          "rest": 0,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 111,
+          "seconds": 39,
+          "rest": 0,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 109,
+          "seconds": 39,
+          "rest": 0,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 109,
+          "seconds": 39,
+          "rest": 0,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 105,
+          "seconds": 39,
+          "rest": 0
+        },
+        {
+          "exerciseNumber": 114,
+          "seconds": 39,
+          "rest": 0
+        },
+        {
+          "exerciseNumber": 116,
+          "seconds": 39,
+          "rest": 0,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 116,
+          "seconds": 39,
+          "rest": 0,
+          "side": "right"
+        }
+      ],
+      "totalSeconds": 780,
+      "mainCount": 14,
+      "blockSizeFlexed": false
     },
     {
       "number": 49,
@@ -3663,7 +8448,136 @@
       "type": "stretch",
       "quiet": "Yes",
       "tiles": [],
-      "placements": "Stretch & Warm Up · Discover Stretch"
+      "placements": "Stretch & Warm Up · Discover Stretch",
+      "items": [
+        {
+          "exerciseNumber": 106,
+          "seconds": 41,
+          "rest": 0
+        },
+        {
+          "exerciseNumber": 118,
+          "seconds": 41,
+          "rest": 0
+        },
+        {
+          "exerciseNumber": 109,
+          "seconds": 41,
+          "rest": 0,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 109,
+          "seconds": 41,
+          "rest": 0,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 113,
+          "seconds": 41,
+          "rest": 0
+        },
+        {
+          "exerciseNumber": 107,
+          "seconds": 41,
+          "rest": 0
+        },
+        {
+          "exerciseNumber": 105,
+          "seconds": 41,
+          "rest": 0
+        },
+        {
+          "exerciseNumber": 119,
+          "seconds": 41,
+          "rest": 0,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 119,
+          "seconds": 41,
+          "rest": 0,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 112,
+          "seconds": 41,
+          "rest": 0,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 112,
+          "seconds": 41,
+          "rest": 0,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 104,
+          "seconds": 41,
+          "rest": 0
+        },
+        {
+          "exerciseNumber": 110,
+          "seconds": 41,
+          "rest": 0,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 110,
+          "seconds": 41,
+          "rest": 0,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 115,
+          "seconds": 41,
+          "rest": 0,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 115,
+          "seconds": 41,
+          "rest": 0,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 111,
+          "seconds": 41,
+          "rest": 0,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 111,
+          "seconds": 41,
+          "rest": 0,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 108,
+          "seconds": 41,
+          "rest": 0
+        },
+        {
+          "exerciseNumber": 116,
+          "seconds": 41,
+          "rest": 0,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 116,
+          "seconds": 41,
+          "rest": 0,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 114,
+          "seconds": 41,
+          "rest": 0
+        }
+      ],
+      "totalSeconds": 902,
+      "mainCount": 15,
+      "blockSizeFlexed": false
     },
     {
       "number": 50,
@@ -3679,7 +8593,131 @@
       "tiles": [
         "Back & Posture"
       ],
-      "placements": "Stretch & Warm Up · Discover Stretch"
+      "placements": "Stretch & Warm Up · Discover Stretch",
+      "items": [
+        {
+          "exerciseNumber": 108,
+          "seconds": 40,
+          "rest": 0
+        },
+        {
+          "exerciseNumber": 114,
+          "seconds": 40,
+          "rest": 0
+        },
+        {
+          "exerciseNumber": 109,
+          "seconds": 40,
+          "rest": 0,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 109,
+          "seconds": 40,
+          "rest": 0,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 110,
+          "seconds": 40,
+          "rest": 0,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 110,
+          "seconds": 40,
+          "rest": 0,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 106,
+          "seconds": 40,
+          "rest": 0
+        },
+        {
+          "exerciseNumber": 104,
+          "seconds": 40,
+          "rest": 0
+        },
+        {
+          "exerciseNumber": 115,
+          "seconds": 40,
+          "rest": 0,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 115,
+          "seconds": 40,
+          "rest": 0,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 116,
+          "seconds": 40,
+          "rest": 0,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 116,
+          "seconds": 40,
+          "rest": 0,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 111,
+          "seconds": 40,
+          "rest": 0,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 111,
+          "seconds": 40,
+          "rest": 0,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 107,
+          "seconds": 40,
+          "rest": 0
+        },
+        {
+          "exerciseNumber": 113,
+          "seconds": 40,
+          "rest": 0
+        },
+        {
+          "exerciseNumber": 105,
+          "seconds": 40,
+          "rest": 0
+        },
+        {
+          "exerciseNumber": 119,
+          "seconds": 40,
+          "rest": 0,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 119,
+          "seconds": 40,
+          "rest": 0,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 112,
+          "seconds": 40,
+          "rest": 0,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 112,
+          "seconds": 40,
+          "rest": 0,
+          "side": "right"
+        }
+      ],
+      "totalSeconds": 840,
+      "mainCount": 14,
+      "blockSizeFlexed": false
     },
     {
       "number": 51,
@@ -3693,7 +8731,158 @@
       "type": "stretch",
       "quiet": "Yes",
       "tiles": [],
-      "placements": "Stretch & Warm Up · Discover Stretch"
+      "placements": "Stretch & Warm Up · Discover Stretch",
+      "items": [
+        {
+          "exerciseNumber": 107,
+          "seconds": 37,
+          "rest": 0
+        },
+        {
+          "exerciseNumber": 118,
+          "seconds": 37,
+          "rest": 0
+        },
+        {
+          "exerciseNumber": 109,
+          "seconds": 37,
+          "rest": 0,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 109,
+          "seconds": 37,
+          "rest": 0,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 112,
+          "seconds": 37,
+          "rest": 0,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 112,
+          "seconds": 37,
+          "rest": 0,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 108,
+          "seconds": 37,
+          "rest": 0
+        },
+        {
+          "exerciseNumber": 119,
+          "seconds": 37,
+          "rest": 0,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 119,
+          "seconds": 37,
+          "rest": 0,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 106,
+          "seconds": 37,
+          "rest": 0
+        },
+        {
+          "exerciseNumber": 115,
+          "seconds": 37,
+          "rest": 0,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 115,
+          "seconds": 37,
+          "rest": 0,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 114,
+          "seconds": 37,
+          "rest": 0
+        },
+        {
+          "exerciseNumber": 110,
+          "seconds": 37,
+          "rest": 0,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 110,
+          "seconds": 37,
+          "rest": 0,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 116,
+          "seconds": 37,
+          "rest": 0,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 116,
+          "seconds": 37,
+          "rest": 0,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 113,
+          "seconds": 37,
+          "rest": 0
+        },
+        {
+          "exerciseNumber": 105,
+          "seconds": 37,
+          "rest": 0
+        },
+        {
+          "exerciseNumber": 111,
+          "seconds": 37,
+          "rest": 0,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 111,
+          "seconds": 37,
+          "rest": 0,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 104,
+          "seconds": 37,
+          "rest": 0
+        },
+        {
+          "exerciseNumber": 118,
+          "seconds": 37,
+          "rest": 0
+        },
+        {
+          "exerciseNumber": 119,
+          "seconds": 37,
+          "rest": 0,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 119,
+          "seconds": 37,
+          "rest": 0,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 107,
+          "seconds": 37,
+          "rest": 0
+        }
+      ],
+      "totalSeconds": 962,
+      "mainCount": 18,
+      "blockSizeFlexed": false
     },
     {
       "number": 52,
@@ -3709,7 +8898,126 @@
       "tiles": [
         "Back & Posture"
       ],
-      "placements": "Stretch & Warm Up · Discover Stretch · Collection C4"
+      "placements": "Stretch & Warm Up · Discover Stretch · Collection C4",
+      "items": [
+        {
+          "exerciseNumber": 107,
+          "seconds": 45,
+          "rest": 0
+        },
+        {
+          "exerciseNumber": 116,
+          "seconds": 45,
+          "rest": 0,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 116,
+          "seconds": 45,
+          "rest": 0,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 106,
+          "seconds": 45,
+          "rest": 0
+        },
+        {
+          "exerciseNumber": 104,
+          "seconds": 45,
+          "rest": 0
+        },
+        {
+          "exerciseNumber": 109,
+          "seconds": 45,
+          "rest": 0,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 109,
+          "seconds": 45,
+          "rest": 0,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 111,
+          "seconds": 45,
+          "rest": 0,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 111,
+          "seconds": 45,
+          "rest": 0,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 112,
+          "seconds": 45,
+          "rest": 0,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 112,
+          "seconds": 45,
+          "rest": 0,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 119,
+          "seconds": 45,
+          "rest": 0,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 119,
+          "seconds": 45,
+          "rest": 0,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 110,
+          "seconds": 45,
+          "rest": 0,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 110,
+          "seconds": 45,
+          "rest": 0,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 108,
+          "seconds": 45,
+          "rest": 0
+        },
+        {
+          "exerciseNumber": 114,
+          "seconds": 45,
+          "rest": 0
+        },
+        {
+          "exerciseNumber": 105,
+          "seconds": 45,
+          "rest": 0
+        },
+        {
+          "exerciseNumber": 115,
+          "seconds": 45,
+          "rest": 0,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 115,
+          "seconds": 45,
+          "rest": 0,
+          "side": "right"
+        }
+      ],
+      "totalSeconds": 900,
+      "mainCount": 13,
+      "blockSizeFlexed": false
     },
     {
       "number": 53,
@@ -3723,7 +9031,124 @@
       "type": "stretch",
       "quiet": "Yes",
       "tiles": [],
-      "placements": "Stretch & Warm Up · Discover Stretch · Collection C4"
+      "placements": "Stretch & Warm Up · Discover Stretch · Collection C4",
+      "items": [
+        {
+          "exerciseNumber": 107,
+          "seconds": 42,
+          "rest": 0
+        },
+        {
+          "exerciseNumber": 118,
+          "seconds": 42,
+          "rest": 0
+        },
+        {
+          "exerciseNumber": 109,
+          "seconds": 42,
+          "rest": 0,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 109,
+          "seconds": 42,
+          "rest": 0,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 113,
+          "seconds": 42,
+          "rest": 0
+        },
+        {
+          "exerciseNumber": 106,
+          "seconds": 42,
+          "rest": 0
+        },
+        {
+          "exerciseNumber": 114,
+          "seconds": 42,
+          "rest": 0
+        },
+        {
+          "exerciseNumber": 119,
+          "seconds": 42,
+          "rest": 0,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 119,
+          "seconds": 42,
+          "rest": 0,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 105,
+          "seconds": 42,
+          "rest": 0
+        },
+        {
+          "exerciseNumber": 111,
+          "seconds": 42,
+          "rest": 0,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 111,
+          "seconds": 42,
+          "rest": 0,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 115,
+          "seconds": 42,
+          "rest": 0,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 115,
+          "seconds": 42,
+          "rest": 0,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 104,
+          "seconds": 42,
+          "rest": 0
+        },
+        {
+          "exerciseNumber": 112,
+          "seconds": 42,
+          "rest": 0,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 112,
+          "seconds": 42,
+          "rest": 0,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 108,
+          "seconds": 42,
+          "rest": 0
+        },
+        {
+          "exerciseNumber": 110,
+          "seconds": 42,
+          "rest": 0,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 110,
+          "seconds": 42,
+          "rest": 0,
+          "side": "right"
+        }
+      ],
+      "totalSeconds": 840,
+      "mainCount": 14,
+      "blockSizeFlexed": false
     },
     {
       "number": 54,
@@ -3737,7 +9162,100 @@
       "type": "cooldown",
       "quiet": "Yes",
       "tiles": [],
-      "placements": "Stretch & Warm Up · Discover Stretch"
+      "placements": "Stretch & Warm Up · Discover Stretch",
+      "items": [
+        {
+          "exerciseNumber": 106,
+          "seconds": 45,
+          "rest": 0
+        },
+        {
+          "exerciseNumber": 112,
+          "seconds": 45,
+          "rest": 0,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 112,
+          "seconds": 45,
+          "rest": 0,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 108,
+          "seconds": 45,
+          "rest": 0
+        },
+        {
+          "exerciseNumber": 119,
+          "seconds": 45,
+          "rest": 0,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 119,
+          "seconds": 45,
+          "rest": 0,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 111,
+          "seconds": 45,
+          "rest": 0,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 111,
+          "seconds": 45,
+          "rest": 0,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 116,
+          "seconds": 45,
+          "rest": 0,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 116,
+          "seconds": 45,
+          "rest": 0,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 114,
+          "seconds": 45,
+          "rest": 0
+        },
+        {
+          "exerciseNumber": 118,
+          "seconds": 45,
+          "rest": 0
+        },
+        {
+          "exerciseNumber": 107,
+          "seconds": 45,
+          "rest": 0
+        },
+        {
+          "exerciseNumber": 104,
+          "seconds": 45,
+          "rest": 0
+        },
+        {
+          "exerciseNumber": 113,
+          "seconds": 45,
+          "rest": 0
+        },
+        {
+          "exerciseNumber": 105,
+          "seconds": 45,
+          "rest": 0
+        }
+      ],
+      "totalSeconds": 720,
+      "mainCount": 12,
+      "blockSizeFlexed": false
     },
     {
       "number": 55,
@@ -3753,7 +9271,126 @@
       "tiles": [
         "Back & Posture"
       ],
-      "placements": "Stretch & Warm Up · Discover Stretch · Collection C4"
+      "placements": "Stretch & Warm Up · Discover Stretch · Collection C4",
+      "items": [
+        {
+          "exerciseNumber": 106,
+          "seconds": 30,
+          "rest": 0
+        },
+        {
+          "exerciseNumber": 112,
+          "seconds": 30,
+          "rest": 0,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 112,
+          "seconds": 30,
+          "rest": 0,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 109,
+          "seconds": 30,
+          "rest": 0,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 109,
+          "seconds": 30,
+          "rest": 0,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 104,
+          "seconds": 30,
+          "rest": 0
+        },
+        {
+          "exerciseNumber": 107,
+          "seconds": 30,
+          "rest": 0
+        },
+        {
+          "exerciseNumber": 116,
+          "seconds": 30,
+          "rest": 0,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 116,
+          "seconds": 30,
+          "rest": 0,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 119,
+          "seconds": 30,
+          "rest": 0,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 119,
+          "seconds": 30,
+          "rest": 0,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 110,
+          "seconds": 30,
+          "rest": 0,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 110,
+          "seconds": 30,
+          "rest": 0,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 111,
+          "seconds": 30,
+          "rest": 0,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 111,
+          "seconds": 30,
+          "rest": 0,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 115,
+          "seconds": 30,
+          "rest": 0,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 115,
+          "seconds": 30,
+          "rest": 0,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 118,
+          "seconds": 30,
+          "rest": 0
+        },
+        {
+          "exerciseNumber": 113,
+          "seconds": 30,
+          "rest": 0
+        },
+        {
+          "exerciseNumber": 108,
+          "seconds": 30,
+          "rest": 0
+        }
+      ],
+      "totalSeconds": 600,
+      "mainCount": 13,
+      "blockSizeFlexed": false
     },
     {
       "number": 56,
@@ -3767,7 +9404,126 @@
       "type": "stretch",
       "quiet": "Yes",
       "tiles": [],
-      "placements": "Stretch & Warm Up · Discover Stretch · Collection C4"
+      "placements": "Stretch & Warm Up · Discover Stretch · Collection C4",
+      "items": [
+        {
+          "exerciseNumber": 106,
+          "seconds": 36,
+          "rest": 0
+        },
+        {
+          "exerciseNumber": 105,
+          "seconds": 36,
+          "rest": 0
+        },
+        {
+          "exerciseNumber": 109,
+          "seconds": 36,
+          "rest": 0,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 109,
+          "seconds": 36,
+          "rest": 0,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 113,
+          "seconds": 36,
+          "rest": 0
+        },
+        {
+          "exerciseNumber": 107,
+          "seconds": 36,
+          "rest": 0
+        },
+        {
+          "exerciseNumber": 116,
+          "seconds": 36,
+          "rest": 0,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 116,
+          "seconds": 36,
+          "rest": 0,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 108,
+          "seconds": 36,
+          "rest": 0
+        },
+        {
+          "exerciseNumber": 112,
+          "seconds": 36,
+          "rest": 0,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 112,
+          "seconds": 36,
+          "rest": 0,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 111,
+          "seconds": 36,
+          "rest": 0,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 111,
+          "seconds": 36,
+          "rest": 0,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 119,
+          "seconds": 36,
+          "rest": 0,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 119,
+          "seconds": 36,
+          "rest": 0,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 115,
+          "seconds": 36,
+          "rest": 0,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 115,
+          "seconds": 36,
+          "rest": 0,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 110,
+          "seconds": 36,
+          "rest": 0,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 110,
+          "seconds": 36,
+          "rest": 0,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 114,
+          "seconds": 36,
+          "rest": 0
+        }
+      ],
+      "totalSeconds": 720,
+      "mainCount": 13,
+      "blockSizeFlexed": false
     },
     {
       "number": 57,
@@ -3783,7 +9539,119 @@
       "tiles": [
         "Full Body"
       ],
-      "placements": "—"
+      "placements": "—",
+      "items": [
+        {
+          "exerciseNumber": 10,
+          "reps": 10,
+          "rest": 13
+        },
+        {
+          "exerciseNumber": 5,
+          "seconds": 30,
+          "rest": 13,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 5,
+          "seconds": 30,
+          "rest": 13,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 85,
+          "seconds": 50,
+          "rest": 13
+        },
+        {
+          "exerciseNumber": 95,
+          "seconds": 50,
+          "rest": 13
+        },
+        {
+          "exerciseNumber": 103,
+          "seconds": 50,
+          "rest": 13
+        },
+        {
+          "exerciseNumber": 93,
+          "seconds": 50,
+          "rest": 13
+        },
+        {
+          "exerciseNumber": 88,
+          "reps": 14,
+          "rest": 13
+        },
+        {
+          "exerciseNumber": 86,
+          "seconds": 50,
+          "rest": 13
+        },
+        {
+          "exerciseNumber": 82,
+          "reps": 16,
+          "rest": 13
+        },
+        {
+          "exerciseNumber": 102,
+          "seconds": 50,
+          "rest": 13
+        },
+        {
+          "exerciseNumber": 90,
+          "reps": 16,
+          "rest": 13
+        },
+        {
+          "exerciseNumber": 99,
+          "seconds": 50,
+          "rest": 13
+        },
+        {
+          "exerciseNumber": 84,
+          "reps": 17,
+          "rest": 13
+        },
+        {
+          "exerciseNumber": 97,
+          "seconds": 50,
+          "rest": 13
+        },
+        {
+          "exerciseNumber": 87,
+          "reps": 17,
+          "rest": 13
+        },
+        {
+          "exerciseNumber": 103,
+          "seconds": 50,
+          "rest": 13
+        },
+        {
+          "exerciseNumber": 99,
+          "seconds": 50,
+          "rest": 13
+        },
+        {
+          "exerciseNumber": 85,
+          "seconds": 50,
+          "rest": 13
+        },
+        {
+          "exerciseNumber": 106,
+          "seconds": 30,
+          "rest": 13
+        },
+        {
+          "exerciseNumber": 113,
+          "seconds": 30,
+          "rest": 13
+        }
+      ],
+      "totalSeconds": 1200,
+      "mainCount": 16,
+      "blockSizeFlexed": true
     },
     {
       "number": 58,
@@ -3799,7 +9667,99 @@
       "tiles": [
         "Arm & Shoulder"
       ],
-      "placements": "—"
+      "placements": "—",
+      "items": [
+        {
+          "exerciseNumber": 10,
+          "reps": 10,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 4,
+          "seconds": 30,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 44,
+          "reps": 17,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 45,
+          "reps": 17,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 45,
+          "reps": 17,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 44,
+          "reps": 17,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 45,
+          "reps": 17,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 44,
+          "reps": 17,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 45,
+          "reps": 17,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 44,
+          "reps": 17,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 44,
+          "reps": 17,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 45,
+          "reps": 17,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 45,
+          "reps": 17,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 44,
+          "reps": 17,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 106,
+          "seconds": 30,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 111,
+          "seconds": 30,
+          "rest": 20,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 111,
+          "seconds": 30,
+          "rest": 20,
+          "side": "right"
+        }
+      ],
+      "totalSeconds": 1082,
+      "mainCount": 12,
+      "blockSizeFlexed": false
     },
     {
       "number": 59,
@@ -3815,7 +9775,89 @@
       "tiles": [
         "Full Body"
       ],
-      "placements": "Uses chair exercises (#31, #44, #81)"
+      "placements": "Uses chair exercises (#31, #44, #81)",
+      "items": [
+        {
+          "exerciseNumber": 10,
+          "reps": 10,
+          "rest": 30
+        },
+        {
+          "exerciseNumber": 2,
+          "seconds": 30,
+          "rest": 30
+        },
+        {
+          "exerciseNumber": 87,
+          "reps": 11,
+          "rest": 30
+        },
+        {
+          "exerciseNumber": 103,
+          "seconds": 33,
+          "rest": 30
+        },
+        {
+          "exerciseNumber": 99,
+          "seconds": 33,
+          "rest": 30
+        },
+        {
+          "exerciseNumber": 88,
+          "reps": 11,
+          "rest": 30
+        },
+        {
+          "exerciseNumber": 86,
+          "seconds": 33,
+          "rest": 30
+        },
+        {
+          "exerciseNumber": 97,
+          "seconds": 33,
+          "rest": 30
+        },
+        {
+          "exerciseNumber": 102,
+          "seconds": 33,
+          "rest": 30
+        },
+        {
+          "exerciseNumber": 90,
+          "reps": 11,
+          "rest": 30
+        },
+        {
+          "exerciseNumber": 95,
+          "seconds": 33,
+          "rest": 30
+        },
+        {
+          "exerciseNumber": 85,
+          "seconds": 33,
+          "rest": 30
+        },
+        {
+          "exerciseNumber": 107,
+          "seconds": 30,
+          "rest": 30
+        },
+        {
+          "exerciseNumber": 109,
+          "seconds": 30,
+          "rest": 30,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 109,
+          "seconds": 30,
+          "rest": 30,
+          "side": "right"
+        }
+      ],
+      "totalSeconds": 900,
+      "mainCount": 10,
+      "blockSizeFlexed": false
     },
     {
       "number": 60,
@@ -3831,7 +9873,72 @@
       "tiles": [
         "Full Body"
       ],
-      "placements": "Discover featured for new users"
+      "placements": "Discover featured for new users",
+      "items": [
+        {
+          "exerciseNumber": 10,
+          "reps": 12,
+          "rest": 26
+        },
+        {
+          "exerciseNumber": 9,
+          "seconds": 35,
+          "rest": 26
+        },
+        {
+          "exerciseNumber": 87,
+          "reps": 12,
+          "rest": 26
+        },
+        {
+          "exerciseNumber": 86,
+          "seconds": 37,
+          "rest": 26
+        },
+        {
+          "exerciseNumber": 84,
+          "reps": 12,
+          "rest": 26
+        },
+        {
+          "exerciseNumber": 97,
+          "seconds": 37,
+          "rest": 26
+        },
+        {
+          "exerciseNumber": 85,
+          "seconds": 37,
+          "rest": 26
+        },
+        {
+          "exerciseNumber": 103,
+          "seconds": 37,
+          "rest": 26
+        },
+        {
+          "exerciseNumber": 88,
+          "reps": 12,
+          "rest": 26
+        },
+        {
+          "exerciseNumber": 95,
+          "seconds": 37,
+          "rest": 26
+        },
+        {
+          "exerciseNumber": 108,
+          "seconds": 35,
+          "rest": 26
+        },
+        {
+          "exerciseNumber": 107,
+          "seconds": 35,
+          "rest": 26
+        }
+      ],
+      "totalSeconds": 720,
+      "mainCount": 8,
+      "blockSizeFlexed": false
     }
   ],
   "challenges": [

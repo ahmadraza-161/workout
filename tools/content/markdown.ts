@@ -71,6 +71,58 @@ export function tablesUnder(markdown: string, headingNumber: string): Row[] {
   return rows;
 }
 
+/**
+ * Like `tablesUnder`, but keeps each row's own subheading. The 119 exercises
+ * are split across nine per-category tables under §2, and the category is
+ * what decides whether an exercise can open, carry or close a workout.
+ */
+export function rowsBySubheading(markdown: string, headingNumber: string): { heading: string; row: Row }[] {
+  const lines = markdown.split(/\r?\n/);
+  const start = lines.findIndex((line) => new RegExp(`^## ${headingNumber.replace('.', '\\.')}[. ]`).test(line));
+  if (start === -1) throw new Error(`No heading ${headingNumber} in the catalog`);
+
+  let end = lines.length;
+  for (let i = start + 1; i < lines.length; i++) {
+    if (/^## /.test(lines[i]!)) {
+      end = i;
+      break;
+    }
+  }
+
+  const out: { heading: string; row: Row }[] = [];
+  let heading = '';
+  let headers: string[] | null = null;
+
+  for (const line of lines.slice(start, end)) {
+    const subheading = line.match(/^### [\d.]+ (.+?)(?:\s*\(\d+\))?\s*$/);
+    if (subheading) {
+      heading = subheading[1]!.trim();
+      headers = null;
+      continue;
+    }
+    if (!isTableLine(line)) {
+      headers = null;
+      continue;
+    }
+    if (isSeparator(line)) continue;
+
+    const parts = cells(line);
+    if (headers === null) {
+      headers = parts;
+      continue;
+    }
+    if (parts.length !== headers.length) continue;
+
+    const row: Row = {};
+    headers.forEach((header, index) => {
+      row[header] = parts[index]!;
+    });
+    out.push({ heading, row });
+  }
+
+  return out;
+}
+
 export function readCatalog(path: string): string {
   return readFileSync(path, 'utf8');
 }

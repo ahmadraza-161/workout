@@ -4,7 +4,7 @@
 // record — muscles, MET values, default durations, copy — is authored
 // separately and joined on the exercise number.
 
-import { flag, plain, slugify, tablesUnder, type Row } from './markdown.ts';
+import { flag, plain, rowsBySubheading, slugify, tablesUnder } from './markdown.ts';
 
 export type ExerciseType = 'time' | 'reps' | 'hold';
 export type RigView = 'side' | 'front' | 'top';
@@ -19,6 +19,8 @@ export interface CatalogExercise {
   type: ExerciseType;
   level: 1 | 2 | 3;
   quietSafe: boolean;
+  /** The §2 table the row came from, e.g. "Core & Abs". Decides the pool. */
+  category: string;
   basePose: string;
   view: RigView;
   props: Prop[];
@@ -122,15 +124,16 @@ function equipmentByNumber(markdown: string): Map<number, Equipment> {
   return map;
 }
 
-function exerciseRows(markdown: string): Row[] {
-  // The exercises are split across nine per-category tables under §2.
-  return tablesUnder(markdown, '2').filter((row) => row['#'] !== undefined && /^\d+$/.test(row['#']));
+function exerciseRows(markdown: string) {
+  // The exercises are split across nine per-category tables under §2, and the
+  // subheading is the category the generator pools exercises by.
+  return rowsBySubheading(markdown, '2').filter((entry) => /^\d+$/.test(entry.row['#'] ?? ''));
 }
 
 export function loadCatalog(markdown: string): Catalog {
   const equipment = equipmentByNumber(markdown);
 
-  const exercises: CatalogExercise[] = exerciseRows(markdown).map((row) => {
+  const exercises: CatalogExercise[] = exerciseRows(markdown).map(({ heading, row }) => {
     const number = Number(row['#']);
     const name = plain(row.Exercise ?? '');
     return {
@@ -140,6 +143,7 @@ export function loadCatalog(markdown: string): Catalog {
       type: parseType(row.Type ?? ''),
       level: parseLevel(row.Lvl ?? ''),
       quietSafe: flag(row.Quiet),
+      category: heading,
       basePose: plain(row['Base pose'] ?? ''),
       view: parseView(row.View ?? ''),
       props: parseProps(row.Props ?? ''),
