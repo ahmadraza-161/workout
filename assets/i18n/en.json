@@ -1,6 +1,6 @@
 {
   "app": {
-    "name": "Home Workout"
+    "name": "WorkoutStride"
   },
   "tabs": {
     "training": "Training",
@@ -8,12 +8,464 @@
     "report": "Report",
     "settings": "Settings"
   },
+  "calendar": {
+    "recordedDay": "workout recorded"
+  },
+  "onboarding": {
+    "progress": "Step %{current} of %{total}",
+    "welcome": "Welcome to WorkoutStride",
+    "welcomeBody": "Build a routine that fits your day. A few simple choices will help you get started.",
+    "genderTitle": "Choose a character",
+    "gender": {
+      "female": "Female",
+      "male": "Male",
+      "unspecified": "No preference"
+    },
+    "goalTitle": "What is your goal?",
+    "goal": {
+      "keep_fit": "Stay active",
+      "build_muscle": "Build strength",
+      "burn_fat": "Cardio fitness",
+      "flexibility": "Move more freely"
+    },
+    "levelTitle": "Choose your starting level",
+    "bodyTitle": "Your body data",
+    "bodyOptional": "These details are optional. They help personalize estimates and can be added later.",
+    "height": "Height (cm)",
+    "weight": "Weight (kg)",
+    "birthYear": "Birth year (18+)",
+    "scheduleTitle": "Weekly target",
+    "scheduleBody": "Choose how many days each week you would like to move.",
+    "reminderTitle": "Optional reminders",
+    "reminderBody": "Choose reminder days and a time if you want. You can also continue without reminders and set them up later in Settings.",
+    "reminderSetup": "Set up reminders",
+    "reminderOff": "Reminders are off",
+    "reminderSummary": "%{days} at %{time}",
+    "weeklyTarget": "Days per week",
+    "safetyTitle": "Health check",
+    "safetyIntro": "Please answer each question before starting. This short check is not a medical diagnosis or clearance.",
+    "adultConfirm": "I am 18 or older",
+    "safety": {
+      "0": "Have you been told you have a heart condition or high blood pressure?",
+      "1": "Do you get chest discomfort at rest or during activity?",
+      "2": "Have you fainted or lost balance because of dizziness in the past year?",
+      "3": "Do you have a long-term medical condition that may affect exercise?",
+      "4": "Do you take prescribed medicine for a long-term condition?",
+      "5": "Do you have a bone, joint or muscle problem that activity may worsen?",
+      "6": "Have you been told to exercise only under medical supervision?"
+    },
+    "yes": "Yes",
+    "no": "No",
+    "readyTitle": "You're ready",
+    "readyBody": "Review your plan before saving it on this phone.",
+    "summary": "%{goal} · %{level} · %{days} days/week",
+    "medicalAdvice": "You answered yes to a health question. Talk with a doctor or qualified exercise professional before increasing activity. You can browse the app without starting a workout.",
+    "disclaimer": "This app offers general exercise guidance and is not medical advice. Stop if you feel unwell.",
+    "continue": "Continue",
+    "back": "Back",
+    "startWorkout": "Start first workout",
+    "openApp": "Browse workouts",
+    "error": {
+      "height": "Enter a height from 90 to 250 cm, or leave it blank.",
+      "weight": "Enter a weight from 20 to 400 kg, or leave it blank.",
+      "birthYear": "Enter a valid birth year for an adult aged 18 or over, or leave it blank.",
+      "weeklyTarget": "Choose 1 to 7 days per week.",
+      "adult": "Please confirm that you are 18 or older.",
+      "safety": "Please answer every health-check question."
+    },
+    "headline": "Your workout. Your pace.",
+    "getStarted": "Get started",
+    "benefits": {
+      "equipment": "No gym equipment",
+      "offline": "Works offline",
+      "private": "No account needed"
+    },
+    "privacy": "Your choices stay on this device. You can change them later in Settings.",
+    "characterNote": "Pick the character you prefer. All workouts are available to everyone.",
+    "goalHint": {
+      "keep_fit": "Build a consistent movement habit",
+      "build_muscle": "Practice controlled bodyweight strength",
+      "burn_fat": "Improve your stamina with active sessions",
+      "flexibility": "Make room for stretching and mobility"
+    },
+    "levelHint": {
+      "1": "I am new or getting back into exercise",
+      "2": "I exercise occasionally",
+      "3": "I already train regularly"
+    },
+    "reviewGoal": "Your goal",
+    "reviewLevel": "Starting level",
+    "reviewSchedule": "Weekly target",
+    "daysPerWeek": {
+      "one": "%{count} day a week",
+      "other": "%{count} days a week"
+    },
+    "seePlan": "See my plan"
+  },
+  "training": {
+    "bodyFocus": "Body focus",
+    "quickWorkouts": "Quick workouts",
+    "focus": {
+      "full_body": "Full body",
+      "abs": "Abs",
+      "arm": "Arms",
+      "chest": "Chest",
+      "shoulder": "Shoulders",
+      "back": "Back",
+      "leg": "Legs",
+      "butt": "Glutes"
+    }
+  },
   "placeholder": {
     "comingSoon": "This screen is being built.",
     "phase": "Arrives in phase %{phase}."
   },
+  "browse": {
+    "search": "Search",
+    "searchPlaceholder": "Search workouts, exercises and challenges",
+    "recentSearches": "Recent searches",
+    "workouts": "Workouts",
+    "days": "%{count} days",
+    "exercises": "Exercises",
+    "challenges": "Challenges",
+    "related": "You may also like",
+    "minutes": "%{count} min",
+    "seconds": "%{count} sec",
+    "workoutMeta": "%{minutes} min · %{count} exercises",
+    "noResults": "No results found",
+    "tryAnotherSearch": "Try a different search term.",
+    "notFound": "This item could not be found.",
+    "imagePending": "Exercise image is being prepared.",
+    "exerciseCopyPending": "Exercise instructions are being prepared."
+  },
+  "guide": {
+    "pose": "Pose",
+    "muscle": "Muscle",
+    "how": "How to do",
+    "tabs": "Exercise guide sections",
+    "duration": "Duration",
+    "seconds": "%{count}s",
+    "reps": "%{count} reps",
+    "instructions": "Instructions",
+    "focus": "Focus area",
+    "mistakes": "Common mistakes",
+    "breathing": "Breathing tips",
+    "front": "Front",
+    "back": "Back",
+    "safety": "Stop if this movement causes pain or you feel unwell.",
+    "easier": "Easier",
+    "harder": "Harder",
+    "close": "Close"
+  },
+  "player": {
+    "title": "Workout",
+    "openGuide": "Open exercise guide; workout will pause",
+    "resumeTitle": "Resume your workout?",
+    "start": "Start workout",
+    "phase": {
+      "prep": "Get ready",
+      "exercise": "Exercise",
+      "rest": "Rest"
+    },
+    "next": "Next exercise",
+    "progress": "Exercise %{current} of %{total}",
+    "seconds": "%{count} sec",
+    "reps": "%{count} reps",
+    "actualReps": "Reps completed",
+    "done": "Done",
+    "previous": "Previous exercise",
+    "pause": "Pause",
+    "resume": "Resume",
+    "skip": "Skip",
+    "addRest": "+20 sec rest",
+    "editRest": "Edit rest time",
+    "complete": "Workout complete",
+    "finish": {
+      "completed": "%{count} exercises completed",
+      "exercises": "Exercises",
+      "streak": "%{count}-day streak",
+      "weeklyGoal": "%{done} of %{target} active days this week",
+      "feedbackTitle": "How did this workout feel?",
+      "share": "Share workout",
+      "shareError": "Could not open sharing. Please try again.",
+      "feedback": {
+        "too_easy": "Too easy",
+        "just_right": "Just right",
+        "too_hard": "Too hard"
+      },
+      "viewReport": "View report",
+      "viewChallenge": "Back to challenge",
+      "browse": "Browse workouts",
+      "shareSummary": "%{appName}: %{count} exercises in %{minutes} min.",
+      "shareTagline": "A little movement, saved on my phone.",
+      "shareFooter": "No accounts. No ads. Fully offline.",
+      "dayDoneTitle": "Day %{day} done!",
+      "dayDoneProgress": "%{done} of %{total} workout days of %{plan} done. Keep it up!",
+      "tomorrowDay": "Tomorrow: day %{day} · %{workout}",
+      "tomorrowDayOnly": "Tomorrow: day %{day}",
+      "tomorrowRest": "Tomorrow is a rest day. Day %{day} comes next.",
+      "planCompleteTitle": "Plan complete!",
+      "planCompleteBody": "You finished all %{total} workout days of %{plan}. That takes real commitment.",
+      "chooseNextPlan": "Choose your next plan"
+    },
+    "exerciseFeedback": "Rate this exercise",
+    "rating": {
+      "up": "I liked this exercise",
+      "down": "I did not like this exercise"
+    },
+    "close": "Close",
+    "quitTitle": "Leave workout?",
+    "quitBody": "Save your current progress or discard this workout.",
+    "saveExit": "Save & exit",
+    "discard": "Discard",
+    "saveFailed": "The workout could not be saved. Please try again.",
+    "saveStatus": {
+      "saving": "Saving workout…",
+      "saved": "Workout saved on this device.",
+      "error": "The workout could not be saved. Try again."
+    }
+  },
+  "report": {
+    "periodLabel": "Report period",
+    "period": {
+      "week": "Week",
+      "month": "Month",
+      "total": "Total"
+    },
+    "workouts": "Workouts",
+    "minutes": "Minutes",
+    "kcal": "kcal",
+    "weeklyGoal": "Weekly goal",
+    "weeklyProgress": "%{done} of %{target} days",
+    "editWeeklyGoal": "Edit weekly goal",
+    "goalHint": "Choose a realistic target from 1 to 7 days per week.",
+    "daysPerWeek": "Days per week",
+    "saveFailed": "Could not save your target. Please try again.",
+    "day": {
+      "sun": "S",
+      "mon": "M",
+      "tue": "T",
+      "wed": "W",
+      "thu": "T",
+      "fri": "F",
+      "sat": "S"
+    },
+    "streak": "Day streak",
+    "currentStreak": "Current",
+    "longestStreak": "Best: %{count} days",
+    "weight": {
+      "title": "Weight",
+      "log": "Log",
+      "current": "Current",
+      "heaviest": "Heaviest",
+      "lightest": "Lightest",
+      "noTrend": "Log a weight to see your recent trend.",
+      "trendA11y": "Recent weight trend with %{count} measurements",
+      "selectDate": "Select date",
+      "unit": "Weight unit",
+      "value": "Weight",
+      "invalid": "Enter a valid weight between 20 and 400 kg."
+    },
+    "bmi": {
+      "title": "BMI",
+      "needHeight": "Add your height to see an estimate.",
+      "needWeight": "Log your weight to see an estimate.",
+      "screening": "BMI is a screening estimate, not a diagnosis.",
+      "height": "Height: %{value} cm",
+      "editHeight": "Edit height",
+      "category": {
+        "severelyUnderweight": "Severely underweight range",
+        "underweight": "Underweight range",
+        "healthy": "Healthy weight range",
+        "overweight": "Overweight range",
+        "classI": "Obesity class I range",
+        "classII": "Obesity class II range",
+        "classIII": "Obesity class III range"
+      }
+    },
+    "recent": "Recent workouts",
+    "history": {
+      "title": "History",
+      "allRecords": "All records",
+      "emptyDay": "No workouts on this day",
+      "emptyDayBody": "Days with saved workouts have a dot on the calendar."
+    },
+    "best": {
+      "title": "Personal bests",
+      "plank": "Longest forearm plank",
+      "reps": "Most reps in one set",
+      "workout": "Longest completed workout",
+      "duration": "%{minutes} min %{seconds} sec",
+      "none": "No record yet"
+    },
+    "sessionDetail": "Workout record",
+    "sessionMissing": "Workout record not found",
+    "sessionMissingBody": "This workout may have been removed.",
+    "completion": "%{percent}% complete",
+    "complete": "Complete",
+    "exercises": "Exercises",
+    "noExercises": "No exercises recorded",
+    "unknownExercise": "Exercise",
+    "skipped": "Skipped",
+    "emptyTitle": "No workouts recorded yet",
+    "emptyBody": "Finish a workout to see your progress here.",
+    "unknownWorkout": "Workout"
+  },
+  "favorites": {
+    "title": "My favourites",
+    "add": "Add workout to favourites",
+    "remove": "Remove workout from favourites",
+    "emptyTitle": "No favourite workouts yet",
+    "emptyBody": "Tap the heart on a workout to keep it here."
+  },
+  "builder": {
+    "title": "Workout builder",
+    "myWorkouts": "My workouts",
+    "create": "Create a workout",
+    "customTitle": "Custom workout",
+    "intro": "Follow your own exercise plan at a comfortable pace.",
+    "step": "Step %{current} of 3",
+    "name": "Workout name",
+    "focus": "Body focus",
+    "nameError": "Enter a workout name (up to 120 characters).",
+    "itemsError": "Add at least one available exercise.",
+    "search": "Search exercises",
+    "noResults": "No exercises found",
+    "selected": "%{count} exercises selected",
+    "added": "%{count} sets added",
+    "addHint": "Add one set of this exercise",
+    "limit": "You can add up to %{count} exercises.",
+    "seconds": "Exercise time (seconds)",
+    "reps": "Repetitions",
+    "rest": "Rest after this exercise (seconds)",
+    "moveUp": "Move exercise up",
+    "moveDown": "Move exercise down",
+    "remove": "Remove exercise",
+    "orderNote": "Adjust each set and use the arrows to change its order. Rest is skipped after the final exercise. Turning off rest in Settings also skips these rests.",
+    "addExercises": "Add more exercises",
+    "next": "Next",
+    "save": "Save workout",
+    "saveError": "Could not update this workout. Please try again.",
+    "edit": "Edit workout",
+    "customize": "Customize a copy",
+    "copyName": "%{name} — my version",
+    "delete": "Delete workout",
+    "deleteTitle": "Delete this saved workout?",
+    "deleteBody": "This removes the template. Completed workout history is kept.",
+    "discardTitle": "Discard your changes?",
+    "discardBody": "Your changes have not been saved.",
+    "emptyTitle": "Your routine starts here",
+    "emptyBody": "Choose exercises and build a workout that fits your day."
+  },
+  "backup": {
+    "title": "Backup and data",
+    "description": "Export your profile, workout history, progress and preferences as a JSON file. This file contains personal data; choose where to save it. An unfinished workout is not included.",
+    "export": "Export backup",
+    "import": "Choose backup file",
+    "importBody": "Restore a backup from this app (up to 5 MB). It replaces your current data; export a copy first if you want to keep it.",
+    "replaceTitle": "Replace your current data?",
+    "replaceBody": "This validated backup contains %{count} workout records. Your current records and preferences will be replaced.",
+    "replace": "Replace data",
+    "reset": "Reset all data",
+    "resetBody": "Delete your profile, workout history, progress, saved workouts and preferences from this phone. Exported backup files are kept.",
+    "resetFinal": "Delete everything from this app?",
+    "continue": "Continue",
+    "working": "Working…",
+    "error": "The operation could not be completed. For import, choose a valid backup from this app no larger than 5 MB, then try again.",
+    "reminderWarning": "Your data was updated, but reminder scheduling could not be updated. Open Workout reminders and save again."
+  },
+  "reminders": {
+    "discardTitle": "Discard reminder changes?",
+    "discardBody": "Your last saved schedule will stay in place. Save your changes first if you want to keep them.",
+    "title": "Workout reminders",
+    "enabled": "Enable reminders",
+    "description": "Choose the days and time that fit your routine. Reminders stay on this phone.",
+    "days": "Repeat on",
+    "time": "Reminder time",
+    "am": "AM",
+    "pm": "PM",
+    "period": "AM or PM",
+    "hour": "Hour",
+    "minute": "Minute",
+    "weekdays": {
+      "1": "Sun",
+      "2": "Mon",
+      "3": "Tue",
+      "4": "Wed",
+      "5": "Thu",
+      "6": "Fri",
+      "7": "Sat"
+    },
+    "save": "Save reminders",
+    "saved": "Reminders scheduled.",
+    "disabled": "Reminders turned off.",
+    "chooseDay": "Choose at least one day.",
+    "timingNote": "Battery-saving settings may delay reminders. You can change or turn them off here at any time.",
+    "primerTitle": "A little reminder to move",
+    "primerBody": "Allow notifications for your chosen workout days. They are scheduled locally and need no internet connection.",
+    "allow": "Continue",
+    "deniedTitle": "Notifications are turned off",
+    "deniedBody": "Allow notifications in your phone settings, then return here and save again.",
+    "openSettings": "Open phone settings",
+    "error": "Could not update reminders. Please try saving again.",
+    "unavailable": "Reminders need the installed app build. They are unavailable in Expo Go.",
+    "notificationTitle": "Time for a little movement",
+    "notificationBody": "Your workout is ready whenever you are. Open the app to choose a session."
+  },
   "settings": {
+    "beeps": "Countdown sounds",
+    "haptics": "Vibration",
+    "musicNote": "Play music in your preferred music app. Countdown sounds briefly lower its volume.",
+    "timerNote": "Timer changes apply to the next workout. Close settings, then tap Resume to continue.",
+    "profile": "My profile",
     "appearance": "Appearance",
+    "workout": "Workout settings",
+    "quietMode": "Quiet mode",
+    "restEnabled": "Rest between exercises",
+    "restSeconds": "Rest time (seconds)",
+    "prepSeconds": "Get-ready time (seconds)",
+    "heightFeet": "Height (feet)",
+    "heightInches": "Height (inches, 0–11.9)",
+    "weightLbs": "Weight (lbs)",
+    "heightValue": "Height: %{feet} ft %{inches} in",
+    "units": {
+      "title": "Measurement units",
+      "metric": "kg / cm",
+      "imperial": "lbs / ft-in",
+      "note": "Changes how measurements are shown and entered. Your saved measurements stay the same."
+    },
+    "information": "Information",
+    "info": {
+      "credits": {
+        "title": "Credits & licences",
+        "body": "This app uses open-source software, Poppins fonts, Lucide icons and Material Symbols. Select an entry to read its bundled licence and attribution. The list also includes dependency build tools.",
+        "images": "The 119 exercise illustrations were supplied by the project owner using the project's pose prompts. The colour style study and workout sounds were created for this project. Reference screenshots are used for layout study and are not bundled.",
+        "map": "Muscle-map paths: © 2022 ELABBASSI Hicham, MIT. Lat and hip-flexor highlights use nearby shapes from the source artwork and are approximate.",
+        "search": "Search licences",
+        "empty": "No matching licences",
+        "more": "Show more"
+      },
+      "privacy": {
+        "title": "Privacy",
+        "body": "Your profile, measurements, workout history, custom workouts, achievements and preferences are stored on your device. The app has no accounts, ads, analytics or app servers. It does not send your workout or health data to us.",
+        "backupTitle": "Backups you choose to share",
+        "backupBody": "Export creates a file containing your saved app data. You choose its destination in your phone's share sheet. A destination app or cloud service handles that file under its own policies. Keep personal backups somewhere you trust.",
+        "reminderTitle": "Optional reminders",
+        "reminderBody": "Reminders use your phone's local notification system. Notification permission is requested only when you choose to enable them. You can turn them off in Settings.",
+        "deleteTitle": "Delete your data",
+        "deleteBody": "Backup and data → Reset all data removes the app's saved profile, history and preferences and starts onboarding again. Files you already exported to other apps or folders are not removed."
+      },
+      "disclaimer": {
+        "title": "Exercise disclaimer",
+        "body": "This app provides general exercise information for adults aged 18 and over. It does not diagnose conditions or replace advice from a qualified health professional. Static illustrations show one position rather than the entire movement. Calorie totals and BMI are estimates, not medical assessments."
+      },
+      "about": {
+        "title": "About",
+        "version": "Version %{version}",
+        "unknownVersion": "Unknown",
+        "body": "Free, offline workouts with exercise guides, custom plans, local progress and optional reminders. No accounts, ads or subscriptions."
+      }
+    },
     "theme": {
       "system": "System",
       "light": "Light",
@@ -21,6 +473,31 @@
     }
   },
   "dev": {
+    "staticImage": {
+      "title": "Static exercise image",
+      "description": "One clear, full-colour pose per exercise. This original style study is bundled locally and needs no internet connection.",
+      "sidePlank": "Side plank",
+      "alt": "Full-colour illustration of a person holding a side plank on one forearm with legs extended and top arm raised.",
+      "credit": "Original AI-assisted style study created for this project; resized for the app preview.",
+      "pending": "Style study only. Image quality and the remaining 118 exercise poses still need review. Animation development is paused.",
+      "error": "The bundled image could not be displayed.",
+      "open": "Preview static image"
+    },
+    "rigStyle": {
+      "title": "Character movement review",
+      "description": "Two original exercise studies. Review the character and movement before the full library is made.",
+      "blue": "Blue",
+      "rose": "Rose",
+      "outfit": "Character outfit",
+      "play": "Play",
+      "pause": "Pause",
+      "nextPose": "Next pose",
+      "torso-twist": "Torso twist",
+      "squat": "Squat",
+      "torso-twistNote": "Shoulders and hands turn together while the hips and feet stay stable.",
+      "squatNote": "Controlled hip hinge with planted heels throughout the repetition.",
+      "review": "Style proof awaiting visual approval. The production animation library is not yet replaced."
+    },
     "contentPack": "Content pack v%{version}: %{exercises} exercises, %{workouts} workouts, %{challenges} challenges"
   },
   "errors": {
@@ -50,6 +527,8 @@
     "advanced": "Advanced"
   },
   "common": {
+    "back": "Back",
+    "edit": "Edit",
     "more": "More",
     "viewAll": "View all",
     "done": "Done",
@@ -57,5 +536,2778 @@
     "save": "Save",
     "retry": "Try again",
     "skip": "Skip"
+  },
+  "exercise": {
+    "march_in_place": {
+      "name": "March in Place",
+      "instructions": [
+        "Stand tall with your feet hip-width apart and arms relaxed.",
+        "Lift one knee, lower it, then alternate knees while swinging the opposite arm.",
+        "Keep a pace that lets you change direction with control."
+      ],
+      "mistakes": [
+        "Leaning backward as the knees rise.",
+        "Losing posture as the pace increases.",
+        "Moving so quickly that the steps or arm motions lose control."
+      ],
+      "breathing": [
+        "Start with a relaxed breathing rhythm.",
+        "Breathe continuously as the pace increases.",
+        "Slow the pace if you cannot keep breathing comfortably."
+      ]
+    },
+    "arm_circles": {
+      "name": "Arm Circles",
+      "instructions": [
+        "Stand tall and extend both arms out to the sides.",
+        "Draw small circles with the arms, then reverse direction.",
+        "Move only through a comfortable range, then return slowly to the start."
+      ],
+      "mistakes": [
+        "Making the circles so large that the shoulders feel strained.",
+        "Moving so fast that the joints lose control.",
+        "Forcing the range instead of easing into it."
+      ],
+      "breathing": [
+        "Begin with an easy breath in.",
+        "Breathe out during the moving part.",
+        "Breathe in as you return; do not hold your breath."
+      ]
+    },
+    "shoulder_rolls": {
+      "name": "Shoulder Rolls",
+      "instructions": [
+        "Stand or sit tall with arms relaxed at your sides.",
+        "Lift the shoulders gently, roll them back and down, then change direction.",
+        "Move only through a comfortable range, then return slowly to the start."
+      ],
+      "mistakes": [
+        "Lifting the shoulders forcefully toward the ears.",
+        "Moving so fast that the joints lose control.",
+        "Forcing the range instead of easing into it."
+      ],
+      "breathing": [
+        "Begin with an easy breath in.",
+        "Breathe out during the moving part.",
+        "Breathe in as you return; do not hold your breath."
+      ]
+    },
+    "hip_circles": {
+      "name": "Hip Circles",
+      "instructions": [
+        "Stand with feet hip-width apart and hands on the hips.",
+        "Circle the hips slowly in one direction, then reverse.",
+        "Move only through a comfortable range, then return slowly to the start."
+      ],
+      "mistakes": [
+        "Twisting the knees sharply while the hips circle.",
+        "Moving so fast that the joints lose control.",
+        "Forcing the range instead of easing into it."
+      ],
+      "breathing": [
+        "Begin with an easy breath in.",
+        "Breathe out during the moving part.",
+        "Breathe in as you return; do not hold your breath."
+      ]
+    },
+    "leg_swings_front": {
+      "name": "Leg Swings (Front)",
+      "instructions": [
+        "Stand beside a stable wall and hold it lightly for balance.",
+        "Swing one leg forward and back in a small controlled arc, then switch legs.",
+        "Return to the start slowly and use stable support when needed."
+      ],
+      "mistakes": [
+        "Swinging so high that the lower back arches.",
+        "Rushing while balance is unsteady.",
+        "Leaning on an unstable chair or wall fixture."
+      ],
+      "breathing": [
+        "Breathe in before moving.",
+        "Breathe out during the effort.",
+        "Keep breathing normally while you steady yourself."
+      ]
+    },
+    "leg_swings_side": {
+      "name": "Leg Swings (Side)",
+      "instructions": [
+        "Face a stable wall and hold it lightly with both hands.",
+        "Swing one leg across and out to the side without rotating the trunk, then switch.",
+        "Return to the start slowly and use stable support when needed."
+      ],
+      "mistakes": [
+        "Turning the whole torso to make the swing larger.",
+        "Rushing while balance is unsteady.",
+        "Leaning on an unstable chair or wall fixture."
+      ],
+      "breathing": [
+        "Breathe in before moving.",
+        "Breathe out during the effort.",
+        "Keep breathing normally while you steady yourself."
+      ]
+    },
+    "torso_twist": {
+      "name": "Torso Twist",
+      "instructions": [
+        "Stand with feet hip-width apart and knees soft.",
+        "Rotate the upper body gently left and right while the hips mostly face forward.",
+        "Move only through a comfortable range, then return slowly to the start."
+      ],
+      "mistakes": [
+        "Forcing the neck or lower back through a large twist.",
+        "Moving so fast that the joints lose control.",
+        "Forcing the range instead of easing into it."
+      ],
+      "breathing": [
+        "Begin with an easy breath in.",
+        "Breathe out during the moving part.",
+        "Breathe in as you return; do not hold your breath."
+      ]
+    },
+    "neck_rolls": {
+      "name": "Neck Rolls",
+      "instructions": [
+        "Stand or sit tall with shoulders relaxed.",
+        "Tilt the head gently to one side, move through a small front arc, then to the other side.",
+        "Move only through a comfortable range, then return slowly to the start."
+      ],
+      "mistakes": [
+        "Dropping the head far backward or forcing a full circle.",
+        "Moving so fast that the joints lose control.",
+        "Forcing the range instead of easing into it."
+      ],
+      "breathing": [
+        "Begin with an easy breath in.",
+        "Breathe out during the moving part.",
+        "Breathe in as you return; do not hold your breath."
+      ]
+    },
+    "cat_cow": {
+      "name": "Cat-Cow",
+      "instructions": [
+        "Start on hands and knees with wrists under shoulders and knees under hips.",
+        "Round the back gently, then lengthen the spine and lift the chest slightly.",
+        "Move only through a comfortable range, then return slowly to the start."
+      ],
+      "mistakes": [
+        "Throwing the head back or pushing into a painful arch.",
+        "Moving so fast that the joints lose control.",
+        "Forcing the range instead of easing into it."
+      ],
+      "breathing": [
+        "Begin with an easy breath in.",
+        "Breathe out during the moving part.",
+        "Breathe in as you return; do not hold your breath."
+      ]
+    },
+    "inchworm_walkout": {
+      "name": "Inchworm Walkout",
+      "instructions": [
+        "Stand tall, soften the knees and fold toward the floor.",
+        "Walk the hands forward to a strong plank, then walk them back and stand.",
+        "Return with control while keeping the trunk steady."
+      ],
+      "mistakes": [
+        "Letting the hips sag when the hands reach plank.",
+        "Using momentum instead of the abdominal muscles.",
+        "Letting the lower back move farther than you can control."
+      ],
+      "breathing": [
+        "Breathe in before each repetition.",
+        "Breathe out during the effort or reach.",
+        "Breathe in as you return with control."
+      ]
+    },
+    "crunch": {
+      "name": "Crunch",
+      "instructions": [
+        "Lie on your back with knees bent and feet planted.",
+        "Lift the shoulder blades a short distance using the abdomen, then lower.",
+        "Return with control while keeping the trunk steady."
+      ],
+      "mistakes": [
+        "Pulling the head forward with the hands.",
+        "Using momentum instead of the abdominal muscles.",
+        "Letting the lower back move farther than you can control."
+      ],
+      "breathing": [
+        "Breathe in before each repetition.",
+        "Breathe out during the effort or reach.",
+        "Breathe in as you return with control."
+      ]
+    },
+    "reverse_crunch": {
+      "name": "Reverse Crunch",
+      "instructions": [
+        "Lie on your back with knees bent over the hips.",
+        "Curl the pelvis gently toward the ribs, lifting the hips slightly, then lower.",
+        "Return with control while keeping the trunk steady."
+      ],
+      "mistakes": [
+        "Swinging the legs to gain momentum.",
+        "Using momentum instead of the abdominal muscles.",
+        "Letting the lower back move farther than you can control."
+      ],
+      "breathing": [
+        "Breathe in before each repetition.",
+        "Breathe out during the effort or reach.",
+        "Breathe in as you return with control."
+      ]
+    },
+    "bicycle_crunch": {
+      "name": "Bicycle Crunch",
+      "instructions": [
+        "Lie on your back with hands lightly beside the head and knees raised.",
+        "Rotate one shoulder toward the opposite knee while extending the other leg, then alternate.",
+        "Return with control while keeping the trunk steady."
+      ],
+      "mistakes": [
+        "Yanking the neck with the hands.",
+        "Using momentum instead of the abdominal muscles.",
+        "Letting the lower back move farther than you can control."
+      ],
+      "breathing": [
+        "Breathe in before each repetition.",
+        "Breathe out during the effort or reach.",
+        "Breathe in as you return with control."
+      ]
+    },
+    "sit_up": {
+      "name": "Sit-Up",
+      "instructions": [
+        "Lie on your back with knees bent and feet on the floor.",
+        "Roll the trunk up toward the knees with control, then lower slowly.",
+        "Return with control while keeping the trunk steady."
+      ],
+      "mistakes": [
+        "Jerking the body upward with momentum.",
+        "Using momentum instead of the abdominal muscles.",
+        "Letting the lower back move farther than you can control."
+      ],
+      "breathing": [
+        "Breathe in before each repetition.",
+        "Breathe out during the effort or reach.",
+        "Breathe in as you return with control."
+      ]
+    },
+    "leg_raise": {
+      "name": "Leg Raise",
+      "instructions": [
+        "Lie on your back with legs long and hands by your sides.",
+        "Raise the legs together only as far as you can keep the lower back controlled, then lower.",
+        "Return with control while keeping the trunk steady."
+      ],
+      "mistakes": [
+        "Lowering the legs until the lower back lifts sharply from the floor.",
+        "Using momentum instead of the abdominal muscles.",
+        "Letting the lower back move farther than you can control."
+      ],
+      "breathing": [
+        "Breathe in before each repetition.",
+        "Breathe out during the effort or reach.",
+        "Breathe in as you return with control."
+      ]
+    },
+    "flutter_kick": {
+      "name": "Flutter Kick",
+      "instructions": [
+        "Lie on your back with legs extended and the lower back comfortable.",
+        "Lift the legs slightly and alternate small up-and-down kicks.",
+        "Return with control while keeping the trunk steady."
+      ],
+      "mistakes": [
+        "Making large kicks that pull the lower back off the floor.",
+        "Using momentum instead of the abdominal muscles.",
+        "Letting the lower back move farther than you can control."
+      ],
+      "breathing": [
+        "Breathe in before each repetition.",
+        "Breathe out during the effort or reach.",
+        "Breathe in as you return with control."
+      ]
+    },
+    "scissor_kick": {
+      "name": "Scissor Kick",
+      "instructions": [
+        "Lie on your back with long legs lifted slightly.",
+        "Cross one leg over the other in small alternating motions.",
+        "Return with control while keeping the trunk steady."
+      ],
+      "mistakes": [
+        "Swinging the legs so far that the pelvis rocks.",
+        "Using momentum instead of the abdominal muscles.",
+        "Letting the lower back move farther than you can control."
+      ],
+      "breathing": [
+        "Breathe in before each repetition.",
+        "Breathe out during the effort or reach.",
+        "Breathe in as you return with control."
+      ]
+    },
+    "heel_touch": {
+      "name": "Heel Touch",
+      "instructions": [
+        "Lie on your back with knees bent and feet close enough to reach toward.",
+        "Lift the shoulders slightly and reach side to side toward each heel.",
+        "Return with control while keeping the trunk steady."
+      ],
+      "mistakes": [
+        "Pulling on the neck or swinging the trunk.",
+        "Using momentum instead of the abdominal muscles.",
+        "Letting the lower back move farther than you can control."
+      ],
+      "breathing": [
+        "Breathe in before each repetition.",
+        "Breathe out during the effort or reach.",
+        "Breathe in as you return with control."
+      ]
+    },
+    "russian_twist": {
+      "name": "Russian Twist",
+      "instructions": [
+        "Sit with knees bent, feet supported and chest lifted.",
+        "Rotate the ribs gently from side to side while keeping the spine long.",
+        "Return with control while keeping the trunk steady."
+      ],
+      "mistakes": [
+        "Rounding the back and throwing the arms across the body.",
+        "Using momentum instead of the abdominal muscles.",
+        "Letting the lower back move farther than you can control."
+      ],
+      "breathing": [
+        "Breathe in before each repetition.",
+        "Breathe out during the effort or reach.",
+        "Breathe in as you return with control."
+      ]
+    },
+    "forearm_plank": {
+      "name": "Forearm Plank",
+      "instructions": [
+        "Place forearms on the floor with elbows under the shoulders.",
+        "Step the feet back and lift into a straight line from head to heels.",
+        "Hold a steady line for the target time, then lower gently."
+      ],
+      "mistakes": [
+        "Letting the lower back sag while the elbows drift ahead.",
+        "Letting the hips sag or rise well above the shoulders.",
+        "Tensing the neck or shrugging the shoulders."
+      ],
+      "breathing": [
+        "Take a calm breath before lifting.",
+        "Keep breathing steadily during the hold.",
+        "Avoid holding your breath as you brace."
+      ]
+    },
+    "side_plank_each_side": {
+      "name": "Side Plank (each side)",
+      "instructions": [
+        "Lie on one side with the supporting elbow under the shoulder.",
+        "Lift the hips until the body forms a long line; repeat on the other side.",
+        "Hold a steady line for the target time, then lower gently."
+      ],
+      "mistakes": [
+        "Allowing the supporting shoulder to collapse toward the ear.",
+        "Letting the hips sag or rise well above the shoulders.",
+        "Tensing the neck or shrugging the shoulders."
+      ],
+      "breathing": [
+        "Take a calm breath before lifting.",
+        "Keep breathing steadily during the hold.",
+        "Avoid holding your breath as you brace."
+      ]
+    },
+    "plank_shoulder_tap": {
+      "name": "Plank Shoulder Tap",
+      "instructions": [
+        "Start in a high plank with hands under shoulders and feet a little apart.",
+        "Tap one shoulder with the opposite hand, replace it, then alternate.",
+        "Return to a steady plank before the next repetition."
+      ],
+      "mistakes": [
+        "Rocking the hips widely from side to side.",
+        "Letting the hips sag as the arms move.",
+        "Turning the pelvis instead of keeping the trunk steady."
+      ],
+      "breathing": [
+        "Breathe in as you set the plank.",
+        "Breathe out during the arm movement.",
+        "Breathe in as you reset without holding your breath."
+      ]
+    },
+    "dead_bug": {
+      "name": "Dead Bug",
+      "instructions": [
+        "Lie on your back with hips and knees bent and arms reaching up.",
+        "Lower one arm and the opposite leg slowly, return, then alternate sides.",
+        "Return with control while keeping the trunk steady."
+      ],
+      "mistakes": [
+        "Arching the lower back as the leg extends.",
+        "Using momentum instead of the abdominal muscles.",
+        "Letting the lower back move farther than you can control."
+      ],
+      "breathing": [
+        "Breathe in before each repetition.",
+        "Breathe out during the effort or reach.",
+        "Breathe in as you return with control."
+      ]
+    },
+    "hollow_hold": {
+      "name": "Hollow Hold",
+      "instructions": [
+        "Lie on your back and gently draw the ribs toward the pelvis.",
+        "Lift the shoulders and legs only as far as the lower back stays controlled.",
+        "Hold only while the lower back stays comfortable, then release slowly."
+      ],
+      "mistakes": [
+        "Reaching the legs too low and losing lower-back control.",
+        "Reaching the head forward instead of keeping the neck relaxed.",
+        "Tensing the neck or holding the breath."
+      ],
+      "breathing": [
+        "Take a calm breath before lifting.",
+        "Keep breathing through the hold.",
+        "Release and rest if you cannot breathe comfortably."
+      ]
+    },
+    "mountain_climber": {
+      "name": "Mountain Climber",
+      "instructions": [
+        "Begin in a high plank with hands below the shoulders.",
+        "Drive one knee toward the chest, replace it, then alternate at a steady pace.",
+        "Keep a pace that lets you change direction with control."
+      ],
+      "mistakes": [
+        "Bouncing the hips high as the feet switch.",
+        "Losing posture as the pace increases.",
+        "Moving so quickly that the steps or arm motions lose control."
+      ],
+      "breathing": [
+        "Start with a relaxed breathing rhythm.",
+        "Breathe continuously as the pace increases.",
+        "Slow the pace if you cannot keep breathing comfortably."
+      ]
+    },
+    "v_up": {
+      "name": "V-Up",
+      "instructions": [
+        "Lie long on your back with arms overhead and legs together.",
+        "Lift arms and legs toward each other, then lower with control.",
+        "Return with control while keeping the trunk steady."
+      ],
+      "mistakes": [
+        "Throwing the arms forward to yank the trunk up.",
+        "Using momentum instead of the abdominal muscles.",
+        "Letting the lower back move farther than you can control."
+      ],
+      "breathing": [
+        "Breathe in before each repetition.",
+        "Breathe out during the effort or reach.",
+        "Breathe in as you return with control."
+      ]
+    },
+    "toe_touch_crunch": {
+      "name": "Toe Touch Crunch",
+      "instructions": [
+        "Lie on your back with legs reaching toward the ceiling.",
+        "Lift the shoulder blades and reach toward the toes, then lower.",
+        "Return with control while keeping the trunk steady."
+      ],
+      "mistakes": [
+        "Pulling the head forward to reach higher.",
+        "Using momentum instead of the abdominal muscles.",
+        "Letting the lower back move farther than you can control."
+      ],
+      "breathing": [
+        "Breathe in before each repetition.",
+        "Breathe out during the effort or reach.",
+        "Breathe in as you return with control."
+      ]
+    },
+    "cross_touch_and_reach": {
+      "name": "Cross Touch and Reach",
+      "instructions": [
+        "Stand tall with feet wider than hips and arms out.",
+        "Hinge and reach one hand toward the opposite foot, then rise and reach upward; alternate.",
+        "Move only through a comfortable range, then return slowly to the start."
+      ],
+      "mistakes": [
+        "Twisting the knees or forcing the hand all the way to the foot.",
+        "Moving so fast that the joints lose control.",
+        "Forcing the range instead of easing into it."
+      ],
+      "breathing": [
+        "Begin with an easy breath in.",
+        "Breathe out during the moving part.",
+        "Breathe in as you return; do not hold your breath."
+      ]
+    },
+    "standing_oblique_crunch": {
+      "name": "Standing Oblique Crunch",
+      "instructions": [
+        "Stand tall with hands lightly beside the head.",
+        "Lift one knee toward the same-side elbow by shortening the side of the trunk, then alternate.",
+        "Return with control while keeping the trunk steady."
+      ],
+      "mistakes": [
+        "Pulling the head downward to meet the knee.",
+        "Using momentum instead of the abdominal muscles.",
+        "Letting the lower back move farther than you can control."
+      ],
+      "breathing": [
+        "Breathe in before each repetition.",
+        "Breathe out during the effort or reach.",
+        "Breathe in as you return with control."
+      ]
+    },
+    "wall_push_up": {
+      "name": "Wall Push-Up",
+      "instructions": [
+        "Face a stable wall with hands at chest height and feet stepped back.",
+        "Bend the elbows to bring the chest toward the wall while the body stays straight.",
+        "Press back to the start at a pace you can control."
+      ],
+      "mistakes": [
+        "Letting the head reach the wall before the chest.",
+        "Letting the hips sag instead of moving as one unit.",
+        "Flaring the elbows excessively or shrugging the shoulders."
+      ],
+      "breathing": [
+        "Breathe in as you lower.",
+        "Breathe out as you press away.",
+        "Keep breathing between repetitions."
+      ]
+    },
+    "incline_push_up": {
+      "name": "Incline Push-Up",
+      "instructions": [
+        "Place hands on a stable, non-slip chair or surface and walk the feet back.",
+        "Lower the chest toward the support by bending the elbows.",
+        "Press back to the start at a pace you can control."
+      ],
+      "mistakes": [
+        "Using a chair that can slide or tip.",
+        "Letting the hips sag instead of moving as one unit.",
+        "Flaring the elbows excessively or shrugging the shoulders."
+      ],
+      "breathing": [
+        "Breathe in as you lower.",
+        "Breathe out as you press away.",
+        "Keep breathing between repetitions."
+      ]
+    },
+    "knee_push_up": {
+      "name": "Knee Push-Up",
+      "instructions": [
+        "Set hands below the shoulders and keep knees on a padded floor.",
+        "Lower the chest while the trunk stays aligned from head to knees.",
+        "Press back to the start at a pace you can control."
+      ],
+      "mistakes": [
+        "Bending at the hips instead of lowering the whole trunk.",
+        "Letting the hips sag instead of moving as one unit.",
+        "Flaring the elbows excessively or shrugging the shoulders."
+      ],
+      "breathing": [
+        "Breathe in as you lower.",
+        "Breathe out as you press away.",
+        "Keep breathing between repetitions."
+      ]
+    },
+    "standard_push_up": {
+      "name": "Standard Push-Up",
+      "instructions": [
+        "Start in a high plank with hands just wider than the shoulders.",
+        "Bend the elbows and lower the chest while keeping a long body line.",
+        "Press back to the start at a pace you can control."
+      ],
+      "mistakes": [
+        "Letting the chin lead while the chest stays high.",
+        "Letting the hips sag instead of moving as one unit.",
+        "Flaring the elbows excessively or shrugging the shoulders."
+      ],
+      "breathing": [
+        "Breathe in as you lower.",
+        "Breathe out as you press away.",
+        "Keep breathing between repetitions."
+      ]
+    },
+    "wide_push_up": {
+      "name": "Wide Push-Up",
+      "instructions": [
+        "Place hands wider than shoulder width in a firm high plank.",
+        "Lower the chest between the hands with elbows moving comfortably outward.",
+        "Press back to the start at a pace you can control."
+      ],
+      "mistakes": [
+        "Placing the hands so wide that the shoulders lose control.",
+        "Letting the hips sag instead of moving as one unit.",
+        "Flaring the elbows excessively or shrugging the shoulders."
+      ],
+      "breathing": [
+        "Breathe in as you lower.",
+        "Breathe out as you press away.",
+        "Keep breathing between repetitions."
+      ]
+    },
+    "diamond_push_up": {
+      "name": "Diamond Push-Up",
+      "instructions": [
+        "Place hands close together under the chest in a strong high plank.",
+        "Bend the elbows close to the body and lower only as far as control allows.",
+        "Press back to the start at a pace you can control."
+      ],
+      "mistakes": [
+        "Forcing the wrists into an uncomfortable angle.",
+        "Letting the hips sag instead of moving as one unit.",
+        "Flaring the elbows excessively or shrugging the shoulders."
+      ],
+      "breathing": [
+        "Breathe in as you lower.",
+        "Breathe out as you press away.",
+        "Keep breathing between repetitions."
+      ]
+    },
+    "decline_push_up": {
+      "name": "Decline Push-Up",
+      "instructions": [
+        "Place feet on a stable, non-slip low support and hands on the floor.",
+        "Keep a firm plank while lowering the chest toward the floor.",
+        "Press back to the start at a pace you can control."
+      ],
+      "mistakes": [
+        "Using a support that moves or lifting the hips high.",
+        "Letting the hips sag instead of moving as one unit.",
+        "Flaring the elbows excessively or shrugging the shoulders."
+      ],
+      "breathing": [
+        "Breathe in as you lower.",
+        "Breathe out as you press away.",
+        "Keep breathing between repetitions."
+      ]
+    },
+    "archer_push_up": {
+      "name": "Archer Push-Up",
+      "instructions": [
+        "Start in a wide high plank with feet spread for balance.",
+        "Bend one arm while the other stays longer, shift toward the bending side, then alternate.",
+        "Press back to the start at a pace you can control."
+      ],
+      "mistakes": [
+        "Dropping suddenly onto the working shoulder.",
+        "Letting the hips sag instead of moving as one unit.",
+        "Flaring the elbows excessively or shrugging the shoulders."
+      ],
+      "breathing": [
+        "Breathe in as you lower.",
+        "Breathe out as you press away.",
+        "Keep breathing between repetitions."
+      ]
+    },
+    "push_up_hold": {
+      "name": "Push-Up Hold",
+      "instructions": [
+        "Set up in a high plank with hands beneath the shoulders.",
+        "Bend the elbows slightly and hold the body rigid at a comfortable depth.",
+        "Hold a steady line for the target time, then lower gently."
+      ],
+      "mistakes": [
+        "Lowering so far that the shoulders or wrists lose control.",
+        "Letting the hips sag or rise well above the shoulders.",
+        "Tensing the neck or shrugging the shoulders."
+      ],
+      "breathing": [
+        "Take a calm breath before lifting.",
+        "Keep breathing steadily during the hold.",
+        "Avoid holding your breath as you brace."
+      ]
+    },
+    "plank_to_push_up": {
+      "name": "Plank to Push-Up",
+      "instructions": [
+        "Begin on the forearms in a firm plank.",
+        "Place one hand down, then the other to rise into high plank; lower one forearm at a time.",
+        "Return to a steady plank before the next repetition."
+      ],
+      "mistakes": [
+        "Swinging the hips widely as the arms change level.",
+        "Letting the hips sag as the arms move.",
+        "Turning the pelvis instead of keeping the trunk steady."
+      ],
+      "breathing": [
+        "Breathe in as you set the plank.",
+        "Breathe out during the arm movement.",
+        "Breathe in as you reset without holding your breath."
+      ]
+    },
+    "chest_squeeze_isometric": {
+      "name": "Chest Squeeze (isometric)",
+      "instructions": [
+        "Stand or sit tall with palms pressed together in front of the chest.",
+        "Press the palms together gently and hold without lifting the shoulders.",
+        "Hold gentle tension for the target time, then release gradually."
+      ],
+      "mistakes": [
+        "Pressing so hard that the wrists bend or the neck tenses.",
+        "Tensing the neck and shoulders unnecessarily.",
+        "Forcing the joints into an uncomfortable position."
+      ],
+      "breathing": [
+        "Take a calm breath before the hold.",
+        "Breathe steadily while applying tension.",
+        "Do not hold your breath during the effort."
+      ]
+    },
+    "shoulder_tap_push_up": {
+      "name": "Shoulder Tap Push-Up",
+      "instructions": [
+        "Begin in a high plank with feet apart for balance.",
+        "Complete one controlled push-up, then tap each opposite shoulder without twisting the hips.",
+        "Press back to the start at a pace you can control."
+      ],
+      "mistakes": [
+        "Rushing the taps and losing the plank line.",
+        "Letting the hips sag instead of moving as one unit.",
+        "Flaring the elbows excessively or shrugging the shoulders."
+      ],
+      "breathing": [
+        "Breathe in as you lower.",
+        "Breathe out as you press away.",
+        "Keep breathing between repetitions."
+      ]
+    },
+    "pike_push_up": {
+      "name": "Pike Push-Up",
+      "instructions": [
+        "Place hands on the floor and lift the hips to form an inverted V.",
+        "Bend the elbows to lower the head between the hands, then press up.",
+        "Press back to the start at a pace you can control."
+      ],
+      "mistakes": [
+        "Letting the elbows flare far out while the neck collapses.",
+        "Letting the hips sag instead of moving as one unit.",
+        "Flaring the elbows excessively or shrugging the shoulders."
+      ],
+      "breathing": [
+        "Breathe in as you lower.",
+        "Breathe out as you press away.",
+        "Keep breathing between repetitions."
+      ]
+    },
+    "wall_angel": {
+      "name": "Wall Angel",
+      "instructions": [
+        "Stand with back near a wall, knees soft and ribs relaxed.",
+        "Slide bent arms up and down the wall within a comfortable shoulder range.",
+        "Move only through a comfortable range, then return slowly to the start."
+      ],
+      "mistakes": [
+        "Arching the lower back to force the hands against the wall.",
+        "Moving so fast that the joints lose control.",
+        "Forcing the range instead of easing into it."
+      ],
+      "breathing": [
+        "Begin with an easy breath in.",
+        "Breathe out during the moving part.",
+        "Breathe in as you return; do not hold your breath."
+      ]
+    },
+    "triceps_dip_chair_floor": {
+      "name": "Triceps Dip (chair/floor)",
+      "instructions": [
+        "Use a stable chair against a wall or place hands on the floor behind the hips.",
+        "Bend the elbows a little to lower the hips, then press back up.",
+        "Press back to the start at a pace you can control."
+      ],
+      "mistakes": [
+        "Dropping too deep and forcing the shoulders behind the body.",
+        "Letting the hips sag instead of moving as one unit.",
+        "Flaring the elbows excessively or shrugging the shoulders."
+      ],
+      "breathing": [
+        "Breathe in as you lower.",
+        "Breathe out as you press away.",
+        "Keep breathing between repetitions."
+      ]
+    },
+    "floor_triceps_extension": {
+      "name": "Floor Triceps Extension",
+      "instructions": [
+        "Start on hands and knees with hands ahead of the shoulders.",
+        "Bend the elbows to bring forearms toward the floor, then press through the palms.",
+        "Press back to the start at a pace you can control."
+      ],
+      "mistakes": [
+        "Letting elbows splay far apart.",
+        "Letting the hips sag instead of moving as one unit.",
+        "Flaring the elbows excessively or shrugging the shoulders."
+      ],
+      "breathing": [
+        "Breathe in as you lower.",
+        "Breathe out as you press away.",
+        "Keep breathing between repetitions."
+      ]
+    },
+    "front_raise": {
+      "name": "Front Raise",
+      "instructions": [
+        "Stand tall holding light water bottles with palms facing the thighs.",
+        "Raise the arms forward to a comfortable shoulder height, then lower.",
+        "Lower or release slowly before the next repetition."
+      ],
+      "mistakes": [
+        "Leaning backward to lift the bottles.",
+        "Swinging the arms or using body momentum.",
+        "Shrugging the shoulders toward the ears."
+      ],
+      "breathing": [
+        "Breathe in at the starting position.",
+        "Breathe out during the effort.",
+        "Breathe in as you return without holding your breath."
+      ]
+    },
+    "lateral_raise": {
+      "name": "Lateral Raise",
+      "instructions": [
+        "Stand tall with light bottles by the sides and elbows soft.",
+        "Raise the arms out to the sides to a comfortable height, then lower.",
+        "Lower or release slowly before the next repetition."
+      ],
+      "mistakes": [
+        "Shrugging to pull the bottles higher.",
+        "Swinging the arms or using body momentum.",
+        "Shrugging the shoulders toward the ears."
+      ],
+      "breathing": [
+        "Breathe in at the starting position.",
+        "Breathe out during the effort.",
+        "Breathe in as you return without holding your breath."
+      ]
+    },
+    "overhead_press_isometric": {
+      "name": "Overhead Press (isometric)",
+      "instructions": [
+        "Stand tall with elbows bent and hands beside the shoulders.",
+        "Press the palms upward against an imagined resistance and hold with ribs down.",
+        "Hold gentle tension for the target time, then release gradually."
+      ],
+      "mistakes": [
+        "Arching the lower back while reaching overhead.",
+        "Tensing the neck and shoulders unnecessarily.",
+        "Forcing the joints into an uncomfortable position."
+      ],
+      "breathing": [
+        "Take a calm breath before the hold.",
+        "Breathe steadily while applying tension.",
+        "Do not hold your breath during the effort."
+      ]
+    },
+    "plank_up_down": {
+      "name": "Plank Up-Down",
+      "instructions": [
+        "Begin in a forearm plank with the feet apart for balance.",
+        "Press onto one hand and then the other, then lower to the forearms and switch lead arm.",
+        "Return to a steady plank before the next repetition."
+      ],
+      "mistakes": [
+        "Rotating the hips strongly with every arm change.",
+        "Letting the hips sag as the arms move.",
+        "Turning the pelvis instead of keeping the trunk steady."
+      ],
+      "breathing": [
+        "Breathe in as you set the plank.",
+        "Breathe out during the arm movement.",
+        "Breathe in as you reset without holding your breath."
+      ]
+    },
+    "bear_hold": {
+      "name": "Bear Hold",
+      "instructions": [
+        "Start on hands and knees with wrists under shoulders.",
+        "Lift the knees a little above the floor while keeping the back level.",
+        "Hold a steady line for the target time, then lower gently."
+      ],
+      "mistakes": [
+        "Raising the hips into a pike instead of hovering.",
+        "Letting the hips sag or rise well above the shoulders.",
+        "Tensing the neck or shrugging the shoulders."
+      ],
+      "breathing": [
+        "Take a calm breath before lifting.",
+        "Keep breathing steadily during the hold.",
+        "Avoid holding your breath as you brace."
+      ]
+    },
+    "wall_handstand_hold": {
+      "name": "Wall Handstand Hold",
+      "instructions": [
+        "Use a stable wall and clear, non-slip floor; begin only if you can control the setup.",
+        "Place hands shoulder-width apart and bring the feet onto the wall to a manageable height.",
+        "Return to the start slowly and use stable support when needed."
+      ],
+      "mistakes": [
+        "Kicking up without control or forcing weight into painful wrists.",
+        "Rushing while balance is unsteady.",
+        "Leaning on an unstable chair or wall fixture."
+      ],
+      "breathing": [
+        "Breathe in before moving.",
+        "Breathe out during the effort.",
+        "Keep breathing normally while you steady yourself."
+      ]
+    },
+    "punches": {
+      "name": "Punches",
+      "instructions": [
+        "Stand with soft knees and hands in front of the face.",
+        "Extend alternating arms forward, then bring each hand back to guard.",
+        "Keep a pace that lets you change direction with control."
+      ],
+      "mistakes": [
+        "Snapping the elbows hard at full reach.",
+        "Losing posture as the pace increases.",
+        "Moving so quickly that the steps or arm motions lose control."
+      ],
+      "breathing": [
+        "Start with a relaxed breathing rhythm.",
+        "Breathe continuously as the pace increases.",
+        "Slow the pace if you cannot keep breathing comfortably."
+      ]
+    },
+    "arm_pulse": {
+      "name": "Arm Pulse",
+      "instructions": [
+        "Stand tall with arms extended sideways and elbows soft.",
+        "Make small controlled pulses without lifting the shoulders.",
+        "Lower or release slowly before the next repetition."
+      ],
+      "mistakes": [
+        "Swinging the arms in large, fast arcs.",
+        "Swinging the arms or using body momentum.",
+        "Shrugging the shoulders toward the ears."
+      ],
+      "breathing": [
+        "Breathe in at the starting position.",
+        "Breathe out during the effort.",
+        "Breathe in as you return without holding your breath."
+      ]
+    },
+    "superman_hold": {
+      "name": "Superman Hold",
+      "instructions": [
+        "Lie face down with arms reaching forward and legs long.",
+        "Lift arms and legs a small distance while keeping the gaze down, then hold.",
+        "Hold gentle tension, then return to the start slowly."
+      ],
+      "mistakes": [
+        "Throwing the head upward to lift higher.",
+        "Tensing the neck to lift or pull farther.",
+        "Holding the breath while the back works."
+      ],
+      "breathing": [
+        "Breathe in before creating tension.",
+        "Continue breathing while holding.",
+        "Breathe out as you release."
+      ]
+    },
+    "superman_raise": {
+      "name": "Superman Raise",
+      "instructions": [
+        "Lie face down with arms reaching forward and legs long.",
+        "Lift arms and legs gently, pause, then lower to the floor.",
+        "Return to the start with control and keep the neck in line with the spine."
+      ],
+      "mistakes": [
+        "Jerking the limbs high instead of making a small controlled lift.",
+        "Throwing the head back to lift higher.",
+        "Rushing the movement instead of using the back and shoulder muscles."
+      ],
+      "breathing": [
+        "Breathe in before you move.",
+        "Breathe out as you lift or reach.",
+        "Breathe in as you return to the starting position."
+      ]
+    },
+    "reverse_snow_angel": {
+      "name": "Reverse Snow Angel",
+      "instructions": [
+        "Lie face down with arms near the hips and palms facing the floor.",
+        "Lift the hands slightly and sweep the arms outward and overhead, then return.",
+        "Return to the start with control and keep the neck in line with the spine."
+      ],
+      "mistakes": [
+        "Arching the lower back to move the arms.",
+        "Throwing the head back to lift higher.",
+        "Rushing the movement instead of using the back and shoulder muscles."
+      ],
+      "breathing": [
+        "Breathe in before you move.",
+        "Breathe out as you lift or reach.",
+        "Breathe in as you return to the starting position."
+      ]
+    },
+    "prone_y_raise": {
+      "name": "Prone Y Raise",
+      "instructions": [
+        "Lie face down with arms angled overhead in a Y shape.",
+        "Lift the hands a short distance by drawing the shoulder blades down and back.",
+        "Return to the start with control and keep the neck in line with the spine."
+      ],
+      "mistakes": [
+        "Shrugging the shoulders up toward the ears.",
+        "Throwing the head back to lift higher.",
+        "Rushing the movement instead of using the back and shoulder muscles."
+      ],
+      "breathing": [
+        "Breathe in before you move.",
+        "Breathe out as you lift or reach.",
+        "Breathe in as you return to the starting position."
+      ]
+    },
+    "prone_t_raise": {
+      "name": "Prone T Raise",
+      "instructions": [
+        "Lie face down with arms extended sideways in a T shape.",
+        "Lift the hands slightly while keeping the forehead close to the floor.",
+        "Return to the start with control and keep the neck in line with the spine."
+      ],
+      "mistakes": [
+        "Turning the lift into a large lower-back arch.",
+        "Throwing the head back to lift higher.",
+        "Rushing the movement instead of using the back and shoulder muscles."
+      ],
+      "breathing": [
+        "Breathe in before you move.",
+        "Breathe out as you lift or reach.",
+        "Breathe in as you return to the starting position."
+      ]
+    },
+    "prone_w_raise": {
+      "name": "Prone W Raise",
+      "instructions": [
+        "Lie face down with elbows bent to form a W beside the body.",
+        "Lift the hands and elbows slightly while drawing the shoulder blades together.",
+        "Return to the start with control and keep the neck in line with the spine."
+      ],
+      "mistakes": [
+        "Pushing the chin forward to lift higher.",
+        "Throwing the head back to lift higher.",
+        "Rushing the movement instead of using the back and shoulder muscles."
+      ],
+      "breathing": [
+        "Breathe in before you move.",
+        "Breathe out as you lift or reach.",
+        "Breathe in as you return to the starting position."
+      ]
+    },
+    "swimmer": {
+      "name": "Swimmer",
+      "instructions": [
+        "Lie face down with arms forward and legs extended.",
+        "Lift one arm and the opposite leg gently, lower, then switch sides.",
+        "Return to the start with control and keep the neck in line with the spine."
+      ],
+      "mistakes": [
+        "Swinging the trunk from side to side.",
+        "Throwing the head back to lift higher.",
+        "Rushing the movement instead of using the back and shoulder muscles."
+      ],
+      "breathing": [
+        "Breathe in before you move.",
+        "Breathe out as you lift or reach.",
+        "Breathe in as you return to the starting position."
+      ]
+    },
+    "bird_dog": {
+      "name": "Bird Dog",
+      "instructions": [
+        "Start on hands and knees with the spine long.",
+        "Reach one arm and the opposite leg away, pause, then return and alternate.",
+        "Return to the start with control and keep the neck in line with the spine."
+      ],
+      "mistakes": [
+        "Rotating the hips or over-arching the back.",
+        "Throwing the head back to lift higher.",
+        "Rushing the movement instead of using the back and shoulder muscles."
+      ],
+      "breathing": [
+        "Breathe in before you move.",
+        "Breathe out as you lift or reach.",
+        "Breathe in as you return to the starting position."
+      ]
+    },
+    "floor_row_isometric": {
+      "name": "Floor Row (isometric)",
+      "instructions": [
+        "Sit tall on the floor with legs comfortable and elbows beside the ribs.",
+        "Pull the elbows backward against an imagined resistance and hold gently.",
+        "Hold gentle tension, then return to the start slowly."
+      ],
+      "mistakes": [
+        "Shrugging the shoulders while pulling the elbows.",
+        "Tensing the neck to lift or pull farther.",
+        "Holding the breath while the back works."
+      ],
+      "breathing": [
+        "Breathe in before creating tension.",
+        "Continue breathing while holding.",
+        "Breathe out as you release."
+      ]
+    },
+    "back_extension": {
+      "name": "Back Extension",
+      "instructions": [
+        "Lie face down with hands lightly beside the head or chest.",
+        "Lift the chest a small amount using the back muscles, then lower.",
+        "Return to the start with control and keep the neck in line with the spine."
+      ],
+      "mistakes": [
+        "Pushing forcefully with the hands or throwing the head back.",
+        "Throwing the head back to lift higher.",
+        "Rushing the movement instead of using the back and shoulder muscles."
+      ],
+      "breathing": [
+        "Breathe in before you move.",
+        "Breathe out as you lift or reach.",
+        "Breathe in as you return to the starting position."
+      ]
+    },
+    "bodyweight_squat": {
+      "name": "Bodyweight Squat",
+      "instructions": [
+        "Stand with feet about shoulder-width apart and toes turned out slightly.",
+        "Send the hips back and bend the knees to a comfortable depth.",
+        "Press through the feet to stand tall without locking the knees hard."
+      ],
+      "mistakes": [
+        "Allowing the knees to collapse inward as you lower.",
+        "Letting the knees collapse inward.",
+        "Lifting the heels or rounding the lower back."
+      ],
+      "breathing": [
+        "Breathe in as you lower.",
+        "Breathe out as you stand or rise.",
+        "Keep the breath moving between repetitions."
+      ]
+    },
+    "sumo_squat": {
+      "name": "Sumo Squat",
+      "instructions": [
+        "Stand wider than shoulder width with toes turned out comfortably.",
+        "Lower the hips between the legs while the knees track in the direction of the toes.",
+        "Press through the feet to stand tall without locking the knees hard."
+      ],
+      "mistakes": [
+        "Turning the feet too far out and twisting the knees.",
+        "Letting the knees collapse inward.",
+        "Lifting the heels or rounding the lower back."
+      ],
+      "breathing": [
+        "Breathe in as you lower.",
+        "Breathe out as you stand or rise.",
+        "Keep the breath moving between repetitions."
+      ]
+    },
+    "squat_pulse": {
+      "name": "Squat Pulse",
+      "instructions": [
+        "Lower into a comfortable squat with feet planted.",
+        "Move the hips a short distance up and down while keeping the trunk steady.",
+        "Press through the feet to stand tall without locking the knees hard."
+      ],
+      "mistakes": [
+        "Bouncing at the bottom of the squat.",
+        "Letting the knees collapse inward.",
+        "Lifting the heels or rounding the lower back."
+      ],
+      "breathing": [
+        "Breathe in as you lower.",
+        "Breathe out as you stand or rise.",
+        "Keep the breath moving between repetitions."
+      ]
+    },
+    "wall_sit": {
+      "name": "Wall Sit",
+      "instructions": [
+        "Lean against a stable wall with feet stepped forward.",
+        "Slide down until the knees are bent at a comfortable angle and hold.",
+        "Hold at a comfortable depth, then stand up slowly."
+      ],
+      "mistakes": [
+        "Placing the feet too close to the wall or forcing a deep knee bend.",
+        "Letting the knees collapse inward.",
+        "Lifting the heels off the floor."
+      ],
+      "breathing": [
+        "Breathe in before lowering.",
+        "Keep breathing during the hold.",
+        "Breathe out as you stand up."
+      ]
+    },
+    "forward_lunge": {
+      "name": "Forward Lunge",
+      "instructions": [
+        "Stand tall with feet hip-width apart.",
+        "Step forward and bend both knees to a controlled depth.",
+        "Push through the working foot to return, then change legs as directed."
+      ],
+      "mistakes": [
+        "Landing with both feet on one narrow line and losing balance.",
+        "Letting the front knee fall inward.",
+        "Taking a step so short that balance and control are lost."
+      ],
+      "breathing": [
+        "Breathe in while lowering.",
+        "Breathe out while standing back up.",
+        "Pause for a normal breath if balance is difficult."
+      ]
+    },
+    "reverse_lunge": {
+      "name": "Reverse Lunge",
+      "instructions": [
+        "Stand tall with feet hip-width apart.",
+        "Step one foot back and lower both knees gently, then return.",
+        "Push through the working foot to return, then change legs as directed."
+      ],
+      "mistakes": [
+        "Leaning far forward or dropping the rear knee hard.",
+        "Letting the front knee fall inward.",
+        "Taking a step so short that balance and control are lost."
+      ],
+      "breathing": [
+        "Breathe in while lowering.",
+        "Breathe out while standing back up.",
+        "Pause for a normal breath if balance is difficult."
+      ]
+    },
+    "lateral_lunge": {
+      "name": "Lateral Lunge",
+      "instructions": [
+        "Stand with feet together and space to step sideways.",
+        "Step to one side, bend that knee and push the hips back while the other leg stays long.",
+        "Push through the working foot to return, then change legs as directed."
+      ],
+      "mistakes": [
+        "Letting the bending knee collapse inward.",
+        "Letting the front knee fall inward.",
+        "Taking a step so short that balance and control are lost."
+      ],
+      "breathing": [
+        "Breathe in while lowering.",
+        "Breathe out while standing back up.",
+        "Pause for a normal breath if balance is difficult."
+      ]
+    },
+    "curtsy_lunge": {
+      "name": "Curtsy Lunge",
+      "instructions": [
+        "Stand tall with enough room behind you.",
+        "Step one leg diagonally behind the other and lower only as far as the knees feel comfortable.",
+        "Push through the working foot to return, then change legs as directed."
+      ],
+      "mistakes": [
+        "Crossing so far that the front knee twists.",
+        "Letting the front knee fall inward.",
+        "Taking a step so short that balance and control are lost."
+      ],
+      "breathing": [
+        "Breathe in while lowering.",
+        "Breathe out while standing back up.",
+        "Pause for a normal breath if balance is difficult."
+      ]
+    },
+    "split_squat": {
+      "name": "Split Squat",
+      "instructions": [
+        "Stand in a staggered stance with feet apart side to side for balance.",
+        "Bend both knees to lower straight down, then rise through the front foot.",
+        "Push through the working foot to return, then change legs as directed."
+      ],
+      "mistakes": [
+        "Placing both feet on a tight line and wobbling.",
+        "Letting the front knee fall inward.",
+        "Taking a step so short that balance and control are lost."
+      ],
+      "breathing": [
+        "Breathe in while lowering.",
+        "Breathe out while standing back up.",
+        "Pause for a normal breath if balance is difficult."
+      ]
+    },
+    "glute_bridge": {
+      "name": "Glute Bridge",
+      "instructions": [
+        "Lie on your back with knees bent and feet hip-width apart.",
+        "Press through the heels and lift the hips until the trunk aligns with the thighs.",
+        "Lower the hips slowly before repeating or changing sides."
+      ],
+      "mistakes": [
+        "Overarching the lower back at the top.",
+        "Arching the lower back to lift higher.",
+        "Pushing through the toes while the heels lift."
+      ],
+      "breathing": [
+        "Breathe in at the bottom.",
+        "Breathe out as the hips lift.",
+        "Breathe in as you lower without holding your breath."
+      ]
+    },
+    "single_leg_glute_bridge": {
+      "name": "Single-Leg Glute Bridge",
+      "instructions": [
+        "Lie on your back with one foot planted and the other leg lifted comfortably.",
+        "Press through the planted heel to raise the hips, then lower and change sides.",
+        "Lower the hips slowly before repeating or changing sides."
+      ],
+      "mistakes": [
+        "Letting the pelvis tip sharply toward the lifted leg.",
+        "Arching the lower back to lift higher.",
+        "Pushing through the toes while the heels lift."
+      ],
+      "breathing": [
+        "Breathe in at the bottom.",
+        "Breathe out as the hips lift.",
+        "Breathe in as you lower without holding your breath."
+      ]
+    },
+    "floor_hip_thrust": {
+      "name": "Floor Hip Thrust",
+      "instructions": [
+        "Sit on the floor with knees bent and hands behind you for support.",
+        "Press through the feet and lift the hips into a tabletop-like position.",
+        "Lower the hips slowly before repeating or changing sides."
+      ],
+      "mistakes": [
+        "Throwing the head backward as the hips rise.",
+        "Arching the lower back to lift higher.",
+        "Pushing through the toes while the heels lift."
+      ],
+      "breathing": [
+        "Breathe in at the bottom.",
+        "Breathe out as the hips lift.",
+        "Breathe in as you lower without holding your breath."
+      ]
+    },
+    "donkey_kick": {
+      "name": "Donkey Kick",
+      "instructions": [
+        "Start on hands and knees with the back level.",
+        "Keep one knee bent and lift that foot toward the ceiling without twisting the hips.",
+        "Lower the working leg slowly before repeating or changing sides."
+      ],
+      "mistakes": [
+        "Arching the lower back to lift the leg higher.",
+        "Shifting all the weight onto one supporting hand.",
+        "Letting the neck drop toward the floor."
+      ],
+      "breathing": [
+        "Breathe in at the start.",
+        "Breathe out as the leg lifts.",
+        "Breathe in as you lower with control."
+      ]
+    },
+    "fire_hydrant": {
+      "name": "Fire Hydrant",
+      "instructions": [
+        "Start on hands and knees with wrists under shoulders.",
+        "Lift one bent knee out to the side a small distance, then lower and switch.",
+        "Lower the working leg slowly before repeating or changing sides."
+      ],
+      "mistakes": [
+        "Rolling the whole pelvis to raise the knee.",
+        "Shifting all the weight onto one supporting hand.",
+        "Letting the neck drop toward the floor."
+      ],
+      "breathing": [
+        "Breathe in at the start.",
+        "Breathe out as the leg lifts.",
+        "Breathe in as you lower with control."
+      ]
+    },
+    "calf_raise": {
+      "name": "Calf Raise",
+      "instructions": [
+        "Stand tall with feet hip-width apart and a wall nearby if needed.",
+        "Rise onto the balls of both feet, pause, then lower the heels slowly.",
+        "Return to the start slowly and use stable support when needed."
+      ],
+      "mistakes": [
+        "Rolling the ankles outward while lifting.",
+        "Rushing while balance is unsteady.",
+        "Leaning on an unstable chair or wall fixture."
+      ],
+      "breathing": [
+        "Breathe in before moving.",
+        "Breathe out during the effort.",
+        "Keep breathing normally while you steady yourself."
+      ]
+    },
+    "single_leg_calf_raise": {
+      "name": "Single-Leg Calf Raise",
+      "instructions": [
+        "Stand beside a stable wall and lift one foot from the floor.",
+        "Rise on the working foot, pause, lower slowly, then change legs.",
+        "Return to the start slowly and use stable support when needed."
+      ],
+      "mistakes": [
+        "Letting the standing ankle roll outward.",
+        "Rushing while balance is unsteady.",
+        "Leaning on an unstable chair or wall fixture."
+      ],
+      "breathing": [
+        "Breathe in before moving.",
+        "Breathe out during the effort.",
+        "Keep breathing normally while you steady yourself."
+      ]
+    },
+    "good_morning": {
+      "name": "Good Morning",
+      "instructions": [
+        "Stand with feet hip-width apart and knees slightly soft.",
+        "Push the hips back while the torso tips forward with a long spine.",
+        "Drive through the feet and return to a tall standing position."
+      ],
+      "mistakes": [
+        "Rounding the back to reach farther down.",
+        "Rounding the back instead of hinging at the hips.",
+        "Moving faster than you can keep the torso controlled."
+      ],
+      "breathing": [
+        "Breathe in as you hinge.",
+        "Breathe out as you stand.",
+        "Avoid holding your breath during the effort."
+      ]
+    },
+    "step_up_chair": {
+      "name": "Step-Up (chair)",
+      "instructions": [
+        "Use a low, stable, non-slip step or chair that cannot tip.",
+        "Step up through one foot, stand tall, then step down carefully and alternate.",
+        "Return to the start slowly and use stable support when needed."
+      ],
+      "mistakes": [
+        "Pushing off the floor with the trailing leg instead of controlling the lead leg.",
+        "Rushing while balance is unsteady.",
+        "Leaning on an unstable chair or wall fixture."
+      ],
+      "breathing": [
+        "Breathe in before moving.",
+        "Breathe out during the effort.",
+        "Keep breathing normally while you steady yourself."
+      ]
+    },
+    "half_burpee_no_jump": {
+      "name": "Half Burpee (no jump)",
+      "instructions": [
+        "Stand tall with feet apart and room to move.",
+        "Squat down, place hands on the floor, step the feet back to plank, then step in and stand.",
+        "Keep a pace that lets you change direction with control."
+      ],
+      "mistakes": [
+        "Dropping the hips into a sagging plank.",
+        "Losing posture as the pace increases.",
+        "Moving so quickly that the steps or arm motions lose control."
+      ],
+      "breathing": [
+        "Start with a relaxed breathing rhythm.",
+        "Breathe continuously as the pace increases.",
+        "Slow the pace if you cannot keep breathing comfortably."
+      ]
+    },
+    "burpee": {
+      "name": "Burpee",
+      "instructions": [
+        "Stand with space around you and feet hip-width apart.",
+        "Lower the hands, move the feet back to plank, bring them forward and stand or jump lightly.",
+        "Keep a pace that lets you change direction with control."
+      ],
+      "mistakes": [
+        "Landing with locked knees or losing plank control.",
+        "Losing posture as the pace increases.",
+        "Moving so quickly that the steps or arm motions lose control."
+      ],
+      "breathing": [
+        "Start with a relaxed breathing rhythm.",
+        "Breathe continuously as the pace increases.",
+        "Slow the pace if you cannot keep breathing comfortably."
+      ]
+    },
+    "squat_thrust": {
+      "name": "Squat Thrust",
+      "instructions": [
+        "Start standing with feet apart and knees soft.",
+        "Place hands down, move the feet back to plank, then bring them forward and rise.",
+        "Keep a pace that lets you change direction with control."
+      ],
+      "mistakes": [
+        "Throwing the feet backward while the lower back sags.",
+        "Losing posture as the pace increases.",
+        "Moving so quickly that the steps or arm motions lose control."
+      ],
+      "breathing": [
+        "Start with a relaxed breathing rhythm.",
+        "Breathe continuously as the pace increases.",
+        "Slow the pace if you cannot keep breathing comfortably."
+      ]
+    },
+    "bear_crawl": {
+      "name": "Bear Crawl",
+      "instructions": [
+        "Start on hands and knees with knees hovering just off the floor.",
+        "Move one hand and the opposite foot forward together in small steps.",
+        "Keep a pace that lets you change direction with control."
+      ],
+      "mistakes": [
+        "Lifting the hips high or taking steps too long to control.",
+        "Losing posture as the pace increases.",
+        "Moving so quickly that the steps or arm motions lose control."
+      ],
+      "breathing": [
+        "Start with a relaxed breathing rhythm.",
+        "Breathe continuously as the pace increases.",
+        "Slow the pace if you cannot keep breathing comfortably."
+      ]
+    },
+    "crab_walk": {
+      "name": "Crab Walk",
+      "instructions": [
+        "Sit with hands behind the hips and feet on the floor.",
+        "Lift the hips slightly and walk using small alternating hand and foot steps.",
+        "Keep a pace that lets you change direction with control."
+      ],
+      "mistakes": [
+        "Letting the shoulders collapse or moving too fast.",
+        "Losing posture as the pace increases.",
+        "Moving so quickly that the steps or arm motions lose control."
+      ],
+      "breathing": [
+        "Start with a relaxed breathing rhythm.",
+        "Breathe continuously as the pace increases.",
+        "Slow the pace if you cannot keep breathing comfortably."
+      ]
+    },
+    "squat_to_overhead_reach": {
+      "name": "Squat to Overhead Reach",
+      "instructions": [
+        "Stand with feet shoulder-width apart and arms by the sides.",
+        "Lower into a comfortable squat, then rise and reach one arm overhead; alternate arms each time.",
+        "Press through the feet to stand tall without locking the knees hard."
+      ],
+      "mistakes": [
+        "Arching the back to force the overhead reach.",
+        "Letting the knees collapse inward.",
+        "Lifting the heels or rounding the lower back."
+      ],
+      "breathing": [
+        "Breathe in as you lower.",
+        "Breathe out as you stand or rise.",
+        "Keep the breath moving between repetitions."
+      ]
+    },
+    "get_up_floor_to_stand": {
+      "name": "Get-Up (floor to stand)",
+      "instructions": [
+        "Start seated or kneeling on a clear floor with stable support nearby.",
+        "Move through hands and feet to stand, then reverse the path slowly.",
+        "Return to the start slowly and use stable support when needed."
+      ],
+      "mistakes": [
+        "Rushing the transition and losing balance.",
+        "Rushing while balance is unsteady.",
+        "Leaning on an unstable chair or wall fixture."
+      ],
+      "breathing": [
+        "Breathe in before moving.",
+        "Breathe out during the effort.",
+        "Keep breathing normally while you steady yourself."
+      ]
+    },
+    "plank_jack": {
+      "name": "Plank Jack",
+      "instructions": [
+        "Start in a strong high plank with hands under shoulders.",
+        "Move the feet apart and together with small jumps or steps while the trunk stays firm.",
+        "Keep a pace that lets you change direction with control."
+      ],
+      "mistakes": [
+        "Bouncing the hips high with each foot change.",
+        "Losing posture as the pace increases.",
+        "Moving so quickly that the steps or arm motions lose control."
+      ],
+      "breathing": [
+        "Start with a relaxed breathing rhythm.",
+        "Breathe continuously as the pace increases.",
+        "Slow the pace if you cannot keep breathing comfortably."
+      ]
+    },
+    "plank_walkout": {
+      "name": "Plank Walkout",
+      "instructions": [
+        "Stand with knees soft and fold forward to place the hands down.",
+        "Walk the hands out to plank, pause, then walk them back toward the feet.",
+        "Return with control while keeping the trunk steady."
+      ],
+      "mistakes": [
+        "Letting the lower back sag in the plank.",
+        "Using momentum instead of the abdominal muscles.",
+        "Letting the lower back move farther than you can control."
+      ],
+      "breathing": [
+        "Breathe in before each repetition.",
+        "Breathe out during the effort or reach.",
+        "Breathe in as you return with control."
+      ]
+    },
+    "frog_jump": {
+      "name": "Frog Jump",
+      "instructions": [
+        "Stand with feet wider than hips and knees soft.",
+        "Lower into a shallow squat and make a small forward jump, landing quietly.",
+        "Land softly with knees bent and reset before the next repetition."
+      ],
+      "mistakes": [
+        "Landing with the knees collapsing inward.",
+        "Jumping farther or higher than you can land quietly.",
+        "Letting the upper body collapse on landing."
+      ],
+      "breathing": [
+        "Start with a relaxed breathing rhythm.",
+        "Breathe out during the jump or step.",
+        "Keep breathing normally as you land and reset."
+      ]
+    },
+    "jumping_jack": {
+      "name": "Jumping Jack",
+      "instructions": [
+        "Stand tall with arms at the sides and knees soft.",
+        "Jump the feet apart while raising the arms, then return to the start.",
+        "Land softly with knees bent and reset before the next repetition."
+      ],
+      "mistakes": [
+        "Landing stiff-legged or forcing the arms overhead.",
+        "Jumping farther or higher than you can land quietly.",
+        "Letting the upper body collapse on landing."
+      ],
+      "breathing": [
+        "Start with a relaxed breathing rhythm.",
+        "Breathe out during the jump or step.",
+        "Keep breathing normally as you land and reset."
+      ]
+    },
+    "step_jack": {
+      "name": "Step Jack",
+      "instructions": [
+        "Stand tall with arms at the sides.",
+        "Step one foot out while lifting both arms, return, then switch sides.",
+        "Keep a pace that lets you change direction with control."
+      ],
+      "mistakes": [
+        "Leaning heavily onto the stepping leg.",
+        "Losing posture as the pace increases.",
+        "Moving so quickly that the steps or arm motions lose control."
+      ],
+      "breathing": [
+        "Start with a relaxed breathing rhythm.",
+        "Breathe continuously as the pace increases.",
+        "Slow the pace if you cannot keep breathing comfortably."
+      ]
+    },
+    "high_knees": {
+      "name": "High Knees",
+      "instructions": [
+        "Stand tall with room to move and arms relaxed.",
+        "Run or step in place while lifting alternate knees toward a comfortable height.",
+        "Keep a pace that lets you change direction with control."
+      ],
+      "mistakes": [
+        "Leaning backward to raise the knees higher.",
+        "Losing posture as the pace increases.",
+        "Moving so quickly that the steps or arm motions lose control."
+      ],
+      "breathing": [
+        "Start with a relaxed breathing rhythm.",
+        "Breathe continuously as the pace increases.",
+        "Slow the pace if you cannot keep breathing comfortably."
+      ]
+    },
+    "marching_high_knees": {
+      "name": "Marching High Knees",
+      "instructions": [
+        "Stand tall with feet hip-width apart.",
+        "March in place and raise each knee higher than a regular march while swinging the opposite arm.",
+        "Keep a pace that lets you change direction with control."
+      ],
+      "mistakes": [
+        "Lurching backward as the knee rises.",
+        "Losing posture as the pace increases.",
+        "Moving so quickly that the steps or arm motions lose control."
+      ],
+      "breathing": [
+        "Start with a relaxed breathing rhythm.",
+        "Breathe continuously as the pace increases.",
+        "Slow the pace if you cannot keep breathing comfortably."
+      ]
+    },
+    "butt_kicks": {
+      "name": "Butt Kicks",
+      "instructions": [
+        "Stand tall with knees soft and arms relaxed.",
+        "Alternate bending the knees to bring heels toward the glutes at a comfortable pace.",
+        "Keep a pace that lets you change direction with control."
+      ],
+      "mistakes": [
+        "Arching the lower back to bring the heels higher.",
+        "Losing posture as the pace increases.",
+        "Moving so quickly that the steps or arm motions lose control."
+      ],
+      "breathing": [
+        "Start with a relaxed breathing rhythm.",
+        "Breathe continuously as the pace increases.",
+        "Slow the pace if you cannot keep breathing comfortably."
+      ]
+    },
+    "heel_digs": {
+      "name": "Heel Digs",
+      "instructions": [
+        "Stand tall with a slight bend in the standing knee.",
+        "Place one heel ahead with toes up, return, then alternate heels and swing the arms.",
+        "Keep a pace that lets you change direction with control."
+      ],
+      "mistakes": [
+        "Locking the standing knee with each step.",
+        "Losing posture as the pace increases.",
+        "Moving so quickly that the steps or arm motions lose control."
+      ],
+      "breathing": [
+        "Start with a relaxed breathing rhythm.",
+        "Breathe continuously as the pace increases.",
+        "Slow the pace if you cannot keep breathing comfortably."
+      ]
+    },
+    "skater_hop": {
+      "name": "Skater Hop",
+      "instructions": [
+        "Stand with knees soft and space to move sideways.",
+        "Hop or step to one side, land on that leg and let the other foot trail behind.",
+        "Land softly with knees bent and reset before the next repetition."
+      ],
+      "mistakes": [
+        "Landing with the knee collapsing inward.",
+        "Jumping farther or higher than you can land quietly.",
+        "Letting the upper body collapse on landing."
+      ],
+      "breathing": [
+        "Start with a relaxed breathing rhythm.",
+        "Breathe out during the jump or step.",
+        "Keep breathing normally as you land and reset."
+      ]
+    },
+    "lateral_step": {
+      "name": "Lateral Step",
+      "instructions": [
+        "Stand tall with knees soft and space on either side.",
+        "Step sideways, bring the other foot in, then change direction.",
+        "Keep a pace that lets you change direction with control."
+      ],
+      "mistakes": [
+        "Crossing the feet and losing balance.",
+        "Losing posture as the pace increases.",
+        "Moving so quickly that the steps or arm motions lose control."
+      ],
+      "breathing": [
+        "Start with a relaxed breathing rhythm.",
+        "Breathe continuously as the pace increases.",
+        "Slow the pace if you cannot keep breathing comfortably."
+      ]
+    },
+    "squat_jump": {
+      "name": "Squat Jump",
+      "instructions": [
+        "Stand with feet shoulder-width apart and knees soft.",
+        "Lower into a comfortable squat, jump a small height, then land quietly.",
+        "Land softly with knees bent and reset before the next repetition."
+      ],
+      "mistakes": [
+        "Landing with straight knees or collapsing ankles.",
+        "Jumping farther or higher than you can land quietly.",
+        "Letting the upper body collapse on landing."
+      ],
+      "breathing": [
+        "Start with a relaxed breathing rhythm.",
+        "Breathe out during the jump or step.",
+        "Keep breathing normally as you land and reset."
+      ]
+    },
+    "fast_feet": {
+      "name": "Fast Feet",
+      "instructions": [
+        "Stand in a shallow athletic stance with feet under the hips.",
+        "Take quick, short steps in place while keeping the upper body steady.",
+        "Keep a pace that lets you change direction with control."
+      ],
+      "mistakes": [
+        "Taking steps so wide that the feet tangle.",
+        "Losing posture as the pace increases.",
+        "Moving so quickly that the steps or arm motions lose control."
+      ],
+      "breathing": [
+        "Start with a relaxed breathing rhythm.",
+        "Breathe continuously as the pace increases.",
+        "Slow the pace if you cannot keep breathing comfortably."
+      ]
+    },
+    "shadow_boxing": {
+      "name": "Shadow Boxing",
+      "instructions": [
+        "Stand in a staggered stance with soft knees and hands by the face.",
+        "Throw light alternating punches into open space, returning each hand to guard.",
+        "Keep a pace that lets you change direction with control."
+      ],
+      "mistakes": [
+        "Locking the elbow hard at the end of a punch.",
+        "Losing posture as the pace increases.",
+        "Moving so quickly that the steps or arm motions lose control."
+      ],
+      "breathing": [
+        "Start with a relaxed breathing rhythm.",
+        "Breathe continuously as the pace increases.",
+        "Slow the pace if you cannot keep breathing comfortably."
+      ]
+    },
+    "standing_knee_to_elbow": {
+      "name": "Standing Knee to Elbow",
+      "instructions": [
+        "Stand tall with elbows bent and feet hip-width apart.",
+        "Lift one knee toward the opposite elbow, lower it, then alternate sides.",
+        "Keep a pace that lets you change direction with control."
+      ],
+      "mistakes": [
+        "Pulling the head down sharply to meet the knee.",
+        "Losing posture as the pace increases.",
+        "Moving so quickly that the steps or arm motions lose control."
+      ],
+      "breathing": [
+        "Start with a relaxed breathing rhythm.",
+        "Breathe continuously as the pace increases.",
+        "Slow the pace if you cannot keep breathing comfortably."
+      ]
+    },
+    "childs_pose": {
+      "name": "Child's Pose",
+      "instructions": [
+        "Kneel on a comfortable surface with knees apart as needed.",
+        "Sit the hips gently toward the heels and reach the arms forward.",
+        "Hold a gentle stretch without bouncing, then ease out slowly."
+      ],
+      "mistakes": [
+        "Forcing the hips onto the heels when the knees feel uncomfortable.",
+        "Pulling into a painful range.",
+        "Bouncing or forcing the stretch."
+      ],
+      "breathing": [
+        "Breathe in as you find the position.",
+        "Breathe out as you soften into the stretch.",
+        "Keep taking slow, comfortable breaths during the hold."
+      ]
+    },
+    "cobra_stretch": {
+      "name": "Cobra Stretch",
+      "instructions": [
+        "Lie face down with hands near the ribs and legs long.",
+        "Press lightly through the hands to lift the chest only as far as the lower back feels comfortable.",
+        "Hold a gentle stretch without bouncing, then ease out slowly."
+      ],
+      "mistakes": [
+        "Locking the elbows and forcing a deep backbend.",
+        "Pulling into a painful range.",
+        "Bouncing or forcing the stretch."
+      ],
+      "breathing": [
+        "Breathe in as you find the position.",
+        "Breathe out as you soften into the stretch.",
+        "Keep taking slow, comfortable breaths during the hold."
+      ]
+    },
+    "downward_dog": {
+      "name": "Downward Dog",
+      "instructions": [
+        "Start on hands and knees with hands shoulder-width apart.",
+        "Lift the hips up and back, keeping the knees soft if the legs feel tight.",
+        "Hold a gentle stretch without bouncing, then ease out slowly."
+      ],
+      "mistakes": [
+        "Forcing the heels flat by rounding the back.",
+        "Pulling into a painful range.",
+        "Bouncing or forcing the stretch."
+      ],
+      "breathing": [
+        "Breathe in as you find the position.",
+        "Breathe out as you soften into the stretch.",
+        "Keep taking slow, comfortable breaths during the hold."
+      ]
+    },
+    "seated_forward_fold": {
+      "name": "Seated Forward Fold",
+      "instructions": [
+        "Sit tall with legs forward and knees slightly bent if needed.",
+        "Hinge from the hips and reach toward the legs without pulling the spine into a deep curve.",
+        "Hold a gentle stretch without bouncing, then ease out slowly."
+      ],
+      "mistakes": [
+        "Yanking on the feet to force a deeper fold.",
+        "Pulling into a painful range.",
+        "Bouncing or forcing the stretch."
+      ],
+      "breathing": [
+        "Breathe in as you find the position.",
+        "Breathe out as you soften into the stretch.",
+        "Keep taking slow, comfortable breaths during the hold."
+      ]
+    },
+    "standing_forward_fold": {
+      "name": "Standing Forward Fold",
+      "instructions": [
+        "Stand with feet hip-width apart and knees soft.",
+        "Hinge at the hips and let the torso fold forward only as far as comfortable.",
+        "Hold a gentle stretch without bouncing, then ease out slowly."
+      ],
+      "mistakes": [
+        "Locking the knees and pulling the body downward.",
+        "Pulling into a painful range.",
+        "Bouncing or forcing the stretch."
+      ],
+      "breathing": [
+        "Breathe in as you find the position.",
+        "Breathe out as you soften into the stretch.",
+        "Keep taking slow, comfortable breaths during the hold."
+      ]
+    },
+    "hamstring_stretch_each_leg": {
+      "name": "Hamstring Stretch (each leg)",
+      "instructions": [
+        "Place one heel ahead with the knee softly bent and toes up.",
+        "Hinge at the hips until a gentle stretch is felt behind that thigh, then switch legs.",
+        "Hold a gentle stretch without bouncing, then ease out slowly."
+      ],
+      "mistakes": [
+        "Rounding the back to reach the toes.",
+        "Pulling into a painful range.",
+        "Bouncing or forcing the stretch."
+      ],
+      "breathing": [
+        "Breathe in as you find the position.",
+        "Breathe out as you soften into the stretch.",
+        "Keep taking slow, comfortable breaths during the hold."
+      ]
+    },
+    "quad_stretch_each_leg": {
+      "name": "Quad Stretch (each leg)",
+      "instructions": [
+        "Stand beside a stable wall and hold it lightly for balance.",
+        "Bend one knee and bring the heel toward the glute, holding the foot only if comfortable.",
+        "Hold a gentle stretch without bouncing, then ease out slowly."
+      ],
+      "mistakes": [
+        "Pulling the foot sharply or arching the lower back.",
+        "Pulling into a painful range.",
+        "Bouncing or forcing the stretch."
+      ],
+      "breathing": [
+        "Breathe in as you find the position.",
+        "Breathe out as you soften into the stretch.",
+        "Keep taking slow, comfortable breaths during the hold."
+      ]
+    },
+    "hip_flexor_stretch_each_side": {
+      "name": "Hip Flexor Stretch (each side)",
+      "instructions": [
+        "Kneel in a split stance on a soft surface with the front foot planted.",
+        "Gently shift the hips forward while keeping the trunk tall, then change sides.",
+        "Hold a gentle stretch without bouncing, then ease out slowly."
+      ],
+      "mistakes": [
+        "Arching the lower back to create a larger stretch.",
+        "Pulling into a painful range.",
+        "Bouncing or forcing the stretch."
+      ],
+      "breathing": [
+        "Breathe in as you find the position.",
+        "Breathe out as you soften into the stretch.",
+        "Keep taking slow, comfortable breaths during the hold."
+      ]
+    },
+    "figure_4_glute_stretch": {
+      "name": "Figure-4 Glute Stretch",
+      "instructions": [
+        "Lie on your back with knees bent and place one ankle over the opposite thigh.",
+        "Draw the supporting leg gently toward the chest, then change sides.",
+        "Hold a gentle stretch without bouncing, then ease out slowly."
+      ],
+      "mistakes": [
+        "Pressing directly on the raised knee.",
+        "Pulling into a painful range.",
+        "Bouncing or forcing the stretch."
+      ],
+      "breathing": [
+        "Breathe in as you find the position.",
+        "Breathe out as you soften into the stretch.",
+        "Keep taking slow, comfortable breaths during the hold."
+      ]
+    },
+    "butterfly_stretch": {
+      "name": "Butterfly Stretch",
+      "instructions": [
+        "Sit tall with the soles of the feet together.",
+        "Let the knees relax outward and hinge forward a little if comfortable.",
+        "Hold a gentle stretch without bouncing, then ease out slowly."
+      ],
+      "mistakes": [
+        "Pushing the knees down with the hands.",
+        "Pulling into a painful range.",
+        "Bouncing or forcing the stretch."
+      ],
+      "breathing": [
+        "Breathe in as you find the position.",
+        "Breathe out as you soften into the stretch.",
+        "Keep taking slow, comfortable breaths during the hold."
+      ]
+    },
+    "chest_doorway_stretch": {
+      "name": "Chest Doorway Stretch",
+      "instructions": [
+        "Stand in a stable doorway and place forearms on the frame at a comfortable height.",
+        "Step gently forward until a light stretch is felt across the chest.",
+        "Hold a gentle stretch without bouncing, then ease out slowly."
+      ],
+      "mistakes": [
+        "Pushing through shoulder pain or placing arms too high.",
+        "Pulling into a painful range.",
+        "Bouncing or forcing the stretch."
+      ],
+      "breathing": [
+        "Breathe in as you find the position.",
+        "Breathe out as you soften into the stretch.",
+        "Keep taking slow, comfortable breaths during the hold."
+      ]
+    },
+    "triceps_stretch": {
+      "name": "Triceps Stretch",
+      "instructions": [
+        "Stand or sit tall and lift one arm overhead.",
+        "Bend that elbow and use the other hand for a light assist, then change arms.",
+        "Hold a gentle stretch without bouncing, then ease out slowly."
+      ],
+      "mistakes": [
+        "Pulling the elbow sharply behind the head.",
+        "Pulling into a painful range.",
+        "Bouncing or forcing the stretch."
+      ],
+      "breathing": [
+        "Breathe in as you find the position.",
+        "Breathe out as you soften into the stretch.",
+        "Keep taking slow, comfortable breaths during the hold."
+      ]
+    },
+    "neck_side_stretch": {
+      "name": "Neck Side Stretch",
+      "instructions": [
+        "Sit or stand tall with both shoulders relaxed.",
+        "Tilt one ear gently toward the same-side shoulder, then switch sides.",
+        "Hold a gentle stretch without bouncing, then ease out slowly."
+      ],
+      "mistakes": [
+        "Pulling the head down with the hand.",
+        "Pulling into a painful range.",
+        "Bouncing or forcing the stretch."
+      ],
+      "breathing": [
+        "Breathe in as you find the position.",
+        "Breathe out as you soften into the stretch.",
+        "Keep taking slow, comfortable breaths during the hold."
+      ]
+    },
+    "thoracic_rotation": {
+      "name": "Thoracic Rotation",
+      "instructions": [
+        "Start on hands and knees or in a comfortable side-lying position.",
+        "Rotate the upper back to open one arm toward the ceiling, then return and change sides.",
+        "Move only through a comfortable range, then return slowly to the start."
+      ],
+      "mistakes": [
+        "Twisting the lower back to gain extra range.",
+        "Moving so fast that the joints lose control.",
+        "Forcing the range instead of easing into it."
+      ],
+      "breathing": [
+        "Begin with an easy breath in.",
+        "Breathe out during the moving part.",
+        "Breathe in as you return; do not hold your breath."
+      ]
+    },
+    "knee_to_chest": {
+      "name": "Knee to Chest",
+      "instructions": [
+        "Lie on your back with both legs comfortable.",
+        "Bring one knee gently toward the chest while the other leg stays relaxed, then switch.",
+        "Hold a gentle stretch without bouncing, then ease out slowly."
+      ],
+      "mistakes": [
+        "Yanking the knee toward the chest.",
+        "Pulling into a painful range.",
+        "Bouncing or forcing the stretch."
+      ],
+      "breathing": [
+        "Breathe in as you find the position.",
+        "Breathe out as you soften into the stretch.",
+        "Keep taking slow, comfortable breaths during the hold."
+      ]
+    },
+    "lying_spinal_twist": {
+      "name": "Lying Spinal Twist",
+      "instructions": [
+        "Lie on your back with knees bent and arms open.",
+        "Let both knees move gently to one side while the shoulders stay comfortable, then switch.",
+        "Hold a gentle stretch without bouncing, then ease out slowly."
+      ],
+      "mistakes": [
+        "Forcing the knees to the floor while the shoulder lifts painfully.",
+        "Pulling into a painful range.",
+        "Bouncing or forcing the stretch."
+      ],
+      "breathing": [
+        "Breathe in as you find the position.",
+        "Breathe out as you soften into the stretch.",
+        "Keep taking slow, comfortable breaths during the hold."
+      ]
+    }
+  },
+  "workout": {
+    "abs_beginner": {
+      "title": "Abs Beginner",
+      "intro": "Start with approachable floor and standing core moves, taking time to learn each position."
+    },
+    "abs_intermediate": {
+      "title": "Abs Intermediate",
+      "intro": "Build on familiar core moves with longer efforts and more changes of position."
+    },
+    "abs_advanced": {
+      "title": "Abs Advanced",
+      "intro": "A longer core session with demanding holds and controlled repetitions."
+    },
+    "chest_beginner": {
+      "title": "Chest Beginner",
+      "intro": "Practice chest-focused presses at a manageable pace, with time to reset your form."
+    },
+    "chest_intermediate": {
+      "title": "Chest Intermediate",
+      "intro": "Mix pressing angles and holds while keeping each repetition controlled."
+    },
+    "chest_advanced": {
+      "title": "Chest Advanced",
+      "intro": "Work through a longer sequence of challenging push-up variations and holds."
+    },
+    "arm_beginner": {
+      "title": "Arm Beginner",
+      "intro": "Introduce arm and shoulder movements with short, steady sets."
+    },
+    "arm_intermediate": {
+      "title": "Arm Intermediate",
+      "intro": "Alternate arm and shoulder exercises for a fuller upper-body session."
+    },
+    "arm_advanced": {
+      "title": "Arm Advanced",
+      "intro": "Use longer sets of arm and shoulder work while keeping the movement deliberate."
+    },
+    "shoulder_beginner": {
+      "title": "Shoulder Beginner",
+      "intro": "Explore simple shoulder movements and keep your range comfortable."
+    },
+    "shoulder_intermediate": {
+      "title": "Shoulder Intermediate",
+      "intro": "Combine shoulder raises, presses and holds with controlled transitions."
+    },
+    "shoulder_advanced": {
+      "title": "Shoulder Advanced",
+      "intro": "Take on a longer shoulder-focused session with more demanding positions."
+    },
+    "back_beginner": {
+      "title": "Back Beginner",
+      "intro": "Practice gentle back and shoulder-blade movements with a steady trunk."
+    },
+    "back_intermediate": {
+      "title": "Back Intermediate",
+      "intro": "Move between back extensions, reaches and holds without rushing the range."
+    },
+    "back_advanced": {
+      "title": "Back Advanced",
+      "intro": "A longer back-focused sequence that asks for steady form through each set."
+    },
+    "leg_beginner": {
+      "title": "Leg Beginner",
+      "intro": "Start with basic lower-body movements and use a comfortable depth."
+    },
+    "leg_intermediate": {
+      "title": "Leg Intermediate",
+      "intro": "Mix squats, lunges and calf work at a pace you can control."
+    },
+    "leg_advanced": {
+      "title": "Leg Advanced",
+      "intro": "Work through a longer mix of lower-body patterns with measured rests."
+    },
+    "glutes_beginner": {
+      "title": "Glutes Beginner",
+      "intro": "Learn hip-focused movements on the floor and while standing."
+    },
+    "glutes_intermediate": {
+      "title": "Glutes Intermediate",
+      "intro": "Alternate bridges, leg lifts and standing work while keeping the hips steady."
+    },
+    "glutes_advanced": {
+      "title": "Glutes Advanced",
+      "intro": "A longer hip-focused session with more repetitions and varied positions."
+    },
+    "full_body_beginner": {
+      "title": "Full Body Beginner",
+      "intro": "Meet a mix of upper-body, lower-body and core movements at an easy starting pace."
+    },
+    "full_body_intermediate": {
+      "title": "Full Body Intermediate",
+      "intro": "Rotate through several movement patterns with time to regain your breath."
+    },
+    "full_body_advanced": {
+      "title": "Full Body Advanced",
+      "intro": "A longer whole-body sequence with challenging efforts and shorter breaks."
+    },
+    "4_minute_wake_up": {
+      "title": "4-Minute Wake Up",
+      "intro": "A brief set of gentle mobility moves to begin moving for the day."
+    },
+    "5_minute_morning_boost": {
+      "title": "5-Minute Morning Boost",
+      "intro": "A short mix of active movements and a finishing stretch."
+    },
+    "6_minute_tabata": {
+      "title": "6-Minute Tabata",
+      "intro": "A compact interval session with quick efforts and short rests."
+    },
+    "7_minute_full_body": {
+      "title": "7-Minute Full Body",
+      "intro": "Move between standing and floor exercises in a brief whole-body circuit."
+    },
+    "10_minute_abs": {
+      "title": "10-Minute Abs",
+      "intro": "A short core-focused session with controlled repetitions and holds."
+    },
+    "fat_burning_hiit_beginner": {
+      "title": "Fat Burning HIIT — Beginner",
+      "intro": "Try a beginner-paced interval circuit with standing moves and short rests."
+    },
+    "fat_burning_hiit_intermediate": {
+      "title": "Fat Burning HIIT — Intermediate",
+      "intro": "Alternate brisk whole-body movements with brief recovery periods."
+    },
+    "fat_burning_hiit_advanced": {
+      "title": "Fat Burning HIIT — Advanced",
+      "intro": "A longer interval circuit with demanding movements and short breaks."
+    },
+    "low_impact_fat_burn_no_jumping": {
+      "title": "Low-Impact Fat Burn (No Jumping)",
+      "intro": "Keep the pace moving through a whole-body circuit without jumping exercises."
+    },
+    "total_body_burn": {
+      "title": "Total Body Burn",
+      "intro": "Rotate through standing and floor work across the whole body."
+    },
+    "cardio_core_circuit": {
+      "title": "Cardio Core Circuit",
+      "intro": "Switch between faster cardio intervals and core-focused exercises."
+    },
+    "upper_body_strength": {
+      "title": "Upper Body Strength",
+      "intro": "Work through chest, shoulder and arm movements with controlled presses and holds."
+    },
+    "lower_body_strength": {
+      "title": "Lower Body Strength",
+      "intro": "Mix squats, lunges, hip work and calf raises in one lower-body session."
+    },
+    "push_strength_chest_shoulders_triceps": {
+      "title": "Push Strength (Chest/Shoulders/Triceps)",
+      "intro": "Focus on presses and holds for the chest, shoulders and triceps."
+    },
+    "pull_posture_back_rear_delts": {
+      "title": "Pull & Posture (Back/Rear Delts)",
+      "intro": "Practice back and rear-shoulder movements with a comfortable range."
+    },
+    "full_body_strength": {
+      "title": "Full Body Strength",
+      "intro": "Train several movement patterns with measured sets across the whole body."
+    },
+    "daily_move": {
+      "title": "Daily Move",
+      "intro": "Fit a varied whole-body movement session into a short part of your day."
+    },
+    "office_break": {
+      "title": "Office Break",
+      "intro": "Use standing mobility and light movement during a break from sitting."
+    },
+    "evening_wind_down": {
+      "title": "Evening Wind-Down",
+      "intro": "Slow the pace with gentle holds for several areas of the body."
+    },
+    "weekend_energizer": {
+      "title": "Weekend Energizer",
+      "intro": "Take time for a varied circuit of active whole-body movements."
+    },
+    "before_workout_warm_up": {
+      "title": "Before Workout Warm-Up",
+      "intro": "Ease into movement with simple joint circles, marching and a walkout."
+    },
+    "morning_warm_up": {
+      "title": "Morning Warm-Up",
+      "intro": "Start with a longer round of gentle standing and floor mobility."
+    },
+    "full_body_stretching": {
+      "title": "Full Body Stretching",
+      "intro": "Move through comfortable stretches for the upper and lower body."
+    },
+    "upper_body_stretching": {
+      "title": "Upper Body Stretching",
+      "intro": "Spend time on gentle chest, arm, neck and upper-back stretches."
+    },
+    "lower_body_stretching": {
+      "title": "Lower Body Stretching",
+      "intro": "Hold comfortable stretches around the hips, thighs and calves."
+    },
+    "back_stretching": {
+      "title": "Back Stretching",
+      "intro": "Move gently through back and hip stretches without forcing the range."
+    },
+    "neck_shoulder_tension_relief": {
+      "title": "Neck & Shoulder Tension Relief",
+      "intro": "Explore gentle neck, shoulder and upper-body stretches at an easy pace."
+    },
+    "lower_back_relief": {
+      "title": "Lower Back Relief",
+      "intro": "Take a gentle route through back and hip positions, staying within a comfortable range."
+    },
+    "knee_friendly_mobility": {
+      "title": "Knee-Friendly Mobility",
+      "intro": "Use low-impact stretches with no jumping or deep squat work."
+    },
+    "sleepy_time_stretching": {
+      "title": "Sleepy Time Stretching",
+      "intro": "Finish the day with slow, comfortable holds and unhurried transitions."
+    },
+    "posture_reset": {
+      "title": "Posture Reset",
+      "intro": "Practice comfortable chest, back and shoulder stretches after a long day."
+    },
+    "hip_mobility": {
+      "title": "Hip Mobility",
+      "intro": "Explore gentle hip and leg stretches with room to adjust each position."
+    },
+    "quiet_apartment_workout": {
+      "title": "Quiet Apartment Workout",
+      "intro": "Keep moving through a no-jump circuit designed for a quieter space."
+    },
+    "arm_workout_no_push_ups": {
+      "title": "Arm Workout (No Push-Ups)",
+      "intro": "Train arms and shoulders with raises, holds and triceps work instead of push-ups."
+    },
+    "chair_assisted_workout": {
+      "title": "Chair-Assisted Workout",
+      "intro": "Use a stable chair for selected movements alongside simple standing exercises."
+    },
+    "absolute_beginner_start": {
+      "title": "Absolute Beginner Start",
+      "intro": "Begin with familiar, level-one movements and take breaks whenever needed."
+    }
+  },
+  "challenge": {
+    "full_body_challenge": {
+      "title": "Full Body Challenge",
+      "desc": "Follow a four-week plan of varied whole-body workouts, with rest days built in."
+    },
+    "lose_weight_challenge": {
+      "title": "Lose Weight Challenge",
+      "desc": "Follow a month of movement sessions and rest days; progress is about consistency, not a promised weight change."
+    },
+    "lower_body_challenge": {
+      "title": "Lower Body Challenge",
+      "desc": "Work through a four-week sequence of leg and hip-focused sessions with scheduled rest days."
+    },
+    "core_six_pack_challenge": {
+      "title": "Core & Six Pack Challenge",
+      "desc": "Practice core-focused sessions across the month, alternating effort and recovery."
+    },
+    "calisthenics_plan": {
+      "title": "Calisthenics Plan",
+      "desc": "Build a routine of bodyweight sessions over four weeks, with time to recover between harder days."
+    },
+    "upper_body_challenge": {
+      "title": "Upper Body Challenge",
+      "desc": "Follow four weeks of upper-body sessions covering presses, arm work and shoulder movements."
+    },
+    "beginner_start_challenge": {
+      "title": "Beginner Start Challenge",
+      "desc": "Try two weeks of short workouts with rest days to make starting more manageable."
+    },
+    "plank_challenge": {
+      "title": "Plank Challenge",
+      "desc": "Practice forearm-plank holds on training days, gradually increasing the target with rest days between."
+    },
+    "push_up_challenge": {
+      "title": "Push-Up Challenge",
+      "desc": "Begin with knee push-ups, then progress to standard push-ups as the plan advances."
+    },
+    "squat_challenge": {
+      "title": "Squat Challenge",
+      "desc": "Practice bodyweight squats on training days with gradually increasing targets and scheduled rest."
+    },
+    "flexibility_mobility_challenge": {
+      "title": "Flexibility & Mobility Challenge",
+      "desc": "Follow three weeks of stretching and mobility sessions, moving only within a comfortable range."
+    },
+    "posture_stand_tall_challenge": {
+      "title": "Posture & Stand Tall Challenge",
+      "desc": "Explore back, shoulder and core movement over three weeks without forcing a particular posture."
+    }
+  },
+  "achievement": {
+    "first_workout": {
+      "title": "First Workout"
+    },
+    "workouts_3": {
+      "title": "3 Workouts"
+    },
+    "first_week_done": {
+      "title": "First Week Done"
+    },
+    "first_challenge": {
+      "title": "First Challenge Started"
+    },
+    "streak_3": {
+      "title": "3-Day Streak"
+    },
+    "streak_7": {
+      "title": "7-Day Streak"
+    },
+    "streak_14": {
+      "title": "14-Day Streak"
+    },
+    "streak_30": {
+      "title": "30-Day Streak"
+    },
+    "streak_60": {
+      "title": "60-Day Streak"
+    },
+    "days_100": {
+      "title": "100 Days Total"
+    },
+    "workouts_10": {
+      "title": "10 Workouts"
+    },
+    "workouts_25": {
+      "title": "25 Workouts"
+    },
+    "workouts_50": {
+      "title": "50 Workouts"
+    },
+    "workouts_100": {
+      "title": "100 Workouts"
+    },
+    "workouts_250": {
+      "title": "250 Workouts"
+    },
+    "minutes_60": {
+      "title": "60 Minutes Total"
+    },
+    "minutes_300": {
+      "title": "300 Minutes"
+    },
+    "minutes_600": {
+      "title": "600 Minutes"
+    },
+    "minutes_1200": {
+      "title": "1,200 Minutes"
+    },
+    "pushups_20": {
+      "title": "20 Push-Ups in a Set"
+    },
+    "squats_50": {
+      "title": "50 Squats in a Set"
+    },
+    "plank_60": {
+      "title": "60-Second Plank"
+    },
+    "plank_120": {
+      "title": "120-Second Plank"
+    },
+    "wallsit_30": {
+      "title": "30-Second Wall Sit"
+    },
+    "wallsit_90": {
+      "title": "90-Second Wall Sit"
+    },
+    "tried_25": {
+      "title": "Tried 25 Exercises"
+    },
+    "tried_50": {
+      "title": "Tried 50 Exercises"
+    },
+    "every_focus": {
+      "title": "Completed a Workout from Every Body Focus"
+    },
+    "custom_built": {
+      "title": "Built a Custom Workout"
+    },
+    "challenge_14": {
+      "title": "Completed a 14-Day Challenge"
+    },
+    "challenge_28": {
+      "title": "Completed a 28/30-Day Challenge"
+    },
+    "goal_met": {
+      "title": "Weekly Goal Met"
+    },
+    "goal_4_weeks": {
+      "title": "Weekly Goal Met 4 Weeks Running"
+    },
+    "early_bird": {
+      "title": "Early Bird"
+    },
+    "night_owl": {
+      "title": "Night Owl"
+    }
+  },
+  "achievements": {
+    "title": "Achievements",
+    "more": "More",
+    "progress": "%{unlocked} of %{total} earned",
+    "earned": "Achievement earned",
+    "nice": "Nice!",
+    "locked": "Locked",
+    "unlocked": "Earned",
+    "group": {
+      "gettingStarted": "Getting started",
+      "consistency": "Consistency",
+      "volume": "Volume",
+      "time": "Time",
+      "strength": "Strength",
+      "exploration": "Exploration",
+      "challenges": "Challenges",
+      "habits": "Habits"
+    }
+  },
+  "category": {
+    "arm_shoulder": {
+      "title": "Arm & Shoulder",
+      "desc": "Build arm and shoulder strength with focused home workouts."
+    },
+    "back_posture": {
+      "title": "Back & Posture",
+      "desc": "Train your back and practise comfortable, controlled movement."
+    },
+    "butt_leg": {
+      "title": "Butt & Leg",
+      "desc": "Work your legs and glutes at a level that suits you."
+    },
+    "chest": {
+      "title": "Chest",
+      "desc": "Focus on chest strength with bodyweight pushing exercises."
+    },
+    "core": {
+      "title": "Core",
+      "desc": "Train your core with controlled holds and movement."
+    },
+    "full_body": {
+      "title": "Full Body",
+      "desc": "Move your whole body with balanced home workouts."
+    }
+  },
+  "collection": {
+    "c1": {
+      "title": "Build Strength at Home"
+    },
+    "c2": {
+      "title": "Burn More Calories"
+    },
+    "c3": {
+      "title": "Stay Active Every Day"
+    },
+    "c4": {
+      "title": "Move Better"
+    }
+  },
+  "browseUi": {
+    "animation": "Animation",
+    "image": "Image",
+    "preview": "Exercise preview",
+    "startHere": "Start here",
+    "startHereHint": "A no-equipment routine for your experience. Review the exercises, then tap Start.",
+    "reviewWorkout": "Review workout",
+    "forYourGoal": "Picked for your goal",
+    "viewPlan": "View plan",
+    "days": "Days",
+    "dailyMinutes": "Min / day",
+    "focus": "Focus",
+    "level": "Level",
+    "schedule": "Your plan",
+    "more": "More",
+    "recommended": "Recommended",
+    "justForYou": "Just for you",
+    "picks": "Picks for you",
+    "beginners": "For beginners",
+    "fast": "Fast workouts",
+    "stretchWarmup": "Stretch & warm up",
+    "popularGoals": "Popular goals",
+    "warmup": "Warm up",
+    "featured": "Your next workout",
+    "recent": "Recently completed",
+    "workoutCount": "%{count} workouts",
+    "durationLevel": "%{minutes} min · %{level}",
+    "exerciseCount": "%{count} exercises",
+    "introduction": "Introduction",
+    "homeWorkout": "At home",
+    "location": "Workout space",
+    "equipment": "With equipment",
+    "equipmentHint": "Try routines with a sturdy chair, wall or optional light weights.",
+    "equipmentAction": "Browse workouts",
+    "stretch": "Stretch",
+    "go": "Go",
+    "savedWorkouts": "%{count} saved routines",
+    "createHint": "Choose your exercises and make a routine that fits your day.",
+    "explore": "Explore more workouts",
+    "exploreHint": "Find a new routine in Discover.",
+    "feedback": "Your feedback note",
+    "note": "Note",
+    "feedbackHint": "Keep a note on this phone. It is included when you export a backup from Settings.",
+    "duration": {
+      "short": "Under 7 min",
+      "medium": "7–15 min",
+      "long": "Over 15 min"
+    },
+    "goal": {
+      "build_muscle": "Build muscle",
+      "burn_fat": "Burn fat",
+      "keep_fit": "Keep fit",
+      "flexibility": "Flexibility"
+    },
+    "group": {
+      "quick": "Fast workouts",
+      "stretch": "Stretch & warm up",
+      "equipment": "With equipment",
+      "warmup": "Warm up",
+      "beginners": "For beginners",
+      "recommended": "Recommended for you",
+      "recent": "Recently completed",
+      "collection": "Collection",
+      "category": "Body focus"
+    }
+  },
+  "challengeUi": {
+    "startDay": "Start day %{count}",
+    "day": "Day %{count}",
+    "rest": "Rest day",
+    "completed": "Completed",
+    "current": "Next",
+    "locked": "Locked",
+    "complete": "Plan completed",
+    "leave": "Leave challenge",
+    "restart": "Restart challenge",
+    "leaveTitle": "Leave this challenge?",
+    "leaveBody": "Your completed workouts stay in your history. You can restart the plan later.",
+    "filter": {
+      "all": "All",
+      "build_muscle": "Build muscle",
+      "burn_fat": "Burn fat",
+      "full_body": "Full body",
+      "flexibility": "Flexibility"
+    }
+  },
+  "startup": {
+    "title": "WorkoutStride",
+    "body": "Your pace. Your progress.",
+    "preparing": "Preparing your workouts…"
+  },
+  "reportUi": {
+    "motivation": "Every step forward counts. Continue your journey!",
+    "recent": "Recent workouts",
+    "bestStreak": "Best streak",
+    "streakDays": {
+      "one": "%{count} day",
+      "other": "%{count} days"
+    }
+  },
+  "restTimerUi": {
+    "mode": "Rest timer mode",
+    "default": "Default",
+    "custom": "Custom",
+    "off": "Off"
+  },
+  "home": {
+    "greeting": {
+      "morning": "Good morning",
+      "afternoon": "Good afternoon",
+      "evening": "Good evening"
+    },
+    "welcomeEyebrow": "Welcome",
+    "welcomeTitle": "Let's start your fitness journey",
+    "welcomeBody": "Short home workouts with no equipment. Each day we show you exactly what to do.",
+    "perkEquipment": "No equipment",
+    "perkMinutes": "%{minutes} a day",
+    "perkHome": "At home",
+    "yourPlan": "Your plan",
+    "pickedFor": "Picked for you: %{goal} · %{level}",
+    "startDayOne": "Start day 1",
+    "seePlan": "See the full plan",
+    "customize": "Customize my plan",
+    "howTitle": "How it works",
+    "stepPlanTitle": "Follow one plan",
+    "stepPlanBody": "One short workout a day. Rest days are already planned for you.",
+    "stepWatchTitle": "Watch, then copy",
+    "stepWatchBody": "Every exercise has a demo that shows the correct form and the muscles it trains.",
+    "stepGrowTitle": "Rest and grow",
+    "stepGrowBody": "After each workout your progress, streak and next day appear here.",
+    "firstWeek": "Your first week",
+    "todayEyebrow": "%{plan} · Day %{day} of %{total}",
+    "workoutMeta": "%{minutes} min · %{count} exercises",
+    "startDay": "Start day %{day}",
+    "doneToday": "Done for today. Great job! Come back tomorrow for day %{day}.",
+    "previewExercise": "Preview %{name}",
+    "moreExercises": "+%{count}",
+    "journey": "This week",
+    "planProgress": "%{done} of %{total} workouts done",
+    "pathDay": "Day %{day}, %{state}",
+    "pathDone": "done",
+    "pathToday": "today",
+    "pathRest": "rest day",
+    "pathUpcoming": "upcoming",
+    "noPlanTitle": "Pick your plan",
+    "noPlanBody": "A plan tells you what to do each day, so you never have to guess.",
+    "planCompleteTitle": "Plan complete!",
+    "planCompleteBody": "You finished every day. Choose your next plan to keep going.",
+    "choosePlan": "Choose a plan",
+    "customizeTitle": "Customize",
+    "actionPlan": "Change plan",
+    "actionQuick": "Quick 5 min",
+    "actionStretch": "Stretch",
+    "actionCreate": "Create your own",
+    "suggested": "Suggested for you",
+    "exploreAll": "Explore all workouts",
+    "planScreenTitle": "Your plan",
+    "planScreenBody": "Choose your goal and level, and we pick the plan that fits. You can change it at any time.",
+    "goal": "Your goal",
+    "level": "Your level",
+    "weeklyGoal": "Workout days per week",
+    "recommended": "Best plan for you",
+    "usePlan": "Use this plan",
+    "currentPlan": "Your current plan",
+    "continuePlan": "Continue",
+    "allPlans": "Or choose any plan",
+    "planRowMeta": "%{days} days · %{minutes}",
+    "switchTitle": "Switch plan?",
+    "switchBody": "Your current plan stops here. You can return to it later and keep your progress.",
+    "switch": "Switch"
   }
 }

@@ -29,7 +29,7 @@ export function Section({
   return (
     <View style={styles.section}>
       <View style={[styles.header, { paddingHorizontal: headerPadding }]}>
-        <Text variant="h3">{title}</Text>
+        <Text variant="h3" style={styles.title}>{title}</Text>
         {actionLabel && onAction ? (
           <Touchable onPress={onAction} accessibilityLabel={`${actionLabel}: ${title}`}>
             <View style={styles.action}>
@@ -48,6 +48,7 @@ export function Section({
 
 const styles = StyleSheet.create({
   section: { gap: spacing[3] },
-  header: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' },
+  header: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', gap: spacing[3] },
+  title: { flex: 1 },
   action: { flexDirection: 'row', alignItems: 'center', gap: 2 },
 });

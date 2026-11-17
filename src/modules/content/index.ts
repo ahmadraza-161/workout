@@ -1,31 +1,22 @@
-import rawPack from '../../../assets/data/content-pack.json';
-import { buildIndex, filterWorkouts, type ContentIndex, type WorkoutFilter } from './pack';
-import type { Challenge, ContentPack, Exercise, Workout } from './types';
-
-// Loaded once at start-up. The JSON is generated and validated at build time
-// (tools/content, Phase 2), so the cast is safe.
-const content: ContentIndex = buildIndex(rawPack as ContentPack);
-
-export function getContentPack(): ContentPack {
-  return content.pack;
-}
-
-export function getExercise(id: string): Exercise | undefined {
-  return content.exercisesById.get(id);
-}
-
-export function getWorkout(id: string): Workout | undefined {
-  return content.workoutsById.get(id);
-}
-
-export function getChallenge(id: string): Challenge | undefined {
-  return content.challengesById.get(id);
-}
-
-export function listWorkouts(filter?: WorkoutFilter): Workout[] {
-  return filterWorkouts(content, filter);
-}
-
+export * from './repository';
 export { buildIndex, findBrokenReferences, filterWorkouts } from './pack';
+export { relatedWorkouts, searchContent } from './query';
 export type { ContentIndex, WorkoutFilter } from './pack';
+export type { SearchResults } from './query';
 export type * from './types';
+export { SearchScreen } from './components/SearchScreen';
+export { WorkoutDetailScreen } from './components/WorkoutDetailScreen';
+export { ExerciseDetailScreen } from './components/ExerciseDetailScreen';
+export { FavoritesScreen } from './components/FavoritesScreen';
+export { SuggestedWorkouts } from './components/SuggestedWorkouts';
+export { HeroArtwork, challengeHeroKey } from './components/HeroArtwork';
+export { openBrowse } from './components/BrowseCards';
+export { DiscoverScreen } from './components/DiscoverScreen';
+export { ChallengeCard } from './components/ChallengeCard';
+export { CatalogListScreen } from './components/CatalogListScreen';
+export { ExerciseImage } from './components/ExerciseImage';
+export { ExerciseDemo } from './components/ExerciseDemo';
+export { getExerciseImage } from './media';
+export { isFavoriteWorkout, listFavoriteWorkouts, setFavoriteWorkout } from './favorites';
+export { listRecentSearches, rememberSearch } from './recentSearches';
+export { CharacterArtwork } from './components/CharacterArtwork';

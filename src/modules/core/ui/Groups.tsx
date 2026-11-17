@@ -2,7 +2,7 @@ import type { ComponentType, ReactNode } from 'react';
 import { ChevronRight } from 'lucide-react-native';
 import { StyleSheet, View } from 'react-native';
 
-import { radius, spacing, useTheme } from '../theme';
+import { radius, sizes, spacing, useTheme } from '../theme';
 import { Card } from './Card';
 import { Divider } from './Divider';
 import { MetaCell } from './MetaCell';
@@ -74,19 +74,20 @@ export function AchievementBadge({
   icon: Icon,
   unlocked,
   gradientChild,
+  statusLabel,
 }: {
   name: string;
   icon: ComponentType<{ size?: number; color?: string }>;
   unlocked: boolean;
   gradientChild?: ReactNode;
+  statusLabel?: string;
 }) {
   const { colors } = useTheme();
   return (
     <View
       style={styles.badge}
       accessible
-      accessibilityLabel={name}
-      accessibilityState={{ disabled: !unlocked }}
+      accessibilityLabel={statusLabel ? `${name}, ${statusLabel}` : name}
     >
       <View
         style={[
@@ -109,14 +110,17 @@ export function CategoryHero({
   title,
   description,
   back,
+  artwork,
 }: {
   title: string;
   description: string;
   back?: ReactNode;
+  artwork?: ReactNode;
 }) {
   const { colors } = useTheme();
   return (
     <View style={[styles.hero, { backgroundColor: colors.surface.categoryHero }]}>
+      {artwork ? <View style={styles.heroArt} pointerEvents="none">{artwork}</View> : null}
       {back}
       <Text variant="cardTitle" style={styles.onHero}>
         {title}
@@ -144,7 +148,8 @@ const styles = StyleSheet.create({
   badge: { width: 88, alignItems: 'center', gap: spacing[2] },
   badgeCircle: { width: 72, height: 72, borderRadius: radius.pill, alignItems: 'center', justifyContent: 'center', overflow: 'hidden' },
   badgeName: { textAlign: 'center' },
-  hero: { padding: spacing[5], gap: spacing[2] },
+  hero: { minHeight: sizes.categoryHero, padding: spacing[5], gap: spacing[2], overflow: 'hidden' },
+  heroArt: { position: 'absolute', top: 0, bottom: 0, right: 0, width: '44%' },
   // The hero band is dark in both themes.
-  onHero: { color: '#FFFFFF' },
+  onHero: { color: '#FFFFFF', width: '58%' },
 });

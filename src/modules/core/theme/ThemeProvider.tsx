@@ -16,6 +16,7 @@ export interface Theme {
   motion: typeof motion;
   preference: ThemePreference;
   setPreference: (preference: ThemePreference) => void;
+  reloadPreference: () => void;
 }
 
 const ThemeContext = createContext<Theme | null>(null);
@@ -28,6 +29,7 @@ export function ThemeProvider({ children }: { children: ReactNode }) {
     setKv('settings.theme', next);
     setPreferenceState(next);
   }, []);
+  const reloadPreference = useCallback(() => setPreferenceState(getKv('settings.theme')), []);
 
   const theme = useMemo<Theme>(() => {
     const scheme: ColorScheme =
@@ -43,8 +45,9 @@ export function ThemeProvider({ children }: { children: ReactNode }) {
       motion,
       preference,
       setPreference,
+      reloadPreference,
     };
-  }, [preference, systemScheme, setPreference]);
+  }, [preference, systemScheme, setPreference, reloadPreference]);
 
   return <ThemeContext.Provider value={theme}>{children}</ThemeContext.Provider>;
 }

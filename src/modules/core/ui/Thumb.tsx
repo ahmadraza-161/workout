@@ -11,9 +11,8 @@ const DIMENSION: Record<ThumbSize, number> = {
   lg: sizes.thumbLg,
 };
 
-// Square artwork slot used by every row and card. Artwork is drawn as vectors
-// at runtime (ADR-024), so this is a container, never an <Image> of a photo.
-// `stage` gives the pale animation background used by exercise thumbnails.
+// Square artwork slot for bundled workout photos and exercise pose cutouts.
+// `stage` gives exercise thumbnails their theme-aware pale background.
 export interface ThumbProps {
   size?: ThumbSize;
   stage?: boolean;

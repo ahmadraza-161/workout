@@ -1,6 +1,3 @@
-import { t } from '@/modules/core/i18n';
-import { TabPlaceholder } from '@/modules/core/ui';
+import { ReportScreen } from '@/modules/report';
 
-export default function ReportScreen() {
-  return <TabPlaceholder title={t('tabs.report')} phase={9} />;
-}
+export default ReportScreen;

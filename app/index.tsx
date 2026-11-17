@@ -1,6 +1,10 @@
 import { Redirect } from 'expo-router';
+import { useState } from 'react';
 
-// Bootstrap route. Onboarding and the "Resume workout?" check arrive in Phase 6 (T6.1).
+import { ResumePromptScreen } from '@/modules/player';
+import { isOnboardingComplete } from '@/modules/profile';
+
 export default function Index() {
-  return <Redirect href="/training" />;
+  const [complete] = useState(isOnboardingComplete);
+  return complete ? <ResumePromptScreen /> : <Redirect href="/onboarding" />;
 }

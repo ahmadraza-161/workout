@@ -68,6 +68,8 @@ export interface WorkoutItem {
 }
 
 export interface Workout {
+  /** Custom workouts keep the rest assigned to each exercise. */
+  useItemRest?: boolean;
   id: string;
   titleKey: string;
   introKey: string;
@@ -85,6 +87,10 @@ export interface ChallengeDay {
   day: number;
   rest?: boolean;
   workoutId?: string;
+  exerciseId?: string;
+  seconds?: number;
+  reps?: number;
+  sets?: number;
 }
 
 export interface Challenge {
@@ -119,6 +125,12 @@ export interface Achievement {
   id: string;
   titleKey: string;
   group: string;
+  metric: 'workouts' | 'challenge_days' | 'streak' | 'distinct_days' | 'minutes' |
+    'best_reps' | 'best_hold' | 'distinct_exercises' | 'distinct_focuses' |
+    'custom_workouts_saved' | 'challenges_by_length' | 'weekly_goals_in_a_row' |
+    'session_before_hour' | 'session_after_hour' | 'days_within_window';
+  threshold: number;
+  scope?: { exercises?: number[]; minDays?: number; windowDays?: number };
 }
 
 export interface ContentPack {

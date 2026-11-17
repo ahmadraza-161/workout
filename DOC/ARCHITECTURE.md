@@ -6,14 +6,16 @@ This document describes the overall system architecture, technology stack, folde
 
 | Field | Details |
 |---|---|
-| **Version** | 1.1 |
-| **Last updated** | September 23, 2026 |
+| **Version** | 1.6 |
+| **Last updated** | October 4, 2026 |
 | **Status** | Draft – approved decisions plus proposals awaiting owner approval (see [DECISIONS.md](DECISIONS.md)) |
 | **Related** | [PRD](PRD.md) · [DESIGN](DESIGN.md) · [CONTENT_MAP](CONTENT_MAP.md) · [RULES](RULES.md) · [TASKS](TASKS.md) · [TEST_PLAN](TEST_PLAN.md) · [SECURITY](SECURITY.md) |
 
 ---
 
 ## 1. High-Level Architecture
+
+> **Current exercise-media override (Sep 28, 2026, ADR-056):** Exercise demos are bundled static images. Local `require()` sources replace the planned Lottie playback path for now. Internet access is allowed only for one-time asset sourcing outside the app, with author/source/licence records; no runtime image downloads. Rig and Lottie sections below are deferred historical design.
 
 Home Workout is a **single, self-contained Android app**. There is no server, no internet access and no user account. Everything the app needs (content, animations, images, sounds) ships inside the app bundle, and all user data stays on the device.
 
@@ -68,7 +70,8 @@ Home Workout is a **single, self-contained Android app**. There is no server, no
 | State | `zustand` | 5.0.15 | One small store per domain |
 | Database | `expo-sqlite` + `drizzle-orm` | 57.0.3 / 0.45.3 | User data, typed schema, migrations |
 | Key-value | `expo-sqlite/kv-store` | part of `expo-sqlite` | Settings, player snapshot, small flags |
-| Exercise demos | `lottie-react-native` | 7.5.0 | Plays generated 2D Lottie animations |
+| Exercise demos | `lottie-react-native` | ~7.3.8 (SDK 57 bundled version) | Plays selected local 2D Lottie animations (ADR-061) |
+| Exercise MP4 demos | `expo-video` | ~57.0.5 | Owner-approved local MP4 playback with photo fallback (ADR-063); no background playback or PiP |
 | UI motion | `react-native-reanimated` | 4.7.0 | 60 fps UI-thread animations |
 | Vector graphics | `react-native-svg` | 15.15.5 | Muscle map, charts, timer rings, gradients, artwork |
 | Lists | `@shopify/flash-list` | 2.3.2 | Fast, memory-efficient lists |
@@ -187,10 +190,11 @@ Tests sit next to the code they test (`*.test.ts` / `*.test.tsx`), as proposed i
 | `core` | Foundation shared by everything | Theme tokens and `useTheme`, i18n, DB client and migrations, KV wrapper, UI primitives (`ListRow`, `SectionHeader`, `ChipTabs`, `FilterChip`, `GradientCard`, `MetaRow`, `TimerRing`, `PrimaryButton`, `Sheet`), error boundary, dev logger | — |
 | `content` | Read-only access to the content pack | Types, loader, in-memory indexes, filters (body focus, level, duration, goal, quiet), search, "You may like" | core |
 | `demo` | Visual representation of exercises | `ExerciseDemo` (Lottie with fallback), `ExerciseThumb`, `Artwork`, `MuscleMap` | core, content |
-| `player` | Running a workout | Engine (pure state machine), timing, snapshot, audio/voice/haptic cues, session writer | core, content, demo, profile |
-| `profile` | Who the user is and their preferences | Profile store, onboarding flow state, unit conversion, preference keys | core |
+| `player` | Running a workout | Engine (pure state machine), timing, snapshot, audio/voice/haptic cues, session writer, plan-day finish card (ADR-067) | core, content, demo, profile, report, challenges |
+| `profile` | Who the user is and their preferences | Profile store, onboarding flow state, unit conversion, preference keys | core, content (first workout selection and goal types) |
 | `report` | Progress and statistics | Aggregations, streak and weekly goal, kcal, BMI, weight log, personal bests, history | core, content, profile |
-| `challenges` | Multi-day plans | Schedule lookup, day progression, state | core, content |
+| `challenges` | Multi-day plans | Schedule lookup, day progression, state; one active plan (`getActivePlan`, `selectPlan`) | core, content |
+| `home` | The plan-first Training tab (ADR-066) | `HomeScreen` (picks `WelcomeHome` or `PlanHome`), `PlanScreen` (`/plan`), `PlanPath`, plan recommendation from goal + level, week path | core, content, challenges, profile, report |
 | `builder` | Custom workouts | Draft state, validation, save/edit/delete | core, content |
 | `achievements` | Badges | Definitions, evaluator, unlock and celebration | core, report |
 | `reminders` | Local notifications | Schedule, cancel, reboot-safe, permission primer | core, profile |
@@ -211,9 +215,9 @@ Routes in `app/` only arrange the sections in order.
 
 ```text
 / (bootstrap)
-├── /onboarding/*                         first run only (8 screens)
+├── /onboarding                           first run only (8 steps)
 ├── /(tabs)                               bottom tab bar
-│   ├── training                          Tab 1 – home, long scroll (13 sections)
+│   ├── training                          Tab 1 – plan Home: welcome (new user) or today's plan day
 │   ├── discover                          Tab 2
 │   ├── report                            Tab 3
 │   └── settings                          Tab 4
@@ -221,6 +225,7 @@ Routes in `app/` only arrange the sections in order.
 ├── /list/[type]                          stack – every "More >", quick filters, goal lists
 │                                         (challenges first), favourites, recent, search results
 ├── /category/[id]                        stack – Discover category
+├── /plan                                 stack – customize plan (goal, level, days, all plans)
 ├── /challenge  and  /challenge/[id]      stack
 ├── /builder/*                            stack – 3 steps
 ├── /history · /session/[id]              stack – all records, session detail
@@ -345,7 +350,61 @@ Import:  document picker → size check (≤ 5 MB) → parse → validate every 
 Reset:   confirm twice → delete all tables and KV preferences → back to onboarding
 ```
 
+The current backup format uses `app: "offline-workout"` and `schemaVersion: 2`;
+import also accepts version 1 and normalizes it to version 2. Version 2 preserves custom
+workout focus and per-item rest in the plan envelope described below.
+All 11 user tables use their SQLite column names; preferences use the typed KV keys.
+The unfinished player snapshot is exported as `null`. Unknown fields, invalid ranges,
+duplicate keys and orphan session items are rejected before confirmation.
+Import/reset attaches Expo SDK 57's `ExpoSQLiteStorage` database to the user-data connection
+and replaces both inside one synchronous transaction. Ordinary SQL failures roll back both;
+power-loss atomicity across attached databases in WAL mode remains a release/device check.
+After replacement the theme reloads, reminders reconcile without prompting, and navigation
+returns through the onboarding gate. A private cache export is retained until the next export
+or data replacement so share recipients can finish reading it; external backups remain untouched.
+
+### 7.5 Custom workouts
+
+The three-step builder edits a name/focus, local exercise selection and ordered per-set
+reps or seconds plus rest. The existing `custom_workouts.items_json` column stores
+`{ version: 1, bodyFocus, items }`; legacy item arrays remain readable with full-body focus
+and a 20-second rest fallback. No database migration or catalog duplication is needed.
+IDs use the `custom_` prefix. Saved plans resolve into the existing player shape with
+`useItemRest`; global rest OFF still disables rest, and the final set has no trailing rest.
+Training lists saved templates, and catalog workout details can prefill a new copy.
+Edits preserve template identity. Editing or deleting invalidates its saved player snapshot;
+deletion removes the template/favourite but retains completed sessions and exercise results.
+History resolves a current custom title while the template exists, then uses the unknown-workout
+fallback after deletion. Component and SQLite tests cover validation, order, CRUD and history retention;
+native Back, keyboard, full player/resume and reference layout checks remain.
+
 ---
+
+### 7.6 Settings information and measurement units
+
+Settings uses the existing typed `settings.units` preference. Profile inputs and Report
+display kg/cm or lbs/ft-in; shared pure helpers in `core/units` convert only at UI boundaries.
+Canonical saved measurements and BMI calculation remain kg/cm. Imperial input keeps local
+text while typing, and untouched measurements are not rounded back into storage.
+Information sheets expose local privacy, adult exercise disclaimer and config-derived About.
+`npm run licenses:build` generates a conservative installed production dependency inventory
+with deduplicated licence/notice texts, plus the Poppins and vendored muscle-map notices.
+The credits sheet searches metadata and renders one selected notice at a time. Source
+addresses remain selectable attribution text. The missing-notice report in
+[LICENSE_AUDIT](LICENSE_AUDIT.md) and final native/bundle licence review are release gates.
+
+### 7.7 Optional onboarding reminders and Android Back
+
+The onboarding schedule step offers the existing reminder setup route and displays its
+saved schedule on return. Skipping setup does not request permission or schedule notifications.
+`core/navigation.useAndroidBack` registers only on the focused route and keeps listener
+order stable while callback state changes. Shared sheets register while open and consume
+Back to dismiss before the underlying screen acts. Builder and onboarding step backwards;
+builder/reminder unsaved edits require confirmation. The player freezes its timer before
+one Save/Discard quit dialog; Cancel leaves it paused. Finished-session Back cannot leave
+until persistence succeeds. Header and hardware actions share the same screen handlers.
+Component tests cover focus cleanup, overlay priority, changed drafts, safety gating, duplicate
+finish prevention and player save failure. Native gesture/button/keyboard checks remain.
 
 ## 8. Workout Engine
 
@@ -490,3 +549,8 @@ The full list with context and consequences is in [DECISIONS.md](DECISIONS.md).
 |---|---|---|
 | 1.0 | Sep 23, 2026 | First version, based on spec v3, PRD v1.1 and answered open questions |
 | 1.1 | Sep 23, 2026 | Completeness audit: new routes (session, achievements, dev), content-model additions, Quiet Mode, rig capabilities, share card, R8 and ABI notes |
+| 1.2 | Sep 30, 2026 | Documented version-one backup validation, attached-KV transaction, cache lifetime and native verification limits |
+| 1.3 | Sep 30, 2026 | Documented custom plan storage, player/history integration and backwards-compatible version-two backups |
+| 1.4 | Sep 30, 2026 | Documented offline information/notice sheets and canonical unit conversion boundaries |
+| 1.5 | Sep 30, 2026 | Documented shared Android Back priority and optional first-run reminder setup |
+| 1.6 | Oct 4, 2026 | SDK-compatible Lottie dependency and selected local demos with static photograph fallback (ADR-061) |

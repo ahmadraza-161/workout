@@ -1,19 +1,62 @@
 # 🧪 Test Plan
 
+October 13 build-helper regression: Windows PowerShell 5.1 reproduces the old
+offline-option splat as individual characters, including two bare `-` tasks.
+The repaired argument block sends one `--offline` flag in 5.1 and 7; online mode
+omits it. Full helper syntax parses in Windows PowerShell. Final project check
+passes typecheck/lint and 347 tests across 75 suites (170.168s). No native APK
+compilation was run for this argument repair; owner must rerun the helper.
+
+October 13 repair verification: final npm run check -- -- --runInBand --testTimeout=20000 passes typecheck, lint and all 347 tests/75 suites (147.368s). Release preflight passes. Production Android JS export passes (4,973 modules, 245 assets, .expo/app-repair-export); exported MD5 bytes verify all 64 active MP4s and all 119 original images, with zero disabled TrainAI videos. All 64 MP4s decode and source SHA256 hashes match. Image audit passes 119 PNGs (11.21 MB) and five character assets. Regression coverage includes native release before guide cleanup/stale events, HeyGainz loop policy, local-image retry, suitable recommendation and Review workout navigation. Intermediate checks exposed a stale recommendation expectation, ungenerated translation keys and a Jest mock-hoisting error; all were corrected before this final pass. Physical Android scenario matrix in APP_REPAIR_PLAN remains open; no APK built.
+
+Final 119/119 export verification: production Android JS export passes (5,000 modules; .expo/animation-all-exercises-export; 271 assets). All 91 MP4 mappings and all 119 original image mappings match exported MD5 assets; shared sources deduplicate. Release preflight passes. Full check passes typecheck/lint and 342 tests/74 suites (85.696s). Native Android QA remains; no APK built.
+
+October 13 final catalog-wide check: typecheck/lint and all 342 tests across 74 suites pass (85.696 seconds). All three final MP4s decode without errors; Floor Row decoded last pose reviewed. Original-source integrity now also checks the untrimmed Sworkit MP4 hash. Static fallback test uses a missing-demo ID since all 119 catalog IDs are now mapped. The intermediate check collided with asset generation (Windows EBUSY); final checks ran after generators completed and pass. Physical Android form/framing, pose holds, pause/background, Reduce Motion, TalkBack and airplane-mode QA remain pending. No APK built.
+
+Production Android JS export passes (4,997 modules; .expo/animation-final-seven-export; 268 assets). All 88 MP4 mappings and 119 original image mappings are verified by MD5 in exported metadata; identical shared MP4s deduplicate. Native phone QA remains; no APK built.
+
+October 13 final seven-mapping pass: source review, held Hamstring final pose, seated Get-Up endpoints and all seven FFmpeg decode checks pass. Final typecheck/lint and 342 tests/74 suites pass (74.074s). The initial run caught a stale static-fallback test referencing newly animated Arm Circles; it now uses Floor Row Isometric. Release preflight passes. Native Android form/framing, held last-frame, pause/background, Reduce Motion, TalkBack and airplane-mode checks remain pending. No APK.
+
+October 13 HeyGainz continuation: 32 further demos added, total 109/119, with eight new held-pose segments. Original GIF/hash and MP4 integrity checks, dense hold source review, decoded final-frame inspection and FFmpeg decoding of all 32 new MP4s pass. Required full check passes typecheck/lint and 342 tests across 74 suites (128.909 seconds; testTimeout=20000). The first run exposed the old integrity-test equipment assertion: existing front/lateral raises use optional household bottles; regression now permits only these two IDs and requires actual Bottle Weighted sources and household instructions. Release preflight passes. Production Android JS export passes (4,990 modules; .expo/animation-batch-32-export), with all 81 MP4s and 119 original image mappings included. Physical Android form/framing, held last-frame, pause/background, Reduce Motion and airplane-mode QA remain pending; no APK built.
+
+October 13 animation batch: 48 new demos bundled, total 77/119; original GIF headers/hashes and converted MP4 hashes checked by generator and integrity tests. Visual review uses original frames at 0/20/40/60/80 percent. Ten hold entries stop before release; regression checks loop=false. First full check under acquisition/QA load had an existing browse timeout and a case-sensitive notice assertion; notice check is corrected and final full check reruns with testTimeout=20000. Final full check passes typecheck/lint and 342 tests across 74 suites (106.769 seconds); release preflight passes. Production Android JS export passes (4,958 modules; .expo/animation-batch-48-export), including all 49 MP4s and 119 original exercise images. FFmpeg decodes all 49 bundled MP4s without errors. Physical Android playback/form, airplane-mode and held-last-frame checks remain pending. No APK built.
+
+### October 12 — offline MP4 demo
+
+Owner-approved `expo-video` 57.0.5 plays the original local Vital Pike Push-Up sample (0353). Coverage is 29/119 exercise IDs, 25 unique sources and 90 unresolved. Automated regressions cover readiness/first-frame pose fallback, timer pause, route blur, background pause, preserving playback position, Reduce Motion, decoder errors, listener cleanup and Animation/Image switching. Asset integrity checks verify the original MP4 hash, matching equipment-free exercise, offline credit and unified coverage. Release preflight passes. Final full check passes typecheck/lint and 341 tests across 74 suites (80.469 seconds). The initial check exposed a missing native-module mock in the isolated ExerciseGuide test; the fixed test passes in the final full run. Production Android JS export passes (4,910 modules; .expo/mp4-pike-export); the original 1,739,537-byte MP4 is listed in the exported assets alongside all 119 exercise images.
+
+Physical Android playback/form, airplane-mode, TalkBack, light/dark framing and merged-manifest QA remain open. A rebuilt Android binary is required for the new native dependency; no APK is built in this task.
+
+October 11 Russian Twist import: source access recovered normally; original licensed 195-frame seated torso-rotation demo added. Fixed legs/hips and animated torso reviewed in original frames 0/25/50/75/99. Honest unnamed contributor credit retained (a848f9e4); no new geometry or motion authored. Current coverage 28/119 IDs, 24 unique sources, 91 unresolved, 3,343,861 bundled bytes. All original images/UI retained, no APK built. Final validation: typecheck/lint and all 336 tests across 72 suites pass (279.355 seconds); production Android JS export passes (4,899 modules, .expo/lottie-russian-export), and release preflight passes. Native form/playback and airplane-mode QA remain open.
+
+October 11 next animation pass: added Standing Forward Fold using the licensed original Inchworm entry frames 0–24 once, then hold before hand walking. Source reviewed at frames 0/24/30/34/39 and across its full cycle. No custom motion or new unique source claimed. Current coverage 27/119 IDs, 23 unique sources, 92 unresolved, 3,239,591 bundled bytes. Original images/UI retained; no APK built. Final validation: typecheck/lint and 335 tests across 72 suites pass (197.003 seconds); production Android JS export passes (4,898 modules, .expo/lottie-fold-export), and release preflight passes. Native playback/form and airplane-mode QA remain open.
+
+October 11 batch continuation: added Neck Side Stretch (Indrum, original frames 0–60 once then hold), Side Plank (Ajay Gupta, original rotating-plank first entry frames 1–35 once then hold, reviewed viewport), and Shadow Boxing (existing Dinh Punches source, matching staggered stance/alternating punches/guard). No custom motion authored. Current coverage: 26/119 exercise IDs, 23 unique licensed sources, 93 unresolved IDs, 2,934,727 bundled bytes. All 119 images and UI retained; no APK built. Final validation: typecheck, lint and all 334 tests across 72 suites passed; release preflight passed. Android JS export metadata and Hermes bundle verified in .expo/lottie-batch-export. Native form/playback and airplane-mode device QA remain open.
+
+October 11 animation-only continuation: two further exercise IDs now have verified ready-made demos. Push-Up Hold plays original Military Push Ups frames 2–10 once, then holds at shallow elbow flexion. Plank Walkout shares the original Inchworm demo because their catalog instructions describe the same hand-walk movement. These are reused licensed sources, not two new unique downloads or authored animations. Coverage: 23/119 exercise IDs, 21 unique source animations, 96 unresolved IDs, 2,594,038 bundled bytes. All 119 photographs and UI remain. Full check passes typecheck/lint and 332 tests across 72 suites (94.124 seconds). Production Android JS export passes (4,894 modules, .expo/lottie-hold-walkout-export). Native playback/form QA remains open; no APK built.
+
+October 11 continuation: completed the interrupted High Knees import by Bashir Ahmad under the Lottie Simple License. Original 29-frame alternating thigh/arm motion and floor line are retained. Coverage is 21/119, with 98 IDs still awaiting matching free ready-made demos; bundled JSON totals 2,214,530 bytes. All 119 exercise images remain. Production Android JS export passes (4,892 modules; .expo/lottie-high-knees-export), and release preflight passes. Full check passes typecheck/lint and 331 tests across 72 suites (205.968 seconds). Native phone QA remains open. No APK built.
+
 ### Home Workout – Quality Assurance Strategy
 
 This document defines how Home Workout is tested: scope, test levels, tools, devices, test cases, mandatory scenarios, performance and accessibility checks, release testing and defect handling. Its goal is to ship an app that is **correct, reliable during workouts, fully offline, accessible and fast**.
 
 | Field | Details |
 |---|---|
-| **Version** | 1.1 |
-| **Last updated** | September 23, 2026 |
+| **Version** | 1.8 |
+| **Last updated** | October 11, 2026 |
 | **Status** | Active |
 | **Related** | [PRD](PRD.md) · [ARCHITECTURE](ARCHITECTURE.md) · [CONTENT_MAP](CONTENT_MAP.md) · [RULES](RULES.md) · [TASKS](TASKS.md) · [SECURITY](SECURITY.md) |
 
 ---
 
 ## 1. Purpose & Scope
+
+October 2 owner-requested source QA (APK rebuild excluded): full check passes 319 tests/69 suites, including startup readiness/font failure, onboarding navigation/validation, timer/pause/rest/finish/save retry, challenge progression, history/weekly goals, reminder denial/cancellation/reconciliation and independent audio/haptics. Added regressions cover pending audio cancellation when navigating away and sound remaining enabled with vibration off. Snapshot-storage failure now warns once, retries on subsequent state changes and does not prevent timer completion or final session persistence. Font failure now uses a system-font startup while retaining the readiness gate.
+
+`npm run qa:release` passes the offline/config checks. `npm run images:qa` decodes all 119 exercise images (11.21 MB, all with alpha) and five male/female character assets; character previews on blue/dark backgrounds and the first exercise contact sheet were visually reviewed. This is asset/source QA, not an installed-app layout comparison. Existing automated browse/navigation and light/dark checks pass.
+
+Physical tests remain open: small-screen/large-font/TalkBack and pixel comparison; real notification delivery while closed/after reboot; audible cues/music ducking/call interruption; airplane-mode runtime and fresh-install launch timing. The bundled adb currently fails to initialise its Android profile (`Cannot mkdir '\\.android': Permission denied`), so no device validation was performed. No APK was rebuilt, as requested.
 
 **In scope:** every v1 feature in [PRD](PRD.md) §5, the content pack, the generated assets, the release build and the Google Play submission.
 
@@ -49,6 +92,10 @@ This document defines how Home Workout is tested: scope, test levels, tools, dev
 | **Release testing** | Internal → closed (12+ testers, 14 days) → staged rollout | Google Play Console | Phase 12 | Product owner |
 
 **Coverage targets:** ≥ 90% line coverage for `player`, `report`, `challenges`, `backup` and the content generator. ≥ 70% overall.
+
+Run `npm run qa:release` before Android release testing. It resolves the production Expo config locally, checks permission-removal directives, disabled cloud backup/updates, and scans application sources for network APIs, remote SVG loaders and URLs. It does not build or inspect a merged APK manifest, prove native dependency permissions, or replace airplane-mode scenario S11. Those checks still require an Android build and device.
+
+Reminder/audio device follow-up (installed Android build): schedule the next selected weekday/time and verify delivery with airplane mode, app closed and after reboot. Deny app permission and block the reminder channel separately; saving must show recovery rather than success. Change time/days repeatedly, then turn reminders off and confirm all seven owned identifiers are gone. Check foreground reminder sound against the system channel/mute settings. In a workout, verify 3–2–1, transition and completion cues, independent vibration, sound off during playback, music ducking, phone lock/call/background suppression and return without replaying missed cues. Expo Go does not exercise reminders in this project; automated hook tests do not prove physical sound or notification delivery.
 
 ---
 
@@ -409,9 +456,28 @@ Evidence:     screenshot / screen recording
 
 ---
 
+## Offline animation expansion — October 5, 2026
+
+Full check passes typecheck/lint and 328 tests across 72 suites with `npm run check -- -- --runInBand --testTimeout=20000`. The initial concurrent export/check run hit one existing five-second browse-test timeout; the complete rerun passed. Tests verify licensed catalog mappings, embedded PNG signatures/data URIs, root/nested background removal, retained fallback, pause/focus/background/Reduce Motion and cobra's single playback segment. The source-title regression prevents assigning the reviewed standing squat to Sit-Up or the seated knee-tuck to Reverse Crunch.
+
+Follow-up: three further demos pass the complete typecheck/lint and 329-test/72-suite check. A regression verifies that the decorative donkey-kick label is removed while its body layer remains. Release preflight passes. The three source compositions have genuine animated properties, no expressions, no font references and no raster dependencies. Offline production Android export passes (4,889 modules; Hermes bundle entry-9fdf8be187aee6705d069395427c4164.hbc). This verifies packaging, not physical playback.
+
+Native follow-up: run all eighteen mapped exercises in airplane mode, including the fifteen previews added after the original three listed in [ANIMATION_COVERAGE](ANIMATION_COVERAGE.md). Check raster parts and nested compositions decode, full-body framing, pause/resume, tab changes, background/foreground, Image selection and Reduce Motion. Cobra must rise once and remain held after returning from background. Compare each demonstration with its instructions and have form/framing approved on a real phone. Automated tests and JS export do not complete this native pass. No APK is built in this task.
+
 ## 13. Revision History
+
+October 5, 2026: Free-only follow-up: reviewed original/generated SVG keyframes for Plank and Flutter Kicks. Regression checks preserve plank paths/rotations while cropping unused canvas and enforce single-entry hold playback. Updated isolated guide focus and static-fallback test assumptions. Production Android export passed: 4,891 modules, entry-541f3577a95fbb92ecbd245c83a67212.hbc. Release preflight passed. Final npm run check passes typecheck, lint and 330 tests / 72 suites (153.058 seconds). Installed-device decoding/form/framing and airplane-mode QA remain required for all 20 demos. No APK built.
 
 | Version | Date | Changes |
 |---|---|---|
 | 1.0 | Sep 23, 2026 | First version |
 | 1.1 | Sep 23, 2026 | Completeness audit: tests for Quiet Mode, content placements, rig coverage, variations, pickers, favourites, recent, goal lists, share card, what's new, achievements screen |
+| 1.2 | Oct 1, 2026 | Added local production preflight command and clarified its limits relative to merged APK and Android scenario checks |
+| 1.3 | Oct 1, 2026 | Added installed-build reminder/audio follow-up scenarios and limits of automated lifecycle tests |
+| 1.5 | Oct 5, 2026 | Offline demo expansion evidence, initial timeout/rerun and required native decoding/hold/framing checks |
+
+| 1.6 | Oct 5, 2026 | Add free plank/flutter-kick demos, reviewed framing and current 20/119 coverage |
+
+| 1.7 | October 13, 2026 | Seven further animation mappings; 116/119, exact exclusions and final validation in ANIMATION_FINAL_REVIEW |
+
+| 1.8 | October 13, 2026 | Complete 119/119 local animation mappings; source limitations and device QA remain documented |

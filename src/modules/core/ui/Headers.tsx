@@ -11,10 +11,10 @@ import { Text } from './Text';
 // they differ only in the leading and trailing slots.
 
 /** Tab screens: uppercase app-style title plus actions. */
-export function TabHeader({ title, actions }: { title: string; actions?: ReactNode }) {
+export function TabHeader({ title, actions, compact = false }: { title: string; actions?: ReactNode; compact?: boolean }) {
   return (
     <View style={styles.header}>
-      <Text variant="tabHeader" style={styles.grow} numberOfLines={1}>
+      <Text variant={compact ? 'tabHeaderCompact' : 'tabHeader'} style={styles.grow} numberOfLines={1}>
         {title}
       </Text>
       {actions ? <View style={styles.actions}>{actions}</View> : null}
@@ -69,7 +69,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     gap: spacing[3],
-    paddingHorizontal: spacing[4],
+    paddingHorizontal: spacing[0],
   },
   grow: { flex: 1 },
   actions: { flexDirection: 'row', alignItems: 'center', gap: spacing[3] },

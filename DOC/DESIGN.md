@@ -1,19 +1,39 @@
 # 🎨 Design System
 
+October 2 challenge-card spacing: card bodies use natural content height instead of flex expansion; each carousel card aligns to its own height. This keeps the CTA directly below its copy with token-based padding, avoiding the large blank middle caused by taller neighbouring cards. Existing character/title placement is retained per owner clarification.
+
+October 2 startup refinement: on cold launch, native splash hands off to a branded page with a 160 dp character logo, app name/tagline and accessible progress line. Keep this page visible for at least 1.2 seconds after layout, and longer if fonts/database are still preparing. Continue to the existing onboarding/home route only after readiness and progress completion. Reduce Motion displays progress without animation. Installed Android startup visual QA remains pending.
+
+October 1 onboarding refinement uses the established white/plain pages, blue CTA and selected-card tint, branded paired-character welcome, top Back/progress controls, fixed safe-area footer and structured review. Supplied references contain no onboarding captures. Owner-requested workout-detail recommendations now use blue/purple/slate gradient cards; this explicitly supersedes their earlier plain-row treatment.
+
+Latest owner full-scroll targets take precedence over earlier screenshots: Training uses a dates-only weekly card (no coach bubble), 260 dp compact challenge variant, body-focus columns with a next-column peek and synchronised chip/swipe selection, recent/goal links above duration links and compact plain recommendation rows. Builder previews keep the create promotion and route to the full saved-workout screen; goal results remain grouped by the selected goal. Discover places titles over a transparent-to-dark gradient on beginner/challenge artwork, inserts functional equipment browsing before Stretch and reserves below-image captions for Stretch. Featured artwork spans the banner; Explore is 104 dp with a trailing pill. Existing distinct original cutouts remain, so photo backgrounds differ from the target. Main sections/actions are wired; native pixel parity is unverified.
+
+Second UI recheck: detail exercise/related rows share the content edge; related rows include duration/level and Customize is a secondary footer link. Featured challenge tiles follow time/level, then focus/home. Rest settings use the existing three-row wheel within a Default/Custom/enable/Done sheet; selecting Default resets wheel position as well as value. Link buttons have a 48 dp touch region. Native pixel verification remains pending.
+
+Reference comparison addendum: see [REFERENCE_AUDIT](REFERENCE_AUDIT.md) for all 25 screens and remaining differences. Challenge portrait frames use a fixed 180 dp height/50% width, a wider fitted title column and dedicated 24/28 title typography; core/calisthenics assets now have upright framing. Banners use sentence-case 22/28 typography. Screen/sheet padding owns horizontal header insets. Training weekly goal is grouped in one card. Workout details use full-width hero plus floating back/rounded content; Report's core order is totals → history calendar → weight → BMI. Settings shortcuts use grouped rows. Native pixel parity is not yet verified.
+
+October 1 implementation addendum: categories use dedicated, opaque transparent-cutout artwork beside reserved text space; every workout detail has a contain-fit top photo. Challenge art is unique per plan. Discover image cards show captions below the photo, with no black caption panel. SVG alpha gradients split RGB and stop opacity for Android. Onboarding uses portrait selection, full-width radio choices, step progress and a scrollable body above a safe-area action footer. Startup bridges native splash to branded font/database progress without an artificial multi-second wait. Native/reference QA remains pending.
+
 ### Home Workout – Bold, Clear, Motivating
 
 This document defines the visual design system for Home Workout: colours, typography, components, layout, motion and accessibility. The look **follows the reference app** in `reference-img/` (layout, colour and component patterns). Every colour marked **Ref** was measured directly from those screenshots. All names, copy, illustrations and icons are original, and colours were adjusted only where needed to meet WCAG AA contrast.
 
 | Field | Details |
 |---|---|
-| **Version** | 1.1 |
-| **Last updated** | September 23, 2026 |
+| **Version** | 1.5 |
+| **Last updated** | October 1, 2026 |
 | **Status** | Draft – colour adjustments (ADR-027) and font choice (ADR-026) are proposed |
 | **Related** | [PRD](PRD.md) · [ARCHITECTURE](ARCHITECTURE.md) · [RULES](RULES.md) · [DECISIONS](DECISIONS.md) |
 
 ---
 
 ## 1. Design Principles
+
+> **Current exercise-media override (Sep 29, 2026, ADR-056):** Use one locally bundled, full-colour static pose image per exercise. Character palettes, motion arcs and animation-stage requirements below remain historical proposals while animation work is paused. Keep the whole demonstrated body visible at both thumbnail and player sizes. The original side-plank illustration is a style study, not final catalog approval.
+
+**Artwork framing (Oct 1):** Exercise thumbnails, guides and player stages contain the complete pose with separate padding tokens. Browse overlay cards reserve bottom space for titles. Challenge artwork occupies the top-right 44% width / 48% height, leaving a 56% title column; banners reserve a right-side artwork slot. Original male photographic cutouts provide browse/hero art, while exercise instructions retain their own pose images. Transparent assets are trimmed to their silhouette in the build; opaque assets are never cropped. See [CHARACTER_ASSETS](CHARACTER_ASSETS.md). Native screenshot comparison remains pending.
+
+**Inclusive realistic direction (Oct 1, ADR-060):** The owner requested both men and women and prefers realistic exercise imagery. Original paired portraits appear on shared challenge/collection cards; other banners vary male/female subjects. Workout covers select a pose actually present in the workout and relevant to its muscle focus. Discover uses white/plain rows below its coloured banners, full-width category heroes with compact divided lists, body-focus silhouettes and bottom-only photo-title scrims. Exercise cutouts use `contain`; palette PNG optimization preserves their alpha. Exact native sizing, form and small-screen clarity still require QA.
 
 | Principle | What it means in practice |
 |---|---|
@@ -43,6 +63,7 @@ This document defines the visual design system for Home Workout: colours, typogr
 | `flame` | `#FF4762` | Streak flame | Ref |
 | `tagBg` / `tagText` | `#FEF0D3` / `#22140C` | "CUSTOMIZED FOR YOU" tag | Ref |
 | `statIcon` | `#98B7FF` | Duotone accent in report stat icons | Ref |
+| `onPrimarySoft` | `rgba(255,255,255,0.2)` | See-through white pills on gradient cards (Home) | New |
 
 **Brand gradients**
 
@@ -307,6 +328,7 @@ All components live in `src/modules/core/ui` (see [ARCHITECTURE](ARCHITECTURE.md
 | **Exercise guide sheet** | Title 22/800 UPPER. Media box radius 16 on `surface.stage`. Primary segmented control (Animation / Muscle / How to do). Then DURATION (value right, 17/700 `text.secondary`), INSTRUCTIONS, FOCUS AREA chips, front + back muscle map, COMMON MISTAKES (numbered), BREATHING TIPS (bullets), and "Easier" / "Harder" outline pills when valid variations exist ([CONTENT_MAP](CONTENT_MAP.md) §3). Sticky **CLOSE** Primary button. |
 | **Rest stage** | During rest, the upper half shows the next exercise's animation on white with 32 dp rounded bottom corners, above the `restBg` panel. |
 | **Full-screen modal** | Quit / finish screens: `gradient.finish` background with the faded player stage behind it, 100 dp icon circle, message `h1` centred, Primary + Secondary buttons, Plain link. |
+| **Completion progress / share card** | Finish progress includes a weekly ring counting distinct active days. The local 1080×1350 share image uses `shareCardLayout` export tokens, the current light/dark finish gradient, theme colours, Poppins families, translation keys and configured app name. Native SVG font/rendering and system share-sheet QA remain. |
 | **Dialog** | Centred card, radius 20, padding 24, title 20/700, body `body`, buttons side by side. The destructive action uses an `error` fill. |
 | **Toast** | Bottom, 24 dp above the tab bar, `#1D2025` background, 15/500 white, radius 12, 3 seconds. |
 | **Celebration** | Scrim + celebration Lottie + badge + title `h1` + Primary "Nice!" button. |
@@ -668,7 +690,20 @@ The reference is flat: cards sit on `bg.page` without shadows.
 | Report tab | `…135844…` |
 | Weight log sheet | `…135916…` |
 
-### 12.4 Deliberate Differences from the Reference
+### 12.4 Home (plan-first, ADR-066)
+
+The Training tab shows one plan, not the catalogue (that stays in Discover). Same blue brand, more vivid: gradient hero cards, `onPrimarySoft` pills, short `FadeIn` entrances (skipped under Reduce Motion).
+
+| Home | Sections, top to bottom |
+|---|---|
+| **New user** (no active plan, no session) | Colourful welcome → recommended plan card with **Start day 1** and **Customize my plan** → "How it works" (3 steps) → first week's path → Explore |
+| **Returning user** | Greeting with streak → today's plan day (name, minutes, exercise previews, **Start**) → this week's path with progress → Customize tiles (change plan, quick 5 min, stretch, create your own) → suggested workouts → Explore |
+
+**Finish screen after a plan day (ADR-067):** a gradient card under the title pops in with a spring (static under Reduce Motion). Blue card: party icon, "Day X done!", plan progress, then an `onPrimarySoft` row with tomorrow's day and workout (moon icon if it is a rest day). Orange card on the last day: trophy, "Plan complete!" and **Choose your next plan**.
+
+`PlanPath` shows seven day nodes: done, today, rest and upcoming. The `/plan` screen lets the user change goal, level and days per week, then shows the best plan and all plans.
+
+### 12.5 Deliberate Differences from the Reference
 
 | Reference | Home Workout v1 | Why |
 |---|---|---|
@@ -694,3 +729,7 @@ The reference is flat: cards sit on `bg.page` without shadows.
 |---|---|---|
 | 1.0 | Sep 23, 2026 | First version. Colours measured from 25 reference screenshots and checked for WCAG contrast. |
 | 1.1 | Sep 23, 2026 | Completeness audit: two challenge-card variants, list-row weight, exercise row, grid card, date and time pickers, rest stage, favourites, icon fixes, more documented differences |
+| 1.2 | Sep 29, 2026 | Full-colour static pose style study replaces monochrome source sample (ADR-056) |
+| 1.3 | Oct 1, 2026 | Documented weekly active-day ring and completion share-card theme/export conventions |
+| 1.4 | Oct 1, 2026 | Added reference-informed male browse artwork and separate hero/card/exercise framing; documented transparent replacement pipeline |
+| 1.5 | Oct 1, 2026 | Added owner-directed realistic male/female/pair art, muscle-relevant covers and coloured-header/plain-row Discover framing |

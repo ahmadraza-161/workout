@@ -23,7 +23,7 @@ export function Tag({ label, cardRadius = radius.xl }: { label: string; cardRadi
 
 const styles = StyleSheet.create({
   tag: {
-    height: 24,
+    minHeight: 24,
     paddingHorizontal: 10,
     justifyContent: 'center',
     alignSelf: 'flex-start',

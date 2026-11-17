@@ -1,0 +1,30 @@
+// Original interface copy; preserved alongside generated catalog translations.
+export const BROWSE_STRINGS = {
+  animation: 'Animation', image: 'Image', preview: 'Exercise preview',
+  startHere: 'Start here', startHereHint: 'A no-equipment routine for your experience. Review the exercises, then tap Start.',
+  reviewWorkout: 'Review workout',
+  forYourGoal: 'Picked for your goal', viewPlan: 'View plan', days: 'Days', dailyMinutes: 'Min / day',
+  focus: 'Focus', level: 'Level', schedule: 'Your plan', more: 'More', recommended: 'Recommended',
+  justForYou: 'Just for you', picks: 'Picks for you', beginners: 'For beginners', fast: 'Fast workouts',
+  stretchWarmup: 'Stretch & warm up', popularGoals: 'Popular goals', warmup: 'Warm up',
+  featured: 'Your next workout', recent: 'Recently completed', workoutCount: '%{count} workouts',
+  durationLevel: '%{minutes} min · %{level}',
+  exerciseCount: '%{count} exercises', introduction: 'Introduction',
+  homeWorkout: 'At home', location: 'Workout space',
+  equipment: 'With equipment', equipmentHint: 'Try routines with a sturdy chair, wall or optional light weights.',
+  equipmentAction: 'Browse workouts', stretch: 'Stretch', go: 'Go', savedWorkouts: '%{count} saved routines',
+  createHint: 'Choose your exercises and make a routine that fits your day.',
+  explore: 'Explore more workouts', exploreHint: 'Find a new routine in Discover.',
+  feedback: 'Your feedback note', note: 'Note',
+  feedbackHint: 'Keep a note on this phone. It is included when you export a backup from Settings.',
+  duration: { short: 'Under 7 min', medium: '7–15 min', long: 'Over 15 min' },
+  goal: { build_muscle: 'Build muscle', burn_fat: 'Burn fat', keep_fit: 'Keep fit', flexibility: 'Flexibility' },
+  group: { quick: 'Fast workouts', stretch: 'Stretch & warm up', equipment: 'With equipment', warmup: 'Warm up', beginners: 'For beginners',
+    recommended: 'Recommended for you', recent: 'Recently completed', collection: 'Collection', category: 'Body focus' },
+};
+export const CHALLENGE_UI_STRINGS = {
+  startDay: 'Start day %{count}', day: 'Day %{count}', rest: 'Rest day', completed: 'Completed',
+  current: 'Next', locked: 'Locked', complete: 'Plan completed', leave: 'Leave challenge', restart: 'Restart challenge',
+  leaveTitle: 'Leave this challenge?', leaveBody: 'Your completed workouts stay in your history. You can restart the plan later.',
+  filter: { all: 'All', build_muscle: 'Build muscle', burn_fat: 'Burn fat', full_body: 'Full body', flexibility: 'Flexibility' },
+};

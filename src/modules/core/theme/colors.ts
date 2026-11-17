@@ -12,6 +12,8 @@ export interface ThemeColors {
   primaryTint: string;
   primaryBorderSoft: string;
   onPrimary: string;
+  /** Translucent white for pills and icon wells on saturated gradient cards. */
+  onPrimarySoft: string;
   ringProgress: string;
   restBg: string;
   flame: string;
@@ -75,6 +77,7 @@ export const lightColors: ThemeColors = {
   primaryTint: '#E7EEFF',
   primaryBorderSoft: '#CCDBFF',
   onPrimary: '#FFFFFF',
+  onPrimarySoft: 'rgba(255,255,255,0.2)',
   ringProgress: '#0074FF',
   restBg: '#005DFF',
   flame: '#FF4762',
@@ -193,6 +196,8 @@ export const gradients = {
   darkTile: ['#2E3548', '#2D3245'],
   finishLight: ['#EFF3FF', '#EBF1FF'],
   finishDark: ['#131827', '#101521'],
+  mediaScrim: ['rgba(0,0,0,0)', 'rgba(0,0,0,0.82)'],
+  bannerScrim: ['rgba(0,0,0,0)', 'rgba(0,0,0,0.65)'],
 } as const satisfies Record<string, GradientStops>;
 
 // Challenge & artwork gradients: start = text side (≥ 4.5:1 with white),

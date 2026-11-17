@@ -10,9 +10,7 @@ const VISIBLE = 3;
 // Wheel picker (DESIGN §4.2): three visible rows of 64 dp, the middle one
 // highlighted. Used for rest and prep times and for the time picker.
 //
-// The design calls for a haptic tick on each change. `expo-haptics` is not
-// installed yet and haptics belong with the player's cue work (T5.9), so the
-// tick is wired there; the picker works correctly without it.
+// Callers can opt into haptic feedback through onTick.
 export interface WheelPickerProps<T extends string | number> {
   options: readonly T[];
   value: T;
@@ -39,10 +37,9 @@ export function WheelPicker<T extends string | number>({
   // Android ignores ScrollView's contentOffset, so scroll to the selected row
   // once the list is laid out.
   useEffect(() => {
+    lastIndex.current = selectedIndex;
     scrollRef.current?.scrollTo({ y: selectedIndex * ROW, animated: false });
-    // Only on mount: later changes come from the user scrolling.
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  }, [selectedIndex]);
 
   const onMomentumEnd = useCallback(
     (event: NativeSyntheticEvent<NativeScrollEvent>) => {
@@ -67,6 +64,17 @@ export function WheelPicker<T extends string | number>({
       accessibilityRole="adjustable"
       accessibilityLabel={accessibilityLabel}
       accessibilityValue={{ text: format(value) }}
+      accessibilityActions={[{ name: 'increment' }, { name: 'decrement' }]}
+      onAccessibilityAction={(event) => {
+        const delta = event.nativeEvent.actionName === 'increment' ? 1 : -1;
+        const nextIndex = Math.min(options.length - 1, Math.max(0, selectedIndex + delta));
+        const next = options[nextIndex];
+        if (nextIndex === selectedIndex || next === undefined) return;
+        lastIndex.current = nextIndex;
+        scrollRef.current?.scrollTo({ y: nextIndex * ROW, animated: false });
+        onChange(next);
+        onTick?.();
+      }}
     >
       <View style={[styles.highlight, { backgroundColor: colors.surface.picker }]} pointerEvents="none" />
       <ScrollView

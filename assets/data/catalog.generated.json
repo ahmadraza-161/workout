@@ -3709,73 +3709,73 @@
       "items": [
         {
           "exerciseNumber": 4,
-          "seconds": 25,
+          "seconds": 20,
           "rest": 20
         },
         {
           "exerciseNumber": 10,
-          "reps": 8,
+          "reps": 7,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 52,
+          "seconds": 32,
           "rest": 20
         },
         {
           "exerciseNumber": 45,
-          "reps": 10,
+          "reps": 11,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 46,
+          "reps": 11,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 48,
+          "seconds": 32,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 47,
+          "reps": 11,
           "rest": 20
         },
         {
           "exerciseNumber": 44,
-          "reps": 10,
+          "reps": 11,
           "rest": 20
         },
         {
-          "exerciseNumber": 44,
-          "reps": 10,
+          "exerciseNumber": 53,
+          "seconds": 32,
           "rest": 20
         },
         {
-          "exerciseNumber": 45,
-          "reps": 10,
-          "rest": 20
-        },
-        {
-          "exerciseNumber": 45,
-          "reps": 10,
-          "rest": 20
-        },
-        {
-          "exerciseNumber": 44,
-          "reps": 10,
-          "rest": 20
-        },
-        {
-          "exerciseNumber": 44,
-          "reps": 10,
-          "rest": 20
-        },
-        {
-          "exerciseNumber": 45,
-          "reps": 10,
+          "exerciseNumber": 52,
+          "seconds": 32,
           "rest": 20
         },
         {
           "exerciseNumber": 113,
-          "seconds": 25,
+          "seconds": 20,
           "rest": 20
         },
         {
           "exerciseNumber": 110,
-          "seconds": 25,
+          "seconds": 20,
           "rest": 20,
           "side": "left"
         },
         {
           "exerciseNumber": 110,
-          "seconds": 25,
+          "seconds": 20,
           "rest": 20,
           "side": "right"
         }
       ],
-      "totalSeconds": 604,
+      "totalSeconds": 601,
       "mainCount": 8,
       "blockSizeFlexed": false
     },
@@ -3798,88 +3798,83 @@
         {
           "exerciseNumber": 4,
           "seconds": 30,
-          "rest": 17
+          "rest": 19
         },
         {
           "exerciseNumber": 8,
           "seconds": 30,
-          "rest": 17
+          "rest": 19
+        },
+        {
+          "exerciseNumber": 52,
+          "seconds": 49,
+          "rest": 19
+        },
+        {
+          "exerciseNumber": 47,
+          "reps": 16,
+          "rest": 19
+        },
+        {
+          "exerciseNumber": 46,
+          "reps": 16,
+          "rest": 19
+        },
+        {
+          "exerciseNumber": 51,
+          "seconds": 49,
+          "rest": 19
+        },
+        {
+          "exerciseNumber": 44,
+          "reps": 16,
+          "rest": 19
+        },
+        {
+          "exerciseNumber": 48,
+          "seconds": 49,
+          "rest": 19
         },
         {
           "exerciseNumber": 45,
-          "reps": 15,
-          "rest": 17
+          "reps": 16,
+          "rest": 19
         },
         {
-          "exerciseNumber": 44,
-          "reps": 15,
-          "rest": 17
+          "exerciseNumber": 53,
+          "seconds": 49,
+          "rest": 19
         },
         {
-          "exerciseNumber": 44,
-          "reps": 15,
-          "rest": 17
+          "exerciseNumber": 42,
+          "reps": 16,
+          "rest": 19
         },
         {
-          "exerciseNumber": 45,
-          "reps": 15,
-          "rest": 17
-        },
-        {
-          "exerciseNumber": 44,
-          "reps": 15,
-          "rest": 17
-        },
-        {
-          "exerciseNumber": 45,
-          "reps": 15,
-          "rest": 17
-        },
-        {
-          "exerciseNumber": 44,
-          "reps": 15,
-          "rest": 17
-        },
-        {
-          "exerciseNumber": 45,
-          "reps": 15,
-          "rest": 17
-        },
-        {
-          "exerciseNumber": 45,
-          "reps": 15,
-          "rest": 17
-        },
-        {
-          "exerciseNumber": 44,
-          "reps": 15,
-          "rest": 17
-        },
-        {
-          "exerciseNumber": 44,
-          "reps": 15,
-          "rest": 17
+          "exerciseNumber": 42,
+          "reps": 16,
+          "rest": 19
         },
         {
           "exerciseNumber": 114,
           "seconds": 30,
-          "rest": 17
+          "rest": 19
         },
         {
           "exerciseNumber": 109,
           "seconds": 30,
-          "rest": 17,
+          "rest": 19,
           "side": "left"
         },
         {
           "exerciseNumber": 109,
           "seconds": 30,
-          "rest": 17,
+          "rest": 19,
           "side": "right"
         }
       ],
       "totalSeconds": 900,
-      "mainCount": 11,
+      "mainCount": 10,
       "blockSizeFlexed": false
     },
     {
@@ -3909,78 +3904,73 @@
           "rest": 15
         },
         {
-          "exerciseNumber": 45,
-          "reps": 17,
+          "exerciseNumber": 51,
+          "seconds": 60,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 48,
+          "seconds": 60,
           "rest": 15
         },
         {
           "exerciseNumber": 44,
-          "reps": 17,
-          "rest": 15
-        },
-        {
-          "exerciseNumber": 45,
-          "reps": 17,
-          "rest": 15
-        },
-        {
-          "exerciseNumber": 44,
-          "reps": 17,
-          "rest": 15
-        },
-        {
-          "exerciseNumber": 44,
-          "reps": 17,
+          "reps": 18,
           "rest": 15
         },
         {
           "exerciseNumber": 45,
-          "reps": 17,
+          "reps": 18,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 42,
+          "reps": 16,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 48,
+          "seconds": 60,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 51,
+          "seconds": 60,
           "rest": 15
         },
         {
           "exerciseNumber": 45,
-          "reps": 17,
+          "reps": 18,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 42,
+          "reps": 16,
           "rest": 15
         },
         {
           "exerciseNumber": 44,
-          "reps": 17,
+          "reps": 18,
           "rest": 15
         },
         {
           "exerciseNumber": 44,
-          "reps": 17,
+          "reps": 18,
+          "rest": 15
+        },
+        {
+          "exerciseNumber": 51,
+          "seconds": 60,
           "rest": 15
         },
         {
           "exerciseNumber": 45,
-          "reps": 17,
+          "reps": 18,
           "rest": 15
         },
         {
-          "exerciseNumber": 44,
-          "reps": 17,
-          "rest": 15
-        },
-        {
-          "exerciseNumber": 45,
-          "reps": 17,
-          "rest": 15
-        },
-        {
-          "exerciseNumber": 44,
-          "reps": 17,
-          "rest": 15
-        },
-        {
-          "exerciseNumber": 45,
-          "reps": 17,
-          "rest": 15
-        },
-        {
-          "exerciseNumber": 44,
-          "reps": 17,
+          "exerciseNumber": 48,
+          "seconds": 60,
           "rest": 15
         },
         {
@@ -4002,7 +3992,7 @@
         }
       ],
       "totalSeconds": 1200,
-      "mainCount": 15,
+      "mainCount": 14,
       "blockSizeFlexed": true
     },
     {
@@ -7078,73 +7068,78 @@
           "side": "right"
         },
         {
-          "exerciseNumber": 38,
-          "seconds": 50,
+          "exerciseNumber": 46,
+          "reps": 15,
           "rest": 20
         },
         {
-          "exerciseNumber": 35,
-          "reps": 16,
-          "rest": 20
-        },
-        {
-          "exerciseNumber": 31,
-          "reps": 17,
-          "rest": 20
-        },
-        {
-          "exerciseNumber": 34,
-          "reps": 17,
-          "rest": 20
-        },
-        {
-          "exerciseNumber": 33,
-          "reps": 17,
-          "rest": 20
-        },
-        {
-          "exerciseNumber": 30,
-          "reps": 17,
+          "exerciseNumber": 40,
+          "seconds": 44,
           "rest": 20
         },
         {
           "exerciseNumber": 32,
-          "reps": 17,
+          "reps": 15,
           "rest": 20
         },
         {
-          "exerciseNumber": 36,
-          "reps": 16,
+          "exerciseNumber": 42,
+          "reps": 15,
           "rest": 20
         },
         {
-          "exerciseNumber": 37,
-          "reps": 14,
+          "exerciseNumber": 34,
+          "reps": 15,
           "rest": 20
         },
         {
-          "exerciseNumber": 39,
-          "reps": 16,
+          "exerciseNumber": 30,
+          "reps": 15,
           "rest": 20
         },
         {
-          "exerciseNumber": 41,
-          "reps": 16,
+          "exerciseNumber": 33,
+          "reps": 15,
           "rest": 20
         },
         {
-          "exerciseNumber": 40,
-          "seconds": 50,
+          "exerciseNumber": 35,
+          "reps": 15,
           "rest": 20
         },
         {
           "exerciseNumber": 31,
-          "reps": 17,
+          "reps": 15,
           "rest": 20
         },
         {
-          "exerciseNumber": 40,
-          "seconds": 50,
+          "exerciseNumber": 43,
+          "reps": 15,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 52,
+          "seconds": 44,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 48,
+          "seconds": 44,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 38,
+          "seconds": 44,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 53,
+          "seconds": 44,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 44,
+          "reps": 15,
           "rest": 20
         },
         {
@@ -7159,7 +7154,7 @@
         }
       ],
       "totalSeconds": 1200,
-      "mainCount": 14,
+      "mainCount": 15,
       "blockSizeFlexed": true
     },
     {
@@ -7181,122 +7176,138 @@
         {
           "exerciseNumber": 7,
           "seconds": 30,
-          "rest": 20
+          "rest": 19
         },
         {
           "exerciseNumber": 3,
           "seconds": 30,
-          "rest": 20
+          "rest": 19
         },
         {
           "exerciseNumber": 2,
           "seconds": 30,
-          "rest": 20
-        },
-        {
-          "exerciseNumber": 79,
-          "reps": 15,
-          "rest": 20,
-          "side": "left"
-        },
-        {
-          "exerciseNumber": 79,
-          "reps": 15,
-          "rest": 20,
-          "side": "right"
+          "rest": 19
         },
         {
           "exerciseNumber": 78,
-          "reps": 15,
-          "rest": 20
+          "reps": 13,
+          "rest": 19
         },
         {
-          "exerciseNumber": 67,
-          "seconds": 45,
-          "rest": 20
+          "exerciseNumber": 77,
+          "reps": 13,
+          "rest": 19,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 77,
+          "reps": 13,
+          "rest": 19,
+          "side": "right"
         },
         {
           "exerciseNumber": 70,
-          "reps": 15,
-          "rest": 20
+          "reps": 13,
+          "rest": 19
+        },
+        {
+          "exerciseNumber": 74,
+          "reps": 13,
+          "rest": 19,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 74,
+          "reps": 13,
+          "rest": 19,
+          "side": "right"
         },
         {
           "exerciseNumber": 81,
-          "reps": 15,
-          "rest": 20,
+          "reps": 13,
+          "rest": 19,
           "side": "left"
         },
         {
           "exerciseNumber": 81,
-          "reps": 15,
-          "rest": 20,
+          "reps": 13,
+          "rest": 19,
           "side": "right"
         },
         {
           "exerciseNumber": 65,
-          "reps": 15,
-          "rest": 20
-        },
-        {
-          "exerciseNumber": 68,
-          "reps": 15,
-          "rest": 20
-        },
-        {
-          "exerciseNumber": 66,
-          "seconds": 45,
-          "rest": 20
+          "reps": 13,
+          "rest": 19
         },
         {
           "exerciseNumber": 72,
-          "reps": 15,
-          "rest": 20,
+          "reps": 13,
+          "rest": 19,
           "side": "left"
         },
         {
           "exerciseNumber": 72,
-          "reps": 15,
-          "rest": 20,
+          "reps": 13,
+          "rest": 19,
           "side": "right"
         },
         {
-          "exerciseNumber": 64,
-          "reps": 15,
-          "rest": 20
+          "exerciseNumber": 68,
+          "reps": 13,
+          "rest": 19
         },
         {
-          "exerciseNumber": 80,
-          "reps": 15,
-          "rest": 20
+          "exerciseNumber": 75,
+          "reps": 13,
+          "rest": 19
         },
         {
-          "exerciseNumber": 69,
-          "reps": 15,
-          "rest": 20
+          "exerciseNumber": 66,
+          "seconds": 40,
+          "rest": 19
         },
         {
-          "exerciseNumber": 80,
-          "reps": 15,
-          "rest": 20
+          "exerciseNumber": 79,
+          "reps": 13,
+          "rest": 19,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 79,
+          "reps": 13,
+          "rest": 19,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 76,
+          "reps": 13,
+          "rest": 19,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 76,
+          "reps": 13,
+          "rest": 19,
+          "side": "right"
         },
         {
           "exerciseNumber": 105,
           "seconds": 30,
-          "rest": 20
+          "rest": 19
         },
         {
           "exerciseNumber": 118,
           "seconds": 30,
-          "rest": 20
+          "rest": 19
         },
         {
           "exerciseNumber": 113,
           "seconds": 30,
-          "rest": 20
+          "rest": 19
         }
       ],
       "totalSeconds": 1320,
-      "mainCount": 13,
+      "mainCount": 12,
       "blockSizeFlexed": false
     },
     {
@@ -7319,92 +7330,92 @@
         {
           "exerciseNumber": 7,
           "seconds": 35,
-          "rest": 20
+          "rest": 19
         },
         {
           "exerciseNumber": 2,
           "seconds": 35,
-          "rest": 20
+          "rest": 19
         },
         {
-          "exerciseNumber": 40,
-          "seconds": 50,
-          "rest": 20
+          "exerciseNumber": 44,
+          "reps": 17,
+          "rest": 19
         },
         {
           "exerciseNumber": 30,
           "reps": 17,
-          "rest": 20
-        },
-        {
-          "exerciseNumber": 37,
-          "reps": 14,
-          "rest": 20
-        },
-        {
-          "exerciseNumber": 38,
-          "seconds": 50,
-          "rest": 20
-        },
-        {
-          "exerciseNumber": 36,
-          "reps": 16,
-          "rest": 20
-        },
-        {
-          "exerciseNumber": 32,
-          "reps": 17,
-          "rest": 20
-        },
-        {
-          "exerciseNumber": 41,
-          "reps": 16,
-          "rest": 20
-        },
-        {
-          "exerciseNumber": 33,
-          "reps": 17,
-          "rest": 20
-        },
-        {
-          "exerciseNumber": 31,
-          "reps": 17,
-          "rest": 20
-        },
-        {
-          "exerciseNumber": 34,
-          "reps": 17,
-          "rest": 20
+          "rest": 19
         },
         {
           "exerciseNumber": 39,
           "reps": 16,
-          "rest": 20
+          "rest": 19
         },
         {
-          "exerciseNumber": 35,
+          "exerciseNumber": 41,
           "reps": 16,
-          "rest": 20
+          "rest": 19
+        },
+        {
+          "exerciseNumber": 40,
+          "seconds": 50,
+          "rest": 19
+        },
+        {
+          "exerciseNumber": 33,
+          "reps": 17,
+          "rest": 19
+        },
+        {
+          "exerciseNumber": 45,
+          "reps": 17,
+          "rest": 19
+        },
+        {
+          "exerciseNumber": 32,
+          "reps": 17,
+          "rest": 19
+        },
+        {
+          "exerciseNumber": 31,
+          "reps": 17,
+          "rest": 19
+        },
+        {
+          "exerciseNumber": 34,
+          "reps": 17,
+          "rest": 19
+        },
+        {
+          "exerciseNumber": 42,
+          "reps": 16,
+          "rest": 19
+        },
+        {
+          "exerciseNumber": 38,
+          "seconds": 50,
+          "rest": 19
         },
         {
           "exerciseNumber": 106,
           "seconds": 35,
-          "rest": 20
+          "rest": 19
         },
         {
           "exerciseNumber": 117,
           "reps": 12,
-          "rest": 20,
+          "rest": 19,
           "side": "left"
         },
         {
           "exerciseNumber": 117,
           "reps": 12,
-          "rest": 20,
+          "rest": 19,
           "side": "right"
         }
       ],
-      "totalSeconds": 1086,
+      "totalSeconds": 1082,
       "mainCount": 12,
       "blockSizeFlexed": false
     },
@@ -7797,52 +7808,45 @@
       "items": [
         {
           "exerciseNumber": 4,
-          "seconds": 32,
-          "rest": 24
-        },
-        {
-          "exerciseNumber": 2,
-          "seconds": 32,
+          "seconds": 39,
           "rest": 24
         },
         {
           "exerciseNumber": 3,
-          "seconds": 32,
-          "rest": 24
-        },
-        {
-          "exerciseNumber": 6,
-          "seconds": 32,
-          "rest": 24,
-          "side": "left"
-        },
-        {
-          "exerciseNumber": 6,
-          "seconds": 32,
-          "rest": 24,
-          "side": "right"
-        },
-        {
-          "exerciseNumber": 9,
-          "seconds": 32,
+          "seconds": 39,
           "rest": 24
         },
         {
           "exerciseNumber": 8,
-          "seconds": 32,
+          "seconds": 39,
           "rest": 24
         },
         {
-          "exerciseNumber": 5,
-          "seconds": 32,
+          "exerciseNumber": 6,
+          "seconds": 39,
           "rest": 24,
           "side": "left"
         },
         {
-          "exerciseNumber": 5,
-          "seconds": 32,
+          "exerciseNumber": 6,
+          "seconds": 39,
           "rest": 24,
           "side": "right"
+        },
+        {
+          "exerciseNumber": 95,
+          "seconds": 39,
+          "rest": 24
+        },
+        {
+          "exerciseNumber": 97,
+          "seconds": 39,
+          "rest": 24
+        },
+        {
+          "exerciseNumber": 7,
+          "seconds": 39,
+          "rest": 24
         }
       ],
       "totalSeconds": 480,
@@ -8320,29 +8324,41 @@
       "placements": "Stretch & Warm Up · Discover Stretch",
       "items": [
         {
-          "exerciseNumber": 107,
+          "exerciseNumber": 114,
           "seconds": 39,
           "rest": 0
         },
         {
-          "exerciseNumber": 112,
+          "exerciseNumber": 119,
           "seconds": 39,
           "rest": 0,
           "side": "left"
         },
         {
-          "exerciseNumber": 112,
+          "exerciseNumber": 119,
           "seconds": 39,
           "rest": 0,
           "side": "right"
         },
         {
-          "exerciseNumber": 108,
+          "exerciseNumber": 115,
+          "seconds": 39,
+          "rest": 0,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 115,
+          "seconds": 39,
+          "rest": 0,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 104,
           "seconds": 39,
           "rest": 0
         },
         {
-          "exerciseNumber": 118,
+          "exerciseNumber": 105,
           "seconds": 39,
           "rest": 0
         },
@@ -8352,7 +8368,41 @@
           "rest": 0
         },
         {
-          "exerciseNumber": 113,
+          "exerciseNumber": 116,
+          "seconds": 39,
+          "rest": 0,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 116,
+          "seconds": 39,
+          "rest": 0,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 106,
+          "seconds": 39,
+          "rest": 0
+        },
+        {
+          "exerciseNumber": 105,
+          "seconds": 39,
+          "rest": 0
+        },
+        {
+          "exerciseNumber": 115,
+          "seconds": 39,
+          "rest": 0,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 115,
+          "seconds": 39,
+          "rest": 0,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 114,
           "seconds": 39,
           "rest": 0
         },
@@ -8362,64 +8412,6 @@
           "rest": 0
         },
         {
-          "exerciseNumber": 110,
-          "seconds": 39,
-          "rest": 0,
-          "side": "left"
-        },
-        {
-          "exerciseNumber": 110,
-          "seconds": 39,
-          "rest": 0,
-          "side": "right"
-        },
-        {
-          "exerciseNumber": 115,
-          "seconds": 39,
-          "rest": 0,
-          "side": "left"
-        },
-        {
-          "exerciseNumber": 115,
-          "seconds": 39,
-          "rest": 0,
-          "side": "right"
-        },
-        {
-          "exerciseNumber": 111,
-          "seconds": 39,
-          "rest": 0,
-          "side": "left"
-        },
-        {
-          "exerciseNumber": 111,
-          "seconds": 39,
-          "rest": 0,
-          "side": "right"
-        },
-        {
-          "exerciseNumber": 109,
-          "seconds": 39,
-          "rest": 0,
-          "side": "left"
-        },
-        {
-          "exerciseNumber": 109,
-          "seconds": 39,
-          "rest": 0,
-          "side": "right"
-        },
-        {
-          "exerciseNumber": 105,
-          "seconds": 39,
-          "rest": 0
-        },
-        {
-          "exerciseNumber": 114,
-          "seconds": 39,
-          "rest": 0
-        },
-        {
           "exerciseNumber": 116,
           "seconds": 39,
           "rest": 0,
@@ -8427,6 +8419,18 @@
         },
         {
           "exerciseNumber": 116,
+          "seconds": 39,
+          "rest": 0,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 119,
+          "seconds": 39,
+          "rest": 0,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 119,
           "seconds": 39,
           "rest": 0,
           "side": "right"
@@ -8451,132 +8455,120 @@
       "placements": "Stretch & Warm Up · Discover Stretch",
       "items": [
         {
+          "exerciseNumber": 107,
+          "seconds": 45,
+          "rest": 0
+        },
+        {
+          "exerciseNumber": 113,
+          "seconds": 45,
+          "rest": 0
+        },
+        {
           "exerciseNumber": 106,
-          "seconds": 41,
+          "seconds": 45,
           "rest": 0
         },
         {
           "exerciseNumber": 118,
-          "seconds": 41,
+          "seconds": 45,
           "rest": 0
-        },
-        {
-          "exerciseNumber": 109,
-          "seconds": 41,
-          "rest": 0,
-          "side": "left"
-        },
-        {
-          "exerciseNumber": 109,
-          "seconds": 41,
-          "rest": 0,
-          "side": "right"
-        },
-        {
-          "exerciseNumber": 113,
-          "seconds": 41,
-          "rest": 0
-        },
-        {
-          "exerciseNumber": 107,
-          "seconds": 41,
-          "rest": 0
-        },
-        {
-          "exerciseNumber": 105,
-          "seconds": 41,
-          "rest": 0
-        },
-        {
-          "exerciseNumber": 119,
-          "seconds": 41,
-          "rest": 0,
-          "side": "left"
-        },
-        {
-          "exerciseNumber": 119,
-          "seconds": 41,
-          "rest": 0,
-          "side": "right"
-        },
-        {
-          "exerciseNumber": 112,
-          "seconds": 41,
-          "rest": 0,
-          "side": "left"
-        },
-        {
-          "exerciseNumber": 112,
-          "seconds": 41,
-          "rest": 0,
-          "side": "right"
-        },
-        {
-          "exerciseNumber": 104,
-          "seconds": 41,
-          "rest": 0
-        },
-        {
-          "exerciseNumber": 110,
-          "seconds": 41,
-          "rest": 0,
-          "side": "left"
-        },
-        {
-          "exerciseNumber": 110,
-          "seconds": 41,
-          "rest": 0,
-          "side": "right"
-        },
-        {
-          "exerciseNumber": 115,
-          "seconds": 41,
-          "rest": 0,
-          "side": "left"
-        },
-        {
-          "exerciseNumber": 115,
-          "seconds": 41,
-          "rest": 0,
-          "side": "right"
-        },
-        {
-          "exerciseNumber": 111,
-          "seconds": 41,
-          "rest": 0,
-          "side": "left"
-        },
-        {
-          "exerciseNumber": 111,
-          "seconds": 41,
-          "rest": 0,
-          "side": "right"
         },
         {
           "exerciseNumber": 108,
-          "seconds": 41,
+          "seconds": 45,
           "rest": 0
         },
         {
-          "exerciseNumber": 116,
-          "seconds": 41,
+          "exerciseNumber": 110,
+          "seconds": 45,
           "rest": 0,
           "side": "left"
         },
         {
-          "exerciseNumber": 116,
-          "seconds": 41,
+          "exerciseNumber": 110,
+          "seconds": 45,
           "rest": 0,
           "side": "right"
         },
         {
-          "exerciseNumber": 114,
-          "seconds": 41,
+          "exerciseNumber": 109,
+          "seconds": 45,
+          "rest": 0,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 109,
+          "seconds": 45,
+          "rest": 0,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 111,
+          "seconds": 45,
+          "rest": 0,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 111,
+          "seconds": 45,
+          "rest": 0,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 109,
+          "seconds": 45,
+          "rest": 0,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 109,
+          "seconds": 45,
+          "rest": 0,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 112,
+          "seconds": 45,
+          "rest": 0,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 112,
+          "seconds": 45,
+          "rest": 0,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 106,
+          "seconds": 45,
+          "rest": 0
+        },
+        {
+          "exerciseNumber": 110,
+          "seconds": 45,
+          "rest": 0,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 110,
+          "seconds": 45,
+          "rest": 0,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 107,
+          "seconds": 45,
+          "rest": 0
+        },
+        {
+          "exerciseNumber": 113,
+          "seconds": 45,
           "rest": 0
         }
       ],
-      "totalSeconds": 902,
-      "mainCount": 15,
+      "totalSeconds": 900,
+      "mainCount": 14,
       "blockSizeFlexed": false
     },
     {
@@ -8596,127 +8588,118 @@
       "placements": "Stretch & Warm Up · Discover Stretch",
       "items": [
         {
-          "exerciseNumber": 108,
-          "seconds": 40,
+          "exerciseNumber": 107,
+          "seconds": 42,
           "rest": 0
         },
         {
-          "exerciseNumber": 114,
-          "seconds": 40,
-          "rest": 0
-        },
-        {
-          "exerciseNumber": 109,
-          "seconds": 40,
+          "exerciseNumber": 112,
+          "seconds": 42,
           "rest": 0,
           "side": "left"
         },
         {
-          "exerciseNumber": 109,
-          "seconds": 40,
-          "rest": 0,
-          "side": "right"
-        },
-        {
-          "exerciseNumber": 110,
-          "seconds": 40,
-          "rest": 0,
-          "side": "left"
-        },
-        {
-          "exerciseNumber": 110,
-          "seconds": 40,
+          "exerciseNumber": 112,
+          "seconds": 42,
           "rest": 0,
           "side": "right"
         },
         {
           "exerciseNumber": 106,
-          "seconds": 40,
+          "seconds": 42,
           "rest": 0
         },
         {
           "exerciseNumber": 104,
-          "seconds": 40,
+          "seconds": 42,
           "rest": 0
         },
         {
-          "exerciseNumber": 115,
-          "seconds": 40,
+          "exerciseNumber": 118,
+          "seconds": 42,
+          "rest": 0
+        },
+        {
+          "exerciseNumber": 119,
+          "seconds": 42,
           "rest": 0,
           "side": "left"
         },
         {
-          "exerciseNumber": 115,
-          "seconds": 40,
+          "exerciseNumber": 119,
+          "seconds": 42,
           "rest": 0,
           "side": "right"
         },
         {
-          "exerciseNumber": 116,
-          "seconds": 40,
-          "rest": 0,
-          "side": "left"
-        },
-        {
-          "exerciseNumber": 116,
-          "seconds": 40,
-          "rest": 0,
-          "side": "right"
+          "exerciseNumber": 105,
+          "seconds": 42,
+          "rest": 0
         },
         {
           "exerciseNumber": 111,
-          "seconds": 40,
+          "seconds": 42,
           "rest": 0,
           "side": "left"
         },
         {
           "exerciseNumber": 111,
-          "seconds": 40,
+          "seconds": 42,
+          "rest": 0,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 106,
+          "seconds": 42,
+          "rest": 0
+        },
+        {
+          "exerciseNumber": 111,
+          "seconds": 42,
+          "rest": 0,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 111,
+          "seconds": 42,
           "rest": 0,
           "side": "right"
         },
         {
           "exerciseNumber": 107,
-          "seconds": 40,
+          "seconds": 42,
           "rest": 0
         },
         {
-          "exerciseNumber": 113,
-          "seconds": 40,
+          "exerciseNumber": 104,
+          "seconds": 42,
           "rest": 0
+        },
+        {
+          "exerciseNumber": 119,
+          "seconds": 42,
+          "rest": 0,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 119,
+          "seconds": 42,
+          "rest": 0,
+          "side": "right"
         },
         {
           "exerciseNumber": 105,
-          "seconds": 40,
+          "seconds": 42,
           "rest": 0
         },
         {
-          "exerciseNumber": 119,
-          "seconds": 40,
-          "rest": 0,
-          "side": "left"
-        },
-        {
-          "exerciseNumber": 119,
-          "seconds": 40,
-          "rest": 0,
-          "side": "right"
-        },
-        {
-          "exerciseNumber": 112,
-          "seconds": 40,
-          "rest": 0,
-          "side": "left"
-        },
-        {
-          "exerciseNumber": 112,
-          "seconds": 40,
-          "rest": 0,
-          "side": "right"
+          "exerciseNumber": 118,
+          "seconds": 42,
+          "rest": 0
         }
       ],
       "totalSeconds": 840,
-      "mainCount": 14,
+      "mainCount": 15,
       "blockSizeFlexed": false
     },
     {
@@ -8734,41 +8717,80 @@
       "placements": "Stretch & Warm Up · Discover Stretch",
       "items": [
         {
-          "exerciseNumber": 107,
-          "seconds": 37,
-          "rest": 0
-        },
-        {
-          "exerciseNumber": 118,
-          "seconds": 37,
-          "rest": 0
-        },
-        {
-          "exerciseNumber": 109,
+          "exerciseNumber": 116,
           "seconds": 37,
           "rest": 0,
           "side": "left"
         },
         {
-          "exerciseNumber": 109,
+          "exerciseNumber": 116,
           "seconds": 37,
           "rest": 0,
           "side": "right"
         },
         {
-          "exerciseNumber": 112,
+          "exerciseNumber": 105,
+          "seconds": 37,
+          "rest": 0
+        },
+        {
+          "exerciseNumber": 119,
           "seconds": 37,
           "rest": 0,
           "side": "left"
         },
         {
-          "exerciseNumber": 112,
+          "exerciseNumber": 119,
           "seconds": 37,
           "rest": 0,
           "side": "right"
         },
         {
-          "exerciseNumber": 108,
+          "exerciseNumber": 104,
+          "seconds": 37,
+          "rest": 0
+        },
+        {
+          "exerciseNumber": 115,
+          "seconds": 37,
+          "rest": 0,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 115,
+          "seconds": 37,
+          "rest": 0,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 106,
+          "seconds": 37,
+          "rest": 0
+        },
+        {
+          "exerciseNumber": 114,
+          "seconds": 37,
+          "rest": 0
+        },
+        {
+          "exerciseNumber": 116,
+          "seconds": 37,
+          "rest": 0,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 116,
+          "seconds": 37,
+          "rest": 0,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 105,
+          "seconds": 37,
+          "rest": 0
+        },
+        {
+          "exerciseNumber": 104,
           "seconds": 37,
           "rest": 0
         },
@@ -8807,62 +8829,11 @@
           "rest": 0
         },
         {
-          "exerciseNumber": 110,
-          "seconds": 37,
-          "rest": 0,
-          "side": "left"
-        },
-        {
-          "exerciseNumber": 110,
-          "seconds": 37,
-          "rest": 0,
-          "side": "right"
-        },
-        {
-          "exerciseNumber": 116,
-          "seconds": 37,
-          "rest": 0,
-          "side": "left"
-        },
-        {
-          "exerciseNumber": 116,
-          "seconds": 37,
-          "rest": 0,
-          "side": "right"
-        },
-        {
-          "exerciseNumber": 113,
-          "seconds": 37,
-          "rest": 0
-        },
-        {
-          "exerciseNumber": 105,
-          "seconds": 37,
-          "rest": 0
-        },
-        {
-          "exerciseNumber": 111,
-          "seconds": 37,
-          "rest": 0,
-          "side": "left"
-        },
-        {
-          "exerciseNumber": 111,
-          "seconds": 37,
-          "rest": 0,
-          "side": "right"
-        },
-        {
           "exerciseNumber": 104,
           "seconds": 37,
           "rest": 0
         },
         {
-          "exerciseNumber": 118,
-          "seconds": 37,
-          "rest": 0
-        },
-        {
           "exerciseNumber": 119,
           "seconds": 37,
           "rest": 0,
@@ -8875,7 +8846,19 @@
           "side": "right"
         },
         {
-          "exerciseNumber": 107,
+          "exerciseNumber": 116,
+          "seconds": 37,
+          "rest": 0,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 116,
+          "seconds": 37,
+          "rest": 0,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 105,
           "seconds": 37,
           "rest": 0
         }
@@ -8901,24 +8884,7 @@
       "placements": "Stretch & Warm Up · Discover Stretch · Collection C4",
       "items": [
         {
-          "exerciseNumber": 107,
-          "seconds": 45,
-          "rest": 0
-        },
-        {
-          "exerciseNumber": 116,
-          "seconds": 45,
-          "rest": 0,
-          "side": "left"
-        },
-        {
-          "exerciseNumber": 116,
-          "seconds": 45,
-          "rest": 0,
-          "side": "right"
-        },
-        {
-          "exerciseNumber": 106,
+          "exerciseNumber": 118,
           "seconds": 45,
           "rest": 0
         },
@@ -8928,13 +8894,13 @@
           "rest": 0
         },
         {
-          "exerciseNumber": 109,
+          "exerciseNumber": 112,
           "seconds": 45,
           "rest": 0,
           "side": "left"
         },
         {
-          "exerciseNumber": 109,
+          "exerciseNumber": 112,
           "seconds": 45,
           "rest": 0,
           "side": "right"
@@ -8950,52 +8916,6 @@
           "seconds": 45,
           "rest": 0,
           "side": "right"
-        },
-        {
-          "exerciseNumber": 112,
-          "seconds": 45,
-          "rest": 0,
-          "side": "left"
-        },
-        {
-          "exerciseNumber": 112,
-          "seconds": 45,
-          "rest": 0,
-          "side": "right"
-        },
-        {
-          "exerciseNumber": 119,
-          "seconds": 45,
-          "rest": 0,
-          "side": "left"
-        },
-        {
-          "exerciseNumber": 119,
-          "seconds": 45,
-          "rest": 0,
-          "side": "right"
-        },
-        {
-          "exerciseNumber": 110,
-          "seconds": 45,
-          "rest": 0,
-          "side": "left"
-        },
-        {
-          "exerciseNumber": 110,
-          "seconds": 45,
-          "rest": 0,
-          "side": "right"
-        },
-        {
-          "exerciseNumber": 108,
-          "seconds": 45,
-          "rest": 0
-        },
-        {
-          "exerciseNumber": 114,
-          "seconds": 45,
-          "rest": 0
         },
         {
           "exerciseNumber": 105,
@@ -9003,20 +8923,81 @@
           "rest": 0
         },
         {
-          "exerciseNumber": 115,
+          "exerciseNumber": 119,
           "seconds": 45,
           "rest": 0,
           "side": "left"
         },
         {
-          "exerciseNumber": 115,
+          "exerciseNumber": 119,
+          "seconds": 45,
+          "rest": 0,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 107,
+          "seconds": 45,
+          "rest": 0
+        },
+        {
+          "exerciseNumber": 118,
+          "seconds": 45,
+          "rest": 0
+        },
+        {
+          "exerciseNumber": 111,
+          "seconds": 45,
+          "rest": 0,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 111,
+          "seconds": 45,
+          "rest": 0,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 105,
+          "seconds": 45,
+          "rest": 0
+        },
+        {
+          "exerciseNumber": 104,
+          "seconds": 45,
+          "rest": 0
+        },
+        {
+          "exerciseNumber": 107,
+          "seconds": 45,
+          "rest": 0
+        },
+        {
+          "exerciseNumber": 112,
+          "seconds": 45,
+          "rest": 0,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 112,
+          "seconds": 45,
+          "rest": 0,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 119,
+          "seconds": 45,
+          "rest": 0,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 119,
           "seconds": 45,
           "rest": 0,
           "side": "right"
         }
       ],
       "totalSeconds": 900,
-      "mainCount": 13,
+      "mainCount": 14,
       "blockSizeFlexed": false
     },
     {
@@ -9033,6 +9014,23 @@
       "tiles": [],
       "placements": "Stretch & Warm Up · Discover Stretch · Collection C4",
       "items": [
+        {
+          "exerciseNumber": 108,
+          "seconds": 42,
+          "rest": 0
+        },
+        {
+          "exerciseNumber": 112,
+          "seconds": 42,
+          "rest": 0,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 112,
+          "seconds": 42,
+          "rest": 0,
+          "side": "right"
+        },
         {
           "exerciseNumber": 107,
           "seconds": 42,
@@ -9056,63 +9054,24 @@
           "side": "right"
         },
         {
+          "exerciseNumber": 119,
+          "seconds": 42,
+          "rest": 0,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 119,
+          "seconds": 42,
+          "rest": 0,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 107,
+          "seconds": 42,
+          "rest": 0
+        },
+        {
           "exerciseNumber": 113,
-          "seconds": 42,
-          "rest": 0
-        },
-        {
-          "exerciseNumber": 106,
-          "seconds": 42,
-          "rest": 0
-        },
-        {
-          "exerciseNumber": 114,
-          "seconds": 42,
-          "rest": 0
-        },
-        {
-          "exerciseNumber": 119,
-          "seconds": 42,
-          "rest": 0,
-          "side": "left"
-        },
-        {
-          "exerciseNumber": 119,
-          "seconds": 42,
-          "rest": 0,
-          "side": "right"
-        },
-        {
-          "exerciseNumber": 105,
-          "seconds": 42,
-          "rest": 0
-        },
-        {
-          "exerciseNumber": 111,
-          "seconds": 42,
-          "rest": 0,
-          "side": "left"
-        },
-        {
-          "exerciseNumber": 111,
-          "seconds": 42,
-          "rest": 0,
-          "side": "right"
-        },
-        {
-          "exerciseNumber": 115,
-          "seconds": 42,
-          "rest": 0,
-          "side": "left"
-        },
-        {
-          "exerciseNumber": 115,
-          "seconds": 42,
-          "rest": 0,
-          "side": "right"
-        },
-        {
-          "exerciseNumber": 104,
           "seconds": 42,
           "rest": 0
         },
@@ -9134,13 +9093,35 @@
           "rest": 0
         },
         {
-          "exerciseNumber": 110,
+          "exerciseNumber": 118,
+          "seconds": 42,
+          "rest": 0
+        },
+        {
+          "exerciseNumber": 113,
+          "seconds": 42,
+          "rest": 0
+        },
+        {
+          "exerciseNumber": 109,
           "seconds": 42,
           "rest": 0,
           "side": "left"
         },
         {
-          "exerciseNumber": 110,
+          "exerciseNumber": 109,
+          "seconds": 42,
+          "rest": 0,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 119,
+          "seconds": 42,
+          "rest": 0,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 119,
           "seconds": 42,
           "rest": 0,
           "side": "right"
@@ -9274,122 +9255,93 @@
       "placements": "Stretch & Warm Up · Discover Stretch · Collection C4",
       "items": [
         {
-          "exerciseNumber": 106,
-          "seconds": 30,
-          "rest": 0
-        },
-        {
-          "exerciseNumber": 112,
-          "seconds": 30,
+          "exerciseNumber": 116,
+          "seconds": 40,
           "rest": 0,
           "side": "left"
         },
         {
-          "exerciseNumber": 112,
-          "seconds": 30,
+          "exerciseNumber": 116,
+          "seconds": 40,
           "rest": 0,
           "side": "right"
         },
         {
-          "exerciseNumber": 109,
-          "seconds": 30,
+          "exerciseNumber": 119,
+          "seconds": 40,
           "rest": 0,
           "side": "left"
         },
         {
-          "exerciseNumber": 109,
-          "seconds": 30,
+          "exerciseNumber": 119,
+          "seconds": 40,
           "rest": 0,
           "side": "right"
-        },
-        {
-          "exerciseNumber": 104,
-          "seconds": 30,
-          "rest": 0
         },
         {
           "exerciseNumber": 107,
-          "seconds": 30,
+          "seconds": 40,
           "rest": 0
         },
         {
-          "exerciseNumber": 116,
-          "seconds": 30,
-          "rest": 0,
-          "side": "left"
+          "exerciseNumber": 104,
+          "seconds": 40,
+          "rest": 0
         },
         {
-          "exerciseNumber": 116,
-          "seconds": 30,
-          "rest": 0,
-          "side": "right"
+          "exerciseNumber": 105,
+          "seconds": 40,
+          "rest": 0
         },
         {
-          "exerciseNumber": 119,
-          "seconds": 30,
-          "rest": 0,
-          "side": "left"
+          "exerciseNumber": 114,
+          "seconds": 40,
+          "rest": 0
         },
         {
-          "exerciseNumber": 119,
-          "seconds": 30,
-          "rest": 0,
-          "side": "right"
-        },
-        {
-          "exerciseNumber": 110,
-          "seconds": 30,
-          "rest": 0,
-          "side": "left"
-        },
-        {
-          "exerciseNumber": 110,
-          "seconds": 30,
-          "rest": 0,
-          "side": "right"
-        },
-        {
-          "exerciseNumber": 111,
-          "seconds": 30,
-          "rest": 0,
-          "side": "left"
-        },
-        {
-          "exerciseNumber": 111,
-          "seconds": 30,
-          "rest": 0,
-          "side": "right"
+          "exerciseNumber": 106,
+          "seconds": 40,
+          "rest": 0
         },
         {
           "exerciseNumber": 115,
-          "seconds": 30,
+          "seconds": 40,
           "rest": 0,
           "side": "left"
         },
         {
           "exerciseNumber": 115,
-          "seconds": 30,
+          "seconds": 40,
           "rest": 0,
           "side": "right"
         },
         {
-          "exerciseNumber": 118,
-          "seconds": 30,
-          "rest": 0
+          "exerciseNumber": 116,
+          "seconds": 40,
+          "rest": 0,
+          "side": "left"
         },
         {
-          "exerciseNumber": 113,
-          "seconds": 30,
-          "rest": 0
+          "exerciseNumber": 116,
+          "seconds": 40,
+          "rest": 0,
+          "side": "right"
         },
         {
-          "exerciseNumber": 108,
-          "seconds": 30,
-          "rest": 0
+          "exerciseNumber": 119,
+          "seconds": 40,
+          "rest": 0,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 119,
+          "seconds": 40,
+          "rest": 0,
+          "side": "right"
         }
       ],
       "totalSeconds": 600,
-      "mainCount": 13,
+      "mainCount": 10,
       "blockSizeFlexed": false
     },
     {
@@ -9408,121 +9360,97 @@
       "items": [
         {
           "exerciseNumber": 106,
-          "seconds": 36,
+          "seconds": 45,
           "rest": 0
         },
         {
-          "exerciseNumber": 105,
-          "seconds": 36,
+          "exerciseNumber": 113,
+          "seconds": 45,
           "rest": 0
+        },
+        {
+          "exerciseNumber": 108,
+          "seconds": 45,
+          "rest": 0
+        },
+        {
+          "exerciseNumber": 119,
+          "seconds": 45,
+          "rest": 0,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 119,
+          "seconds": 45,
+          "rest": 0,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 107,
+          "seconds": 45,
+          "rest": 0
+        },
+        {
+          "exerciseNumber": 112,
+          "seconds": 45,
+          "rest": 0,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 112,
+          "seconds": 45,
+          "rest": 0,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 111,
+          "seconds": 45,
+          "rest": 0,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 111,
+          "seconds": 45,
+          "rest": 0,
+          "side": "right"
         },
         {
           "exerciseNumber": 109,
-          "seconds": 36,
+          "seconds": 45,
           "rest": 0,
           "side": "left"
         },
         {
           "exerciseNumber": 109,
-          "seconds": 36,
+          "seconds": 45,
+          "rest": 0,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 118,
+          "seconds": 45,
+          "rest": 0
+        },
+        {
+          "exerciseNumber": 119,
+          "seconds": 45,
+          "rest": 0,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 119,
+          "seconds": 45,
           "rest": 0,
           "side": "right"
         },
         {
           "exerciseNumber": 113,
-          "seconds": 36,
-          "rest": 0
-        },
-        {
-          "exerciseNumber": 107,
-          "seconds": 36,
-          "rest": 0
-        },
-        {
-          "exerciseNumber": 116,
-          "seconds": 36,
-          "rest": 0,
-          "side": "left"
-        },
-        {
-          "exerciseNumber": 116,
-          "seconds": 36,
-          "rest": 0,
-          "side": "right"
-        },
-        {
-          "exerciseNumber": 108,
-          "seconds": 36,
-          "rest": 0
-        },
-        {
-          "exerciseNumber": 112,
-          "seconds": 36,
-          "rest": 0,
-          "side": "left"
-        },
-        {
-          "exerciseNumber": 112,
-          "seconds": 36,
-          "rest": 0,
-          "side": "right"
-        },
-        {
-          "exerciseNumber": 111,
-          "seconds": 36,
-          "rest": 0,
-          "side": "left"
-        },
-        {
-          "exerciseNumber": 111,
-          "seconds": 36,
-          "rest": 0,
-          "side": "right"
-        },
-        {
-          "exerciseNumber": 119,
-          "seconds": 36,
-          "rest": 0,
-          "side": "left"
-        },
-        {
-          "exerciseNumber": 119,
-          "seconds": 36,
-          "rest": 0,
-          "side": "right"
-        },
-        {
-          "exerciseNumber": 115,
-          "seconds": 36,
-          "rest": 0,
-          "side": "left"
-        },
-        {
-          "exerciseNumber": 115,
-          "seconds": 36,
-          "rest": 0,
-          "side": "right"
-        },
-        {
-          "exerciseNumber": 110,
-          "seconds": 36,
-          "rest": 0,
-          "side": "left"
-        },
-        {
-          "exerciseNumber": 110,
-          "seconds": 36,
-          "rest": 0,
-          "side": "right"
-        },
-        {
-          "exerciseNumber": 114,
-          "seconds": 36,
+          "seconds": 45,
           "rest": 0
         }
       ],
       "totalSeconds": 720,
-      "mainCount": 13,
+      "mainCount": 11,
       "blockSizeFlexed": false
     },
     {
@@ -9671,93 +9599,93 @@
       "items": [
         {
           "exerciseNumber": 10,
-          "reps": 10,
+          "reps": 12,
           "rest": 20
         },
         {
           "exerciseNumber": 4,
-          "seconds": 30,
+          "seconds": 35,
           "rest": 20
         },
         {
           "exerciseNumber": 44,
-          "reps": 17,
+          "reps": 16,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 48,
+          "seconds": 49,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 52,
+          "seconds": 49,
           "rest": 20
         },
         {
           "exerciseNumber": 45,
-          "reps": 17,
+          "reps": 16,
           "rest": 20
         },
         {
-          "exerciseNumber": 45,
-          "reps": 17,
+          "exerciseNumber": 47,
+          "reps": 16,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 53,
+          "seconds": 49,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 46,
+          "reps": 16,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 43,
+          "reps": 16,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 46,
+          "reps": 16,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 52,
+          "seconds": 49,
+          "rest": 20
+        },
+        {
+          "exerciseNumber": 53,
+          "seconds": 49,
           "rest": 20
         },
         {
           "exerciseNumber": 44,
-          "reps": 17,
-          "rest": 20
-        },
-        {
-          "exerciseNumber": 45,
-          "reps": 17,
-          "rest": 20
-        },
-        {
-          "exerciseNumber": 44,
-          "reps": 17,
-          "rest": 20
-        },
-        {
-          "exerciseNumber": 45,
-          "reps": 17,
-          "rest": 20
-        },
-        {
-          "exerciseNumber": 44,
-          "reps": 17,
-          "rest": 20
-        },
-        {
-          "exerciseNumber": 44,
-          "reps": 17,
-          "rest": 20
-        },
-        {
-          "exerciseNumber": 45,
-          "reps": 17,
-          "rest": 20
-        },
-        {
-          "exerciseNumber": 45,
-          "reps": 17,
-          "rest": 20
-        },
-        {
-          "exerciseNumber": 44,
-          "reps": 17,
+          "reps": 16,
           "rest": 20
         },
         {
           "exerciseNumber": 106,
-          "seconds": 30,
+          "seconds": 35,
           "rest": 20
         },
         {
           "exerciseNumber": 111,
-          "seconds": 30,
+          "seconds": 35,
           "rest": 20,
           "side": "left"
         },
         {
           "exerciseNumber": 111,
-          "seconds": 30,
+          "seconds": 35,
           "rest": 20,
           "side": "right"
         }
       ],
-      "totalSeconds": 1082,
+      "totalSeconds": 1077,
       "mainCount": 12,
       "blockSizeFlexed": false
     },
@@ -9778,8 +9706,8 @@
       "placements": "Uses chair exercises (#31, #44, #81)",
       "items": [
         {
-          "exerciseNumber": 10,
-          "reps": 10,
+          "exerciseNumber": 9,
+          "seconds": 30,
           "rest": 30
         },
         {
@@ -9788,42 +9716,7 @@
           "rest": 30
         },
         {
-          "exerciseNumber": 87,
-          "reps": 11,
-          "rest": 30
-        },
-        {
-          "exerciseNumber": 103,
-          "seconds": 33,
-          "rest": 30
-        },
-        {
-          "exerciseNumber": 99,
-          "seconds": 33,
-          "rest": 30
-        },
-        {
-          "exerciseNumber": 88,
-          "reps": 11,
-          "rest": 30
-        },
-        {
-          "exerciseNumber": 86,
-          "seconds": 33,
-          "rest": 30
-        },
-        {
-          "exerciseNumber": 97,
-          "seconds": 33,
-          "rest": 30
-        },
-        {
-          "exerciseNumber": 102,
-          "seconds": 33,
-          "rest": 30
-        },
-        {
-          "exerciseNumber": 90,
+          "exerciseNumber": 44,
           "reps": 11,
           "rest": 30
         },
@@ -9833,8 +9726,45 @@
           "rest": 30
         },
         {
-          "exerciseNumber": 85,
+          "exerciseNumber": 93,
           "seconds": 33,
+          "rest": 30
+        },
+        {
+          "exerciseNumber": 64,
+          "reps": 11,
+          "rest": 30
+        },
+        {
+          "exerciseNumber": 78,
+          "reps": 11,
+          "rest": 30
+        },
+        {
+          "exerciseNumber": 87,
+          "reps": 11,
+          "rest": 30
+        },
+        {
+          "exerciseNumber": 81,
+          "reps": 11,
+          "rest": 30,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 81,
+          "reps": 11,
+          "rest": 30,
+          "side": "right"
+        },
+        {
+          "exerciseNumber": 31,
+          "reps": 11,
+          "rest": 30
+        },
+        {
+          "exerciseNumber": 30,
+          "reps": 11,
           "rest": 30
         },
         {
@@ -9856,7 +9786,7 @@
         }
       ],
       "totalSeconds": 900,
-      "mainCount": 10,
+      "mainCount": 9,
       "blockSizeFlexed": false
     },
     {
@@ -9876,64 +9806,71 @@
       "placements": "Discover featured for new users",
       "items": [
         {
-          "exerciseNumber": 10,
-          "reps": 12,
-          "rest": 26
-        },
-        {
           "exerciseNumber": 9,
-          "seconds": 35,
-          "rest": 26
+          "seconds": 30,
+          "rest": 25
         },
         {
-          "exerciseNumber": 87,
-          "reps": 12,
-          "rest": 26
+          "exerciseNumber": 8,
+          "seconds": 30,
+          "rest": 25
         },
         {
-          "exerciseNumber": 86,
-          "seconds": 37,
-          "rest": 26
+          "exerciseNumber": 61,
+          "reps": 11,
+          "rest": 25
         },
         {
-          "exerciseNumber": 84,
-          "reps": 12,
-          "rest": 26
+          "exerciseNumber": 30,
+          "reps": 11,
+          "rest": 25
         },
         {
-          "exerciseNumber": 97,
-          "seconds": 37,
-          "rest": 26
+          "exerciseNumber": 20,
+          "seconds": 34,
+          "rest": 25
         },
         {
-          "exerciseNumber": 85,
-          "seconds": 37,
-          "rest": 26
+          "exerciseNumber": 78,
+          "reps": 11,
+          "rest": 25
+        },
+        {
+          "exerciseNumber": 29,
+          "reps": 11,
+          "rest": 25
         },
         {
           "exerciseNumber": 103,
-          "seconds": 37,
-          "rest": 26
+          "seconds": 34,
+          "rest": 25
         },
         {
-          "exerciseNumber": 88,
-          "reps": 12,
-          "rest": 26
+          "exerciseNumber": 40,
+          "seconds": 34,
+          "rest": 25
         },
         {
-          "exerciseNumber": 95,
-          "seconds": 37,
-          "rest": 26
+          "exerciseNumber": 76,
+          "reps": 11,
+          "rest": 25,
+          "side": "left"
+        },
+        {
+          "exerciseNumber": 76,
+          "reps": 11,
+          "rest": 25,
+          "side": "right"
         },
         {
           "exerciseNumber": 108,
-          "seconds": 35,
-          "rest": 26
+          "seconds": 30,
+          "rest": 25
         },
         {
           "exerciseNumber": 107,
-          "seconds": 35,
-          "rest": 26
+          "seconds": 30,
+          "rest": 25
         }
       ],
       "totalSeconds": 720,

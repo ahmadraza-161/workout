@@ -128,6 +128,6 @@ const styles = StyleSheet.create({
     backgroundColor: '#FFFFFF',
   },
   content: { flexDirection: 'row', alignItems: 'center', gap: 8 },
-  linkRow: { flexDirection: 'row', alignItems: 'center', gap: 2 },
+  linkRow: { flexDirection: 'row', alignItems: 'center', minHeight: sizes.touchMin, gap: 2 },
   underline: { textDecorationLine: 'underline' },
 });

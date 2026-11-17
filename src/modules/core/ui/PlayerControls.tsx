@@ -83,16 +83,16 @@ export function RestActions({
 
   return (
     <View style={styles.rest}>
-      <Text variant="displayL" style={styles.onRest}>
+      <Text variant="displayL" style={{ color: colors.onPrimary }}>
         {labels.rest}
       </Text>
-      <Text variant="displayXL" style={styles.onRest}>
+      <Text variant="displayXL" style={{ color: colors.onPrimary }}>
         {countdown}
       </Text>
 
       <Touchable onPress={onEditRestTime} accessibilityLabel={labels.editRestTime}>
         <View style={[styles.editPill, { backgroundColor: colors.control.restPill }]}>
-          <Text variant="bodyStrong" style={styles.onRest}>
+          <Text variant="bodyStrong" style={{ color: colors.onPrimary }}>
             {labels.editRestTime}
           </Text>
         </View>
@@ -101,15 +101,15 @@ export function RestActions({
       <View style={styles.restButtons}>
         <Touchable onPress={onAddTime} accessibilityLabel={labels.addTime} style={styles.grow}>
           <View style={[styles.restButton, { backgroundColor: colors.control.restAction }]}>
-            <Text variant="button" style={styles.onRest}>
+            <Text variant="button" style={{ color: colors.onPrimary }}>
               {labels.addTime}
             </Text>
           </View>
         </Touchable>
 
         <Touchable onPress={onSkip} accessibilityLabel={labels.skip} style={styles.grow}>
-          <View style={[styles.restButton, styles.skipButton]}>
-            <Text variant="button" tone="brand">
+          <View style={[styles.restButton, { backgroundColor: colors.surface.default }]}>
+            <Text variant="button" style={{ color: colors.primaryFill }}>
               {labels.skip}
             </Text>
           </View>
@@ -138,10 +138,7 @@ const styles = StyleSheet.create({
   },
   pauseFill: { position: 'absolute', left: 0, top: 0, bottom: 0 },
   rest: { alignItems: 'center', gap: spacing[4] },
-  // The rest panel is always the saturated brand blue, so its text is white.
-  onRest: { color: '#FFFFFF' },
-  editPill: { height: 44, borderRadius: radius.pill, paddingHorizontal: 24, justifyContent: 'center' },
+  editPill: { height: sizes.quickChip, borderRadius: radius.pill, paddingHorizontal: spacing[6], justifyContent: 'center' },
   restButtons: { flexDirection: 'row', gap: spacing[3], alignSelf: 'stretch' },
   restButton: { height: sizes.buttonLg, borderRadius: radius.pill, alignItems: 'center', justifyContent: 'center' },
-  skipButton: { backgroundColor: '#FFFFFF' },
 });

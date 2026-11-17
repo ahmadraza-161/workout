@@ -58,6 +58,27 @@ const COOL_DOWN = 'Stretch & Cool-Down';
 const CARDIO = 'Cardio & Conditioning';
 const FULL_BODY = 'Full Body';
 
+// Catalog titles with a concrete promise need a reviewed pool. The general
+// focus rule cannot distinguish, for example, chair work from other full-body
+// moves or neck/shoulder stretches from lower-body stretches.
+const REVIEWED_MAIN: Record<number, readonly number[]> = {
+  36: [30, 31, 32, 33, 34, 35, 38, 40, 42, 43, 44, 45, 46, 47, 48, 52, 53],
+  37: [64, 65, 66, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81],
+  38: [30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 44, 45, 48],
+  42: [1, 2, 3, 4, 5, 6, 7, 8, 28, 52, 53, 78, 95, 97, 99, 103],
+  48: [104, 105, 106, 114, 115, 116, 119],
+  49: [106, 107, 108, 109, 110, 111, 112, 113, 118],
+  50: [104, 105, 106, 107, 111, 112, 118, 119],
+  51: [104, 105, 106, 114, 115, 116, 119],
+  52: [104, 105, 107, 111, 112, 118, 119],
+  53: [107, 108, 109, 112, 113, 118, 119],
+  55: [104, 105, 106, 107, 114, 115, 116, 119],
+  56: [106, 107, 108, 109, 111, 112, 113, 118, 119],
+  58: [43, 44, 45, 46, 47, 48, 52, 53],
+  59: [30, 31, 44, 64, 78, 81, 87, 93, 95],
+  60: [11, 18, 20, 23, 29, 30, 32, 40, 61, 64, 65, 69, 73, 76, 77, 78, 87, 92, 93, 95, 97, 99, 102, 103],
+};
+
 /**
  * Which body focus an exercise can serve. Category decides most of it; the
  * two categories that cover two focuses each are split by primary muscle.
@@ -73,7 +94,7 @@ export function focusesFor(exercise: CatalogExercise): string[] {
       return ['chest'];
     case 'Shoulders & Arms':
       // Deltoid-led moves serve "shoulder"; triceps and biceps serve "arm".
-      return [...(has('deltoids') ? ['shoulder'] : []), ...(has('triceps', 'biceps') ? ['arm'] : [])];
+      return [...(has('deltoids') ? ['shoulder'] : []), ...(has('triceps', 'biceps', 'deltoids') ? ['arm'] : [])];
     case 'Back & Pull':
       return ['back'];
     case 'Legs & Glutes':
@@ -128,12 +149,14 @@ function poolsFor(workout: CatalogWorkout, exercises: CatalogExercise[]): Pools 
   const quietOnly = workout.quiet.startsWith('Yes');
   const rules = levelRules(workout.level);
   const [minDifficulty, maxDifficulty] = rules.difficulty;
+  const reviewedNumbers = REVIEWED_MAIN[workout.number];
 
   const allowed = (exercise: CatalogExercise) => !quietOnly || exercise.quietSafe;
 
   const main = exercises.filter((exercise) => {
     if (!allowed(exercise)) return false;
     if (exercise.level < minDifficulty || exercise.level > maxDifficulty) return false;
+    if (reviewedNumbers) return reviewedNumbers.includes(exercise.number);
 
     // Stretch and cool-down workouts are holds only, with no cardio.
     if (workout.type === 'stretch' || workout.type === 'cooldown') {
@@ -150,7 +173,9 @@ function poolsFor(workout: CatalogWorkout, exercises: CatalogExercise[]): Pools 
   });
 
   return {
-    warmUp: exercises.filter((exercise) => exercise.category === WARM_UP && allowed(exercise)),
+    warmUp: exercises.filter((exercise) => exercise.category === WARM_UP && allowed(exercise) &&
+      (![42, 59, 60].includes(workout.number) || exercise.level === 1) &&
+      (workout.number !== 42 || exercise.number !== 9)),
     coolDown: exercises.filter((exercise) => exercise.category === COOL_DOWN && allowed(exercise)),
     main,
   };

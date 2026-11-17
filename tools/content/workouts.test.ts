@@ -166,4 +166,34 @@ describe('generateWorkouts', () => {
 
     expect(totalSeconds(result.items)).toBe(manual);
   });
+
+  it('keeps named special plans faithful to their actual exercise lists', () => {
+    const numbersIn = (number: number) => generated.find((workout) => workout.number === number)!
+      .items.map((item) => item.exerciseNumber);
+    const office = numbersIn(42);
+    expect(office.every((number) => [1, 2, 3, 4, 5, 6, 7, 8, 28, 52, 53, 78, 95, 97, 99, 103].includes(number)))
+      .toBe(true);
+
+    const arm = numbersIn(58);
+    expect(arm.filter((number) => [43, 44, 45, 46, 47, 48, 52, 53].includes(number)).length)
+      .toBeGreaterThanOrEqual(6);
+    expect(arm.some((number) => exerciseByNumber.get(number)!.name.toLowerCase().includes('push-up')))
+      .toBe(false);
+
+    const chair = numbersIn(59);
+    for (const number of [31, 44, 81]) expect(chair).toContain(number);
+
+    const absoluteBeginner = numbersIn(60);
+    expect(absoluteBeginner.every((number) => exerciseByNumber.get(number)!.level === 1))
+      .toBe(true);
+  });
+
+  it('keeps targeted stretches in the promised area', () => {
+    const numbersIn = (number: number) => generated.find((workout) => workout.number === number)!
+      .items.map((item) => item.exerciseNumber);
+    expect(numbersIn(51)).toContain(116); // Neck Side Stretch
+    expect(numbersIn(52)).toContain(104); // Child's Pose
+    expect(numbersIn(53).some((number) => [109, 112, 113, 118].includes(number))).toBe(true);
+    expect(numbersIn(56).some((number) => [111, 112, 113].includes(number))).toBe(true);
+  });
 });

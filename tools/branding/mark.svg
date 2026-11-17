@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <!-- Language-independent bodyweight fitness: jumping jack inside a movement arc. -->
+  <path fill="none" stroke="#D5FF5F" stroke-width="42" stroke-linecap="round" d="M247 710A330 330 0 1 1 808 366"/>
+  <path fill="#D5FF5F" d="M774 350L828 328L842 411Z"/>
+  <circle cx="512" cy="320" r="60" fill="#FFFFFF"/>
+  <g fill="none" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round">
+    <path stroke-width="90" d="M512 456V578"/>
+    <path stroke-width="72" d="M316 370L426 470H598L708 370"/>
+    <path stroke-width="84" d="M352 742L512 578L672 742"/>
+  </g>
+</svg>

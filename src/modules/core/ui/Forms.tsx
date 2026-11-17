@@ -47,6 +47,7 @@ export interface TextFieldProps {
   error?: string;
   keyboardType?: 'default' | 'number-pad' | 'decimal-pad';
   maxLength?: number;
+  onSubmitEditing?: () => void;
 }
 
 export function TextField({
@@ -57,6 +58,7 @@ export function TextField({
   error,
   keyboardType = 'default',
   maxLength,
+  onSubmitEditing,
 }: TextFieldProps) {
   const { colors } = useTheme();
   const [focused, setFocused] = useState(false);
@@ -75,6 +77,8 @@ export function TextField({
         placeholderTextColor={colors.text.secondary}
         keyboardType={keyboardType}
         maxLength={maxLength}
+        onSubmitEditing={onSubmitEditing}
+        returnKeyType={onSubmitEditing ? 'search' : undefined}
         onFocus={() => setFocused(true)}
         onBlur={() => setFocused(false)}
         accessibilityLabel={label ?? placeholder}

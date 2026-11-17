@@ -33,9 +33,11 @@ export interface DatePickerProps {
   onChange: (next: Date) => void;
   /** Logs cannot be dated in the future. */
   disableFuture?: boolean;
+  /** Local dates with recorded activity, shown as small dots in history. */
+  markedDates?: ReadonlySet<string>;
 }
 
-export function DatePicker({ value, onChange, disableFuture = true }: DatePickerProps) {
+export function DatePicker({ value, onChange, disableFuture = true, markedDates }: DatePickerProps) {
   const { colors } = useTheme();
   const [month, setMonth] = useState(() => startOfMonth(value));
   const today = startOfDay(new Date());
@@ -57,6 +59,7 @@ export function DatePicker({ value, onChange, disableFuture = true }: DatePicker
           icon={ChevronRight}
           onPress={() => setMonth((current) => addMonths(current, 1))}
           accessibilityLabel={format(addMonths(month, 1), 'MMMM yyyy')}
+          disabled={disableFuture && !isAfter(startOfMonth(today), month)}
         />
       </View>
 
@@ -77,13 +80,15 @@ export function DatePicker({ value, onChange, disableFuture = true }: DatePicker
           const selected = isSameDay(day, value);
           const isToday = isSameDay(day, today);
           const disabled = disableFuture && isAfter(startOfDay(day), today);
+          const marked = markedDates?.has(format(day, 'yyyy-MM-dd')) ?? false;
 
           return (
             <Touchable
               key={day.toISOString()}
               onPress={() => onChange(day)}
               disabled={disabled}
-              accessibilityLabel={format(day, 'd MMMM yyyy')}
+              visualSize={CELL}
+              accessibilityLabel={`${format(day, 'd MMMM yyyy')}${marked ? `, ${t('calendar.recordedDay')}` : ''}`}
               accessibilityState={{ selected, disabled }}
               style={styles.cell}
             >
@@ -100,6 +105,7 @@ export function DatePicker({ value, onChange, disableFuture = true }: DatePicker
                 >
                   {format(day, 'd')}
                 </Text>
+                {marked ? <View style={[styles.dot, { backgroundColor: selected ? colors.onPrimary : colors.primary }]} /> : null}
               </View>
             </Touchable>
           );
@@ -164,6 +170,7 @@ const styles = StyleSheet.create({
   grid: { flexDirection: 'row', flexWrap: 'wrap' },
   cell: { width: `${100 / 7}%`, height: CELL, alignItems: 'center', justifyContent: 'center' },
   day: { width: CELL - 4, height: CELL - 4, borderRadius: radius.pill, alignItems: 'center', justifyContent: 'center' },
+  dot: { position: 'absolute', bottom: spacing[0.5], width: spacing[1], height: spacing[1], borderRadius: radius.pill },
   timeRow: { flexDirection: 'row', gap: spacing[4] },
   timeColumn: { flex: 1 },
 });

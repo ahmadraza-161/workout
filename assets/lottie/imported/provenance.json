@@ -1,0 +1,606 @@
+[
+  {
+    "slug": "push-up-hold",
+    "exerciseId": "ex_push_up_hold",
+    "title": "Military Push Ups",
+    "creator": "Dinh Bui Xuan",
+    "page": "https://lottiefiles.com/free-animation/military-push-ups-sFmjfnsBQ9",
+    "download": "https://assets-v2.lottiefiles.com/a/6c1a4598-1177-11ee-9e88-bf9e8c56d70c/YDxF9XmjyX.lottie",
+    "license": "Lottie Simple License (FL 9.13.21)",
+    "playback": {
+      "startFrame": 2,
+      "endFrame": 10,
+      "loop": false
+    },
+    "mappingNote": "Uses the licensed original push-up source, with a reviewed single lowering entry from high plank (frame 2) to slightly bent elbows (frame 10), then holds. No looping repetitions, new character geometry, or custom motion. All source keyframes remain intact.",
+    "originalSha256": "0b9707d916984d464748935502780453d5c552b8595d69dfd4c6501f5d98db97",
+    "bundledBytes": 74644,
+    "removedBackgrounds": [
+      "White Solid 1"
+    ],
+    "removedLabels": [],
+    "embeddedImages": [],
+    "modification": "Removed full-canvas background solids for theme-compatible transparency; embedded source PNGs where present; removed explicitly reviewed decorative labels where specified; cropped unused canvas only where a reviewed viewport is specified."
+  },
+  {
+    "slug": "plank-walkout",
+    "exerciseId": "ex_plank_walkout",
+    "title": "Inchworm",
+    "page": "https://lottiefiles.com/free-animation/inchworm-oMKbWGAaDD",
+    "download": "https://assets-v2.lottiefiles.com/a/8c27d682-116a-11ee-ae23-838ae461b028/yXjVtxnIso.lottie",
+    "creator": "Dinh Bui Xuan",
+    "license": "Lottie Simple License (FL 9.13.21)",
+    "mappingNote": "Uses the already verified licensed Inchworm source: stand, fold, walk hands to plank, pause, walk back and stand. Catalog Plank Walkout and Inchworm instructions describe this same movement. This is an explicitly shared source, not a newly sourced unique animation.",
+    "originalSha256": "0fba65a418bb08598684c52d18b421aea24bcfc1f770c7476d8aa1ffcc9f2d89",
+    "bundledBytes": 304864,
+    "removedBackgrounds": [
+      "White Solid 1"
+    ],
+    "removedLabels": [],
+    "embeddedImages": [],
+    "modification": "Removed full-canvas background solids for theme-compatible transparency; embedded source PNGs where present; removed explicitly reviewed decorative labels where specified; cropped unused canvas only where a reviewed viewport is specified."
+  },
+  {
+    "slug": "high-knees-bashir",
+    "exerciseId": "ex_high_knees",
+    "title": "High Knees Workout",
+    "creator": "Bashir Ahmad",
+    "page": "https://lottiefiles.com/free-animation/high-knees-workout-Ym8kDozRNe",
+    "download": "https://assets-v2.lottiefiles.com/a/bb0758ae-7193-11ee-a554-531a41155b08/21tagaJc2k.lottie",
+    "license": "Lottie Simple License (FL 9.13.21)",
+    "mappingNote": "Reviewed original frames 0, 7, 15 and 22: alternate bent-knee lifts in place with opposing arm movement. Original left/right thigh rotations peak at different frames (15 and 0); preserve complete 29-frame cycle and floor line.",
+    "originalSha256": "efe6d5a5bc10d7604cbfdf5acd33eca810807910cc60c318bafddb2ed88431ab",
+    "bundledBytes": 82794,
+    "removedBackgrounds": [],
+    "removedLabels": [],
+    "embeddedImages": [],
+    "modification": "Removed full-canvas background solids for theme-compatible transparency; embedded source PNGs where present; removed explicitly reviewed decorative labels where specified; cropped unused canvas only where a reviewed viewport is specified."
+  },
+  {
+    "slug": "flutter-kicks-blinix",
+    "exerciseId": "ex_flutter_kick",
+    "title": "Flutter Kicks",
+    "creator": "Blinix Solutions",
+    "page": "https://lottiefiles.com/free-animation/flutter-kicks-yEimZJq9dF",
+    "download": "https://assets-v2.lottiefiles.com/a/069baba4-855c-11ee-8695-d743fa555099/tASP8cl88u.lottie",
+    "license": "Lottie Simple License (FL 9.13.21)",
+    "viewport": {
+      "x": 20,
+      "y": 550,
+      "width": 1040,
+      "height": 410
+    },
+    "mappingNote": "Reviewed supine straight-leg alternating vertical kicks, opposite thigh rotations at frames 5/25. Original mat retained; crop unused canvas without changing character paths or timing.",
+    "originalSha256": "982c3c35d4d8489a51907970f63ebdc070bfdc2bacaaffe29fdb5bbac00763d1",
+    "bundledBytes": 33868,
+    "removedBackgrounds": [
+      "White Solid 1"
+    ],
+    "removedLabels": [],
+    "embeddedImages": [],
+    "modification": "Removed full-canvas background solids for theme-compatible transparency; embedded source PNGs where present; removed explicitly reviewed decorative labels where specified; cropped unused canvas only where a reviewed viewport is specified."
+  },
+  {
+    "slug": "forearm-plank-blinix",
+    "exerciseId": "ex_forearm_plank",
+    "title": "Plank",
+    "creator": "Blinix Solutions",
+    "page": "https://lottiefiles.com/free-animation/plank-667YC6ODte",
+    "download": "https://assets-v2.lottiefiles.com/a/3a029dc2-85e8-11ee-b2f9-afd6c00e7afc/B9HbNc1RD3.lottie",
+    "license": "Lottie Simple License (FL 9.13.21)",
+    "playback": {
+      "startFrame": 0,
+      "endFrame": 15,
+      "loop": false
+    },
+    "viewport": {
+      "x": 90,
+      "y": 600,
+      "width": 940,
+      "height": 340
+    },
+    "mappingNote": "Reviewed frames 0/15: forearms settle into an aligned plank, then hold. Play entry once. Crop unused canvas around the original character without changing movement.",
+    "originalSha256": "effd2b17550bd8bd66025c97528595923bfd4767541f7255523cb11c553c04ed",
+    "bundledBytes": 29167,
+    "removedBackgrounds": [
+      "White Solid 1"
+    ],
+    "removedLabels": [],
+    "embeddedImages": [],
+    "modification": "Removed full-canvas background solids for theme-compatible transparency; embedded source PNGs where present; removed explicitly reviewed decorative labels where specified; cropped unused canvas only where a reviewed viewport is specified."
+  },
+  {
+    "slug": "dead-bug",
+    "exerciseId": "ex_dead_bug",
+    "title": "Deadbug fitness exercise",
+    "creator": "Unnamed LottieFiles contributor (a848f9e4)",
+    "page": "https://lottiefiles.com/free-animation/deadbug-fitness-exercise-vPDZn7efNC",
+    "download": "https://assets-v2.lottiefiles.com/a/cdca230e-116c-11ee-95d3-6fb89c296088/WyCgoSoIds.lottie",
+    "license": "Lottie Simple License (FL 9.13.21)",
+    "mappingNote": "Reviewed supine opposite-arm/leg extensions. The public page has no display name; attribution preserves its contributor ID.",
+    "originalSha256": "5d98c309bfbe8bcea690a641ad1008af304277112f5a806ca6b5acfc708a3cd6",
+    "bundledBytes": 52418,
+    "removedBackgrounds": [],
+    "removedLabels": [],
+    "embeddedImages": [],
+    "modification": "Removed full-canvas background solids for theme-compatible transparency; embedded source PNGs where present; removed explicitly reviewed decorative labels where specified; cropped unused canvas only where a reviewed viewport is specified."
+  },
+  {
+    "slug": "march-in-place",
+    "exerciseId": "ex_march_in_place",
+    "title": "Warmup Exercise",
+    "creator": "Brian Karungani",
+    "page": "https://lottiefiles.com/free-animation/warmup-exercise-OSUvmoX6Pg",
+    "download": "https://assets-v2.lottiefiles.com/a/58ad2858-37a7-11ee-9ba1-3fa336466e28/jN9yePfhxj.lottie",
+    "license": "Lottie Simple License (FL 9.13.21)",
+    "mappingNote": "Reviewed alternating standing knee lifts with opposite arm swings.",
+    "originalSha256": "5e8da6b2dcca1be452032b65375be59ef8f742e866d2fa9a6d8d1d3c8826a85c",
+    "bundledBytes": 70279,
+    "removedBackgrounds": [],
+    "removedLabels": [],
+    "embeddedImages": [],
+    "modification": "Removed full-canvas background solids for theme-compatible transparency; embedded source PNGs where present; removed explicitly reviewed decorative labels where specified; cropped unused canvas only where a reviewed viewport is specified."
+  },
+  {
+    "slug": "donkey-kick",
+    "exerciseId": "ex_donkey_kick",
+    "title": "Fitness girl workouts",
+    "creator": "Dima Oris",
+    "page": "https://lottiefiles.com/free-animation/fitness-girl-workouts-Bj7nPbjIoQ",
+    "download": "https://assets-v2.lottiefiles.com/a/d585b1fc-1168-11ee-a457-7b3548a6867f/8AfRCuyNpx.lottie",
+    "license": "Lottie Simple License (FL 9.13.21)",
+    "removeLayerNames": [
+      "text"
+    ],
+    "mappingNote": "Reviewed bent-knee rear leg lift from all fours. Removed the decorative #fitnessgirl caption; movement and character are unchanged.",
+    "originalSha256": "4eccfda3ae87a7daba73b717c6a08ca060d91984aacf26337288744337a24868",
+    "bundledBytes": 114871,
+    "removedBackgrounds": [],
+    "removedLabels": [
+      "text"
+    ],
+    "embeddedImages": [],
+    "modification": "Removed full-canvas background solids for theme-compatible transparency; embedded source PNGs where present; removed explicitly reviewed decorative labels where specified; cropped unused canvas only where a reviewed viewport is specified."
+  },
+  {
+    "slug": "military-push-ups",
+    "exerciseId": "ex_standard_push_up",
+    "title": "Military Push Ups",
+    "creator": "Dinh Bui Xuan",
+    "page": "https://lottiefiles.com/free-animation/military-push-ups-sFmjfnsBQ9",
+    "download": "https://assets-v2.lottiefiles.com/a/6c1a4598-1177-11ee-9e88-bf9e8c56d70c/YDxF9XmjyX.lottie",
+    "license": "Lottie Simple License (FL 9.13.21)",
+    "originalSha256": "0b9707d916984d464748935502780453d5c552b8595d69dfd4c6501f5d98db97",
+    "bundledBytes": 74644,
+    "removedBackgrounds": [
+      "White Solid 1"
+    ],
+    "removedLabels": [],
+    "embeddedImages": [],
+    "modification": "Removed full-canvas background solids for theme-compatible transparency; embedded source PNGs where present; removed explicitly reviewed decorative labels where specified; cropped unused canvas only where a reviewed viewport is specified."
+  },
+  {
+    "slug": "wide-arm-push-up",
+    "exerciseId": "ex_wide_push_up",
+    "title": "Wide Arm Push Up",
+    "creator": "Dinh Bui Xuan",
+    "page": "https://lottiefiles.com/free-animation/wide-arm-push-up-KD96z4DT4Y",
+    "download": "https://assets-v2.lottiefiles.com/a/333f4f4e-1171-11ee-aa03-23dee1fbdb3c/ReXNkakRwh.lottie",
+    "license": "Lottie Simple License (FL 9.13.21)",
+    "originalSha256": "434c551e6c9a4740059f4371ce1cc96723eb5da0928aabb432b397813cbad879",
+    "bundledBytes": 69311,
+    "removedBackgrounds": [
+      "bg"
+    ],
+    "removedLabels": [],
+    "embeddedImages": [],
+    "modification": "Removed full-canvas background solids for theme-compatible transparency; embedded source PNGs where present; removed explicitly reviewed decorative labels where specified; cropped unused canvas only where a reviewed viewport is specified."
+  },
+  {
+    "slug": "squat-reach",
+    "exerciseId": "ex_squat_to_overhead_reach",
+    "title": "Squat Reach",
+    "creator": "Dinh Bui Xuan",
+    "page": "https://lottiefiles.com/free-animation/squat-reach-Dp1w6IjOlQ",
+    "download": "https://assets-v2.lottiefiles.com/a/bf1f7a6c-1175-11ee-ae9f-2359fb1b49ba/NZQJOYnhVs.lottie",
+    "license": "Lottie Simple License (FL 9.13.21)",
+    "originalSha256": "8d3e2dab97ac482f8b17768461b2131f7cd0494300bc5137a2961aa2a2e1dbde",
+    "bundledBytes": 193948,
+    "removedBackgrounds": [
+      "White Solid 1"
+    ],
+    "removedLabels": [],
+    "embeddedImages": [],
+    "modification": "Removed full-canvas background solids for theme-compatible transparency; embedded source PNGs where present; removed explicitly reviewed decorative labels where specified; cropped unused canvas only where a reviewed viewport is specified."
+  },
+  {
+    "slug": "jumping-jack",
+    "exerciseId": "ex_jumping_jack",
+    "title": "Jumping Jack",
+    "page": "https://lottiefiles.com/free-animation/jumping-jack-Q3NN7cRkd4",
+    "download": "https://assets-v2.lottiefiles.com/a/8c2969a2-116a-11ee-ae24-8ba0ad01121d/PL84M8aMWv.lottie",
+    "creator": "Dinh Bui Xuan",
+    "license": "Lottie Simple License (FL 9.13.21)",
+    "originalSha256": "8b7d69f87d81b87d2e41996e09ba8c35af7929949bc73b8a135f1f7399c8fe74",
+    "bundledBytes": 119715,
+    "removedBackgrounds": [
+      "White Solid 41"
+    ],
+    "removedLabels": [],
+    "embeddedImages": [
+      {
+        "file": "image_0.png",
+        "sha256": "5bc3d5946c8d31761bea9890b6d8d63982d3ab59a5e52b48c840705cc1a55b28"
+      }
+    ],
+    "modification": "Removed full-canvas background solids for theme-compatible transparency; embedded source PNGs where present; removed explicitly reviewed decorative labels where specified; cropped unused canvas only where a reviewed viewport is specified."
+  },
+  {
+    "slug": "jumping-squats",
+    "exerciseId": "ex_squat_jump",
+    "title": "Jumping Squats",
+    "page": "https://lottiefiles.com/free-animation/jumping-squats-9hzVV8Ohi6",
+    "download": "https://assets-v2.lottiefiles.com/a/d2a7325a-1170-11ee-b12a-1be3c918f379/IYB2y4zAOL.lottie",
+    "creator": "Dinh Bui Xuan",
+    "license": "Lottie Simple License (FL 9.13.21)",
+    "originalSha256": "3d171c400ae7ff716bb06db1cf83606d05ff1b060d7c469e9c334c6aa9a7b156",
+    "bundledBytes": 89096,
+    "removedBackgrounds": [
+      "White Solid 1"
+    ],
+    "removedLabels": [],
+    "embeddedImages": [],
+    "modification": "Removed full-canvas background solids for theme-compatible transparency; embedded source PNGs where present; removed explicitly reviewed decorative labels where specified; cropped unused canvas only where a reviewed viewport is specified."
+  },
+  {
+    "slug": "punches",
+    "exerciseId": "ex_punches",
+    "title": "Punches",
+    "page": "https://lottiefiles.com/free-animation/punches-DK1guXUDFv",
+    "download": "https://assets-v2.lottiefiles.com/a/e5ea62be-1171-11ee-8204-e7fe3e8cdc45/zjWa2YhPBM.lottie",
+    "creator": "Dinh Bui Xuan",
+    "license": "Lottie Simple License (FL 9.13.21)",
+    "originalSha256": "111f7aff92691d80a9e344dabd823ea2441f9245d23c5de02ee867c979fa29c1",
+    "bundledBytes": 112256,
+    "removedBackgrounds": [
+      "White Solid 1"
+    ],
+    "removedLabels": [],
+    "embeddedImages": [],
+    "modification": "Removed full-canvas background solids for theme-compatible transparency; embedded source PNGs where present; removed explicitly reviewed decorative labels where specified; cropped unused canvas only where a reviewed viewport is specified."
+  },
+  {
+    "slug": "lunge",
+    "exerciseId": "ex_forward_lunge",
+    "title": "Lunge",
+    "page": "https://lottiefiles.com/free-animation/lunge-Ls3pMlE0a0",
+    "download": "https://assets-v2.lottiefiles.com/a/8c3bfbda-116a-11ee-ae27-27c841c68b90/3wj4p7PlV4.lottie",
+    "creator": "Dinh Bui Xuan",
+    "license": "Lottie Simple License (FL 9.13.21)",
+    "originalSha256": "78c9db7e5252f18c0d27317cf1d2d71c55c983acc31d8594b41d9ff54ab53f29",
+    "bundledBytes": 123588,
+    "removedBackgrounds": [
+      "Pale Red Solid 48"
+    ],
+    "removedLabels": [],
+    "embeddedImages": [],
+    "modification": "Removed full-canvas background solids for theme-compatible transparency; embedded source PNGs where present; removed explicitly reviewed decorative labels where specified; cropped unused canvas only where a reviewed viewport is specified."
+  },
+  {
+    "slug": "inchworm",
+    "exerciseId": "ex_inchworm_walkout",
+    "title": "Inchworm",
+    "page": "https://lottiefiles.com/free-animation/inchworm-oMKbWGAaDD",
+    "download": "https://assets-v2.lottiefiles.com/a/8c27d682-116a-11ee-ae23-838ae461b028/yXjVtxnIso.lottie",
+    "creator": "Dinh Bui Xuan",
+    "license": "Lottie Simple License (FL 9.13.21)",
+    "originalSha256": "0fba65a418bb08598684c52d18b421aea24bcfc1f770c7476d8aa1ffcc9f2d89",
+    "bundledBytes": 304864,
+    "removedBackgrounds": [
+      "White Solid 1"
+    ],
+    "removedLabels": [],
+    "embeddedImages": [],
+    "modification": "Removed full-canvas background solids for theme-compatible transparency; embedded source PNGs where present; removed explicitly reviewed decorative labels where specified; cropped unused canvas only where a reviewed viewport is specified."
+  },
+  {
+    "slug": "step-up-on-chair",
+    "exerciseId": "ex_step_up_chair",
+    "title": "Step Up on Chair",
+    "page": "https://lottiefiles.com/free-animation/step-up-on-chair-zcvfCJwhkF",
+    "download": "https://assets-v2.lottiefiles.com/a/8c2fd882-116a-11ee-ae26-37d18dd2eef5/HuhwaJMuEx.lottie",
+    "creator": "Dinh Bui Xuan",
+    "license": "Lottie Simple License (FL 9.13.21)",
+    "originalSha256": "bda6b8a3d942aa09d3dccaaec272a4be5c6ab808620f232803b2907baa6a296a",
+    "bundledBytes": 131801,
+    "removedBackgrounds": [
+      "Pale Red Solid 84"
+    ],
+    "removedLabels": [],
+    "embeddedImages": [],
+    "modification": "Removed full-canvas background solids for theme-compatible transparency; embedded source PNGs where present; removed explicitly reviewed decorative labels where specified; cropped unused canvas only where a reviewed viewport is specified."
+  },
+  {
+    "slug": "burpee-and-jump",
+    "exerciseId": "ex_burpee",
+    "title": "Burpee and Jump Exercise",
+    "page": "https://lottiefiles.com/free-animation/burpee-and-jump-exercise-gCOcxxnr1X",
+    "download": "https://assets-v2.lottiefiles.com/a/dc69d87e-1189-11ee-a705-f7cb6318356f/i57pvwUoHh.lottie",
+    "creator": "Dinh Bui Xuan",
+    "license": "Lottie Simple License (FL 9.13.21)",
+    "originalSha256": "f3f10d3484dd9db57fcbbfb3532504cc5f1cbfe9fd7b35d27c5ab7048b208ffd",
+    "bundledBytes": 387501,
+    "removedBackgrounds": [
+      "White Solid 1"
+    ],
+    "removedLabels": [],
+    "embeddedImages": [],
+    "modification": "Removed full-canvas background solids for theme-compatible transparency; embedded source PNGs where present; removed explicitly reviewed decorative labels where specified; cropped unused canvas only where a reviewed viewport is specified."
+  },
+  {
+    "slug": "cobras",
+    "exerciseId": "ex_cobra_stretch",
+    "title": "Cobras",
+    "page": "https://lottiefiles.com/free-animation/cobras-w0bL4N81bN",
+    "download": "https://assets-v2.lottiefiles.com/a/21be1e42-1173-11ee-83c0-4322d3669e57/hSoYnF3LmV.lottie",
+    "creator": "Dinh Bui Xuan",
+    "license": "Lottie Simple License (FL 9.13.21)",
+    "playback": {
+      "startFrame": 40,
+      "endFrame": 60,
+      "loop": false
+    },
+    "originalSha256": "0c36da8cee6287ec122257a7aa64c575a5e359ec930f37cb97b25fe94d2ab3b3",
+    "bundledBytes": 75608,
+    "removedBackgrounds": [
+      "BG"
+    ],
+    "removedLabels": [],
+    "embeddedImages": [],
+    "modification": "Removed full-canvas background solids for theme-compatible transparency; embedded source PNGs where present; removed explicitly reviewed decorative labels where specified; cropped unused canvas only where a reviewed viewport is specified."
+  },
+  {
+    "slug": "high-stepping",
+    "exerciseId": "ex_marching_high_knees",
+    "title": "High stepping",
+    "download": "https://assets-v2.lottiefiles.com/a/495abe3a-1162-11ee-b34f-e74b6697a347/Eymg3Z13Sz.lottie",
+    "page": "https://lottiefiles.com/free-animation/high-stepping-d6ybTpo5ll",
+    "creator": "saagar shrestha",
+    "license": "Lottie Simple License (FL 9.13.21)",
+    "originalSha256": "d50aeaa164ff138407940047db29d52f944ccb269e20abf6d812e77e00c2b970",
+    "bundledBytes": 33114,
+    "removedBackgrounds": [],
+    "removedLabels": [],
+    "embeddedImages": [
+      {
+        "file": "image_0.png",
+        "sha256": "bc204a3598cc8613a683059dc5a0c8d8a334b86de2a793d04dde2fe028dacfa2"
+      },
+      {
+        "file": "image_1.png",
+        "sha256": "e8d588d547da93fbc6ef82c6ec979d0d881c5c8a05f57e7388e5c951b6124c84"
+      },
+      {
+        "file": "image_2.png",
+        "sha256": "3729a44b3737d08b376baf649d8c72ff3789d3017d6cf2c0213dd72f648d00f5"
+      },
+      {
+        "file": "image_3.png",
+        "sha256": "fd8f1bc6b504d489574b84f3fe712d8cd71af83699e62fde8fc87e0f00ba1d4b"
+      }
+    ],
+    "modification": "Removed full-canvas background solids for theme-compatible transparency; embedded source PNGs where present; removed explicitly reviewed decorative labels where specified; cropped unused canvas only where a reviewed viewport is specified."
+  },
+  {
+    "slug": "triceps-dips",
+    "exerciseId": "ex_triceps_dip_chair_floor",
+    "title": "Triceps dips",
+    "download": "https://assets-v2.lottiefiles.com/a/3767ecac-1162-11ee-a879-0f7cba4b2300/oXNU8tHa7j.lottie",
+    "page": "https://lottiefiles.com/free-animation/triceps-dips-2dOoFiAlnP",
+    "creator": "saagar shrestha",
+    "license": "Lottie Simple License (FL 9.13.21)",
+    "originalSha256": "2bede97cff225e2f7f2d5419cdc559a55e795ba3c88a9f6ba046bdbfc6d6017f",
+    "bundledBytes": 48877,
+    "removedBackgrounds": [],
+    "removedLabels": [],
+    "embeddedImages": [
+      {
+        "file": "image_0.png",
+        "sha256": "86789f7b48abf8eda5331ad4b30234bc35aa73147346dd9b1fb118e30051b04d"
+      },
+      {
+        "file": "image_1.png",
+        "sha256": "20df854bb4aa6c0e1393b734b2e4ae3ea3341dfba10bc9d8f1bbe5fa3cea94dd"
+      },
+      {
+        "file": "image_2.png",
+        "sha256": "44927e725c48e0965ffab3e4a12b777d46e645d7e003d1c1e44026d2543bfe8d"
+      },
+      {
+        "file": "image_3.png",
+        "sha256": "27c1ed7ebde84ddf57ed3283e50c85cb5b4d0e6e07632570f0750ad709a03ad4"
+      },
+      {
+        "file": "image_4.png",
+        "sha256": "6a305e5aa9c10acb2694b6ef6390a139956c3941ecd0d4eccd92a6f684094ef7"
+      },
+      {
+        "file": "image_5.png",
+        "sha256": "96b06b4cb35cf46af89d00c893b858db2f2a8d41cf6512a1f4240545e1db3e75"
+      }
+    ],
+    "modification": "Removed full-canvas background solids for theme-compatible transparency; embedded source PNGs where present; removed explicitly reviewed decorative labels where specified; cropped unused canvas only where a reviewed viewport is specified."
+  },
+  {
+    "slug": "abs-crunches",
+    "exerciseId": "ex_crunch",
+    "title": "ABS Crunches",
+    "download": "https://assets-v2.lottiefiles.com/a/375c7566-1162-11ee-a875-a7a1123822d1/qRwW4kI8uH.lottie",
+    "page": "https://lottiefiles.com/free-animation/abs-crunches-kqvZGz4NGQ",
+    "creator": "saagar shrestha",
+    "license": "Lottie Simple License (FL 9.13.21)",
+    "originalSha256": "08d4a3f8b630b1ee294f034582435c467188fc02b3daf482a048e6ea1894e129",
+    "bundledBytes": 39730,
+    "removedBackgrounds": [],
+    "removedLabels": [],
+    "embeddedImages": [
+      {
+        "file": "image_0.png",
+        "sha256": "d0f58bff1e9397246797f63e2563977bc2407f6994deaafb0b010aa0fe5c39ba"
+      },
+      {
+        "file": "image_1.png",
+        "sha256": "61a33a63530053050b6cc9bf0c4429827914b51170040fb2724f818137e914f6"
+      },
+      {
+        "file": "image_2.png",
+        "sha256": "253b973faaedef549bc812b64447d31231fcf6c8366fda71044011c942f603b8"
+      },
+      {
+        "file": "image_3.png",
+        "sha256": "07d720a90c3c42159963089acfc045debe4f1a5e81986b7cf61c9d6ec3d9831b"
+      },
+      {
+        "file": "image_4.png",
+        "sha256": "6d3a7623cddf67b0bbbe8b4b0cf9cbd90814ad25e63e699777bda73ec84c70ea"
+      }
+    ],
+    "modification": "Removed full-canvas background solids for theme-compatible transparency; embedded source PNGs where present; removed explicitly reviewed decorative labels where specified; cropped unused canvas only where a reviewed viewport is specified."
+  },
+  {
+    "slug": "sit-up",
+    "exerciseId": "ex_bodyweight_squat",
+    "title": "Man with beard doing Sit up",
+    "download": "https://assets-v2.lottiefiles.com/a/375b7012-1162-11ee-a874-679bf4a61ff7/5wRf4jCU8I.lottie",
+    "page": "https://lottiefiles.com/free-animation/man-with-beard-doing-sit-up-FBsdwsgSn3",
+    "creator": "saagar shrestha",
+    "license": "Lottie Simple License (FL 9.13.21)",
+    "mappingNote": "The source title says Sit up, but reviewed keyframes show a standing bodyweight squat, not a supine sit-up.",
+    "originalSha256": "3ef9269a603a3466f4df4c8ec7a0f64a62729123ccf36e7ba27a357eadb9b91a",
+    "bundledBytes": 27080,
+    "removedBackgrounds": [],
+    "removedLabels": [],
+    "embeddedImages": [
+      {
+        "file": "image_0.png",
+        "sha256": "23bc6fab7c8eee8f98daf40309211e3ee38c5d918e6ebfad14dd5370f6e914f4"
+      },
+      {
+        "file": "image_1.png",
+        "sha256": "4001e8ef9d33cf5713cb17b1f713815f21ddec5e98d02b40910e8a2cd2e6cec2"
+      },
+      {
+        "file": "image_2.png",
+        "sha256": "7ec16121e355fbae98266b96fb9ebe1ea592d543fa59fffd038bac199ef80a0a"
+      }
+    ],
+    "modification": "Removed full-canvas background solids for theme-compatible transparency; embedded source PNGs where present; removed explicitly reviewed decorative labels where specified; cropped unused canvas only where a reviewed viewport is specified."
+  },
+  {
+    "slug": "neck-side-stretch-indrum",
+    "exerciseId": "ex_neck_side_stretch",
+    "title": "Yoga neck exercise",
+    "creator": "Indrum",
+    "page": "https://lottiefiles.com/free-animation/yoga-neck-exercise-fzL9sEfD8L",
+    "download": "https://assets-v2.lottiefiles.com/a/a2cafaa4-116a-11ee-bbaa-1323a5142b6b/GObAmZVoIj.lottie",
+    "license": "Lottie Simple License (FL 9.13.21)",
+    "playback": {
+      "startFrame": 0,
+      "endFrame": 60,
+      "loop": false
+    },
+    "mappingNote": "Original frames 0/60/120 show gentle opposite-side head tilts with relaxed shoulders and no hand pulling. Play the original first tilt once and hold at frame 60; do not loop a held stretch or use this lateral tilt for neck rolls.",
+    "originalSha256": "c51cd022805650fd7389773e39187444f53b06f0213e7d745dda25f8b585e358",
+    "bundledBytes": 42517,
+    "removedBackgrounds": [],
+    "removedLabels": [],
+    "embeddedImages": [],
+    "modification": "Removed full-canvas background solids for theme-compatible transparency; embedded source PNGs where present; removed explicitly reviewed decorative labels where specified; cropped unused canvas only where a reviewed viewport is specified."
+  },
+  {
+    "slug": "shadow-boxing",
+    "exerciseId": "ex_shadow_boxing",
+    "title": "Punches",
+    "page": "https://lottiefiles.com/free-animation/punches-DK1guXUDFv",
+    "download": "https://assets-v2.lottiefiles.com/a/e5ea62be-1171-11ee-8204-e7fe3e8cdc45/zjWa2YhPBM.lottie",
+    "creator": "Dinh Bui Xuan",
+    "license": "Lottie Simple License (FL 9.13.21)",
+    "mappingNote": "Shares the original Punches demo: reviewed frames 0/6/12/18 show a staggered stance, alternating punches into open space and hands returning to guard, matching the existing Shadow Boxing instructions. No new motion or unique source claimed.",
+    "originalSha256": "111f7aff92691d80a9e344dabd823ea2441f9245d23c5de02ee867c979fa29c1",
+    "bundledBytes": 112256,
+    "removedBackgrounds": [
+      "White Solid 1"
+    ],
+    "removedLabels": [],
+    "embeddedImages": [],
+    "modification": "Removed full-canvas background solids for theme-compatible transparency; embedded source PNGs where present; removed explicitly reviewed decorative labels where specified; cropped unused canvas only where a reviewed viewport is specified."
+  },
+  {
+    "slug": "side-plank-hold-ajay",
+    "exerciseId": "ex_side_plank_each_side",
+    "title": "Exercise",
+    "creator": "Ajay Gupta",
+    "page": "https://lottiefiles.com/free-animation/exercise-1gT4OIyvhf",
+    "download": "https://assets-v2.lottiefiles.com/a/fb106e66-1808-11ee-91e6-bf40d0ff2cbf/0afPpsWTXO.lottie",
+    "license": "Lottie Simple License (FL 9.13.21)",
+    "playback": {
+      "startFrame": 1,
+      "endFrame": 35,
+      "loop": false
+    },
+    "viewport": {
+      "x": 0,
+      "y": 100,
+      "width": 985,
+      "height": 700
+    },
+    "mappingNote": "The full source rotates repeatedly between forearm plank and side positions and is not used as a looping hold. Original frames 1/35/65/100/140 reviewed: the first entry ends at an aligned side forearm plank with supporting elbow below shoulder and upper arm raised. Stop at frame 35 for the existing each-side hold; original character/mat and motion retained.",
+    "originalSha256": "eca057a413612017432d9a092c38eda8b490a9131ac693e66d9644ea872f755e",
+    "bundledBytes": 185916,
+    "removedBackgrounds": [
+      "White Solid 1"
+    ],
+    "removedLabels": [],
+    "embeddedImages": [],
+    "modification": "Removed full-canvas background solids for theme-compatible transparency; embedded source PNGs where present; removed explicitly reviewed decorative labels where specified; cropped unused canvas only where a reviewed viewport is specified."
+  },
+  {
+    "slug": "standing-forward-fold",
+    "exerciseId": "ex_standing_forward_fold",
+    "title": "Inchworm",
+    "page": "https://lottiefiles.com/free-animation/inchworm-oMKbWGAaDD",
+    "download": "https://assets-v2.lottiefiles.com/a/8c27d682-116a-11ee-ae23-838ae461b028/yXjVtxnIso.lottie",
+    "creator": "Dinh Bui Xuan",
+    "license": "Lottie Simple License (FL 9.13.21)",
+    "playback": {
+      "startFrame": 0,
+      "endFrame": 24,
+      "loop": false
+    },
+    "mappingNote": "Shares the original licensed Inchworm source. Original frames 0/24/30/34/39 reviewed: initial hip hinge ends in standing forward fold before hand walking. Play only frames 0–24 once and hold; retain all source geometry and timing, do not loop the full walkout as a held stretch. No new unique source or custom motion claimed.",
+    "originalSha256": "0fba65a418bb08598684c52d18b421aea24bcfc1f770c7476d8aa1ffcc9f2d89",
+    "bundledBytes": 304864,
+    "removedBackgrounds": [
+      "White Solid 1"
+    ],
+    "removedLabels": [],
+    "embeddedImages": [],
+    "modification": "Removed full-canvas background solids for theme-compatible transparency; embedded source PNGs where present; removed explicitly reviewed decorative labels where specified; cropped unused canvas only where a reviewed viewport is specified."
+  },
+  {
+    "slug": "russian-twists",
+    "exerciseId": "ex_russian_twist",
+    "title": "Russian Twists",
+    "creator": "Unnamed LottieFiles contributor (a848f9e4)",
+    "page": "https://lottiefiles.com/free-animation/russian-twists-rx3c7eZtwE",
+    "download": "https://assets-v2.lottiefiles.com/a/5fa0c1c4-1169-11ee-8227-23e1469e994e/t39hniOp4K.lottie",
+    "license": "Lottie Simple License (FL 9.13.21)",
+    "mappingNote": "Original seated bent-knee character reviewed at frames 0/25/50/75/99: torso and joined hands rotate while legs/hips remain fixed; no weights or leg-lifting motion. Preserve complete original 195-frame cycle. Public profile link identifies contributor a848f9e4 without a displayed name; do not invent named authorship. Native form/playback QA remains open.",
+    "originalSha256": "b107e2f80ac2481f2348a532cde5c173461707de473c4fe6c2c89f394bd4003f",
+    "bundledBytes": 104270,
+    "removedBackgrounds": [],
+    "removedLabels": [],
+    "embeddedImages": [],
+    "modification": "Removed full-canvas background solids for theme-compatible transparency; embedded source PNGs where present; removed explicitly reviewed decorative labels where specified; cropped unused canvas only where a reviewed viewport is specified."
+  }
+]

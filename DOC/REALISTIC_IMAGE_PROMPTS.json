@@ -1,0 +1,853 @@
+{
+  "tool": "built-in imagegen",
+  "mode": "original generation",
+  "date": "2026-10-01",
+  "transparentBackground": true,
+  "sourceDirectory": "assets/images/exercises/realistic",
+  "count": 119,
+  "images": [
+    {
+      "id": "ex_archer_push_up",
+      "name": "Archer Push-Up",
+      "gender": "male",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic male performing Archer Push-Up. Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: shirtless male torso with navy training shorts and neutral sneakers. Accurate pose guidance: Start in a wide high plank with feet spread for balance. Bend one arm while the other stays longer, shift toward the bending side, then alternate. Press back to the start at a pace you can control. Wide archer push-up; one arm bent under chest, other arm straight to side with palm also planted on floor. Both palms grounded. Main exercised regions: chest. Required props: none; no equipment. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_archer_push_up.png"
+    },
+    {
+      "id": "ex_arm_circles",
+      "name": "Arm Circles",
+      "gender": "female",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic female performing Arm Circles. Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal fitted athletic sports top, navy leggings and neutral sneakers. Accurate pose guidance: Stand tall and extend both arms out to the sides. Draw small circles with the arms, then reverse direction. Move only through a comfortable range, then return slowly to the start. Show a single clear mid-movement position, not multiple phases. Main exercised regions: deltoids. Required props: none; no equipment. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_arm_circles.png"
+    },
+    {
+      "id": "ex_arm_pulse",
+      "name": "Arm Pulse",
+      "gender": "male",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic male performing Arm Pulse. Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal sleeveless training top, navy shorts and neutral sneakers. Accurate pose guidance: Stand tall with arms extended sideways and elbows soft. Make small controlled pulses without lifting the shoulders. Lower or release slowly before the next repetition. Show a single clear mid-movement position, not multiple phases. Main exercised regions: deltoids. Required props: none; no equipment. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_arm_pulse.png"
+    },
+    {
+      "id": "ex_back_extension",
+      "name": "Back Extension",
+      "gender": "male",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic male performing Back Extension. Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal sleeveless training top, navy shorts and neutral sneakers. Accurate pose guidance: Lie face down with hands lightly beside the head or chest. Lift the chest a small amount using the back muscles, then lower. Return to the start with control and keep the neck in line with the spine. Prone back extension with chest gently lifted, hands near ears and legs long. No logo or text. Main exercised regions: erector_spinae. Required props: none; no equipment. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_back_extension.png"
+    },
+    {
+      "id": "ex_bear_crawl",
+      "name": "Bear Crawl",
+      "gender": "male",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic male performing Bear Crawl. Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal sleeveless training top, navy shorts and neutral sneakers. Accurate pose guidance: Start on hands and knees with knees hovering just off the floor. Move one hand and the opposite foot forward together in small steps. Keep a pace that lets you change direction with control. Show a single clear mid-movement position, not multiple phases. Main exercised regions: abs, deltoids. Required props: none; no equipment. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_bear_crawl.png"
+    },
+    {
+      "id": "ex_bear_hold",
+      "name": "Bear Hold",
+      "gender": "female",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic female performing Bear Hold. Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal fitted athletic sports top, navy leggings and neutral sneakers. Accurate pose guidance: Start on hands and knees with wrists under shoulders. Lift the knees a little above the floor while keeping the back level. Hold a steady line for the target time, then lower gently. Show a single clear mid-movement position, not multiple phases. Main exercised regions: abs. Required props: none; no equipment. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_bear_hold.png"
+    },
+    {
+      "id": "ex_bicycle_crunch",
+      "name": "Bicycle Crunch",
+      "gender": "male",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic male performing Bicycle Crunch. Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal sleeveless training top, navy shorts and neutral sneakers. Accurate pose guidance: Lie on your back with hands lightly beside the head and knees raised. Rotate one shoulder toward the opposite knee while extending the other leg, then alternate. Return with control while keeping the trunk steady. Show a single clear mid-movement position, not multiple phases. Main exercised regions: obliques, abs. Required props: none; no equipment. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_bicycle_crunch.png"
+    },
+    {
+      "id": "ex_bird_dog",
+      "name": "Bird Dog",
+      "gender": "male",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic male performing Bird Dog. Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal sleeveless training top, navy shorts and neutral sneakers. Accurate pose guidance: Start on hands and knees with the spine long. Reach one arm and the opposite leg away, pause, then return and alternate. Return to the start with control and keep the neck in line with the spine. Show a single clear mid-movement position, not multiple phases. Main exercised regions: erector_spinae, abs. Required props: none; no equipment. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_bird_dog.png"
+    },
+    {
+      "id": "ex_bodyweight_squat",
+      "name": "Bodyweight Squat",
+      "gender": "female",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic female performing Bodyweight Squat. Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal fitted athletic sports top, navy leggings and neutral sneakers. Accurate pose guidance: Stand with feet about shoulder-width apart and toes turned out slightly. Send the hips back and bend the knees to a comfortable depth. Press through the feet to stand tall without locking the knees hard. Show a single clear mid-movement position, not multiple phases. Main exercised regions: quads, glutes. Required props: none; no equipment. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_bodyweight_squat.png"
+    },
+    {
+      "id": "ex_burpee",
+      "name": "Burpee",
+      "gender": "male",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic male performing Burpee. Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: shirtless male torso with navy training shorts and neutral sneakers. Accurate pose guidance: Stand with space around you and feet hip-width apart. Lower the hands, move the feet back to plank, bring them forward and stand or jump lightly. Keep a pace that lets you change direction with control. Show a single clear mid-movement position, not multiple phases. Main exercised regions: quads, chest. Required props: none; no equipment. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_burpee.png"
+    },
+    {
+      "id": "ex_butt_kicks",
+      "name": "Butt Kicks",
+      "gender": "female",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic female performing Butt Kicks. Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal fitted athletic sports top, navy leggings and neutral sneakers. Accurate pose guidance: Stand tall with knees soft and arms relaxed. Alternate bending the knees to bring heels toward the glutes at a comfortable pace. Keep a pace that lets you change direction with control. Show a single clear mid-movement position, not multiple phases. Main exercised regions: hamstrings. Required props: none; no equipment. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_butt_kicks.png"
+    },
+    {
+      "id": "ex_butterfly_stretch",
+      "name": "Butterfly Stretch",
+      "gender": "male",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic male performing Butterfly Stretch. Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal sleeveless training top, navy shorts and neutral sneakers. Accurate pose guidance: Sit tall with the soles of the feet together. Let the knees relax outward and hinge forward a little if comfortable. Hold a gentle stretch without bouncing, then ease out slowly. Show a single clear mid-movement position, not multiple phases. Main exercised regions: adductors. Required props: none; no equipment. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_butterfly_stretch.png"
+    },
+    {
+      "id": "ex_calf_raise",
+      "name": "Calf Raise",
+      "gender": "female",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic female performing Calf Raise. Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal fitted athletic sports top, navy leggings and neutral sneakers. Accurate pose guidance: Stand tall with feet hip-width apart and a wall nearby if needed. Rise onto the balls of both feet, pause, then lower the heels slowly. Return to the start slowly and use stable support when needed. Show a single clear mid-movement position, not multiple phases. Main exercised regions: calves. Required props: none; no equipment. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_calf_raise.png"
+    },
+    {
+      "id": "ex_cat_cow",
+      "name": "Cat-Cow",
+      "gender": "male",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic male performing Cat-Cow. Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal sleeveless training top, navy shorts and neutral sneakers. Accurate pose guidance: Start on hands and knees with wrists under shoulders and knees under hips. Round the back gently, then lengthen the spine and lift the chest slightly. Move only through a comfortable range, then return slowly to the start. Show a single clear mid-movement position, not multiple phases. Main exercised regions: erector_spinae. Required props: none; no equipment. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_cat_cow.png"
+    },
+    {
+      "id": "ex_chest_doorway_stretch",
+      "name": "Chest Doorway Stretch",
+      "gender": "female",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic female performing Chest Doorway Stretch. Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal fitted athletic sports top, navy leggings and neutral sneakers. Accurate pose guidance: Stand in a stable doorway and place forearms on the frame at a comfortable height. Step gently forward until a light stretch is felt across the chest. Hold a gentle stretch without bouncing, then ease out slowly. Show a single clear mid-movement position, not multiple phases. Main exercised regions: chest. Required props: doorway; include only these exercise props completely. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_chest_doorway_stretch.png"
+    },
+    {
+      "id": "ex_chest_squeeze_isometric",
+      "name": "Chest Squeeze (isometric)",
+      "gender": "female",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic female performing Chest Squeeze (isometric). Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal fitted athletic sports top, navy leggings and neutral sneakers. Accurate pose guidance: Stand or sit tall with palms pressed together in front of the chest. Press the palms together gently and hold without lifting the shoulders. Hold gentle tension for the target time, then release gradually. Show a single clear mid-movement position, not multiple phases. Main exercised regions: chest. Required props: none; no equipment. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_chest_squeeze_isometric.png"
+    },
+    {
+      "id": "ex_childs_pose",
+      "name": "Child's Pose",
+      "gender": "female",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic female performing Child's Pose. Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal fitted athletic sports top, navy leggings and neutral sneakers. Accurate pose guidance: Kneel on a comfortable surface with knees apart as needed. Sit the hips gently toward the heels and reach the arms forward. Hold a gentle stretch without bouncing, then ease out slowly. Show a single clear mid-movement position, not multiple phases. Main exercised regions: erector_spinae. Required props: none; no equipment. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_childs_pose.png"
+    },
+    {
+      "id": "ex_cobra_stretch",
+      "name": "Cobra Stretch",
+      "gender": "male",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic male performing Cobra Stretch. Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal sleeveless training top, navy shorts and neutral sneakers. Accurate pose guidance: Lie face down with hands near the ribs and legs long. Press lightly through the hands to lift the chest only as far as the lower back feels comfortable. Hold a gentle stretch without bouncing, then ease out slowly. Show a single clear mid-movement position, not multiple phases. Main exercised regions: abs. Required props: none; no equipment. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_cobra_stretch.png"
+    },
+    {
+      "id": "ex_crab_walk",
+      "name": "Crab Walk",
+      "gender": "female",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic female performing Crab Walk. Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal fitted athletic sports top, navy leggings and neutral sneakers. Accurate pose guidance: Sit with hands behind the hips and feet on the floor. Lift the hips slightly and walk using small alternating hand and foot steps. Keep a pace that lets you change direction with control. Show a single clear mid-movement position, not multiple phases. Main exercised regions: triceps, glutes. Required props: none; no equipment. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_crab_walk.png",
+      "batchError": "Error",
+      "verification": "source decoded and inspected on blue; file saved despite batch error"
+    },
+    {
+      "id": "ex_cross_touch_and_reach",
+      "name": "Cross Touch and Reach",
+      "gender": "female",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic female performing Cross Touch and Reach. Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal fitted athletic sports top, navy leggings and neutral sneakers. Accurate pose guidance: Stand tall with feet wider than hips and arms out. Hinge and reach one hand toward the opposite foot, then rise and reach upward; alternate. Move only through a comfortable range, then return slowly to the start. Show a single clear mid-movement position, not multiple phases. Main exercised regions: obliques. Required props: none; no equipment. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_cross_touch_and_reach.png"
+    },
+    {
+      "id": "ex_crunch",
+      "name": "Crunch",
+      "gender": "male",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic male performing Crunch. Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal sleeveless training top, navy shorts and neutral sneakers. Accurate pose guidance: Lie on your back with knees bent and feet planted. Lift the shoulder blades a short distance using the abdomen, then lower. Return with control while keeping the trunk steady. Show a single clear mid-movement position, not multiple phases. Main exercised regions: abs. Required props: none; no equipment. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_crunch.png"
+    },
+    {
+      "id": "ex_curtsy_lunge",
+      "name": "Curtsy Lunge",
+      "gender": "male",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic male performing Curtsy Lunge. Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal sleeveless training top, navy shorts and neutral sneakers. Accurate pose guidance: Stand tall with enough room behind you. Step one leg diagonally behind the other and lower only as far as the knees feel comfortable. Push through the working foot to return, then change legs as directed. Show a single clear mid-movement position, not multiple phases. Main exercised regions: glutes. Required props: none; no equipment. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_curtsy_lunge.png"
+    },
+    {
+      "id": "ex_dead_bug",
+      "name": "Dead Bug",
+      "gender": "male",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic male performing Dead Bug. Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal sleeveless training top, navy shorts and neutral sneakers. Accurate pose guidance: Lie on your back with hips and knees bent and arms reaching up. Lower one arm and the opposite leg slowly, return, then alternate sides. Return with control while keeping the trunk steady. Show a single clear mid-movement position, not multiple phases. Main exercised regions: abs. Required props: none; no equipment. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_dead_bug.png"
+    },
+    {
+      "id": "ex_decline_push_up",
+      "name": "Decline Push-Up",
+      "gender": "female",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic female performing Decline Push-Up. Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal fitted athletic sports top, navy leggings and neutral sneakers. Accurate pose guidance: Place feet on a stable, non-slip low support and hands on the floor. Keep a firm plank while lowering the chest toward the floor. Press back to the start at a pace you can control. Show a single clear mid-movement position, not multiple phases. Main exercised regions: chest, deltoids. Required props: chair; include only these exercise props completely. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_decline_push_up.png"
+    },
+    {
+      "id": "ex_diamond_push_up",
+      "name": "Diamond Push-Up",
+      "gender": "male",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic male performing Diamond Push-Up. Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal sleeveless training top, navy shorts and neutral sneakers. Accurate pose guidance: Place hands close together under the chest in a strong high plank. Bend the elbows close to the body and lower only as far as control allows. Press back to the start at a pace you can control. Show a single clear mid-movement position, not multiple phases. Main exercised regions: triceps. Required props: none; no equipment. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_diamond_push_up.png"
+    },
+    {
+      "id": "ex_donkey_kick",
+      "name": "Donkey Kick",
+      "gender": "female",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic female performing Donkey Kick. Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal fitted athletic sports top, navy leggings and neutral sneakers. Accurate pose guidance: Start on hands and knees with the back level. Keep one knee bent and lift that foot toward the ceiling without twisting the hips. Lower the working leg slowly before repeating or changing sides. Show a single clear mid-movement position, not multiple phases. Main exercised regions: glutes. Required props: none; no equipment. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_donkey_kick.png"
+    },
+    {
+      "id": "ex_downward_dog",
+      "name": "Downward Dog",
+      "gender": "female",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic female performing Downward Dog. Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal fitted athletic sports top, navy leggings and neutral sneakers. Accurate pose guidance: Start on hands and knees with hands shoulder-width apart. Lift the hips up and back, keeping the knees soft if the legs feel tight. Hold a gentle stretch without bouncing, then ease out slowly. Show a single clear mid-movement position, not multiple phases. Main exercised regions: hamstrings, calves. Required props: none; no equipment. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_downward_dog.png"
+    },
+    {
+      "id": "ex_fast_feet",
+      "name": "Fast Feet",
+      "gender": "male",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic male performing Fast Feet. Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal sleeveless training top, navy shorts and neutral sneakers. Accurate pose guidance: Stand in a shallow athletic stance with feet under the hips. Take quick, short steps in place while keeping the upper body steady. Keep a pace that lets you change direction with control. Show a single clear mid-movement position, not multiple phases. Main exercised regions: calves, quads. Required props: none; no equipment. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_fast_feet.png"
+    },
+    {
+      "id": "ex_figure_4_glute_stretch",
+      "name": "Figure-4 Glute Stretch",
+      "gender": "female",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic female performing Figure-4 Glute Stretch. Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal fitted athletic sports top, navy leggings and neutral sneakers. Accurate pose guidance: Lie on your back with knees bent and place one ankle over the opposite thigh. Draw the supporting leg gently toward the chest, then change sides. Hold a gentle stretch without bouncing, then ease out slowly. Supine figure four: one ankle clearly crossed on opposite bent knee, hands supporting behind opposite thigh. Main exercised regions: glutes. Required props: none; no equipment. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_figure_4_glute_stretch.png"
+    },
+    {
+      "id": "ex_fire_hydrant",
+      "name": "Fire Hydrant",
+      "gender": "male",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic male performing Fire Hydrant. Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal sleeveless training top, navy shorts and neutral sneakers. Accurate pose guidance: Start on hands and knees with wrists under shoulders. Lift one bent knee out to the side a small distance, then lower and switch. Lower the working leg slowly before repeating or changing sides. Show a single clear mid-movement position, not multiple phases. Main exercised regions: glutes. Required props: none; no equipment. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_fire_hydrant.png"
+    },
+    {
+      "id": "ex_floor_hip_thrust",
+      "name": "Floor Hip Thrust",
+      "gender": "male",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic male performing Floor Hip Thrust. Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal sleeveless training top, navy shorts and neutral sneakers. Accurate pose guidance: Sit on the floor with knees bent and hands behind you for support. Press through the feet and lift the hips into a tabletop-like position. Lower the hips slowly before repeating or changing sides. Show a single clear mid-movement position, not multiple phases. Main exercised regions: glutes. Required props: none; no equipment. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_floor_hip_thrust.png"
+    },
+    {
+      "id": "ex_floor_row_isometric",
+      "name": "Floor Row (isometric)",
+      "gender": "female",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic female performing Floor Row (isometric). Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal fitted athletic sports top, navy leggings and neutral sneakers. Accurate pose guidance: Sit tall on the floor with legs comfortable and elbows beside the ribs. Pull the elbows backward against an imagined resistance and hold gently. Hold gentle tension, then return to the start slowly. Supine floor-row isometric: upper arms/elbows press into ground beside torso, chest gently lifted, feet planted, hips stay low. Main exercised regions: lats, upper_back. Required props: none; no equipment. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_floor_row_isometric.png"
+    },
+    {
+      "id": "ex_floor_triceps_extension",
+      "name": "Floor Triceps Extension",
+      "gender": "male",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic male performing Floor Triceps Extension. Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal sleeveless training top, navy shorts and neutral sneakers. Accurate pose guidance: Start on hands and knees with hands ahead of the shoulders. Bend the elbows to bring forearms toward the floor, then press through the palms. Press back to the start at a pace you can control. Show a single clear mid-movement position, not multiple phases. Main exercised regions: triceps. Required props: none; no equipment. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_floor_triceps_extension.png",
+      "batchError": "Error",
+      "verification": "source decoded and inspected on blue; file saved despite batch error"
+    },
+    {
+      "id": "ex_flutter_kick",
+      "name": "Flutter Kick",
+      "gender": "female",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic female performing Flutter Kick. Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal fitted athletic sports top, navy leggings and neutral sneakers. Accurate pose guidance: Lie on your back with legs extended and the lower back comfortable. Lift the legs slightly and alternate small up-and-down kicks. Return with control while keeping the trunk steady. Show a single clear mid-movement position, not multiple phases. Main exercised regions: abs, hip_flexors. Required props: none; no equipment. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_flutter_kick.png"
+    },
+    {
+      "id": "ex_forearm_plank",
+      "name": "Forearm Plank",
+      "gender": "female",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic female performing Forearm Plank. Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal fitted athletic sports top, navy leggings and neutral sneakers. Accurate pose guidance: Place forearms on the floor with elbows under the shoulders. Step the feet back and lift into a straight line from head to heels. Hold a steady line for the target time, then lower gently. Show a single clear mid-movement position, not multiple phases. Main exercised regions: abs. Required props: none; no equipment. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_forearm_plank.png"
+    },
+    {
+      "id": "ex_forward_lunge",
+      "name": "Forward Lunge",
+      "gender": "female",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic female performing Forward Lunge. Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal fitted athletic sports top, navy leggings and neutral sneakers. Accurate pose guidance: Stand tall with feet hip-width apart. Step forward and bend both knees to a controlled depth. Push through the working foot to return, then change legs as directed. Show a single clear mid-movement position, not multiple phases. Main exercised regions: quads, glutes. Required props: none; no equipment. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_forward_lunge.png"
+    },
+    {
+      "id": "ex_frog_jump",
+      "name": "Frog Jump",
+      "gender": "male",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic male performing Frog Jump. Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal sleeveless training top, navy shorts and neutral sneakers. Accurate pose guidance: Stand with feet wider than hips and knees soft. Lower into a shallow squat and make a small forward jump, landing quietly. Land softly with knees bent and reset before the next repetition. Show a single clear mid-movement position, not multiple phases. Main exercised regions: quads, glutes. Required props: none; no equipment. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_frog_jump.png"
+    },
+    {
+      "id": "ex_front_raise",
+      "name": "Front Raise",
+      "gender": "female",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic female performing Front Raise. Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal fitted athletic sports top, navy leggings and neutral sneakers. Accurate pose guidance: Stand tall holding light water bottles with palms facing the thighs. Raise the arms forward to a comfortable shoulder height, then lower. Lower or release slowly before the next repetition. Show a single clear mid-movement position, not multiple phases. Main exercised regions: deltoids. Required props: bottles; include only these exercise props completely. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_front_raise.png"
+    },
+    {
+      "id": "ex_get_up_floor_to_stand",
+      "name": "Get-Up (floor to stand)",
+      "gender": "female",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic female performing Get-Up (floor to stand). Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal fitted athletic sports top, navy leggings and neutral sneakers. Accurate pose guidance: Start seated or kneeling on a clear floor with stable support nearby. Move through hands and feet to stand, then reverse the path slowly. Return to the start slowly and use stable support when needed. Show a single clear mid-movement position, not multiple phases. Main exercised regions: abs, quads. Required props: none; no equipment. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_get_up_floor_to_stand.png"
+    },
+    {
+      "id": "ex_glute_bridge",
+      "name": "Glute Bridge",
+      "gender": "male",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic male performing Glute Bridge. Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal sleeveless training top, navy shorts and neutral sneakers. Accurate pose guidance: Lie on your back with knees bent and feet hip-width apart. Press through the heels and lift the hips until the trunk aligns with the thighs. Lower the hips slowly before repeating or changing sides. Show a single clear mid-movement position, not multiple phases. Main exercised regions: glutes. Required props: none; no equipment. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_glute_bridge.png"
+    },
+    {
+      "id": "ex_good_morning",
+      "name": "Good Morning",
+      "gender": "female",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic female performing Good Morning. Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal fitted athletic sports top, navy leggings and neutral sneakers. Accurate pose guidance: Stand with feet hip-width apart and knees slightly soft. Push the hips back while the torso tips forward with a long spine. Drive through the feet and return to a tall standing position. Show a single clear mid-movement position, not multiple phases. Main exercised regions: hamstrings, erector_spinae. Required props: none; no equipment. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_good_morning.png"
+    },
+    {
+      "id": "ex_half_burpee_no_jump",
+      "name": "Half Burpee (no jump)",
+      "gender": "female",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic female performing Half Burpee (no jump). Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal fitted athletic sports top, navy leggings and neutral sneakers. Accurate pose guidance: Stand tall with feet apart and room to move. Squat down, place hands on the floor, step the feet back to plank, then step in and stand. Keep a pace that lets you change direction with control. Show a single clear mid-movement position, not multiple phases. Main exercised regions: quads, abs. Required props: none; no equipment. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_half_burpee_no_jump.png"
+    },
+    {
+      "id": "ex_hamstring_stretch_each_leg",
+      "name": "Hamstring Stretch (each leg)",
+      "gender": "male",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic male performing Hamstring Stretch (each leg). Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal sleeveless training top, navy shorts and neutral sneakers. Accurate pose guidance: Place one heel ahead with the knee softly bent and toes up. Hinge at the hips until a gentle stretch is felt behind that thigh, then switch legs. Hold a gentle stretch without bouncing, then ease out slowly. Show a single clear mid-movement position, not multiple phases. Main exercised regions: hamstrings. Required props: none; no equipment. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_hamstring_stretch_each_leg.png"
+    },
+    {
+      "id": "ex_heel_digs",
+      "name": "Heel Digs",
+      "gender": "male",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic male performing Heel Digs. Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal sleeveless training top, navy shorts and neutral sneakers. Accurate pose guidance: Stand tall with a slight bend in the standing knee. Place one heel ahead with toes up, return, then alternate heels and swing the arms. Keep a pace that lets you change direction with control. Show a single clear mid-movement position, not multiple phases. Main exercised regions: hamstrings. Required props: none; no equipment. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_heel_digs.png"
+    },
+    {
+      "id": "ex_heel_touch",
+      "name": "Heel Touch",
+      "gender": "female",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic female performing Heel Touch. Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal fitted athletic sports top, navy leggings and neutral sneakers. Accurate pose guidance: Lie on your back with knees bent and feet close enough to reach toward. Lift the shoulders slightly and reach side to side toward each heel. Return with control while keeping the trunk steady. Supine, feet flat, bent knees, slightly raised shoulders and one hand reaching laterally to same-side heel. Never standing. Main exercised regions: obliques. Required props: none; no equipment. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_heel_touch.png"
+    },
+    {
+      "id": "ex_high_knees",
+      "name": "High Knees",
+      "gender": "female",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic female performing High Knees. Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal fitted athletic sports top, navy leggings and neutral sneakers. Accurate pose guidance: Stand tall with room to move and arms relaxed. Run or step in place while lifting alternate knees toward a comfortable height. Keep a pace that lets you change direction with control. Show a single clear mid-movement position, not multiple phases. Main exercised regions: hip_flexors, quads. Required props: none; no equipment. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_high_knees.png"
+    },
+    {
+      "id": "ex_hip_circles",
+      "name": "Hip Circles",
+      "gender": "female",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic female performing Hip Circles. Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal fitted athletic sports top, navy leggings and neutral sneakers. Accurate pose guidance: Stand with feet hip-width apart and hands on the hips. Circle the hips slowly in one direction, then reverse. Move only through a comfortable range, then return slowly to the start. Show a single clear mid-movement position, not multiple phases. Main exercised regions: hip_flexors. Required props: none; no equipment. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_hip_circles.png"
+    },
+    {
+      "id": "ex_hip_flexor_stretch_each_side",
+      "name": "Hip Flexor Stretch (each side)",
+      "gender": "male",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic male performing Hip Flexor Stretch (each side). Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal sleeveless training top, navy shorts and neutral sneakers. Accurate pose guidance: Kneel in a split stance on a soft surface with the front foot planted. Gently shift the hips forward while keeping the trunk tall, then change sides. Hold a gentle stretch without bouncing, then ease out slowly. Show a single clear mid-movement position, not multiple phases. Main exercised regions: hip_flexors. Required props: none; no equipment. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_hip_flexor_stretch_each_side.png"
+    },
+    {
+      "id": "ex_hollow_hold",
+      "name": "Hollow Hold",
+      "gender": "female",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic female performing Hollow Hold. Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal fitted athletic sports top, navy leggings and neutral sneakers. Accurate pose guidance: Lie on your back and gently draw the ribs toward the pelvis. Lift the shoulders and legs only as far as the lower back stays controlled. Hold only while the lower back stays comfortable, then release slowly. Show a single clear mid-movement position, not multiple phases. Main exercised regions: abs. Required props: none; no equipment. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_hollow_hold.png"
+    },
+    {
+      "id": "ex_inchworm_walkout",
+      "name": "Inchworm Walkout",
+      "gender": "female",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic female performing Inchworm Walkout. Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal fitted athletic sports top, navy leggings and neutral sneakers. Accurate pose guidance: Stand tall, soften the knees and fold toward the floor. Walk the hands forward to a strong plank, then walk them back and stand. Return with control while keeping the trunk steady. Show a single clear mid-movement position, not multiple phases. Main exercised regions: abs. Required props: none; no equipment. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_inchworm_walkout.png"
+    },
+    {
+      "id": "ex_incline_push_up",
+      "name": "Incline Push-Up",
+      "gender": "male",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic male performing Incline Push-Up. Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: shirtless male torso with navy training shorts and neutral sneakers. Accurate pose guidance: Place hands on a stable, non-slip chair or surface and walk the feet back. Lower the chest toward the support by bending the elbows. Press back to the start at a pace you can control. Show a single clear mid-movement position, not multiple phases. Main exercised regions: chest. Required props: chair; include only these exercise props completely. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_incline_push_up.png"
+    },
+    {
+      "id": "ex_jumping_jack",
+      "name": "Jumping Jack",
+      "gender": "female",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic female performing Jumping Jack. Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal fitted athletic sports top, navy leggings and neutral sneakers. Accurate pose guidance: Stand tall with arms at the sides and knees soft. Jump the feet apart while raising the arms, then return to the start. Land softly with knees bent and reset before the next repetition. Show a single clear mid-movement position, not multiple phases. Main exercised regions: calves, deltoids. Required props: none; no equipment. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_jumping_jack.png"
+    },
+    {
+      "id": "ex_knee_push_up",
+      "name": "Knee Push-Up",
+      "gender": "female",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic female performing Knee Push-Up. Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal fitted athletic sports top, navy leggings and neutral sneakers. Accurate pose guidance: Set hands below the shoulders and keep knees on a padded floor. Lower the chest while the trunk stays aligned from head to knees. Press back to the start at a pace you can control. Show a single clear mid-movement position, not multiple phases. Main exercised regions: chest. Required props: none; no equipment. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_knee_push_up.png"
+    },
+    {
+      "id": "ex_knee_to_chest",
+      "name": "Knee to Chest",
+      "gender": "female",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic female performing Knee to Chest. Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal fitted athletic sports top, navy leggings and neutral sneakers. Accurate pose guidance: Lie on your back with both legs comfortable. Bring one knee gently toward the chest while the other leg stays relaxed, then switch. Hold a gentle stretch without bouncing, then ease out slowly. Show a single clear mid-movement position, not multiple phases. Main exercised regions: glutes. Required props: none; no equipment. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_knee_to_chest.png"
+    },
+    {
+      "id": "ex_lateral_lunge",
+      "name": "Lateral Lunge",
+      "gender": "female",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic female performing Lateral Lunge. Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal fitted athletic sports top, navy leggings and neutral sneakers. Accurate pose guidance: Stand with feet together and space to step sideways. Step to one side, bend that knee and push the hips back while the other leg stays long. Push through the working foot to return, then change legs as directed. Show a single clear mid-movement position, not multiple phases. Main exercised regions: adductors, quads. Required props: none; no equipment. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_lateral_lunge.png"
+    },
+    {
+      "id": "ex_lateral_raise",
+      "name": "Lateral Raise",
+      "gender": "male",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic male performing Lateral Raise. Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal sleeveless training top, navy shorts and neutral sneakers. Accurate pose guidance: Stand tall with light bottles by the sides and elbows soft. Raise the arms out to the sides to a comfortable height, then lower. Lower or release slowly before the next repetition. Show a single clear mid-movement position, not multiple phases. Main exercised regions: deltoids. Required props: bottles; include only these exercise props completely. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_lateral_raise.png"
+    },
+    {
+      "id": "ex_lateral_step",
+      "name": "Lateral Step",
+      "gender": "male",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic male performing Lateral Step. Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal sleeveless training top, navy shorts and neutral sneakers. Accurate pose guidance: Stand tall with knees soft and space on either side. Step sideways, bring the other foot in, then change direction. Keep a pace that lets you change direction with control. Show a single clear mid-movement position, not multiple phases. Main exercised regions: adductors, glutes. Required props: none; no equipment. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_lateral_step.png"
+    },
+    {
+      "id": "ex_leg_raise",
+      "name": "Leg Raise",
+      "gender": "male",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic male performing Leg Raise. Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal sleeveless training top, navy shorts and neutral sneakers. Accurate pose guidance: Lie on your back with legs long and hands by your sides. Raise the legs together only as far as you can keep the lower back controlled, then lower. Return with control while keeping the trunk steady. Show a single clear mid-movement position, not multiple phases. Main exercised regions: abs, hip_flexors. Required props: none; no equipment. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_leg_raise.png"
+    },
+    {
+      "id": "ex_leg_swings_front",
+      "name": "Leg Swings (Front)",
+      "gender": "male",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic male performing Leg Swings (Front). Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal sleeveless training top, navy shorts and neutral sneakers. Accurate pose guidance: Stand beside a stable wall and hold it lightly for balance. Swing one leg forward and back in a small controlled arc, then switch legs. Return to the start slowly and use stable support when needed. Show a single clear mid-movement position, not multiple phases. Main exercised regions: hip_flexors. Required props: wall; include only these exercise props completely. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_leg_swings_front.png"
+    },
+    {
+      "id": "ex_leg_swings_side",
+      "name": "Leg Swings (Side)",
+      "gender": "female",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic female performing Leg Swings (Side). Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal fitted athletic sports top, navy leggings and neutral sneakers. Accurate pose guidance: Face a stable wall and hold it lightly with both hands. Swing one leg across and out to the side without rotating the trunk, then switch. Return to the start slowly and use stable support when needed. Show a single clear mid-movement position, not multiple phases. Main exercised regions: adductors. Required props: wall; include only these exercise props completely. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_leg_swings_side.png"
+    },
+    {
+      "id": "ex_lying_spinal_twist",
+      "name": "Lying Spinal Twist",
+      "gender": "male",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic male performing Lying Spinal Twist. Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal sleeveless training top, navy shorts and neutral sneakers. Accurate pose guidance: Lie on your back with knees bent and arms open. Let both knees move gently to one side while the shoulders stay comfortable, then switch. Hold a gentle stretch without bouncing, then ease out slowly. Lying flat supine with shoulders grounded, arms in T, bent knees dropped together to one side. Never upright. Main exercised regions: obliques. Required props: none; no equipment. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_lying_spinal_twist.png"
+    },
+    {
+      "id": "ex_march_in_place",
+      "name": "March in Place",
+      "gender": "male",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic male performing March in Place. Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal sleeveless training top, navy shorts and neutral sneakers. Accurate pose guidance: Stand tall with your feet hip-width apart and arms relaxed. Lift one knee, lower it, then alternate knees while swinging the opposite arm. Keep a pace that lets you change direction with control. Show a single clear mid-movement position, not multiple phases. Main exercised regions: quads, hip_flexors. Required props: none; no equipment. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_march_in_place.png"
+    },
+    {
+      "id": "ex_marching_high_knees",
+      "name": "Marching High Knees",
+      "gender": "male",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic male performing Marching High Knees. Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal sleeveless training top, navy shorts and neutral sneakers. Accurate pose guidance: Stand tall with feet hip-width apart. March in place and raise each knee higher than a regular march while swinging the opposite arm. Keep a pace that lets you change direction with control. Show a single clear mid-movement position, not multiple phases. Main exercised regions: hip_flexors, quads. Required props: none; no equipment. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_marching_high_knees.png"
+    },
+    {
+      "id": "ex_mountain_climber",
+      "name": "Mountain Climber",
+      "gender": "male",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic male performing Mountain Climber. Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal sleeveless training top, navy shorts and neutral sneakers. Accurate pose guidance: Begin in a high plank with hands below the shoulders. Drive one knee toward the chest, replace it, then alternate at a steady pace. Keep a pace that lets you change direction with control. Show a single clear mid-movement position, not multiple phases. Main exercised regions: abs. Required props: none; no equipment. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_mountain_climber.png"
+    },
+    {
+      "id": "ex_neck_rolls",
+      "name": "Neck Rolls",
+      "gender": "female",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic female performing Neck Rolls. Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal fitted athletic sports top, navy leggings and neutral sneakers. Accurate pose guidance: Stand or sit tall with shoulders relaxed. Tilt the head gently to one side, move through a small front arc, then to the other side. Move only through a comfortable range, then return slowly to the start. Show a single clear mid-movement position, not multiple phases. Main exercised regions: neck. Required props: none; no equipment. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_neck_rolls.png"
+    },
+    {
+      "id": "ex_neck_side_stretch",
+      "name": "Neck Side Stretch",
+      "gender": "female",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic female performing Neck Side Stretch. Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal fitted athletic sports top, navy leggings and neutral sneakers. Accurate pose guidance: Sit or stand tall with both shoulders relaxed. Tilt one ear gently toward the same-side shoulder, then switch sides. Hold a gentle stretch without bouncing, then ease out slowly. Show a single clear mid-movement position, not multiple phases. Main exercised regions: neck. Required props: none; no equipment. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_neck_side_stretch.png"
+    },
+    {
+      "id": "ex_overhead_press_isometric",
+      "name": "Overhead Press (isometric)",
+      "gender": "female",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic female performing Overhead Press (isometric). Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal fitted athletic sports top, navy leggings and neutral sneakers. Accurate pose guidance: Stand tall with elbows bent and hands beside the shoulders. Press the palms upward against an imagined resistance and hold with ribs down. Hold gentle tension for the target time, then release gradually. Show a single clear mid-movement position, not multiple phases. Main exercised regions: deltoids. Required props: none; no equipment. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_overhead_press_isometric.png"
+    },
+    {
+      "id": "ex_pike_push_up",
+      "name": "Pike Push-Up",
+      "gender": "female",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic female performing Pike Push-Up. Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal fitted athletic sports top, navy leggings and neutral sneakers. Accurate pose guidance: Place hands on the floor and lift the hips to form an inverted V. Bend the elbows to lower the head between the hands, then press up. Press back to the start at a pace you can control. Show a single clear mid-movement position, not multiple phases. Main exercised regions: deltoids. Required props: none; no equipment. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_pike_push_up.png"
+    },
+    {
+      "id": "ex_plank_jack",
+      "name": "Plank Jack",
+      "gender": "male",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic male performing Plank Jack. Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal sleeveless training top, navy shorts and neutral sneakers. Accurate pose guidance: Start in a strong high plank with hands under shoulders. Move the feet apart and together with small jumps or steps while the trunk stays firm. Keep a pace that lets you change direction with control. High plank on both palms, straight elbows/body, toes supporting with legs spread. Never crouching. Main exercised regions: abs. Required props: none; no equipment. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_plank_jack.png"
+    },
+    {
+      "id": "ex_plank_shoulder_tap",
+      "name": "Plank Shoulder Tap",
+      "gender": "female",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic female performing Plank Shoulder Tap. Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal fitted athletic sports top, navy leggings and neutral sneakers. Accurate pose guidance: Start in a high plank with hands under shoulders and feet a little apart. Tap one shoulder with the opposite hand, replace it, then alternate. Return to a steady plank before the next repetition. Show a single clear mid-movement position, not multiple phases. Main exercised regions: abs. Required props: none; no equipment. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_plank_shoulder_tap.png"
+    },
+    {
+      "id": "ex_plank_to_push_up",
+      "name": "Plank to Push-Up",
+      "gender": "male",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic male performing Plank to Push-Up. Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: shirtless male torso with navy training shorts and neutral sneakers. Accurate pose guidance: Begin on the forearms in a firm plank. Place one hand down, then the other to rise into high plank; lower one forearm at a time. Return to a steady plank before the next repetition. Show a single clear mid-movement position, not multiple phases. Main exercised regions: chest. Required props: none; no equipment. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_plank_to_push_up.png"
+    },
+    {
+      "id": "ex_plank_up_down",
+      "name": "Plank Up-Down",
+      "gender": "male",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic male performing Plank Up-Down. Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal sleeveless training top, navy shorts and neutral sneakers. Accurate pose guidance: Begin in a forearm plank with the feet apart for balance. Press onto one hand and then the other, then lower to the forearms and switch lead arm. Return to a steady plank before the next repetition. Show a single clear mid-movement position, not multiple phases. Main exercised regions: abs. Required props: none; no equipment. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_plank_up_down.png"
+    },
+    {
+      "id": "ex_plank_walkout",
+      "name": "Plank Walkout",
+      "gender": "female",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic female performing Plank Walkout. Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal fitted athletic sports top, navy leggings and neutral sneakers. Accurate pose guidance: Stand with knees soft and fold forward to place the hands down. Walk the hands out to plank, pause, then walk them back toward the feet. Return with control while keeping the trunk steady. Show a single clear mid-movement position, not multiple phases. Main exercised regions: abs. Required props: none; no equipment. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_plank_walkout.png"
+    },
+    {
+      "id": "ex_prone_t_raise",
+      "name": "Prone T Raise",
+      "gender": "female",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic female performing Prone T Raise. Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal fitted athletic sports top, navy leggings and neutral sneakers. Accurate pose guidance: Lie face down with arms extended sideways in a T shape. Lift the hands slightly while keeping the forehead close to the floor. Return to the start with control and keep the neck in line with the spine. Prone belly-down T raise, arms lifted to sides into a T. Clear low three-quarter view, never standing. Main exercised regions: rear_deltoids. Required props: none; no equipment. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_prone_t_raise.png"
+    },
+    {
+      "id": "ex_prone_w_raise",
+      "name": "Prone W Raise",
+      "gender": "male",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic male performing Prone W Raise. Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal sleeveless training top, navy shorts and neutral sneakers. Accurate pose guidance: Lie face down with elbows bent to form a W beside the body. Lift the hands and elbows slightly while drawing the shoulder blades together. Return to the start with control and keep the neck in line with the spine. Show a single clear mid-movement position, not multiple phases. Main exercised regions: upper_back, rear_deltoids. Required props: none; no equipment. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_prone_w_raise.png"
+    },
+    {
+      "id": "ex_prone_y_raise",
+      "name": "Prone Y Raise",
+      "gender": "male",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic male performing Prone Y Raise. Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal sleeveless training top, navy shorts and neutral sneakers. Accurate pose guidance: Lie face down with arms angled overhead in a Y shape. Lift the hands a short distance by drawing the shoulder blades down and back. Return to the start with control and keep the neck in line with the spine. Prone belly-down Y raise, long legs along ground, arms lifted diagonally ahead in Y. Clear low three-quarter view. Main exercised regions: traps, rear_deltoids. Required props: none; no equipment. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_prone_y_raise.png"
+    },
+    {
+      "id": "ex_punches",
+      "name": "Punches",
+      "gender": "female",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic female performing Punches. Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal fitted athletic sports top, navy leggings and neutral sneakers. Accurate pose guidance: Stand with soft knees and hands in front of the face. Extend alternating arms forward, then bring each hand back to guard. Keep a pace that lets you change direction with control. Show a single clear mid-movement position, not multiple phases. Main exercised regions: deltoids. Required props: none; no equipment. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_punches.png"
+    },
+    {
+      "id": "ex_push_up_hold",
+      "name": "Push-Up Hold",
+      "gender": "female",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic female performing Push-Up Hold. Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal fitted athletic sports top, navy leggings and neutral sneakers. Accurate pose guidance: Set up in a high plank with hands beneath the shoulders. Bend the elbows slightly and hold the body rigid at a comfortable depth. Hold a steady line for the target time, then lower gently. Show a single clear mid-movement position, not multiple phases. Main exercised regions: chest. Required props: none; no equipment. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_push_up_hold.png"
+    },
+    {
+      "id": "ex_quad_stretch_each_leg",
+      "name": "Quad Stretch (each leg)",
+      "gender": "female",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic female performing Quad Stretch (each leg). Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal fitted athletic sports top, navy leggings and neutral sneakers. Accurate pose guidance: Stand beside a stable wall and hold it lightly for balance. Bend one knee and bring the heel toward the glute, holding the foot only if comfortable. Hold a gentle stretch without bouncing, then ease out slowly. Show a single clear mid-movement position, not multiple phases. Main exercised regions: quads. Required props: wall; include only these exercise props completely. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_quad_stretch_each_leg.png"
+    },
+    {
+      "id": "ex_reverse_crunch",
+      "name": "Reverse Crunch",
+      "gender": "female",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic female performing Reverse Crunch. Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal fitted athletic sports top, navy leggings and neutral sneakers. Accurate pose guidance: Lie on your back with knees bent over the hips. Curl the pelvis gently toward the ribs, lifting the hips slightly, then lower. Return with control while keeping the trunk steady. Show a single clear mid-movement position, not multiple phases. Main exercised regions: abs. Required props: none; no equipment. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_reverse_crunch.png"
+    },
+    {
+      "id": "ex_reverse_lunge",
+      "name": "Reverse Lunge",
+      "gender": "male",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic male performing Reverse Lunge. Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal sleeveless training top, navy shorts and neutral sneakers. Accurate pose guidance: Stand tall with feet hip-width apart. Step one foot back and lower both knees gently, then return. Push through the working foot to return, then change legs as directed. Show a single clear mid-movement position, not multiple phases. Main exercised regions: glutes, quads. Required props: none; no equipment. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_reverse_lunge.png"
+    },
+    {
+      "id": "ex_reverse_snow_angel",
+      "name": "Reverse Snow Angel",
+      "gender": "female",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic female performing Reverse Snow Angel. Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal fitted athletic sports top, navy leggings and neutral sneakers. Accurate pose guidance: Lie face down with arms near the hips and palms facing the floor. Lift the hands slightly and sweep the arms outward and overhead, then return. Return to the start with control and keep the neck in line with the spine. Prone reverse snow angel, belly down and arms spreading away from hips. Use clear low three-quarter view, never standing. Main exercised regions: rear_deltoids, upper_back. Required props: none; no equipment. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_reverse_snow_angel.png"
+    },
+    {
+      "id": "ex_russian_twist",
+      "name": "Russian Twist",
+      "gender": "male",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic male performing Russian Twist. Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal sleeveless training top, navy shorts and neutral sneakers. Accurate pose guidance: Sit with knees bent, feet supported and chest lifted. Rotate the ribs gently from side to side while keeping the spine long. Return with control while keeping the trunk steady. Show a single clear mid-movement position, not multiple phases. Main exercised regions: obliques. Required props: none; no equipment. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_russian_twist.png"
+    },
+    {
+      "id": "ex_scissor_kick",
+      "name": "Scissor Kick",
+      "gender": "male",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic male performing Scissor Kick. Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal sleeveless training top, navy shorts and neutral sneakers. Accurate pose guidance: Lie on your back with long legs lifted slightly. Cross one leg over the other in small alternating motions. Return with control while keeping the trunk steady. Show a single clear mid-movement position, not multiple phases. Main exercised regions: abs, hip_flexors. Required props: none; no equipment. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_scissor_kick.png"
+    },
+    {
+      "id": "ex_seated_forward_fold",
+      "name": "Seated Forward Fold",
+      "gender": "male",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic male performing Seated Forward Fold. Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal sleeveless training top, navy shorts and neutral sneakers. Accurate pose guidance: Sit tall with legs forward and knees slightly bent if needed. Hinge from the hips and reach toward the legs without pulling the spine into a deep curve. Hold a gentle stretch without bouncing, then ease out slowly. Show a single clear mid-movement position, not multiple phases. Main exercised regions: hamstrings. Required props: none; no equipment. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_seated_forward_fold.png"
+    },
+    {
+      "id": "ex_shadow_boxing",
+      "name": "Shadow Boxing",
+      "gender": "female",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic female performing Shadow Boxing. Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal fitted athletic sports top, navy leggings and neutral sneakers. Accurate pose guidance: Stand in a staggered stance with soft knees and hands by the face. Throw light alternating punches into open space, returning each hand to guard. Keep a pace that lets you change direction with control. Bare natural fists, no boxing gloves or extra equipment. Main exercised regions: deltoids, obliques. Required props: none; no equipment. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_shadow_boxing.png"
+    },
+    {
+      "id": "ex_shoulder_rolls",
+      "name": "Shoulder Rolls",
+      "gender": "male",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic male performing Shoulder Rolls. Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal sleeveless training top, navy shorts and neutral sneakers. Accurate pose guidance: Stand or sit tall with arms relaxed at your sides. Lift the shoulders gently, roll them back and down, then change direction. Move only through a comfortable range, then return slowly to the start. Show a single clear mid-movement position, not multiple phases. Main exercised regions: traps. Required props: none; no equipment. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_shoulder_rolls.png"
+    },
+    {
+      "id": "ex_shoulder_tap_push_up",
+      "name": "Shoulder Tap Push-Up",
+      "gender": "male",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic male performing Shoulder Tap Push-Up. Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: shirtless male torso with navy training shorts and neutral sneakers. Accurate pose guidance: Begin in a high plank with feet apart for balance. Complete one controlled push-up, then tap each opposite shoulder without twisting the hips. Press back to the start at a pace you can control. Show a single clear mid-movement position, not multiple phases. Main exercised regions: chest. Required props: none; no equipment. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_shoulder_tap_push_up.png"
+    },
+    {
+      "id": "ex_side_plank_each_side",
+      "name": "Side Plank (each side)",
+      "gender": "male",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic male performing Side Plank (each side). Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal sleeveless training top, navy shorts and neutral sneakers. Accurate pose guidance: Lie on one side with the supporting elbow under the shoulder. Lift the hips until the body forms a long line; repeat on the other side. Hold a steady line for the target time, then lower gently. Exactly ONE side-plank pose, forearm under shoulder, stacked feet, hips lifted into a straight body line, top arm vertical. Main exercised regions: obliques. Required props: none; no equipment. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_side_plank_each_side.png"
+    },
+    {
+      "id": "ex_single_leg_calf_raise",
+      "name": "Single-Leg Calf Raise",
+      "gender": "male",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic male performing Single-Leg Calf Raise. Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal sleeveless training top, navy shorts and neutral sneakers. Accurate pose guidance: Stand beside a stable wall and lift one foot from the floor. Rise on the working foot, pause, lower slowly, then change legs. Return to the start slowly and use stable support when needed. Show a single clear mid-movement position, not multiple phases. Main exercised regions: calves. Required props: wall; include only these exercise props completely. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_single_leg_calf_raise.png"
+    },
+    {
+      "id": "ex_single_leg_glute_bridge",
+      "name": "Single-Leg Glute Bridge",
+      "gender": "female",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic female performing Single-Leg Glute Bridge. Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal fitted athletic sports top, navy leggings and neutral sneakers. Accurate pose guidance: Lie on your back with one foot planted and the other leg lifted comfortably. Press through the planted heel to raise the hips, then lower and change sides. Lower the hips slowly before repeating or changing sides. Show a single clear mid-movement position, not multiple phases. Main exercised regions: glutes. Required props: none; no equipment. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_single_leg_glute_bridge.png"
+    },
+    {
+      "id": "ex_sit_up",
+      "name": "Sit-Up",
+      "gender": "female",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic female performing Sit-Up. Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal fitted athletic sports top, navy leggings and neutral sneakers. Accurate pose guidance: Lie on your back with knees bent and feet on the floor. Roll the trunk up toward the knees with control, then lower slowly. Return with control while keeping the trunk steady. Show a single clear mid-movement position, not multiple phases. Main exercised regions: abs. Required props: none; no equipment. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_sit_up.png"
+    },
+    {
+      "id": "ex_skater_hop",
+      "name": "Skater Hop",
+      "gender": "female",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic female performing Skater Hop. Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal fitted athletic sports top, navy leggings and neutral sneakers. Accurate pose guidance: Stand with knees soft and space to move sideways. Hop or step to one side, land on that leg and let the other foot trail behind. Land softly with knees bent and reset before the next repetition. Show a single clear mid-movement position, not multiple phases. Main exercised regions: glutes, quads. Required props: none; no equipment. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_skater_hop.png"
+    },
+    {
+      "id": "ex_split_squat",
+      "name": "Split Squat",
+      "gender": "female",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic female performing Split Squat. Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal fitted athletic sports top, navy leggings and neutral sneakers. Accurate pose guidance: Stand in a staggered stance with feet apart side to side for balance. Bend both knees to lower straight down, then rise through the front foot. Push through the working foot to return, then change legs as directed. Show a single clear mid-movement position, not multiple phases. Main exercised regions: quads, glutes. Required props: none; no equipment. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_split_squat.png"
+    },
+    {
+      "id": "ex_squat_jump",
+      "name": "Squat Jump",
+      "gender": "female",
+      "initialPrompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic female performing Squat Jump. Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal fitted athletic sports top, navy leggings and neutral sneakers. Accurate pose guidance: Stand with feet shoulder-width apart and knees soft. Lower into a comfortable squat, jump a small height, then land quietly. Land softly with knees bent and reset before the next repetition. Show a single clear mid-movement position, not multiple phases. Main exercised regions: quads, glutes. Required props: none; no equipment. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "prompt": "Photographic PNG sticker of one adult athletic woman performing a vertical squat jump, captured in midair. Teal sports top, navy leggings, grey sneakers. Both feet are airborne together at the SAME HEIGHT, knees slightly bent together, hips extended after driving up from the squat, both arms reaching upward. This is a two-foot vertical jump, not running or a high-knee pose. Entire body and both hands/feet visible. Natural realistic human anatomy, skin and fabric. Crisp professionally clipped silhouette directly on transparent canvas, plain even lighting on the athlete only, no graphic effects, floor, text or branding.",
+      "generationSource": "C:\\Users\\DELL\\.codex\\generated_images\\01a0e80d-2d6e-76d0-99dc-19adeba22c6e\\exec-7e739c89-9925-4269-89ce-0cf40d7f5099.png",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_squat_jump.png"
+    },
+    {
+      "id": "ex_squat_pulse",
+      "name": "Squat Pulse",
+      "gender": "female",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic female performing Squat Pulse. Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal fitted athletic sports top, navy leggings and neutral sneakers. Accurate pose guidance: Lower into a comfortable squat with feet planted. Move the hips a short distance up and down while keeping the trunk steady. Press through the feet to stand tall without locking the knees hard. Show a single clear mid-movement position, not multiple phases. Main exercised regions: quads. Required props: none; no equipment. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_squat_pulse.png"
+    },
+    {
+      "id": "ex_squat_thrust",
+      "name": "Squat Thrust",
+      "gender": "female",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic female performing Squat Thrust. Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal fitted athletic sports top, navy leggings and neutral sneakers. Accurate pose guidance: Start standing with feet apart and knees soft. Place hands down, move the feet back to plank, then bring them forward and rise. Keep a pace that lets you change direction with control. Show a single clear mid-movement position, not multiple phases. Main exercised regions: abs, quads. Required props: none; no equipment. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_squat_thrust.png"
+    },
+    {
+      "id": "ex_squat_to_overhead_reach",
+      "name": "Squat to Overhead Reach",
+      "gender": "male",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic male performing Squat to Overhead Reach. Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal sleeveless training top, navy shorts and neutral sneakers. Accurate pose guidance: Stand with feet shoulder-width apart and arms by the sides. Lower into a comfortable squat, then rise and reach both arms overhead. Press through the feet to stand tall without locking the knees hard. Show a single clear mid-movement position, not multiple phases. Main exercised regions: quads, deltoids. Required props: none; no equipment. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_squat_to_overhead_reach.png"
+    },
+    {
+      "id": "ex_standard_push_up",
+      "name": "Standard Push-Up",
+      "gender": "male",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic male performing Standard Push-Up. Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: shirtless male torso with navy training shorts and neutral sneakers. Accurate pose guidance: Start in a high plank with hands just wider than the shoulders. Bend the elbows and lower the chest while keeping a long body line. Press back to the start at a pace you can control. Mid push-up, elbows bent near 90 degrees, chest close to floor and body straight. Entire hands/toes visible. Main exercised regions: chest. Required props: none; no equipment. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_standard_push_up.png"
+    },
+    {
+      "id": "ex_standing_forward_fold",
+      "name": "Standing Forward Fold",
+      "gender": "female",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic female performing Standing Forward Fold. Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal fitted athletic sports top, navy leggings and neutral sneakers. Accurate pose guidance: Stand with feet hip-width apart and knees soft. Hinge at the hips and let the torso fold forward only as far as comfortable. Hold a gentle stretch without bouncing, then ease out slowly. Show a single clear mid-movement position, not multiple phases. Main exercised regions: hamstrings. Required props: none; no equipment. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_standing_forward_fold.png"
+    },
+    {
+      "id": "ex_standing_knee_to_elbow",
+      "name": "Standing Knee to Elbow",
+      "gender": "male",
+      "initialPrompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic male performing Standing Knee to Elbow. Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal sleeveless training top, navy shorts and neutral sneakers. Accurate pose guidance: Stand tall with elbows bent and feet hip-width apart. Lift one knee toward the opposite elbow, lower it, then alternate sides. Keep a pace that lets you change direction with control. Standing cross-body knee-to-elbow: lifted knee meets OPPOSITE elbow with torso twist, support foot grounded. Main exercised regions: obliques, abs. Required props: none; no equipment. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "prompt": "Full-body realistic fitness photograph cutout of an adult man in teal sleeveless top, navy shorts and grey sneakers performing a STANDING CROSS-BODY CRUNCH. He balances on his RIGHT foot and raises his LEFT knee inward toward the centre of his abdomen. His RIGHT ARM is folded ACROSS HIS CHEST: right hand near his left shoulder, RIGHT ELBOW pointing down across his midline and touching the raised LEFT KNEE. His LEFT arm extends out to the side for balance. The elbow must come from the opposite shoulder to the raised knee, crossing the body diagonally. Slight torso crunch and rotation. Front-facing camera makes the crossing limbs clear. Show a single anatomically natural pose, every hand/foot visible. Crisp isolated photographic sticker on genuine transparent canvas, natural skin/fabric, even lighting on subject only, no backdrop, floor, graphic effects, text or branding.",
+      "generationSource": "C:\\Users\\DELL\\.codex\\generated_images\\01a0e80d-2d6e-76d0-99dc-19adeba22c6e\\exec-2d431558-d9d9-4cd6-968c-53a517b0b15b.png",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_standing_knee_to_elbow.png"
+    },
+    {
+      "id": "ex_standing_oblique_crunch",
+      "name": "Standing Oblique Crunch",
+      "gender": "male",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic male performing Standing Oblique Crunch. Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal sleeveless training top, navy shorts and neutral sneakers. Accurate pose guidance: Stand tall with hands lightly beside the head. Lift one knee toward the same-side elbow by shortening the side of the trunk, then alternate. Return with control while keeping the trunk steady. Show a single clear mid-movement position, not multiple phases. Main exercised regions: obliques. Required props: none; no equipment. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_standing_oblique_crunch.png"
+    },
+    {
+      "id": "ex_step_jack",
+      "name": "Step Jack",
+      "gender": "male",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic male performing Step Jack. Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal sleeveless training top, navy shorts and neutral sneakers. Accurate pose guidance: Stand tall with arms at the sides. Step one foot out while lifting both arms, return, then switch sides. Keep a pace that lets you change direction with control. Show a single clear mid-movement position, not multiple phases. Main exercised regions: calves, deltoids. Required props: none; no equipment. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_step_jack.png"
+    },
+    {
+      "id": "ex_step_up_chair",
+      "name": "Step-Up (chair)",
+      "gender": "male",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic male performing Step-Up (chair). Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal sleeveless training top, navy shorts and neutral sneakers. Accurate pose guidance: Use a low, stable, non-slip step or chair that cannot tip. Step up through one foot, stand tall, then step down carefully and alternate. Return to the start slowly and use stable support when needed. Show a single clear mid-movement position, not multiple phases. Main exercised regions: quads, glutes. Required props: chair; include only these exercise props completely. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_step_up_chair.png"
+    },
+    {
+      "id": "ex_sumo_squat",
+      "name": "Sumo Squat",
+      "gender": "male",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic male performing Sumo Squat. Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal sleeveless training top, navy shorts and neutral sneakers. Accurate pose guidance: Stand wider than shoulder width with toes turned out comfortably. Lower the hips between the legs while the knees track in the direction of the toes. Press through the feet to stand tall without locking the knees hard. Show a single clear mid-movement position, not multiple phases. Main exercised regions: adductors, quads. Required props: none; no equipment. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_sumo_squat.png"
+    },
+    {
+      "id": "ex_superman_hold",
+      "name": "Superman Hold",
+      "gender": "female",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic female performing Superman Hold. Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal fitted athletic sports top, navy leggings and neutral sneakers. Accurate pose guidance: Lie face down with arms reaching forward and legs long. Lift arms and legs a small distance while keeping the gaze down, then hold. Hold gentle tension, then return to the start slowly. Show a single clear mid-movement position, not multiple phases. Main exercised regions: erector_spinae. Required props: none; no equipment. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_superman_hold.png"
+    },
+    {
+      "id": "ex_superman_raise",
+      "name": "Superman Raise",
+      "gender": "male",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic male performing Superman Raise. Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal sleeveless training top, navy shorts and neutral sneakers. Accurate pose guidance: Lie face down with arms reaching forward and legs long. Lift arms and legs gently, pause, then lower to the floor. Return to the start with control and keep the neck in line with the spine. Show a single clear mid-movement position, not multiple phases. Main exercised regions: erector_spinae. Required props: none; no equipment. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_superman_raise.png"
+    },
+    {
+      "id": "ex_swimmer",
+      "name": "Swimmer",
+      "gender": "female",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic female performing Swimmer. Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal fitted athletic sports top, navy leggings and neutral sneakers. Accurate pose guidance: Lie face down with arms forward and legs extended. Lift one arm and the opposite leg gently, lower, then switch sides. Return to the start with control and keep the neck in line with the spine. Show a single clear mid-movement position, not multiple phases. Main exercised regions: erector_spinae. Required props: none; no equipment. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_swimmer.png"
+    },
+    {
+      "id": "ex_thoracic_rotation",
+      "name": "Thoracic Rotation",
+      "gender": "male",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic male performing Thoracic Rotation. Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal sleeveless training top, navy shorts and neutral sneakers. Accurate pose guidance: Start on hands and knees or in a comfortable side-lying position. Rotate the upper back to open one arm toward the ceiling, then return and change sides. Move only through a comfortable range, then return slowly to the start. Show a single clear mid-movement position, not multiple phases. Main exercised regions: erector_spinae, obliques. Required props: none; no equipment. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_thoracic_rotation.png"
+    },
+    {
+      "id": "ex_toe_touch_crunch",
+      "name": "Toe Touch Crunch",
+      "gender": "male",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic male performing Toe Touch Crunch. Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal sleeveless training top, navy shorts and neutral sneakers. Accurate pose guidance: Lie on your back with legs reaching toward the ceiling. Lift the shoulder blades and reach toward the toes, then lower. Return with control while keeping the trunk steady. Show a single clear mid-movement position, not multiple phases. Main exercised regions: abs. Required props: none; no equipment. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_toe_touch_crunch.png"
+    },
+    {
+      "id": "ex_torso_twist",
+      "name": "Torso Twist",
+      "gender": "male",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic male performing Torso Twist. Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal sleeveless training top, navy shorts and neutral sneakers. Accurate pose guidance: Stand with feet hip-width apart and knees soft. Rotate the upper body gently left and right while the hips mostly face forward. Move only through a comfortable range, then return slowly to the start. Show a single clear mid-movement position, not multiple phases. Main exercised regions: obliques. Required props: none; no equipment. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_torso_twist.png"
+    },
+    {
+      "id": "ex_triceps_dip_chair_floor",
+      "name": "Triceps Dip (chair/floor)",
+      "gender": "female",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic female performing Triceps Dip (chair/floor). Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal fitted athletic sports top, navy leggings and neutral sneakers. Accurate pose guidance: Use a stable chair against a wall or place hands on the floor behind the hips. Bend the elbows a little to lower the hips, then press back up. Press back to the start at a pace you can control. Mid chair dip with elbows bent, hips in front of chair seat, both palms on seat and feet grounded; include entire chair. Main exercised regions: triceps. Required props: chair; include only these exercise props completely. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_triceps_dip_chair_floor.png"
+    },
+    {
+      "id": "ex_triceps_stretch",
+      "name": "Triceps Stretch",
+      "gender": "male",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic male performing Triceps Stretch. Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal sleeveless training top, navy shorts and neutral sneakers. Accurate pose guidance: Stand or sit tall and lift one arm overhead. Bend that elbow and use the other hand for a light assist, then change arms. Hold a gentle stretch without bouncing, then ease out slowly. Show a single clear mid-movement position, not multiple phases. Main exercised regions: triceps. Required props: none; no equipment. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_triceps_stretch.png"
+    },
+    {
+      "id": "ex_v_up",
+      "name": "V-Up",
+      "gender": "female",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic female performing V-Up. Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal fitted athletic sports top, navy leggings and neutral sneakers. Accurate pose guidance: Lie long on your back with arms overhead and legs together. Lift arms and legs toward each other, then lower with control. Return with control while keeping the trunk steady. Show a single clear mid-movement position, not multiple phases. Main exercised regions: abs. Required props: none; no equipment. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_v_up.png"
+    },
+    {
+      "id": "ex_wall_angel",
+      "name": "Wall Angel",
+      "gender": "male",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic male performing Wall Angel. Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal sleeveless training top, navy shorts and neutral sneakers. Accurate pose guidance: Stand with back near a wall, knees soft and ribs relaxed. Slide bent arms up and down the wall within a comfortable shoulder range. Move only through a comfortable range, then return slowly to the start. Show a single clear mid-movement position, not multiple phases. Main exercised regions: rear_deltoids, traps. Required props: wall; include only these exercise props completely. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_wall_angel.png"
+    },
+    {
+      "id": "ex_wall_handstand_hold",
+      "name": "Wall Handstand Hold",
+      "gender": "male",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic male performing Wall Handstand Hold. Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal sleeveless training top, navy shorts and neutral sneakers. Accurate pose guidance: Use a stable wall and clear, non-slip floor; begin only if you can control the setup. Place hands shoulder-width apart and bring the feet onto the wall to a manageable height. Return to the start slowly and use stable support when needed. Handstand with BOTH heels clearly supported against a minimal wall plane. Include the required wall prop. Main exercised regions: deltoids. Required props: wall; include only these exercise props completely. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_wall_handstand_hold.png"
+    },
+    {
+      "id": "ex_wall_push_up",
+      "name": "Wall Push-Up",
+      "gender": "female",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic female performing Wall Push-Up. Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal fitted athletic sports top, navy leggings and neutral sneakers. Accurate pose guidance: Face a stable wall with hands at chest height and feet stepped back. Bend the elbows to bring the chest toward the wall while the body stays straight. Press back to the start at a pace you can control. Show a single clear mid-movement position, not multiple phases. Main exercised regions: chest. Required props: wall; include only these exercise props completely. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_wall_push_up.png"
+    },
+    {
+      "id": "ex_wall_sit",
+      "name": "Wall Sit",
+      "gender": "male",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic male performing Wall Sit. Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal sleeveless training top, navy shorts and neutral sneakers. Accurate pose guidance: Lean against a stable wall with feet stepped forward. Slide down until the knees are bent at a comfortable angle and hold. Hold at a comfortable depth, then stand up slowly. Show a single clear mid-movement position, not multiple phases. Main exercised regions: quads. Required props: wall; include only these exercise props completely. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_wall_sit.png"
+    },
+    {
+      "id": "ex_wide_push_up",
+      "name": "Wide Push-Up",
+      "gender": "female",
+      "prompt": "Original photorealistic educational exercise photograph cutout for a home workout app for both men and women. One adult athletic female performing Wide Push-Up. Natural clearly defined muscles and anatomically correct joints, no exaggerated physique. Clothing: teal fitted athletic sports top, navy leggings and neutral sneakers. Accurate pose guidance: Place hands wider than shoulder width in a firm high plank. Lower the chest between the hands with elbows moving comfortably outward. Press back to the start at a pace you can control. Show a single clear mid-movement position, not multiple phases. Main exercised regions: chest. Required props: none; no equipment. Professional neutral studio lighting, realistic skin and fabric, clear three-quarter camera, whole body and all hands/feet visible, minimal safe outer margins. This must look like a real fitness photo, NOT a drawing, cartoon or 3D render. Genuine transparent alpha outside the subject/required props, clean sharp antialiased silhouette. No floor or backdrop, shadows, glow, fog, gradients, checkerboard, labels, logos, text or watermark.",
+      "source": "E:\\Work\\workout\\assets\\images\\exercises\\realistic\\ex_wide_push_up.png",
+      "batchError": "Error",
+      "verification": "source decoded and inspected on blue; file saved despite batch error"
+    }
+  ]
+}

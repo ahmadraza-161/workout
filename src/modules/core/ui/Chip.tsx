@@ -76,7 +76,7 @@ export function Chip({ label, variant = 'tab', selected = false, onPress, icon: 
 
 const styles = StyleSheet.create({
   chip: { flexDirection: 'row', alignItems: 'center', gap: 8 },
-  pill: { height: sizes.chip, borderRadius: radius.pill, paddingHorizontal: 16 },
-  quick: { height: sizes.quickChip, borderRadius: radius.md, paddingHorizontal: 16 },
+  pill: { minHeight: sizes.chip, borderRadius: radius.pill, paddingHorizontal: 16 },
+  quick: { minHeight: sizes.quickChip, borderRadius: radius.md, paddingHorizontal: 16 },
   dot: { width: 8, height: 8, borderRadius: radius.pill },
 });

@@ -5,9 +5,10 @@
 import { mkdirSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 
-import { APPROXIMATED, coverage, musclePaths, toSvg, type MapView } from './muscle-map.ts';
+import { APPROXIMATED, VIEW_BOX, bodyPaths, coverage, musclePaths, toSvg, type MapView } from './muscle-map.ts';
 
-const OUT_DIR = join(import.meta.dirname, '..', '..', 'assets', 'svg', 'muscle-map');
+const ROOT = join(import.meta.dirname, '..', '..');
+const OUT_DIR = join(ROOT, 'assets', 'svg', 'muscle-map');
 mkdirSync(OUT_DIR, { recursive: true });
 
 for (const view of ['front', 'back'] as MapView[]) {
@@ -15,6 +16,15 @@ for (const view of ['front', 'back'] as MapView[]) {
   writeFileSync(join(OUT_DIR, `${view}.svg`), `${svg}\n`, 'utf8');
   console.log(`  ${view.padEnd(6)} ${String(svg.length).padStart(6)} bytes, ${musclePaths(view).length} muscles`);
 }
+
+// React Native renders paths directly; it cannot import the generated SVG files
+// as components without another transformer package.
+const pathData = Object.fromEntries((['front', 'back'] as MapView[]).map((view) => [view, {
+  viewBox: VIEW_BOX[view],
+  body: bodyPaths(view),
+  muscles: musclePaths(view),
+}]));
+writeFileSync(join(ROOT, 'assets', 'data', 'muscle-map-paths.json'), `${JSON.stringify(pathData)}\n`, 'utf8');
 
 const placed = coverage().filter((entry) => entry.views.length > 0);
 const missing = coverage().filter((entry) => entry.views.length === 0);

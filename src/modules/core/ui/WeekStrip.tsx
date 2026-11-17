@@ -1,7 +1,7 @@
 import { Check } from 'lucide-react-native';
 import { StyleSheet, View } from 'react-native';
 
-import { radius, useTheme } from '../theme';
+import { radius, sizes, useTheme } from '../theme';
 import { Text } from './Text';
 
 export interface WeekDay {
@@ -10,6 +10,7 @@ export interface WeekDay {
   /** Single letter above the date (Report history only). */
   letter?: string;
   state: 'past' | 'today' | 'future' | 'done';
+  isToday?: boolean;
 }
 
 // Seven day cells. The reference uses this twice with different trimmings:
@@ -39,7 +40,7 @@ export function WeekStrip({ days, showTodayPointer = false, accessibilityLabel }
           <View
             style={[
               styles.cell,
-              day.state === 'today' && { borderWidth: 2, borderColor: colors.primaryBorderSoft },
+              (day.isToday ?? day.state === 'today') && { borderWidth: 2, borderColor: colors.primaryBorderSoft },
               day.state === 'done' && { backgroundColor: colors.primaryFill },
             ]}
           >
@@ -55,7 +56,7 @@ export function WeekStrip({ days, showTodayPointer = false, accessibilityLabel }
             )}
           </View>
 
-          {showTodayPointer && day.state === 'today' ? (
+          {showTodayPointer && (day.isToday ?? day.state === 'today') ? (
             <View style={[styles.pointer, { borderTopColor: colors.primaryBorderSoft }]} />
           ) : (
             <View style={styles.pointer} />
@@ -69,7 +70,7 @@ export function WeekStrip({ days, showTodayPointer = false, accessibilityLabel }
 const styles = StyleSheet.create({
   strip: { flexDirection: 'row' },
   column: { flex: 1, alignItems: 'center', gap: 4 },
-  cell: { width: 44, height: 44, borderRadius: radius.pill, alignItems: 'center', justifyContent: 'center' },
+  cell: { width: '100%', maxWidth: sizes.quickChip, aspectRatio: 1, borderRadius: radius.pill, alignItems: 'center', justifyContent: 'center' },
   pointer: {
     width: 0,
     height: 0,

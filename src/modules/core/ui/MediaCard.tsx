@@ -1,7 +1,8 @@
 import type { ReactNode } from 'react';
 import { StyleSheet, View } from 'react-native';
 
-import { radius, spacing, useTheme } from '../theme';
+import { gradients, radius, spacing, useTheme } from '../theme';
+import { GradientBackground } from './GradientBackground';
 import { Text } from './Text';
 import { Touchable } from './Touchable';
 
@@ -33,7 +34,7 @@ export function MediaCard({
       {artwork}
       {titlePlacement === 'overlay' ? (
         <>
-          <View style={styles.scrim} />
+          <View style={styles.scrim}><GradientBackground stops={gradients.mediaScrim} angle={180} /></View>
           <Text variant="captionSm" style={styles.overlayTitle} numberOfLines={2}>
             {title}
           </Text>
@@ -65,6 +66,6 @@ export function MediaCard({
 const styles = StyleSheet.create({
   art: { borderRadius: radius.lg, overflow: 'hidden', justifyContent: 'flex-end' },
   // RN 0.86 dropped StyleSheet.absoluteFillObject, so the inset is spelled out.
-  scrim: { position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, backgroundColor: 'rgba(0,0,0,0.35)' },
+  scrim: { position: 'absolute', height: '50%', left: 0, right: 0, bottom: 0 },
   overlayTitle: { color: '#FFFFFF', fontWeight: '700', padding: spacing[3] },
 });

@@ -1,0 +1,91 @@
+{
+  "portraitReplacements": [{"id":"challenge-core","prompt":"Original realistic editorial fitness app photographic cutout of an adult athletic male coach wearing a fitted teal sleeveless training top and navy shorts, standing confidently with one hand at his hip and other arm relaxed. Natural proportions and clearly readable torso and shoulders. Portrait composition from full head to upper thighs, complete arms and hands. Genuine transparent background, no scenery, text, logos or graphic effects.","source":"C:\\Users\\DELL\\.codex\\generated_images\\01a0e80d-2d6e-76d0-99dc-19adeba22c6e\\exec-470513b0-7b58-452a-aab7-13afaac3f96a.png"},{"id":"challenge-calisthenics","prompt":"Original realistic photographic fitness app cutout of a fully clothed adult athletic male coach wearing a fitted navy sleeveless training top and teal shorts, standing in an upright ready stance with feet apart and both hands loosely held in front of his chest. Athletic shoulders, natural proportions, full head and upper legs visible, portrait composition from head to mid-thigh. Genuine transparent background, crisp silhouette, no scenery, text, logos or graphic effects.","source":"C:\\Users\\DELL\\.codex\\generated_images\\01a0e80d-2d6e-76d0-99dc-19adeba22c6e\\exec-da7e8973-9c7b-4975-862f-7a4072d8c4f9.png"}],
+  "additionalSources": [{"id":"category-chest","prompt":"Original editorial fitness photograph cutout of an adult male coach wearing a fitted teal short-sleeve sports T-shirt and navy training shorts. Standing front three-quarter waist-up, arms held slightly outward, broad shoulders, natural anatomy. Fully clothed. Genuine transparent background, clean silhouette, no scenery, logo or text.","source":"C:\\Users\\DELL\\.codex\\generated_images\\01a0e80d-2d6e-76d0-99dc-19adeba22c6e\\exec-56539910-f4c7-4d16-a967-3697b20c9bfb.png"},{"id":"collection-move-better","prompt":"Original editorial fitness photographic cutout of an adult woman wearing a navy full-length athletic top and teal leggings, sitting upright in a comfortable butterfly stretch with soles together, hands holding ankles. Full body, natural anatomy, genuine transparent background, no scenery, text or logo.","source":"C:\\Users\\DELL\\.codex\\generated_images\\01a0e80d-2d6e-76d0-99dc-19adeba22c6e\\exec-91f73282-395f-4f1c-b83e-b99a61adeb92.png"}],
+  "completed": [
+    {
+      "id": "category-arm-shoulder",
+      "prompt": "Original realistic photographic PNG fitness cutout: adult athletic man in a sleeveless navy fitness top, flexing one bent arm beside the torso so upper arm and shoulder muscles are clearly visible; waist-up, face visible. Natural adult anatomy and realistic skin/fabric. Crisp professionally clipped silhouette directly on genuine transparent canvas. Subject lighting only, no graphic effects, scenery, floor, text, logo or watermark. Preserve complete required body region, hands and feet without clipped edges. High-resolution editorial home fitness app artwork. People must be original, not recognizable celebrities.",
+      "source": "C:\\Users\\DELL\\.codex\\generated_images\\01a0e80d-2d6e-76d0-99dc-19adeba22c6e\\exec-a57ac11f-37ef-4bf9-ab37-d234c71b534d.png"
+    },
+    {
+      "id": "category-back-posture",
+      "prompt": "Original realistic photographic PNG fitness cutout: adult athletic man, rear three-quarter waist-up view, shirtless upper back with natural clearly defined lats and shoulders, navy shorts, relaxed neutral spine, head turned slightly sideways. Natural adult anatomy and realistic skin/fabric. Crisp professionally clipped silhouette directly on genuine transparent canvas. Subject lighting only, no graphic effects, scenery, floor, text, logo or watermark. Preserve complete required body region, hands and feet without clipped edges. High-resolution editorial home fitness app artwork. People must be original, not recognizable celebrities.",
+      "source": "C:\\Users\\DELL\\.codex\\generated_images\\01a0e80d-2d6e-76d0-99dc-19adeba22c6e\\exec-8f29d88f-b0f6-41a6-9e77-3d066c31f29d.png"
+    },
+    {
+      "id": "category-core",
+      "prompt": "Original realistic photographic PNG fitness cutout: adult athletic man with natural defined abdominal muscles, shirtless torso, navy shorts, head and waist visible, three-quarter standing pose with one hand resting on hip. Natural adult anatomy and realistic skin/fabric. Crisp professionally clipped silhouette directly on genuine transparent canvas. Subject lighting only, no graphic effects, scenery, floor, text, logo or watermark. Preserve complete required body region, hands and feet without clipped edges. High-resolution editorial home fitness app artwork. People must be original, not recognizable celebrities.",
+      "source": "C:\\Users\\DELL\\.codex\\generated_images\\01a0e80d-2d6e-76d0-99dc-19adeba22c6e\\exec-cc561180-78cf-41c2-8380-2534f528f73a.png"
+    },
+    {
+      "id": "category-butt-leg",
+      "prompt": "Original realistic photographic PNG fitness cutout: adult athletic woman in teal fitted athletic top and navy leggings, standing in a small controlled split squat, full legs and torso visible, neutral fitness composition emphasizing quads and glutes. Natural adult anatomy and realistic skin/fabric. Crisp professionally clipped silhouette directly on genuine transparent canvas. Subject lighting only, no graphic effects, scenery, floor, text, logo or watermark. Preserve complete required body region, hands and feet without clipped edges. High-resolution editorial home fitness app artwork. People must be original, not recognizable celebrities.",
+      "source": "C:\\Users\\DELL\\.codex\\generated_images\\01a0e80d-2d6e-76d0-99dc-19adeba22c6e\\exec-295fd494-9990-4760-b6be-6ede800d6320.png"
+    },
+    {
+      "id": "challenge-full-body",
+      "prompt": "Original realistic photographic PNG fitness cutout: two athletic adult coaches, man in teal top/navy shorts and woman in navy top/teal leggings, standing in adjacent ready-for-exercise poses, man hands on hips and woman gently stretching shoulder, equally prominent. Natural adult anatomy and realistic skin/fabric. Crisp professionally clipped silhouette directly on genuine transparent canvas. Subject lighting only, no graphic effects, scenery, floor, text, logo or watermark. Preserve complete required body region, hands and feet without clipped edges. High-resolution editorial home fitness app artwork. People must be original, not recognizable celebrities.",
+      "source": "C:\\Users\\DELL\\.codex\\generated_images\\01a0e80d-2d6e-76d0-99dc-19adeba22c6e\\exec-c58d5feb-e261-4b8e-af6d-41058de40fa2.png"
+    },
+    {
+      "id": "category-full-body",
+      "prompt": "Original realistic photographic PNG fitness cutout: two athletic adult coaches, a man in navy sleeveless top and teal shorts and a woman in teal sport top and navy leggings, standing together facing camera, full bodies visible, friendly natural different poses, equal prominence. Natural adult anatomy and realistic skin/fabric. Crisp professionally clipped silhouette directly on genuine transparent canvas. Subject lighting only, no graphic effects, scenery, floor, text, logo or watermark. Preserve complete required body region, hands and feet without clipped edges. High-resolution editorial home fitness app artwork. People must be original, not recognizable celebrities.",
+      "source": "C:\\Users\\DELL\\.codex\\generated_images\\01a0e80d-2d6e-76d0-99dc-19adeba22c6e\\exec-00d84206-5d8e-479b-9867-ef96c4750040.png"
+    },
+    {
+      "id": "challenge-lose-weight",
+      "prompt": "Original realistic photographic PNG fitness cutout: two athletic adult athletes, man in navy sleeveless top/teal shorts and woman in teal top/navy leggings, lightly jogging in place side by side, whole bodies visible. Natural adult anatomy and realistic skin/fabric. Crisp professionally clipped silhouette directly on genuine transparent canvas. Subject lighting only, no graphic effects, scenery, floor, text, logo or watermark. Preserve complete required body region, hands and feet without clipped edges. High-resolution editorial home fitness app artwork. People must be original, not recognizable celebrities.",
+      "source": "C:\\Users\\DELL\\.codex\\generated_images\\01a0e80d-2d6e-76d0-99dc-19adeba22c6e\\exec-cc4da979-ea26-4963-b510-32387dda346e.png"
+    },
+    {
+      "id": "challenge-lower-body",
+      "prompt": "Original realistic photographic PNG fitness cutout: adult athletic man in teal sleeveless top/navy shorts, controlled lateral lunge, full body, legs emphasized. Natural adult anatomy and realistic skin/fabric. Crisp professionally clipped silhouette directly on genuine transparent canvas. Subject lighting only, no graphic effects, scenery, floor, text, logo or watermark. Preserve complete required body region, hands and feet without clipped edges. High-resolution editorial home fitness app artwork. People must be original, not recognizable celebrities.",
+      "source": "C:\\Users\\DELL\\.codex\\generated_images\\01a0e80d-2d6e-76d0-99dc-19adeba22c6e\\exec-44492526-d908-4fc4-861d-ec4ec1360f48.png"
+    },
+    {
+      "id": "challenge-calisthenics",
+      "prompt": "Original realistic photographic PNG fitness cutout: adult athletic man in navy sleeveless top/teal shorts, controlled archer push-up, full body and natural accurate limb alignment. Natural adult anatomy and realistic skin/fabric. Crisp professionally clipped silhouette directly on genuine transparent canvas. Subject lighting only, no graphic effects, scenery, floor, text, logo or watermark. Preserve complete required body region, hands and feet without clipped edges. High-resolution editorial home fitness app artwork. People must be original, not recognizable celebrities.",
+      "source": "C:\\Users\\DELL\\.codex\\generated_images\\01a0e80d-2d6e-76d0-99dc-19adeba22c6e\\exec-4217809c-897b-4a2e-a2b2-2d707024c474.png"
+    },
+    {
+      "id": "challenge-core",
+      "prompt": "Original realistic photographic PNG fitness cutout: adult athletic man shirtless in navy shorts, natural abs visible, seated controlled V-sit with bent knees and arms forwards, full body. Natural adult anatomy and realistic skin/fabric. Crisp professionally clipped silhouette directly on genuine transparent canvas. Subject lighting only, no graphic effects, scenery, floor, text, logo or watermark. Preserve complete required body region, hands and feet without clipped edges. High-resolution editorial home fitness app artwork. People must be original, not recognizable celebrities.",
+      "source": "C:\\Users\\DELL\\.codex\\generated_images\\01a0e80d-2d6e-76d0-99dc-19adeba22c6e\\exec-a80fb4c2-9c37-4d45-a52e-12c6673513b6.png"
+    },
+    {
+      "id": "challenge-upper-body",
+      "prompt": "Original realistic photographic PNG fitness cutout: adult athletic woman in teal top/navy leggings, waist-up athletic portrait, arm flexed naturally with visible defined shoulder muscles. Natural adult anatomy and realistic skin/fabric. Crisp professionally clipped silhouette directly on genuine transparent canvas. Subject lighting only, no graphic effects, scenery, floor, text, logo or watermark. Preserve complete required body region, hands and feet without clipped edges. High-resolution editorial home fitness app artwork. People must be original, not recognizable celebrities.",
+      "source": "C:\\Users\\DELL\\.codex\\generated_images\\01a0e80d-2d6e-76d0-99dc-19adeba22c6e\\exec-935d1c27-7cb6-4cad-9c15-f1f9e9a6af42.png"
+    },
+    {
+      "id": "challenge-beginner",
+      "prompt": "Original realistic photographic PNG fitness cutout: adult athletic woman in navy top/teal leggings, relaxed standing side stretch with one arm above head, full body. Natural adult anatomy and realistic skin/fabric. Crisp professionally clipped silhouette directly on genuine transparent canvas. Subject lighting only, no graphic effects, scenery, floor, text, logo or watermark. Preserve complete required body region, hands and feet without clipped edges. High-resolution editorial home fitness app artwork. People must be original, not recognizable celebrities.",
+      "source": "C:\\Users\\DELL\\.codex\\generated_images\\01a0e80d-2d6e-76d0-99dc-19adeba22c6e\\exec-11d0bfff-13af-44d6-91dd-05b1e68be3d1.png"
+    },
+    {
+      "id": "challenge-plank",
+      "prompt": "Original realistic photographic PNG fitness cutout: adult athletic man in teal top/navy shorts, accurate forearm plank, straight neutral spine and full body, front three-quarter camera. Natural adult anatomy and realistic skin/fabric. Crisp professionally clipped silhouette directly on genuine transparent canvas. Subject lighting only, no graphic effects, scenery, floor, text, logo or watermark. Preserve complete required body region, hands and feet without clipped edges. High-resolution editorial home fitness app artwork. People must be original, not recognizable celebrities.",
+      "source": "C:\\Users\\DELL\\.codex\\generated_images\\01a0e80d-2d6e-76d0-99dc-19adeba22c6e\\exec-ea332a82-c7d7-4cb4-ac46-be0f2cd8e696.png"
+    },
+    {
+      "id": "challenge-push-up",
+      "prompt": "Original realistic photographic PNG fitness cutout: adult athletic man shirtless in navy shorts, accurate high push-up position, straight neutral spine, full body, side three-quarter camera. Natural adult anatomy and realistic skin/fabric. Crisp professionally clipped silhouette directly on genuine transparent canvas. Subject lighting only, no graphic effects, scenery, floor, text, logo or watermark. Preserve complete required body region, hands and feet without clipped edges. High-resolution editorial home fitness app artwork. People must be original, not recognizable celebrities.",
+      "source": "C:\\Users\\DELL\\.codex\\generated_images\\01a0e80d-2d6e-76d0-99dc-19adeba22c6e\\exec-5f7c169b-ae35-40a7-87b9-ede06e1d0f76.png"
+    },
+    {
+      "id": "challenge-flexibility",
+      "prompt": "Original realistic photographic PNG fitness cutout: adult athletic woman in teal top/navy leggings, kneeling upright with arms reaching overhead, gentle mobility pose, full body. Natural adult anatomy and realistic skin/fabric. Crisp professionally clipped silhouette directly on genuine transparent canvas. Subject lighting only, no graphic effects, scenery, floor, text, logo or watermark. Preserve complete required body region, hands and feet without clipped edges. High-resolution editorial home fitness app artwork. People must be original, not recognizable celebrities.",
+      "source": "C:\\Users\\DELL\\.codex\\generated_images\\01a0e80d-2d6e-76d0-99dc-19adeba22c6e\\exec-ec2bd569-7aaa-443f-ad7b-c913a4329f6c.png"
+    },
+    {
+      "id": "challenge-posture",
+      "prompt": "Original realistic photographic PNG fitness cutout: adult athletic man in navy sleeveless top/teal shorts, upright standing rear three-quarter view with naturally aligned shoulders and arms extended sideways, full body. Natural adult anatomy and realistic skin/fabric. Crisp professionally clipped silhouette directly on genuine transparent canvas. Subject lighting only, no graphic effects, scenery, floor, text, logo or watermark. Preserve complete required body region, hands and feet without clipped edges. High-resolution editorial home fitness app artwork. People must be original, not recognizable celebrities.",
+      "source": "C:\\Users\\DELL\\.codex\\generated_images\\01a0e80d-2d6e-76d0-99dc-19adeba22c6e\\exec-ad40c0c1-bef1-41d1-92f7-e97a24b88355.png"
+    },
+    {
+      "id": "challenge-squat",
+      "prompt": "Original realistic photographic PNG fitness cutout: adult athletic woman in navy top/teal leggings, controlled bodyweight squat with arms forward, full body and heels planted. Natural adult anatomy and realistic skin/fabric. Crisp professionally clipped silhouette directly on genuine transparent canvas. Subject lighting only, no graphic effects, scenery, floor, text, logo or watermark. Preserve complete required body region, hands and feet without clipped edges. High-resolution editorial home fitness app artwork. People must be original, not recognizable celebrities.",
+      "source": "C:\\Users\\DELL\\.codex\\generated_images\\01a0e80d-2d6e-76d0-99dc-19adeba22c6e\\exec-d7e65a51-6732-4c56-bb02-0f26f3be1f99.png"
+    }
+  ]
+}

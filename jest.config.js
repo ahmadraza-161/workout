@@ -10,6 +10,9 @@ module.exports = {
     '^lucide-react-native$': '<rootDir>/node_modules/lucide-react-native/dist/cjs/lucide-react-native.js',
   },
   testPathIgnorePatterns: ['/node_modules/', '/drizzle/'],
+  // Component suites render slowly on a loaded Windows machine; the first test
+  // in a suite also pays the module-loading cost.
+  testTimeout: 30000,
   // jest-expo's default list does not cover lucide-react-native, which ships
   // untranspiled ESM. Without this, any component that imports an icon fails
   // to parse under Jest.

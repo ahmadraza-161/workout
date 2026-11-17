@@ -1,0 +1,758 @@
+[
+  {
+    "slug": "shoulder-rolls",
+    "exerciseId": "ex_shoulder_rolls",
+    "originalFile": "video-source/shoulder-rolls.mp4",
+    "originalSha256": "f913d53fe21c0effc7eb55ea7a3d98ba8b4196e31622832566ebb2a58dea31cb",
+    "source": "Owner-generated with Google Flow (Veo) from DOC/VIDEO_PROMPTS.md; 960x540 H.264, audio removed",
+    "sourceArchive": "assets/videos/Oct 26 - 20_07.zip",
+    "sourceClip": "Man_demonstrating_shoulder_rolls…_20261026232746.mp4"
+  },
+  {
+    "slug": "hip-circles",
+    "exerciseId": "ex_hip_circles",
+    "originalFile": "video-source/hip-circles.mp4",
+    "originalSha256": "980f00bbca3a75e1a71dc2f246e5b7dc3f7f6f98547034234197b1d465c188cb",
+    "source": "Owner-generated with Google Flow (Veo) from DOC/VIDEO_PROMPTS.md; 960x540 H.264, audio removed",
+    "sourceArchive": "assets/videos/Oct 26 - 20_07.zip",
+    "sourceClip": "Woman_demonstrating_hip_circles_…_20261026232746.mp4"
+  },
+  {
+    "slug": "leg-swings-front",
+    "exerciseId": "ex_leg_swings_front",
+    "originalFile": "video-source/leg-swings-front.mp4",
+    "originalSha256": "aa0f5c625f852c5bec123915f1ad91381e5acbf25771efe10016e2ec31eb265d",
+    "source": "Owner-generated with Google Flow (Veo) from DOC/VIDEO_PROMPTS.md; 960x540 H.264, audio removed",
+    "sourceArchive": "assets/videos/Oct 26 - 20_07.zip",
+    "sourceClip": "Man_performing_leg_swings_exercise_20261026232746.mp4"
+  },
+  {
+    "slug": "leg-swings-side",
+    "exerciseId": "ex_leg_swings_side",
+    "originalFile": "video-source/leg-swings-side.mp4",
+    "originalSha256": "9e0a23ee31eadd743d1be358f6ffbc93fe6f5c86e7dbd652e4228d0e89e71f8c",
+    "source": "Owner-generated with Google Flow (Veo) from DOC/VIDEO_PROMPTS.md; 960x540 H.264, audio removed",
+    "sourceArchive": "assets/videos/Oct 26 - 20_07.zip",
+    "sourceClip": "Woman_demonstrating_side_leg_swings_20261026232746.mp4"
+  },
+  {
+    "slug": "torso-twist",
+    "exerciseId": "ex_torso_twist",
+    "originalFile": "video-source/torso-twist.mp4",
+    "originalSha256": "ed162553736fe65fb8201c760c77158864dadb8132d82cebad4eed1b7540054b",
+    "source": "Owner-generated with Google Flow (Veo) from DOC/VIDEO_PROMPTS.md; 960x540 H.264, audio removed",
+    "sourceArchive": "assets/videos/Oct 26 - 20_07.zip",
+    "sourceClip": "Man_demonstrating_torso_twist_ex…_20261026232746.mp4"
+  },
+  {
+    "slug": "neck-rolls",
+    "exerciseId": "ex_neck_rolls",
+    "originalFile": "video-source/neck-rolls.mp4",
+    "originalSha256": "38db635a26c3d9bd353f3de112713dc00a06892b73dd63663e4a3c4789a2f2a7",
+    "source": "Owner-generated with Google Flow (Veo) from DOC/VIDEO_PROMPTS.md; 960x540 H.264, audio removed",
+    "sourceArchive": "assets/videos/Oct 26 - 20_07.zip",
+    "sourceClip": "Woman_demonstrating_neck_rolls_e…_20261026232746.mp4"
+  },
+  {
+    "slug": "cat-cow",
+    "exerciseId": "ex_cat_cow",
+    "originalFile": "video-source/cat-cow.mp4",
+    "originalSha256": "19b85e337deaa823ce3fc194b3e0f0bb93577a2731f92781c920780b2e22d014",
+    "source": "Owner-generated with Google Flow (Veo) from DOC/VIDEO_PROMPTS.md; 960x540 H.264, audio removed",
+    "sourceArchive": "assets/videos/Oct 26 - 20_07.zip",
+    "sourceClip": "Man_demonstrating_Cat-Cow_exercise_20261026232746.mp4"
+  },
+  {
+    "slug": "reverse-crunch",
+    "exerciseId": "ex_reverse_crunch",
+    "originalFile": "video-source/reverse-crunch.mp4",
+    "originalSha256": "98963b965b6a9a79eef9cca9763240de1f663305420cb3cacad5ba392f6d9c02",
+    "source": "Owner-generated with Google Flow (Veo) from DOC/VIDEO_PROMPTS.md; 960x540 H.264, audio removed",
+    "sourceArchive": "assets/videos/Oct 26 - 20_07.zip",
+    "sourceClip": "Woman_demonstrating_reverse_crun…_20261026232746.mp4"
+  },
+  {
+    "slug": "bicycle-crunch",
+    "exerciseId": "ex_bicycle_crunch",
+    "originalFile": "video-source/bicycle-crunch.mp4",
+    "originalSha256": "0468385c560ad101f36e1aa77a698d37150d16e091085d9bcc247cdf549333c0",
+    "source": "Owner-generated with Google Flow (Veo) from DOC/VIDEO_PROMPTS.md; 960x540 H.264, audio removed",
+    "sourceArchive": "assets/videos/Oct 26 - 20_07.zip",
+    "sourceClip": "Man_demonstrating_bicycle_crunch_20261026232746.mp4"
+  },
+  {
+    "slug": "sit-up",
+    "exerciseId": "ex_sit_up",
+    "originalFile": "video-source/sit-up.mp4",
+    "originalSha256": "70c1e9da97a5fb75cb33dd8ab0e8a5b7d79e5d0fa65e6d764c3ac1091bc2c432",
+    "source": "Owner-generated with Google Flow (Veo) from DOC/VIDEO_PROMPTS.md; 960x540 H.264, audio removed",
+    "sourceArchive": "assets/videos/Oct 26 - 23_06.zip",
+    "sourceClip": "Woman_doing_sit-up_exercise_20261027195009.mp4"
+  },
+  {
+    "slug": "leg-raise",
+    "exerciseId": "ex_leg_raise",
+    "originalFile": "video-source/leg-raise.mp4",
+    "originalSha256": "6dbe252104af2b945d932a562d575830470abf655f75b48684804a2466f6d64d",
+    "source": "Owner-generated with Google Flow (Veo) from DOC/VIDEO_PROMPTS.md; 960x540 H.264, audio removed",
+    "sourceArchive": "assets/videos/Oct 26 - 20_07.zip",
+    "sourceClip": "Man_performing_leg_raise_exercise_20261026232746.mp4"
+  },
+  {
+    "slug": "scissor-kick",
+    "exerciseId": "ex_scissor_kick",
+    "originalFile": "video-source/scissor-kick.mp4",
+    "originalSha256": "4c92aa6158a77f12bcd290093a7edac0bb2d033f0c355b6452458dc2d8e565c6",
+    "source": "Owner-generated with Google Flow (Veo) from DOC/VIDEO_PROMPTS.md; 960x540 H.264, audio removed",
+    "sourceArchive": "assets/videos/Oct 26 - 20_07.zip",
+    "sourceClip": "Man_performing_scissor_kick_exer…_20261026232746.mp4"
+  },
+  {
+    "slug": "heel-touch",
+    "exerciseId": "ex_heel_touch",
+    "originalFile": "video-source/heel-touch.mp4",
+    "originalSha256": "5bac0149f705914955093e7ccfb77edb4f1e786d7a762ed3d7f9a6a80fc0436a",
+    "source": "Owner-generated with Google Flow (Veo) from DOC/VIDEO_PROMPTS.md; 960x540 H.264, audio removed",
+    "sourceArchive": "assets/videos/Oct 26 - 20_07.zip",
+    "sourceClip": "Woman_demonstrating_heel_touch_e…_20261026232746.mp4"
+  },
+  {
+    "slug": "plank-shoulder-tap",
+    "exerciseId": "ex_plank_shoulder_tap",
+    "originalFile": "video-source/plank-shoulder-tap.mp4",
+    "originalSha256": "52327fa4475e65ad728847e65c5883c3dd56fddeeeb49522622bdfe2eafefc35",
+    "source": "Owner-generated with Google Flow (Veo) from DOC/VIDEO_PROMPTS.md; 960x540 H.264, audio removed",
+    "sourceArchive": "assets/videos/Oct 26 - 20_07.zip",
+    "sourceClip": "Woman_demonstrating_plank_should…_20261026232746.mp4"
+  },
+  {
+    "slug": "hollow-hold",
+    "exerciseId": "ex_hollow_hold",
+    "originalFile": "video-source/hollow-hold.mp4",
+    "originalSha256": "695dd668808c5ff44ef1e754addb4268bfd2d38ca272e03c94aa0a5c2f1b87af",
+    "source": "Owner-generated with Google Flow (Veo) from DOC/VIDEO_PROMPTS.md; 960x540 H.264, audio removed",
+    "sourceArchive": "assets/videos/Oct 26 - 20_07.zip",
+    "sourceClip": "Woman_demonstrating_hollow_hold_…_20261026232746.mp4"
+  },
+  {
+    "slug": "mountain-climber",
+    "exerciseId": "ex_mountain_climber",
+    "originalFile": "video-source/mountain-climber.mp4",
+    "originalSha256": "b638226946b7943047cf8f9b2c5784dba9e907bdf8efb7c15bd81bef73637665",
+    "source": "Owner-generated with Google Flow (Veo) from DOC/VIDEO_PROMPTS.md; 960x540 H.264, audio removed",
+    "sourceArchive": "assets/videos/Oct 26 - 20_07.zip",
+    "sourceClip": "Man_performing_mountain_climber_…_20261026232746.mp4"
+  },
+  {
+    "slug": "v-up",
+    "exerciseId": "ex_v_up",
+    "originalFile": "video-source/v-up.mp4",
+    "originalSha256": "25cb08c1da00b00a933d24791f470fa2fb1e3efc069a0fa65cc41043c94bbdf9",
+    "source": "Owner-generated with Google Flow (Veo) from DOC/VIDEO_PROMPTS.md; 960x540 H.264, audio removed",
+    "sourceArchive": "assets/videos/Oct 26 - 23_06.zip",
+    "sourceClip": "Woman_demonstrating_V-up_exercise_20261027195009.mp4"
+  },
+  {
+    "slug": "toe-touch-crunch",
+    "exerciseId": "ex_toe_touch_crunch",
+    "originalFile": "video-source/toe-touch-crunch.mp4",
+    "originalSha256": "d8dc4ec24fbc286b6081cc8eb07c56ee026dc45b90ac888f5bf1e59e9199b230",
+    "source": "Owner-generated with Google Flow (Veo) from DOC/VIDEO_PROMPTS.md; 960x540 H.264, audio removed",
+    "sourceArchive": "assets/videos/Oct 26 - 20_07.zip",
+    "sourceClip": "Man_performing_toe_touch_crunch_20261026232746.mp4"
+  },
+  {
+    "slug": "cross-touch-and-reach",
+    "exerciseId": "ex_cross_touch_and_reach",
+    "originalFile": "video-source/cross-touch-and-reach.mp4",
+    "originalSha256": "21950d7890ebba955dd390c13770bb649e396f141f5838e86c3176407aaa3416",
+    "source": "Owner-generated with Google Flow (Veo) from DOC/VIDEO_PROMPTS.md; 960x540 H.264, audio removed",
+    "sourceArchive": "assets/videos/Oct 26 - 20_07.zip",
+    "sourceClip": "Woman_demonstrating_cross_touch_…_20261026232746.mp4"
+  },
+  {
+    "slug": "standing-oblique-crunch",
+    "exerciseId": "ex_standing_oblique_crunch",
+    "originalFile": "video-source/standing-oblique-crunch.mp4",
+    "originalSha256": "84b6cd34ef2588b948054106578779c6a54cdf9b09d27cf2732ee62a462d9c04",
+    "source": "Owner-generated with Google Flow (Veo) from DOC/VIDEO_PROMPTS.md; 960x540 H.264, audio removed",
+    "sourceArchive": "assets/videos/Oct 26 - 20_07.zip",
+    "sourceClip": "Man_demonstrating_standing_obliq…_20261026232746.mp4"
+  },
+  {
+    "slug": "wall-push-up",
+    "exerciseId": "ex_wall_push_up",
+    "originalFile": "video-source/wall-push-up.mp4",
+    "originalSha256": "b5741db289c4dbcafeadac69675e2e59672fe0986fd6042211b232916fe4acd0",
+    "source": "Owner-generated with Google Flow (Veo) from DOC/VIDEO_PROMPTS.md; 960x540 H.264, audio removed",
+    "sourceArchive": "assets/videos/Oct 26 - 20_07.zip",
+    "sourceClip": "Woman_performing_wall_push_up_20261026232746.mp4"
+  },
+  {
+    "slug": "incline-push-up",
+    "exerciseId": "ex_incline_push_up",
+    "originalFile": "video-source/incline-push-up.mp4",
+    "originalSha256": "bcb127b82e8c6fcab2ead1a89aa02a32c4392991c6c624a6a0195a48b4068b18",
+    "source": "Owner-generated with Google Flow (Veo) from DOC/VIDEO_PROMPTS.md; 960x540 H.264, audio removed",
+    "sourceArchive": "assets/videos/Oct 26 - 23_06.zip",
+    "sourceClip": "Man_performing_incline_push-up_20261027195009.mp4"
+  },
+  {
+    "slug": "knee-push-up",
+    "exerciseId": "ex_knee_push_up",
+    "originalFile": "video-source/knee-push-up.mp4",
+    "originalSha256": "d6434c0c37760a7fa3a4be5aa29cc4e0454ddc86c1fb5f62d8c7f2013b3f1f8a",
+    "source": "Owner-generated with Google Flow (Veo) from DOC/VIDEO_PROMPTS.md; 960x540 H.264, audio removed",
+    "sourceArchive": "assets/videos/Oct 26 - 20_07.zip",
+    "sourceClip": "Woman_performing_knee_push-up_20261026232746.mp4"
+  },
+  {
+    "slug": "diamond-push-up",
+    "exerciseId": "ex_diamond_push_up",
+    "originalFile": "video-source/diamond-push-up.mp4",
+    "originalSha256": "ad4dd4fe6560514af804e5475100dda434b4ea4a383086963a32992373f5ac7f",
+    "source": "Owner-generated with Google Flow (Veo) from DOC/VIDEO_PROMPTS.md; 960x540 H.264, audio removed",
+    "sourceArchive": "assets/videos/Oct 26 - 20_07.zip",
+    "sourceClip": "Man_performing_diamond_push-up_20261026232746.mp4"
+  },
+  {
+    "slug": "decline-push-up",
+    "exerciseId": "ex_decline_push_up",
+    "originalFile": "video-source/decline-push-up.mp4",
+    "originalSha256": "a11b3ee09a21128cc64ee5ab7bf4e8ee9c6a07f2be3fabe20b486678f81d5b01",
+    "source": "Owner-generated with Google Flow (Veo) from DOC/VIDEO_PROMPTS.md; 960x540 H.264, audio removed",
+    "sourceArchive": "assets/videos/Oct 26 - 20_07.zip",
+    "sourceClip": "Woman_performing_decline_push-up_20261026232746.mp4"
+  },
+  {
+    "slug": "plank-to-push-up",
+    "exerciseId": "ex_plank_to_push_up",
+    "originalFile": "video-source/plank-to-push-up.mp4",
+    "originalSha256": "c7121bc00a53f79758a2747a654dbc53c50f1c2b434351bef79c4ff1b1d02fc5",
+    "source": "Owner-generated with Google Flow (Veo) from DOC/VIDEO_PROMPTS.md; 960x540 H.264, audio removed",
+    "sourceArchive": "assets/videos/Oct 26 - 23_06.zip",
+    "sourceClip": "Man_demonstrating_push-up_exercise_20261027195009.mp4"
+  },
+  {
+    "slug": "chest-squeeze-isometric",
+    "exerciseId": "ex_chest_squeeze_isometric",
+    "originalFile": "video-source/chest-squeeze-isometric.mp4",
+    "originalSha256": "fcb9008fc924f65bdf968f7a1a55ff1df1f14b379f4e907bdf36534b3ae22906",
+    "source": "Owner-generated with Google Flow (Veo) from DOC/VIDEO_PROMPTS.md; 960x540 H.264, audio removed",
+    "sourceArchive": "assets/videos/Oct 26 - 23_06.zip",
+    "sourceClip": "Woman_demonstrating_chest_squeez…_20261027195009.mp4"
+  },
+  {
+    "slug": "shoulder-tap-push-up",
+    "exerciseId": "ex_shoulder_tap_push_up",
+    "originalFile": "video-source/shoulder-tap-push-up.mp4",
+    "originalSha256": "85b6d3371a9c52843df46e181d4583301d776bd7c836ba5daf39e6bc00291b38",
+    "source": "Owner-generated with Google Flow (Veo) from DOC/VIDEO_PROMPTS.md; 960x540 H.264, audio removed",
+    "sourceArchive": "assets/videos/Oct 26 - 23_06.zip",
+    "sourceClip": "Man_performing_shoulder_tap_push-up_20261027195009.mp4"
+  },
+  {
+    "slug": "pike-push-up",
+    "exerciseId": "ex_pike_push_up",
+    "originalFile": "video-source/pike-push-up.mp4",
+    "originalSha256": "78938042d8ba3143a62a1891b294aba9c933360867dca8e911d314b0ac2a784b",
+    "source": "Owner-generated with Google Flow (Veo) from DOC/VIDEO_PROMPTS.md; 960x540 H.264, audio removed",
+    "sourceArchive": "assets/videos/Oct 26 - 23_06.zip",
+    "sourceClip": "Woman_demonstrating_pike_push-up_20261027195009.mp4"
+  },
+  {
+    "slug": "wall-angel",
+    "exerciseId": "ex_wall_angel",
+    "originalFile": "video-source/wall-angel.mp4",
+    "originalSha256": "d452f9670602ab9f6e2b1fe8526a9c47cb0cd2be9218945bcf673713a80e6659",
+    "source": "Owner-generated with Google Flow (Veo) from DOC/VIDEO_PROMPTS.md; 960x540 H.264, audio removed",
+    "sourceArchive": "assets/videos/Oct 26 - 23_06.zip",
+    "sourceClip": "Man_demonstrating_wall_angel_exe…_20261027195009.mp4"
+  },
+  {
+    "slug": "floor-triceps-extension",
+    "exerciseId": "ex_floor_triceps_extension",
+    "originalFile": "video-source/floor-triceps-extension.mp4",
+    "originalSha256": "fe93a518ff06fd8d2a4da5062ae1baecb9d1700d091c6a85b63e7dd4d19eb9e6",
+    "source": "Owner-generated with Google Flow (Veo) from DOC/VIDEO_PROMPTS.md; 960x540 H.264, audio removed",
+    "sourceArchive": "assets/videos/Oct 26 - 23_06.zip",
+    "sourceClip": "Man_demonstrating_floor_triceps_…_20261027195009.mp4"
+  },
+  {
+    "slug": "front-raise",
+    "exerciseId": "ex_front_raise",
+    "originalFile": "video-source/front-raise.mp4",
+    "originalSha256": "a48babe3ea45c34455dce7cbe95a99df6f455d8d5895ce097e558e4938d2fec6",
+    "source": "Owner-generated with Google Flow (Veo) from DOC/VIDEO_PROMPTS.md; 960x540 H.264, audio removed",
+    "sourceArchive": "assets/videos/Oct 26 - 23_06.zip",
+    "sourceClip": "Woman_demonstrating_front_raise_…_20261027195009.mp4"
+  },
+  {
+    "slug": "lateral-raise",
+    "exerciseId": "ex_lateral_raise",
+    "originalFile": "video-source/lateral-raise.mp4",
+    "originalSha256": "04e83588a78075b4c7e04655300cd2dac493c9ffc2d074cbaec888bf93422594",
+    "source": "Owner-generated with Google Flow (Veo) from DOC/VIDEO_PROMPTS.md; 960x540 H.264, audio removed",
+    "sourceArchive": "assets/videos/Oct 26 - 20_07.zip",
+    "sourceClip": "Man_doing_lateral_raise_exercise_20261026232746.mp4"
+  },
+  {
+    "slug": "overhead-press-isometric",
+    "exerciseId": "ex_overhead_press_isometric",
+    "originalFile": "video-source/overhead-press-isometric.mp4",
+    "originalSha256": "be0085916c0bf551370e361c7908ec1663a9a889ac835945ee580f0c85eff071",
+    "source": "Owner-generated with Google Flow (Veo) from DOC/VIDEO_PROMPTS.md; 960x540 H.264, audio removed",
+    "sourceArchive": "assets/videos/Oct 26 - 20_07.zip",
+    "sourceClip": "Woman_demonstrating_overhead_pre…_20261026232746.mp4"
+  },
+  {
+    "slug": "plank-up-down",
+    "exerciseId": "ex_plank_up_down",
+    "originalFile": "video-source/plank-up-down.mp4",
+    "originalSha256": "0b4dd914f10d87978ad698d19c04823dd17669e424d104bb33b931b020dcb770",
+    "source": "Owner-generated with Google Flow (Veo) from DOC/VIDEO_PROMPTS.md; 960x540 H.264, audio removed",
+    "sourceArchive": "assets/videos/Oct 26 - 20_07.zip",
+    "sourceClip": "Man_demonstrating_plank_exercise_20261026232746.mp4"
+  },
+  {
+    "slug": "bear-hold",
+    "exerciseId": "ex_bear_hold",
+    "originalFile": "video-source/bear-hold.mp4",
+    "originalSha256": "6c659f6367757b5719782732d005530be5665a40d720b71b9f3f8f2e0ddac5aa",
+    "source": "Owner-generated with Google Flow (Veo) from DOC/VIDEO_PROMPTS.md; 960x540 H.264, audio removed",
+    "sourceArchive": "assets/videos/Oct 26 - 20_07.zip",
+    "sourceClip": "Woman_demonstrating_bear_hold_ex…_20261026232746.mp4"
+  },
+  {
+    "slug": "wall-handstand-hold",
+    "exerciseId": "ex_wall_handstand_hold",
+    "originalFile": "video-source/wall-handstand-hold.mp4",
+    "originalSha256": "1959928547681ff87bb294e079d3a3a6206942dc94fe50ca7ae620719285351f",
+    "source": "Owner-generated with Google Flow (Veo) from DOC/VIDEO_PROMPTS.md; 960x540 H.264, audio removed",
+    "sourceArchive": "assets/videos/Oct 26 - 20_07.zip",
+    "sourceClip": "Man_holding_wall_handstand_20261026232746.mp4"
+  },
+  {
+    "slug": "arm-pulse",
+    "exerciseId": "ex_arm_pulse",
+    "originalFile": "video-source/arm-pulse.mp4",
+    "originalSha256": "e93c7784e5c314f18cf3fe8bb0519174d2bdf8e6ff14b26fb5bac412b70f5aea",
+    "source": "Owner-generated with Google Flow (Veo) from DOC/VIDEO_PROMPTS.md; 960x540 H.264, audio removed",
+    "sourceArchive": "assets/videos/Oct 26 - 20_07.zip",
+    "sourceClip": "Man_demonstrating_arm_pulse_exer…_20261026232746.mp4"
+  },
+  {
+    "slug": "superman-hold",
+    "exerciseId": "ex_superman_hold",
+    "originalFile": "video-source/superman-hold.mp4",
+    "originalSha256": "0e28e5dc00057ffa52f4d190722505ee4228ab6be675f8bd73900dc9ed3dae6b",
+    "source": "Owner-generated with Google Flow (Veo) from DOC/VIDEO_PROMPTS.md; 960x540 H.264, audio removed",
+    "sourceArchive": "assets/videos/Oct 26 - 23_06.zip",
+    "sourceClip": "Woman_demonstrating_Superman_hol…_20261027195009.mp4"
+  },
+  {
+    "slug": "superman-raise",
+    "exerciseId": "ex_superman_raise",
+    "originalFile": "video-source/superman-raise.mp4",
+    "originalSha256": "ee6c023ea6d00e2f52cf2679f144a566e396272269560ac117ab29b77f9cd5e3",
+    "source": "Owner-generated with Google Flow (Veo) from DOC/VIDEO_PROMPTS.md; 960x540 H.264, audio removed",
+    "sourceArchive": "assets/videos/Oct 26 - 23_06.zip",
+    "sourceClip": "Man_performing_Superman_exercise_20261027195009.mp4"
+  },
+  {
+    "slug": "reverse-snow-angel",
+    "exerciseId": "ex_reverse_snow_angel",
+    "originalFile": "video-source/reverse-snow-angel.mp4",
+    "originalSha256": "7b5897216de9d403d5125db3cbb2124e6d1004d105b9d295286642ab8b38fe6c",
+    "source": "Owner-generated with Google Flow (Veo) from DOC/VIDEO_PROMPTS.md; 960x540 H.264, audio removed",
+    "sourceArchive": "assets/videos/Oct 26 - 23_06.zip",
+    "sourceClip": "Woman_demonstrating_reverse_snow…_20261027195009.mp4"
+  },
+  {
+    "slug": "prone-y-raise",
+    "exerciseId": "ex_prone_y_raise",
+    "originalFile": "video-source/prone-y-raise.mp4",
+    "originalSha256": "c90f815111049fd1326a04582c748a77df5fb0e32d39b75d07457685166c93c9",
+    "source": "Owner-generated with Google Flow (Veo) from DOC/VIDEO_PROMPTS.md; 960x540 H.264, audio removed",
+    "sourceArchive": "assets/videos/Oct 26 - 23_06.zip",
+    "sourceClip": "Man_performing_Y_raise_20261027195009.mp4"
+  },
+  {
+    "slug": "prone-t-raise",
+    "exerciseId": "ex_prone_t_raise",
+    "originalFile": "video-source/prone-t-raise.mp4",
+    "originalSha256": "5c56fa47a0e296d6fedf627e067b1277d3bc745d83e9dd54aa7886ef4954f59d",
+    "source": "Owner-generated with Google Flow (Veo) from DOC/VIDEO_PROMPTS.md; 960x540 H.264, audio removed",
+    "sourceArchive": "assets/videos/Oct 26 - 23_06.zip",
+    "sourceClip": "Woman_performing_T_raise_exercise_20261027195009.mp4"
+  },
+  {
+    "slug": "prone-w-raise",
+    "exerciseId": "ex_prone_w_raise",
+    "originalFile": "video-source/prone-w-raise.mp4",
+    "originalSha256": "8f62d4b0d24099a6cd50a0832ea79786df91f316febf6a7de85b90e2e22a8468",
+    "source": "Owner-generated with Google Flow (Veo) from DOC/VIDEO_PROMPTS.md; 960x540 H.264, audio removed",
+    "sourceArchive": "assets/videos/Oct 26 - 23_06.zip",
+    "sourceClip": "Man_demonstrating_Prone_W_Raise_20261027195009.mp4"
+  },
+  {
+    "slug": "swimmer",
+    "exerciseId": "ex_swimmer",
+    "originalFile": "video-source/swimmer.mp4",
+    "originalSha256": "25ed5fd416ffa908f00976efb64a5733afbfe11b790b4f7fd11d837d33f7a51d",
+    "source": "Owner-generated with Google Flow (Veo) from DOC/VIDEO_PROMPTS.md; 960x540 H.264, audio removed",
+    "sourceArchive": "assets/videos/Oct 26 - 23_06.zip",
+    "sourceClip": "Woman_demonstrating_swimming_exe…_20261027195009.mp4"
+  },
+  {
+    "slug": "bird-dog",
+    "exerciseId": "ex_bird_dog",
+    "originalFile": "video-source/bird-dog.mp4",
+    "originalSha256": "0561e689b787e7af72204677451575ce5e269cba28941cedb4aa9976cda824c2",
+    "source": "Owner-generated with Google Flow (Veo) from DOC/VIDEO_PROMPTS.md; 960x540 H.264, audio removed",
+    "sourceArchive": "assets/videos/Oct 26 - 20_07.zip",
+    "sourceClip": "3D_man_doing_Bird_Dog_20261026232746.mp4"
+  },
+  {
+    "slug": "floor-row-isometric",
+    "exerciseId": "ex_floor_row_isometric",
+    "originalFile": "video-source/floor-row-isometric.mp4",
+    "originalSha256": "892041a65ab116a6fbb7775226e9fb0209510eb9bf0201b6f987b76a992ad0a2",
+    "source": "Owner-generated with Google Flow (Veo) from DOC/VIDEO_PROMPTS.md; 960x540 H.264, audio removed",
+    "sourceArchive": "assets/videos/Oct 26 - 23_06.zip",
+    "sourceClip": "Woman_demonstrating_floor_row_ex…_20261027195009.mp4"
+  },
+  {
+    "slug": "back-extension",
+    "exerciseId": "ex_back_extension",
+    "originalFile": "video-source/back-extension.mp4",
+    "originalSha256": "1e88bd603276d3b2679de20b121cabfc8bdbf32120184a5253371df433a167ba",
+    "source": "Owner-generated with Google Flow (Veo) from DOC/VIDEO_PROMPTS.md; 960x540 H.264, audio removed",
+    "sourceArchive": "assets/videos/Oct 26 - 23_06.zip",
+    "sourceClip": "Man_performing_back_extension_ex…_20261027195009.mp4"
+  },
+  {
+    "slug": "sumo-squat",
+    "exerciseId": "ex_sumo_squat",
+    "originalFile": "video-source/sumo-squat.mp4",
+    "originalSha256": "155c343352091f76359dcbd9cc582af6ec0372449f33f26988083899956e3ca4",
+    "source": "Owner-generated with Google Flow (Veo) from DOC/VIDEO_PROMPTS.md; 960x540 H.264, audio removed",
+    "sourceArchive": "assets/videos/Oct 26 - 23_06.zip",
+    "sourceClip": "Man_performing_sumo_squat_20261027195009.mp4"
+  },
+  {
+    "slug": "squat-pulse",
+    "exerciseId": "ex_squat_pulse",
+    "originalFile": "video-source/squat-pulse.mp4",
+    "originalSha256": "0323e64046d420d16e76fc8c91aebcc027e15e3ff7f6c01c458aac50ae49f172",
+    "source": "Owner-generated with Google Flow (Veo) from DOC/VIDEO_PROMPTS.md; 960x540 H.264, audio removed",
+    "sourceArchive": "assets/videos/Oct 26 - 23_06.zip",
+    "sourceClip": "Woman_demonstrating_squat_pulse_…_20261027195009.mp4"
+  },
+  {
+    "slug": "wall-sit",
+    "exerciseId": "ex_wall_sit",
+    "originalFile": "video-source/wall-sit.mp4",
+    "originalSha256": "9791366e13df0c72b62aa6420fcb00aa416b97b3dbed493f287d09f732c52bbe",
+    "source": "Owner-generated with Google Flow (Veo) from DOC/VIDEO_PROMPTS.md; 960x540 H.264, audio removed",
+    "sourceArchive": "assets/videos/Oct 26 - 23_06.zip",
+    "sourceClip": "Man_performing_wall_sit_exercise_20261027195009.mp4"
+  },
+  {
+    "slug": "reverse-lunge",
+    "exerciseId": "ex_reverse_lunge",
+    "originalFile": "video-source/reverse-lunge.mp4",
+    "originalSha256": "65e0488cdfd686c8207e6f371b9eae1b48e5db3afc554bc252a717eff2a72cf0",
+    "source": "Owner-generated with Google Flow (Veo) from DOC/VIDEO_PROMPTS.md; 960x540 H.264, audio removed",
+    "sourceArchive": "assets/videos/Oct 26 - 20_07.zip",
+    "sourceClip": "Man_performing_reverse_lunge_exe…_20261026232746.mp4"
+  },
+  {
+    "slug": "curtsy-lunge",
+    "exerciseId": "ex_curtsy_lunge",
+    "originalFile": "video-source/curtsy-lunge.mp4",
+    "originalSha256": "95a678ddc578cfcd54daeef9c644f900cc3a0ee4c99659945a8e51da2eb13c7e",
+    "source": "Owner-generated with Google Flow (Veo) from DOC/VIDEO_PROMPTS.md; 960x540 H.264, audio removed",
+    "sourceArchive": "assets/videos/Oct 26 - 23_06.zip",
+    "sourceClip": "Man_performing_curtsy_lunge_20261027195009.mp4"
+  },
+  {
+    "slug": "split-squat",
+    "exerciseId": "ex_split_squat",
+    "originalFile": "video-source/split-squat.mp4",
+    "originalSha256": "ed6219ba2fa18ade07299dcac9d69948972105fe118608f84f1a0c9726b6ebd8",
+    "source": "Owner-generated with Google Flow (Veo) from DOC/VIDEO_PROMPTS.md; 960x540 H.264, audio removed",
+    "sourceArchive": "assets/videos/Oct 26 - 23_06.zip",
+    "sourceClip": "Woman_demonstrating_split_squat_…_20261027195009.mp4"
+  },
+  {
+    "slug": "glute-bridge",
+    "exerciseId": "ex_glute_bridge",
+    "originalFile": "video-source/glute-bridge.mp4",
+    "originalSha256": "19cedf559d81d10a3f42fecce482f5a2197a58cf9dfb82d1904381150bc8313c",
+    "source": "Owner-generated with Google Flow (Veo) from DOC/VIDEO_PROMPTS.md; 960x540 H.264, audio removed",
+    "sourceArchive": "assets/videos/Oct 26 - 23_06.zip",
+    "sourceClip": "Man_performing_glute_bridge_exer…_20261027195009.mp4"
+  },
+  {
+    "slug": "floor-hip-thrust",
+    "exerciseId": "ex_floor_hip_thrust",
+    "originalFile": "video-source/floor-hip-thrust.mp4",
+    "originalSha256": "2742c52ad38f1d6a0c0467d0a760e59e84857c423a226c71701bf0ef2461df5e",
+    "source": "Owner-generated with Google Flow (Veo) from DOC/VIDEO_PROMPTS.md; 960x540 H.264, audio removed",
+    "sourceArchive": "assets/videos/Oct 26 - 23_06.zip",
+    "sourceClip": "Man_demonstrating_hip_thrust_exe…_20261027195009.mp4"
+  },
+  {
+    "slug": "calf-raise",
+    "exerciseId": "ex_calf_raise",
+    "originalFile": "video-source/calf-raise.mp4",
+    "originalSha256": "5695e3fe878e1de26225e023f0cc6c81fb7cd29b0c99b704ebf85f3b0459ed53",
+    "source": "Owner-generated with Google Flow (Veo) from DOC/VIDEO_PROMPTS.md; 960x540 H.264, audio removed",
+    "sourceArchive": "assets/videos/Oct 26 - 23_06.zip",
+    "sourceClip": "Woman_demonstrating_calf_raise_e…_20261027195009.mp4"
+  },
+  {
+    "slug": "good-morning",
+    "exerciseId": "ex_good_morning",
+    "originalFile": "video-source/good-morning.mp4",
+    "originalSha256": "d59abbe24d6dbbc6031cb324cd38d608d851e092e14f935609be81e5c3a289f9",
+    "source": "Owner-generated with Google Flow (Veo) from DOC/VIDEO_PROMPTS.md; 960x540 H.264, audio removed",
+    "sourceArchive": "assets/videos/Oct 26 - 23_06.zip",
+    "sourceClip": "Woman_demonstrating_Good_Morning…_20261027195009.mp4"
+  },
+  {
+    "slug": "half-burpee-no-jump",
+    "exerciseId": "ex_half_burpee_no_jump",
+    "originalFile": "video-source/half-burpee-no-jump.mp4",
+    "originalSha256": "1724da49405eaf35ad8a5ec364af12776c6c27119a9bf5a5a44ce6382dc7e3b5",
+    "source": "Owner-generated with Google Flow (Veo) from DOC/VIDEO_PROMPTS.md; 960x540 H.264, audio removed",
+    "sourceArchive": "assets/videos/Oct 26 - 23_06.zip",
+    "sourceClip": "Woman_demonstrating_half_burpee_…_20261027195009.mp4"
+  },
+  {
+    "slug": "squat-thrust",
+    "exerciseId": "ex_squat_thrust",
+    "originalFile": "video-source/squat-thrust.mp4",
+    "originalSha256": "1c8f8e2cb952d213e7b6d68588d4bce6752fb27d2c1ddf0ff3c895658a43e1d6",
+    "source": "Owner-generated with Google Flow (Veo) from DOC/VIDEO_PROMPTS.md; 960x540 H.264, audio removed",
+    "sourceArchive": "assets/videos/Oct 26 - 23_06.zip",
+    "sourceClip": "Woman_demonstrating_squat_thrust_20261027195009.mp4"
+  },
+  {
+    "slug": "bear-crawl",
+    "exerciseId": "ex_bear_crawl",
+    "originalFile": "video-source/bear-crawl.mp4",
+    "originalSha256": "e63355d4b14691a90c246432d80c7040d9159adc36a6bb4015ca6d63eaf9e3c9",
+    "source": "Owner-generated with Google Flow (Veo) from DOC/VIDEO_PROMPTS.md; 960x540 H.264, audio removed",
+    "sourceArchive": "assets/videos/Oct 26 - 23_06.zip",
+    "sourceClip": "Man_demonstrating_bear_crawl_exe…_20261027195009.mp4"
+  },
+  {
+    "slug": "crab-walk",
+    "exerciseId": "ex_crab_walk",
+    "originalFile": "video-source/crab-walk.mp4",
+    "originalSha256": "72cf03d640187e2462d963ef3970dc5d3c10a622ddc332c1f12181bb0c7c19df",
+    "source": "Owner-generated with Google Flow (Veo) from DOC/VIDEO_PROMPTS.md; 960x540 H.264, audio removed",
+    "sourceArchive": "assets/videos/Oct 26 - 23_06.zip",
+    "sourceClip": "Woman_demonstrating_crab_walk_ex…_20261027195009.mp4"
+  },
+  {
+    "slug": "get-up-floor-to-stand",
+    "exerciseId": "ex_get_up_floor_to_stand",
+    "originalFile": "video-source/get-up-floor-to-stand.mp4",
+    "originalSha256": "a3e9210e6339883d1724bc4222ad18f9a2019248ba80ad66aacf14f05baff044",
+    "source": "Owner-generated with Google Flow (Veo) from DOC/VIDEO_PROMPTS.md; 960x540 H.264, audio removed",
+    "sourceArchive": "assets/videos/Oct 26 - 23_06.zip",
+    "sourceClip": "Woman_demonstrating_get_up_exercise_20261027195009.mp4"
+  },
+  {
+    "slug": "frog-jump",
+    "exerciseId": "ex_frog_jump",
+    "originalFile": "video-source/frog-jump.mp4",
+    "originalSha256": "1a7b2e79c577446c7d2e7047e8465f43f1efe5ae38044dfa61422224136b6f12",
+    "source": "Owner-generated with Google Flow (Veo) from DOC/VIDEO_PROMPTS.md; 960x540 H.264, audio removed",
+    "sourceArchive": "assets/videos/Oct 26 - 23_06.zip",
+    "sourceClip": "Man_demonstrating_frog_jump_exer…_20261027195009.mp4"
+  },
+  {
+    "slug": "step-jack",
+    "exerciseId": "ex_step_jack",
+    "originalFile": "video-source/step-jack.mp4",
+    "originalSha256": "bb6e193adc8c05ab53043d30becdc9ef0d1b15602572ff8a705b431ec38a386e",
+    "source": "Owner-generated with Google Flow (Veo) from DOC/VIDEO_PROMPTS.md; 960x540 H.264, audio removed",
+    "sourceArchive": "assets/videos/Oct 26 - 23_06.zip",
+    "sourceClip": "Man_demonstrating_step_jack_exer…_20261027195009.mp4"
+  },
+  {
+    "slug": "butt-kicks",
+    "exerciseId": "ex_butt_kicks",
+    "originalFile": "video-source/butt-kicks.mp4",
+    "originalSha256": "eab453238170573360fe62b63e4431de572f098be91d3c7e1e3859a33bf8b1be",
+    "source": "Owner-generated with Google Flow (Veo) from DOC/VIDEO_PROMPTS.md; 960x540 H.264, audio removed",
+    "sourceArchive": "assets/videos/Oct 26 - 23_06.zip",
+    "sourceClip": "Woman_demonstrating_butt_kicks_e…_20261027195009.mp4"
+  },
+  {
+    "slug": "heel-digs",
+    "exerciseId": "ex_heel_digs",
+    "originalFile": "video-source/heel-digs.mp4",
+    "originalSha256": "a19ff50c76bfa0bf5ee88aeacf1c1760f003c9b0079b1929dc7d629fb69f2b85",
+    "source": "Owner-generated with Google Flow (Veo) from DOC/VIDEO_PROMPTS.md; 960x540 H.264, audio removed",
+    "sourceArchive": "assets/videos/Oct 26 - 23_06.zip",
+    "sourceClip": "Man_demonstrating_heel_digs_exer…_20261027195009.mp4"
+  },
+  {
+    "slug": "skater-hop",
+    "exerciseId": "ex_skater_hop",
+    "originalFile": "video-source/skater-hop.mp4",
+    "originalSha256": "7ba4cb612b208af528ee05792ce4b5d2bbfe56f12b7a29e238fefe19eadb0772",
+    "source": "Owner-generated with Google Flow (Veo) from DOC/VIDEO_PROMPTS.md; 960x540 H.264, audio removed",
+    "sourceArchive": "assets/videos/Oct 26 - 23_06.zip",
+    "sourceClip": "Woman_demonstrating_skater_hops_…_20261027195009.mp4"
+  },
+  {
+    "slug": "lateral-step",
+    "exerciseId": "ex_lateral_step",
+    "originalFile": "video-source/lateral-step.mp4",
+    "originalSha256": "8a2c76cda4944d883fd085dc3ee5703f25f80f387d9700c04629508e8c4e1299",
+    "source": "Owner-generated with Google Flow (Veo) from DOC/VIDEO_PROMPTS.md; 960x540 H.264, audio removed",
+    "sourceArchive": "assets/videos/Oct 26 - 23_06.zip",
+    "sourceClip": "Man_demonstrating_lateral_step_e…_20261027195009.mp4"
+  },
+  {
+    "slug": "fast-feet",
+    "exerciseId": "ex_fast_feet",
+    "originalFile": "video-source/fast-feet.mp4",
+    "originalSha256": "0c1d0b6ec8a368f7cdd969c5a73d9fddc9b17a095a1dc520e930299b06057428",
+    "source": "Owner-generated with Google Flow (Veo) from DOC/VIDEO_PROMPTS.md; 960x540 H.264, audio removed",
+    "sourceArchive": "assets/videos/Oct 26 - 23_06.zip",
+    "sourceClip": "Man_demonstrating_fast_feet_exer…_20261027195009.mp4"
+  },
+  {
+    "slug": "standing-knee-to-elbow",
+    "exerciseId": "ex_standing_knee_to_elbow",
+    "originalFile": "video-source/standing-knee-to-elbow.mp4",
+    "originalSha256": "dff2585de2158380a7734c06428ff0dd14c0ba059c18769369bd9f4a72c08df4",
+    "source": "Owner-generated with Google Flow (Veo) from DOC/VIDEO_PROMPTS.md; 960x540 H.264, audio removed",
+    "sourceArchive": "assets/videos/Oct 26 - 23_06.zip",
+    "sourceClip": "Man_demonstrating_knee_to_elbow_20261027195009.mp4"
+  },
+  {
+    "slug": "childs-pose",
+    "exerciseId": "ex_childs_pose",
+    "originalFile": "video-source/childs-pose.mp4",
+    "originalSha256": "189cfdf0e5c95bf3eccf2b1842c0728eaeb1b315ecf6589172ded14b454f1b7b",
+    "source": "Owner-generated with Google Flow (Veo) from DOC/VIDEO_PROMPTS.md; 960x540 H.264, audio removed",
+    "sourceArchive": "assets/videos/Oct 26 - 23_06.zip",
+    "sourceClip": "Woman_demonstrating_child's_pose_20261027195009.mp4"
+  },
+  {
+    "slug": "downward-dog",
+    "exerciseId": "ex_downward_dog",
+    "originalFile": "video-source/downward-dog.mp4",
+    "originalSha256": "8ddee5e9ab998808488bf3847bd8ca9534d8219585ae1584e60e01cbceb82da0",
+    "source": "Owner-generated with Google Flow (Veo) from DOC/VIDEO_PROMPTS.md; 960x540 H.264, audio removed",
+    "sourceArchive": "assets/videos/Oct 26 - 23_06.zip",
+    "sourceClip": "Woman_demonstrating_Downward_Dog…_20261027195009.mp4"
+  },
+  {
+    "slug": "seated-forward-fold",
+    "exerciseId": "ex_seated_forward_fold",
+    "originalFile": "video-source/seated-forward-fold.mp4",
+    "originalSha256": "097ba1bad7e08ab4c6f0b350f3e16d4af852d2517c3ad69cf450d6ee5a37716e",
+    "source": "Owner-generated with Google Flow (Veo) from DOC/VIDEO_PROMPTS.md; 960x540 H.264, audio removed",
+    "sourceArchive": "assets/videos/Oct 26 - 23_06.zip",
+    "sourceClip": "Man_demonstrating_seated_forward…_20261027195009.mp4"
+  },
+  {
+    "slug": "hamstring-stretch-each-leg",
+    "exerciseId": "ex_hamstring_stretch_each_leg",
+    "originalFile": "video-source/hamstring-stretch-each-leg.mp4",
+    "originalSha256": "3e8728766b7248fb3c91c800cc546205db344984818fa75bf31729ff6a290f01",
+    "source": "Owner-generated with Google Flow (Veo) from DOC/VIDEO_PROMPTS.md; 960x540 H.264, audio removed",
+    "sourceArchive": "assets/videos/Oct 26 - 23_06.zip",
+    "sourceClip": "Man_demonstrating_hamstring_stretch_20261027195009.mp4"
+  },
+  {
+    "slug": "quad-stretch-each-leg",
+    "exerciseId": "ex_quad_stretch_each_leg",
+    "originalFile": "video-source/quad-stretch-each-leg.mp4",
+    "originalSha256": "fa51ac9adf661b71cb60b095101cda271df19d7bdb110bdbdc1dfc93f204f988",
+    "source": "Owner-generated with Google Flow (Veo) from DOC/VIDEO_PROMPTS.md; 960x540 H.264, audio removed",
+    "sourceArchive": "assets/videos/Oct 26 - 23_06.zip",
+    "sourceClip": "Woman_demonstrating_quad_stretch…_20261027195009.mp4"
+  },
+  {
+    "slug": "hip-flexor-stretch-each-side",
+    "exerciseId": "ex_hip_flexor_stretch_each_side",
+    "originalFile": "video-source/hip-flexor-stretch-each-side.mp4",
+    "originalSha256": "0ce3db49bad6b9d83553b05f5e08535d2c71fd5de4847e61ab25d0c6ba384024",
+    "source": "Owner-generated with Google Flow (Veo) from DOC/VIDEO_PROMPTS.md; 960x540 H.264, audio removed",
+    "sourceArchive": "assets/videos/Oct 26 - 23_06.zip",
+    "sourceClip": "Man_performing_hip_flexor_stretch_20261027195009.mp4"
+  },
+  {
+    "slug": "figure-4-glute-stretch",
+    "exerciseId": "ex_figure_4_glute_stretch",
+    "originalFile": "video-source/figure-4-glute-stretch.mp4",
+    "originalSha256": "976a369a42784919f1c3643285987d1567496688291d827296f5c777f9e5c810",
+    "source": "Owner-generated with Google Flow (Veo) from DOC/VIDEO_PROMPTS.md; 960x540 H.264, audio removed",
+    "sourceArchive": "assets/videos/Oct 26 - 23_06.zip",
+    "sourceClip": "Woman_demonstrating_glute_stretc…_20261027195009.mp4"
+  },
+  {
+    "slug": "butterfly-stretch",
+    "exerciseId": "ex_butterfly_stretch",
+    "originalFile": "video-source/butterfly-stretch.mp4",
+    "originalSha256": "56644f8180092456b764571cc7080c8344473ba7bff7c3a2b99312ee4acee3e8",
+    "source": "Owner-generated with Google Flow (Veo) from DOC/VIDEO_PROMPTS.md; 960x540 H.264, audio removed",
+    "sourceArchive": "assets/videos/Oct 26 - 23_06.zip",
+    "sourceClip": "Man_demonstrating_butterfly_stretch_20261027195009.mp4"
+  },
+  {
+    "slug": "chest-doorway-stretch",
+    "exerciseId": "ex_chest_doorway_stretch",
+    "originalFile": "video-source/chest-doorway-stretch.mp4",
+    "originalSha256": "52194d93f0e2bdc154c9455ac31d22a45a15579c441745f2faeb9b2f09665e75",
+    "source": "Owner-generated with Google Flow (Veo) from DOC/VIDEO_PROMPTS.md; 960x540 H.264, audio removed",
+    "sourceArchive": "assets/videos/Oct 26 - 23_06.zip",
+    "sourceClip": "Woman_demonstrating_chest_doorwa…_20261027195009.mp4"
+  },
+  {
+    "slug": "triceps-stretch",
+    "exerciseId": "ex_triceps_stretch",
+    "originalFile": "video-source/triceps-stretch.mp4",
+    "originalSha256": "227e3fc7efd8b64c950498ba5a63a584b42b208c5e2658ac94d7e4c8834598f6",
+    "source": "Owner-generated with Google Flow (Veo) from DOC/VIDEO_PROMPTS.md; 960x540 H.264, audio removed",
+    "sourceArchive": "assets/videos/Oct 26 - 23_06.zip",
+    "sourceClip": "Man_demonstrating_triceps_stretch_20261027195009.mp4"
+  },
+  {
+    "slug": "thoracic-rotation",
+    "exerciseId": "ex_thoracic_rotation",
+    "originalFile": "video-source/thoracic-rotation.mp4",
+    "originalSha256": "5c1a54ecc18e14c04400eb68d8361fe939ec1dd9c5aadd925b33106db2c7b361",
+    "source": "Owner-generated with Google Flow (Veo) from DOC/VIDEO_PROMPTS.md; 960x540 H.264, audio removed",
+    "sourceArchive": "assets/videos/Oct 26 - 23_06.zip",
+    "sourceClip": "Man_demonstrating_thoracic_rotat…_20261027195009.mp4"
+  },
+  {
+    "slug": "knee-to-chest",
+    "exerciseId": "ex_knee_to_chest",
+    "originalFile": "video-source/knee-to-chest.mp4",
+    "originalSha256": "ef97a5f2442dc008f06bcc41c8da22c19c9da6c958c3ad7a8ab9f58617d31dfb",
+    "source": "Owner-generated with Google Flow (Veo) from DOC/VIDEO_PROMPTS.md; 960x540 H.264, audio removed",
+    "sourceArchive": "assets/videos/Oct 26 - 23_06.zip",
+    "sourceClip": "Woman_demonstrating_knee_to_chest_20261027195009.mp4"
+  },
+  {
+    "slug": "lying-spinal-twist",
+    "exerciseId": "ex_lying_spinal_twist",
+    "originalFile": "video-source/lying-spinal-twist.mp4",
+    "originalSha256": "37c22b04b422adfcb39430308c7e283b9f400ec6ab913fb8a4f0418d5d40cb00",
+    "source": "Owner-generated with Google Flow (Veo) from DOC/VIDEO_PROMPTS.md; 960x540 H.264, audio removed",
+    "sourceArchive": "assets/videos/Oct 26 - 23_06.zip",
+    "sourceClip": "Man_demonstrating_lying_spinal_t…_20261027195009.mp4"
+  }
+]

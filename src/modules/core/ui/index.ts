@@ -65,3 +65,4 @@ export {
 // Infrastructure
 export { ErrorBoundary } from './ErrorBoundary';
 export { TabPlaceholder } from './TabPlaceholder';
+export { AppStartupScreen } from './AppStartupScreen';

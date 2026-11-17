@@ -1,9 +1,10 @@
 import type { ExpoConfig } from 'expo/config';
 
-// App identity lives only here (ADR-012). Screens read it through expo-constants,
-// so renaming the app is a one-line change. "Home Workout" is a placeholder and
-// must change before release (it is the reference app's name).
-const APP_NAME = 'Home Workout';
+// Screens read the public name through expo-constants. Generators import these
+// exports so their offline fallback copy and brand assets stay in sync.
+export const APP_NAME = 'WorkoutStride';
+export const APP_TAGLINE = 'Your pace. Your progress.';
+// Retain the installed testing app's identity and local data during this rename.
 const ANDROID_PACKAGE = 'com.placeholder.homeworkout';
 
 const IS_PRODUCTION = process.env.APP_VARIANT === 'production';
@@ -33,8 +34,8 @@ const PRODUCTION_ONLY_BLOCKED_PERMISSIONS = [
 
 const config: ExpoConfig = {
   name: APP_NAME,
-  slug: 'home-workout',
-  scheme: 'homeworkout',
+  slug: 'workoutstride',
+  scheme: ['workoutstride', 'workoutdost', 'homeworkout'],
   version: '0.1.0',
   orientation: 'portrait',
   icon: './assets/images/icon.png',
@@ -45,7 +46,7 @@ const config: ExpoConfig = {
     allowBackup: false,
     predictiveBackGestureEnabled: false,
     adaptiveIcon: {
-      backgroundColor: '#E6F4FE',
+      backgroundColor: '#4A0B24',
       foregroundImage: './assets/images/android-icon-foreground.png',
       backgroundImage: './assets/images/android-icon-background.png',
       monochromeImage: './assets/images/android-icon-monochrome.png',
@@ -60,6 +61,11 @@ const config: ExpoConfig = {
     'expo-sqlite',
     'expo-font',
     'expo-localization',
+    'expo-notifications',
+    'expo-sharing',
+    ['expo-video', { supportsBackgroundPlayback: false, supportsPictureInPicture: false }],
+    ['expo-audio', { microphonePermission: false, recordAudioAndroid: false,
+      enableBackgroundPlayback: false, enableBackgroundRecording: false }],
     [
       'expo-splash-screen',
       {

@@ -21,6 +21,9 @@ export interface RowProps {
   trailing?: ReactNode;
   /** `card` wraps the row in the grey rounded card used by generic lists. */
   container?: 'plain' | 'card';
+  /** Plain browse rows align their thumbnail with the page edge. */
+  inset?: boolean;
+  dense?: boolean;
   onPress?: () => void;
   accessibilityLabel?: string;
   accessibilityHint?: string;
@@ -33,6 +36,8 @@ export function Row({
   leading,
   trailing,
   container = 'plain',
+  inset = true,
+  dense = false,
   onPress,
   accessibilityLabel,
   accessibilityHint,
@@ -44,6 +49,8 @@ export function Row({
     <View
       style={[
         styles.row,
+        !inset && styles.flush,
+        dense && styles.dense,
         isCardContainer && { backgroundColor: colors.surface.row, borderRadius: radius.lg },
       ]}
     >
@@ -77,6 +84,8 @@ export function rowDividerInset(thumbSize: number) {
 }
 
 const styles = StyleSheet.create({
+  flush: { paddingHorizontal: spacing[0] },
+  dense: { paddingVertical: spacing[2] },
   row: {
     flexDirection: 'row',
     alignItems: 'center',

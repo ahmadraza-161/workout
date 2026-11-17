@@ -13,9 +13,10 @@ export interface MetaCellProps {
   value: string;
   label: string;
   layout?: 'tile' | 'stat';
+  compact?: boolean;
 }
 
-export function MetaCell({ icon: Icon, value, label, layout = 'tile' }: MetaCellProps) {
+export function MetaCell({ icon: Icon, value, label, layout = 'tile', compact = false }: MetaCellProps) {
   const { colors } = useTheme();
 
   if (layout === 'stat') {
@@ -36,10 +37,10 @@ export function MetaCell({ icon: Icon, value, label, layout = 'tile' }: MetaCell
         <Icon size={18} color="#FFFFFF" />
       </View>
       <View style={styles.tileText}>
-        <Text variant="bodyStrong" style={styles.onCard} numberOfLines={1}>
+        <Text variant={compact ? 'captionSm' : 'bodyStrong'} style={styles.onCard}>
           {value}
         </Text>
-        <Text variant="captionSm" style={styles.onCardMuted} numberOfLines={1}>
+        <Text variant={compact ? 'micro' : 'captionSm'} style={styles.onCardMuted}>
           {label}
         </Text>
       </View>

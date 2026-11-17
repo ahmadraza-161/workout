@@ -1,19 +1,39 @@
 # 🗂️ Content Map
 
+October 13 repair pass (supersedes historical coverage below): owner rejected TrainAI. Its 27 active mappings are disabled; originals/provenance are archived, not bundled. Current active demos: 92/119 exercise IDs, 28 Lottie + 64 MP4, 88 unique sources; 27 exercises retain their original images. All 32 HeyGainz clips loop; eight previously truncated holds now use complete original GIF cycles. MP4 total 14,142,982 bytes. Native release cleanup is fixed, guide/player image Retry added, and Home offers a suitable no-equipment routine to review before Start. Full plan and physical acceptance matrix: [APP_REPAIR_PLAN](APP_REPAIR_PLAN.md). Native phone reproduction and release QA remain open; no APK built.
+
+October 13 completed animation mapping: **119/119 exercise IDs** now have local demos (28 Lottie + 91 MP4 mappings, 114 unique sources). Final three additions: Arm Pulse (public emireerose/GIPHY), Frog Jump (reviewed Sworkit forward segment), Floor Row Isometric (FitnessProgramer floor-seated scapular retraction entry then hold). MP4 bytes total 14,324,244; twenty MP4 held-pose entries. Images/UI/instructions retained; no runtime network or new dependency. Exact framing/movement limitations and unverified distribution permissions are recorded in ANIMATION_FINAL_REVIEW. Native form/playback QA remains. No APK.
+
+October 13 animation coverage: 116/119 exercise IDs (28 Lottie mappings, 88 local MP4s); 3 still require verified matching demos. Original GIFs, source hashes and exact mapping/hold rules are retained in tools/animations/video-candidates.json. Images and other catalog content are unchanged. Source publication rights and native QA limitations are recorded in ANIMATION_SOURCES and TEST_PLAN.
+
+October 12: Pike Push-Up gains a reviewed local MP4 demo (Vital free sample 0353), including original red shoulder/upper-arm highlights. Owner approved expo-video 57.0.5 and GIF/MP4 formats. Coverage 29/119, 90 unresolved; existing photographs remain. Native form/playback QA remains pending; current verification in TEST_PLAN.
+
+October 11 Russian Twist import: source access recovered normally; original licensed 195-frame seated torso-rotation demo added. Fixed legs/hips and animated torso reviewed in original frames 0/25/50/75/99. Honest unnamed contributor credit retained (a848f9e4); no new geometry or motion authored. Current coverage 28/119 IDs, 24 unique sources, 91 unresolved, 3,343,861 bundled bytes. All original images/UI retained, no APK built. Final validation: typecheck/lint and all 336 tests across 72 suites pass (279.355 seconds); production Android JS export passes (4,899 modules, .expo/lottie-russian-export), and release preflight passes. Native form/playback and airplane-mode QA remain open.
+
+October 11 next animation pass: added Standing Forward Fold using the licensed original Inchworm entry frames 0–24 once, then hold before hand walking. Source reviewed at frames 0/24/30/34/39 and across its full cycle. No custom motion or new unique source claimed. Current coverage 27/119 IDs, 23 unique sources, 92 unresolved, 3,239,591 bundled bytes. Original images/UI retained; no APK built. Final validation: typecheck/lint and 335 tests across 72 suites pass (197.003 seconds); production Android JS export passes (4,898 modules, .expo/lottie-fold-export), and release preflight passes. Native playback/form and airplane-mode QA remain open.
+
+October 11 batch continuation: added Neck Side Stretch (Indrum, original frames 0–60 once then hold), Side Plank (Ajay Gupta, original rotating-plank first entry frames 1–35 once then hold, reviewed viewport), and Shadow Boxing (existing Dinh Punches source, matching staggered stance/alternating punches/guard). No custom motion authored. Current coverage: 26/119 exercise IDs, 23 unique licensed sources, 93 unresolved IDs, 2,934,727 bundled bytes. All 119 images and UI retained; no APK built. Final validation: typecheck, lint and all 334 tests across 72 suites passed; release preflight passed. Android JS export metadata and Hermes bundle verified in .expo/lottie-batch-export. Native form/playback and airplane-mode device QA remain open.
+
+October 11 animation-only continuation: two further exercise IDs now have verified ready-made demos. Push-Up Hold plays original Military Push Ups frames 2–10 once, then holds at shallow elbow flexion. Plank Walkout shares the original Inchworm demo because their catalog instructions describe the same hand-walk movement. These are reused licensed sources, not two new unique downloads or authored animations. Coverage: 23/119 exercise IDs, 21 unique source animations, 96 unresolved IDs, 2,594,038 bundled bytes. All 119 photographs and UI remain. Full check passes typecheck/lint and 332 tests across 72 suites (94.124 seconds). Production Android JS export passes (4,894 modules, .expo/lottie-hold-walkout-export). Native playback/form QA remains open; no APK built.
+
+October 11 continuation: completed the interrupted High Knees import by Bashir Ahmad under the Lottie Simple License. Original 29-frame alternating thigh/arm motion and floor line are retained. Coverage is 21/119, with 98 IDs still awaiting matching free ready-made demos; bundled JSON totals 2,214,530 bytes. All 119 exercise images remain. Production Android JS export passes (4,892 modules; .expo/lottie-high-knees-export), and release preflight passes. Full check passes typecheck/lint and 331 tests across 72 suites (205.968 seconds). Native phone QA remains open. No APK built.
+
 ### Home Workout – Production Map for Every Exercise, Workout, Challenge and Badge
 
 This document **is** the content catalog and its production checklist, so that **nothing is missed**. It is the source of truth for names, counts, types, levels and quiet flags, and it adds what the generators need: base pose, view, props, one-sided flags, variations, quiet swaps, placements and badge rules. The generators read this document, so exercise and workout names always match it exactly.
 
 | Field | Details |
 |---|---|
-| **Version** | 1.0 |
-| **Last updated** | September 23, 2026 |
+| **Version** | 1.8 |
+| **Last updated** | October 11, 2026 |
 | **Status** | Draft – items marked † are proposals that need owner approval (ADR-040 to ADR-050) |
 | **Related** | [PRD](PRD.md) · [ARCHITECTURE](ARCHITECTURE.md) · [DESIGN](DESIGN.md) · [TASKS](TASKS.md) · [COVERAGE](COVERAGE.md) · [DECISIONS](DECISIONS.md) |
 
 ---
 
 ## 1. Summary
+
+Static-image QA (Oct 1): all 119 catalog IDs now map to original realistic transparent PNG replacements (ADR-060), with male/female prompt assignments and muscle-relevant workout covers. All new contact-sheet tiles have been reviewed; final form and phone approval remain open. The earlier owner-JPEG findings are archived in [IMAGE_QA](IMAGE_QA.md). Historical animation statuses below do not signify static-image approval.
 
 | Content | Count | Breakdown |
 |---|---|---|
@@ -378,6 +398,8 @@ Challenge cards and filters count `household` as "No equipment".
 
 All 60 catalog workouts. Levels marked † are not in the catalog and are assumed (ADR-049). **Quiet:** "Yes" = only quiet-safe exercises; "Auto" = the generator decides from the exercises it picks. Challenge day workouts are generated separately and are **not** part of these 60.
 
+The generator uses reviewed exercise pools for the named upper/lower-body, office, stretch-area, no-push-up, chair-assisted and absolute-beginner plans. These keep the built sequences aligned with their catalog titles. Original intros for all 60 workouts and descriptions for all 12 challenges live in `tools/content/programCopy.ts`; exercise selection and timing remain in `tools/content/workouts.ts`.
+
 | # | Workout | Group | Min | Lvl | Body focus | Goal | Type | Quiet | Discover tile(s) | Fixed placements |
 |---|---|---|---|---|---|---|---|---|---|---|
 | 1 | Abs Beginner | Body Focus | 12 | 1 | abs | build_muscle | strength | Auto | Core | Body Focus rows (Training) |
@@ -559,8 +581,27 @@ Conditions marked † interpret an ambiguous catalog name and need owner approva
 
 ---
 
+## Selected movement demos — October 4, 2026
+
+ADR-061 adds local Dinh Bui Xuan demos to `ex_standard_push_up`, `ex_wide_push_up`, and `ex_squat_to_overhead_reach`. The original images remain available as the second preview; every card and thumbnail retains its photograph. The squat-reach instruction describes alternating overhead reaches to match the selected movement. Catalog counts and workout plans are unchanged. See `tools/animations/catalog.json` for mappings and `DOC/LICENSES.md` for original downloads, modifications and terms. Android playback/form approval remains pending.
+
+October 5: owner approved expansion after trying the first demos. Twelve more matching exercises are wired; [ANIMATION_COVERAGE](ANIMATION_COVERAGE.md) records the initial fifteen mappings and their reviewed exclusions. The follow-up adds Dead Bug, March in Place and Donkey Kick: eighteen mappings total, with 101 remaining static previews. Cobra enters its hold once rather than looping. Reverse Crunches was rejected because its actual seated motion does not match the catalog. One source labelled Sit up is mapped to Bodyweight Squat after keyframe review confirms standing/squatting motion. All photographs and exercise instructions are retained.
+
 ## Revision History
+
+October 5, 2026: Free-only follow-up: Forearm Plank and Flutter Kick now have matching Blinix Solutions demos. Coverage is 20/119; 99 retain static previews. Original photos/instructions remain. Reviewed viewports remove unused canvas without changing character paths or timing.
 
 | Version | Date | Changes |
 |---|---|---|
 | 1.0 | Sep 23, 2026 | First version, generated from the content catalog during the completeness audit |
+| 1.1 | Sep 30, 2026 | Documented reviewed workout pools and authored program copy without changing catalog names or counts |
+| 1.2 | Oct 1, 2026 | Linked complete static-image review and per-ID correction status without changing catalog content or images |
+| 1.3 | Oct 1, 2026 | Updated media handoff to original realistic male/female transparent catalog; exercise content unchanged and final form/native approval remains |
+| 1.4 | Oct 4, 2026 | Selected offline demos for three existing exercises; retained original photographs and aligned alternating squat-reach copy |
+| 1.5 | Oct 5, 2026 | Expanded to fifteen offline demos, single-entry cobra hold and exact remaining coverage; original catalog/photos retained |
+
+| 1.6 | Oct 5, 2026 | Add free plank/flutter-kick demos, reviewed framing and current 20/119 coverage |
+
+| 1.7 | October 13, 2026 | Seven further animation mappings; 116/119, exact exclusions and final validation in ANIMATION_FINAL_REVIEW |
+
+| 1.8 | October 13, 2026 | Complete 119/119 local animation mappings; source limitations and device QA remain documented |

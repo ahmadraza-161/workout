@@ -2,6 +2,7 @@
 // The rig model is shared with the build-time Lottie exporter in tools/rig.
 
 export { RigFigure, type RigFigureProps, type PropKind } from './components/RigFigure';
+export { StaticImagePreview } from './components/StaticImagePreview';
 export { PALETTES, fillFor, PROP_FILL, type CharacterPalette, type PaletteName } from './rig/palette';
 export {
   BASE_POSES,

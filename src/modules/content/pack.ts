@@ -42,6 +42,9 @@ export function findBrokenReferences(index: ContentIndex): string[] {
       if (day.workoutId && !workoutsById.has(day.workoutId)) {
         problems.push(`${challenge.id} day ${day.day} → ${day.workoutId}`);
       }
+      if (day.exerciseId && !exercisesById.has(day.exerciseId)) {
+        problems.push(`${challenge.id} day ${day.day} → ${day.exerciseId}`);
+      }
     }
   }
   for (const group of [...pack.categories, ...pack.collections]) {
